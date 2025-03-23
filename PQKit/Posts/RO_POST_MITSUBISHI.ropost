@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Post>
+	<File Name="" EXT = ".prg" >
+		<Item Type = "Head">
+			<Item Type="StringItem" FormatString=" Servo On&#x000A; Wait M_Svo=1&#x000A; Accel 100,100&#x000A; Spd M_NSpd&#x000A;*"></Item>
+			<Item Type="ModuleName" FormatString=""></Item>
+			<Item Type="StringItem" FormatString="()&#x000A;"></Item>
+		</Item>
+		<Item Type = "PathGroup">
+			<Item Type = "PathData">
+				<Item Type = "PointData">
+					<Item Type ="PointInstruction">
+						<Item Type="moveL" FormatString="Mvs ">
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="PointGlobalIndex" FormatString="p%d"></Item>
+							<Item Type="StringItem" FormatString="&#x000A;"></Item>
+						</Item>
+						<Item Type="moveJ" FormatString="Mov ">
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="PointGlobalIndex" FormatString="p%d"></Item>
+							<Item Type="StringItem" FormatString="&#x000A;"></Item>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+		<Item Type = "Tail">
+			<Item Type="StringItem" FormatString="END"></Item>
+			<Item Type="StringItem" FormatString="&#x000A;"></Item>
+		</Item>	
+		<Item Type = "Head"></Item>
+		<Item Type = "PathGroup">
+			<Item Type = "PathData">
+				<Item Type = "PointData">
+		
+							<Item Type="PointGlobalIndex" FormatString="p%d"></Item>
+							<Item Type="StringItem" FormatString="=("></Item>
+							<Item Type="point_posX" FormatString="%.2f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="point_posY" FormatString="%.2f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="point_posZ" FormatString="%.2f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="point_matrixA" FormatString="%.2f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="point_matrixB" FormatString="%.2f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="point_matrixC" FormatString="%.2f"></Item>
+							<Item Type="StringItem" FormatString=")(6,0)"></Item>
+							<Item Type="StringItem" FormatString="&#x000A;"></Item>
+					</Item>
+				</Item>
+			</Item>
+		<Item Type = "Tail">
+		</Item>	
+	</File>
+</Post>
+
+

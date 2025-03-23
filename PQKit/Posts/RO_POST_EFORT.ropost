@@ -1,0 +1,225 @@
+<Post>
+  <File Name="" EXT = ".tid" >
+    <Item Type="Head" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString="ap0 : AXISPOS := (a4 := 40, a5 := -90)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="or1 : OVLREL := (ovl := 20)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="or2 : OVLREL := (ovl := 40)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="or3 : OVLREL := (ovl := 80)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="or4 : OVLREL := (ovl := 100)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="or5 : OVLREL := (ovl := 150)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="or6 : OVLREL := (ovl := 180)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="pos1 : AXISPOS := (a4 := -40, a5 := -90)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="pos2 : AXISPOS := (a4 := 40, a5 := -90)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="VariableData" FormatString="%.3f" Expression="" >
+        <Item Type="DOUTVariable" FormatString="%.3f" Expression="" >
+          <Item Type="VariableName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" : " Expression="" ></Item>
+          <Item Type="VariableType" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" := " Expression="" ></Item>
+          <Item Type="StringItem" FormatString="( port := MAP(IoDOut[" Expression="" ></Item>
+          <Item Type="VariablePort" FormatString="%d" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="]))&#x000A;" Expression="" ></Item>
+        </Item>
+        <Item Type="DINVariable" FormatString="%.3f" Expression="" >
+          <Item Type="VariableName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" : " Expression="" ></Item>
+          <Item Type="VariableType" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" := " Expression="" ></Item>
+          <Item Type="StringItem" FormatString="( port := MAP(IoDIn[" Expression="" ></Item>
+          <Item Type="VariablePort" FormatString="%d" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="]))&#x000A;" Expression="" ></Item>
+        </Item>
+        <Item Type="IINVariable" FormatString="%.3f" Expression="" >
+          <Item Type="VariableName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" : " Expression="" ></Item>
+          <Item Type="VariableType" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" := " Expression="" ></Item>
+          <Item Type="StringItem" FormatString="( port := MAP(IoIIn[" Expression="" ></Item>
+          <Item Type="VariablePort" FormatString="%d" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="]))&#x000A;" Expression="" ></Item>
+        </Item>
+        <Item Type="IOUTVariable" FormatString="%.3f" Expression="" >
+          <Item Type="VariableName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" : " Expression="" ></Item>
+          <Item Type="VariableType" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" := " Expression="" ></Item>
+          <Item Type="StringItem" FormatString="( port := MAP(IoIOut[" Expression="" ></Item>
+          <Item Type="VariablePort" FormatString="%d" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="]))&#x000A;" Expression="" ></Item>
+        </Item>
+        <Item Type="REALVariable" FormatString="%.3f" Expression="" >
+          <Item Type="VariableName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" : " Expression="" ></Item>
+          <Item Type="VariableType" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" := " Expression="" ></Item>
+          <Item Type="VariableValue" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        </Item>
+        <Item Type="CARTPOSVariable" FormatString="%.3f" Expression="" >
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+          <Item Type="VariableName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=":" Expression="" ></Item>
+          <Item Type="VariableType" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=":=" Expression="" ></Item>
+        </Item>
+        <Item Type="RVT_MinVariable" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="RVT_MaxVariable" FormatString="%.3f" Expression="" ></Item>
+      </Item>
+      <Item Type="ToolData" FormatString="%.3f" Expression="" >
+        <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=" : TOOL := (x := " Expression="" ></Item>
+        <Item Type="Tool_posX" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=", y := " Expression="" ></Item>
+        <Item Type="Tool_posY" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=", z := " Expression="" ></Item>
+        <Item Type="Tool_posZ" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=", a := " Expression="" ></Item>
+        <Item Type="Tool_matrixA" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=", b := " Expression="" ></Item>
+        <Item Type="Tool_matrixB" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=", c := " Expression="" ></Item>
+        <Item Type="Tool_matrixC" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=", guard := (vector := ((active := TRUE), (), (), (), (), (), (), ())))" Expression="" ></Item>
+        <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      </Item>
+    </Item>
+    <Item Type="PathGroup" FormatString="%.3f" Expression="" >
+      <Item Type="PathData" FormatString="%.3f" Expression="" >
+        <Item Type="PointData" FormatString="%.3f" Expression="" >
+          <Item Type="StringItem" FormatString="Pt" Expression="" ></Item>
+          <Item Type="PointPathIndex" FormatString="%04d" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" : CARTPOS := (x:= " Expression="" ></Item>
+          <Item Type="point_posX" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", y:= " Expression="" ></Item>
+          <Item Type="point_posY" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", z:= " Expression="" ></Item>
+          <Item Type="point_posZ" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", a:= " Expression="" ></Item>
+          <Item Type="point_matrixA" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", b:= " Expression="" ></Item>
+          <Item Type="point_matrixB" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", c:= " Expression="" ></Item>
+          <Item Type="point_matrixC" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", mode:= 1)" Expression="" ></Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        </Item>
+      </Item>
+    </Item>
+    <Item Type="Tail" FormatString="%.3f" Expression="" ></Item>
+  </File>
+  <File Name="" EXT = ".tip" >
+    <Item Type="Head" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString="// KAIROVersion 2.00" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="PTP(ap0)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="PTP(pos1)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+    </Item>
+    <Item Type="PathGroup" FormatString="%.3f" Expression="" >
+      <Item Type="PathData" FormatString="%.3f" Expression="" >
+        <Item Type="StringItem" FormatString="Tool(" Expression="" ></Item>
+        <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+        <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        <Item Type="PointData" FormatString="%.3f" Expression="" >
+          <Item Type="StringItem" FormatString="Lin(Pt" Expression="" ></Item>
+          <Item Type="PointPathIndex" FormatString="%04d" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+          <Item Type="PointEventItem" FormatString="%.3f" Expression="" >
+            <Item Type="CustomeEvent" FormatString="%.3f" Expression="" >
+              <Item Type="CustomeInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="SendEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString="WaitIsFinished()" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="WaitTime(1000)" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=".Set(" Expression="" ></Item>
+              <Item Type="IOValue" FormatString="BOOL" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="WaitTime(1000)" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="CatchEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString="WaitIsFinished()" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="WaitTime(1000)" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=".Set(" Expression="" ></Item>
+              <Item Type="IOValue" FormatString="BOOL" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="WaitTime(1000)" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="ReleaseEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString="WaitIsFinished()" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="WaitTime(1000)" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=".Set(" Expression="" ></Item>
+              <Item Type="IOValue" FormatString="BOOL" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="WaitTime(1000)" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="WaitEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString="WaitIsFinished()" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="WaitTime(1000)" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=".Set(" Expression="" ></Item>
+              <Item Type="IOValue" FormatString="BOOL" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="WaitTime(1000)" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="WaitTimeEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString="WaitIsFinished()" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="WaitTime(1000)" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=".Set(" Expression="" ></Item>
+              <Item Type="IOValue" FormatString="BOOL" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="WaitTime(1000)" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+    </Item>
+    <Item Type="Tail" FormatString="%.3f" Expression="" ></Item>
+  </File>
+</Post>

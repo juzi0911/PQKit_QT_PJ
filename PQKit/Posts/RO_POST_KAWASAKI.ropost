@@ -1,0 +1,138 @@
+<Post>
+	<File Name="" EXT = ".as" >
+		<Item Type = "Head">
+			<Item Type="StringItem" FormatString=".SYSDATA&#x000A;"></Item>
+			<Item Type="Coordinate">
+				<Item Type="StringItem" FormatString="BASE	"></Item>
+				<Item Type="Coordinate_posX" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString=" "></Item>
+				<Item Type="Coordinate_posY" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString=" "></Item>
+				<Item Type="Coordinate_posZ" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString=" "></Item>
+				<Item Type="Coordinate_matrixA" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString=" "></Item>
+				<Item Type="Coordinate_matrixB" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString=" "></Item>
+				<Item Type="Coordinate_matrixC" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString="&#x000A;"></Item>
+			</Item>
+			<Item Type="ToolData">
+				<Item Type="StringItem" FormatString="TOOL	"></Item>
+				<Item Type="Tool_posX" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString=" "></Item>
+				<Item Type="Tool_posY" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString=" "></Item>
+				<Item Type="Tool_posZ" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString=" "></Item>
+				<Item Type="Tool_matrixA" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString=" "></Item>
+				<Item Type="Tool_matrixB" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString=" "></Item>
+				<Item Type="Tool_matrixC" FormatString="%.3f"></Item>
+				<Item Type="StringItem" FormatString="&#x000A;"></Item>
+			</Item>
+		</Item>
+		<Item Type = "Tail">
+			<Item Type="StringItem" FormatString=".END&#x000A;"></Item>
+		</Item>	
+		<Item Type = "Head" >
+			<Item Type="StringItem" FormatString=".PROGRAM "></Item>
+			<Item Type="StringItem" FormatString="()&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="&#x000A;"></Item>
+		</Item>
+		<Item Type = "PathGroup">
+			<Item Type = "PathData">
+				<Item Type = "PointData">
+					<Item Type="PointInstruction">
+						<Item Type="moveL" FormatString=" LMOVE">
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="StringItem" FormatString="pt"></Item>
+							<Item Type="PointGlobalIndex" FormatString="%d"></Item>
+							<Item Type="StringItem" FormatString="&#x000A;"></Item>
+						</Item>
+					</Item>
+					<Item Type="PointInstruction">
+						<Item Type="moveJ" FormatString=" JMOVE">
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="StringItem" FormatString="pt"></Item>
+							<Item Type="PointGlobalIndex" FormatString="%d"></Item>
+							<Item Type="StringItem" FormatString="&#x000A;"></Item>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+		<Item Type = "Tail">
+			<Item Type="StringItem" FormatString=".END"></Item>
+			<Item Type="StringItem" FormatString="&#x000A;"></Item>
+		</Item>
+		<Item Type = "Head" >
+			<Item Type="StringItem" FormatString=".TRANS"></Item>
+			<Item Type="StringItem" FormatString="&#x000A;"></Item>
+		</Item>
+		<Item Type = "PathGroup">
+			<Item Type = "PathData">
+				<Item Type = "PointData">
+					<Item Type="PointInstruction">
+						<Item Type="moveL" FormatString="">
+							<Item Type="StringItem" FormatString="pt"></Item>
+							<Item Type="PointGlobalIndex" FormatString="%d"></Item>
+							<Item Type="StringItem" FormatString="	"></Item>
+							<Item Type="point_posX" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="point_posY" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="point_posZ" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="point_matrixA" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="point_matrixB" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="point_matrixC" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString="&#x000A;"></Item>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+		<Item Type = "Tail">
+			<Item Type="StringItem" FormatString=".END"></Item>
+			<Item Type="StringItem" FormatString="&#x000A;"></Item>
+		</Item>
+		<Item Type = "Head">
+			<Item Type="StringItem" FormatString=".JOINTS"></Item>
+			<Item Type="StringItem" FormatString="&#x000A;"></Item>
+		</Item>
+		<Item Type = "PathGroup">
+			<Item Type = "PathData">
+				<Item Type = "PointData">
+					<Item Type ="PointInstruction">
+						<Item Type="moveL" FormatString=""></Item>						
+						<Item Type="moveJ" FormatString="">
+							<Item Type="PointGlobalIndex" FormatString="#pt%d"></Item>						
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="JointAngle" ItemType="1" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="JointAngle" ItemType="2" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="JointAngle" ItemType="3" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="JointAngle" ItemType="4" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="JointAngle" ItemType="5" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="JointAngle" ItemType="6" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString="&#x000A;"></Item>
+						</Item>
+						<Item Type="moveAbsJ" FormatString=""></Item>
+					</Item>		
+				</Item>		
+			</Item>
+		</Item>
+		<Item Type = "Tail">
+			<Item Type="StringItem" FormatString=".END"></Item>
+			<Item Type="StringItem" FormatString="&#x000A;"></Item>
+		</Item>	
+	</File>
+</Post>

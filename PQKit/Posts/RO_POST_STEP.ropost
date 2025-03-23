@@ -1,0 +1,86 @@
+<Post>
+  <File Name="" EXT = ".srd" >
+    <Item Type="PathGroup" FormatString="%.3f" Expression="" >
+      <Item Type="PathData" FormatString="%.3f" Expression="" >
+        <Item Type="PointData" FormatString="%.3f" Expression="" SpaceCharacter="" >
+          <Item Type="StringItem" FormatString="CARTPOS Pt" Expression="" ></Item>
+          <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" := {" Expression="" ></Item>
+          <Item Type="point_posX" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+          <Item Type="point_posY" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+          <Item Type="point_posZ" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+          <Item Type="point_matrixA" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+          <Item Type="point_matrixB" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+          <Item Type="point_matrixC" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+          <Item Type="StringItem" FormatString="0.0, 0.0, 0.0, 0.0, 0.0, 0.0, " Expression="" ></Item>
+          <Item Type="PointMode" FormatString="%d" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="}" Expression="" ></Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        </Item>
+      </Item>
+    </Item>
+  </File>
+  <File Name="" EXT = ".srp" >
+    <Item Type="PathGroup" FormatString="%.3f" Expression="" >
+      <Item Type="PathData" FormatString="%.3f" Expression="" >
+        <Item Type="StringItem" FormatString="Tool" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="(" Expression="" ></Item>
+        <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=");" Expression="" ></Item>
+        <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        <Item Type="StringItem" FormatString="RefSys(" Expression="" ></Item>
+        <Item Type="CoordinateName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=");" Expression="" ></Item>
+        <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        <Item Type="PointData" FormatString="%.3f" Expression="" SpaceCharacter="" >
+          <Item Type="PointInstruction" FormatString="%.3f" Expression="" >
+            <Item Type="moveC" PointNumber="2" FormatString="CirC" Expression="" >
+              <Item Type="StringItem" FormatString="( " Expression="" ></Item>
+              <Item Type="PointData" FormatString="%.3f" Expression="" SpaceCharacter="" >
+                <Item Type="StringItem" FormatString=" Pt" Expression="" ></Item>
+                <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+                <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              </Item>
+              <Item Type="StringItem" FormatString=" NULL, NULL, eVAR );" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveL" FormatString="Lin" Expression="" >
+              <Item Type="StringItem" FormatString="( Pt" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="NULL , NULL, eVAR );" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveJ" FormatString="PTP" Expression="" >
+              <Item Type="StringItem" FormatString="( Pt" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveAbsJ" FormatString="PTP" Expression="" >
+              <Item Type="StringItem" FormatString="( Pt" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+          </Item>
+          <Item Type="PointEventItem" FormatString="%.3f" Expression="" >
+            <Item Type="WaitTimeEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString=" WaitTime " Expression="" ></Item>
+              <Item Type="IOValue" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=";" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+    </Item>
+  </File>
+</Post>

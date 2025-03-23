@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Post>
+  <File Name="" EXT = ".PRL" >
+    <Item Type = "Head" >
+      <Item Type="StringItem" FormatString="Start"></Item>
+	  <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+    </Item>
+    <Item Type = "PathGroup">
+      <Item Type = "PathData">
+        <Item Type = "PointData">
+          <Item Type="StringItem" FormatString="P"></Item>
+          <Item Type="PointGlobalIndex" FormatString="%.4d"></Item>
+          <Item Type="StringItem" FormatString="="></Item>
+          <Item Type="PointInstruction">
+            <Item Type="moveJ" FormatString="MoveJ">
+              <Item Type="point_posX" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="point_posY" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="point_posZ" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="point_matrixA" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="point_matrixB" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="point_matrixC" FormatString="%.0f"></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+            </Item>
+            <Item Type="moveL" FormatString="MoveL">
+              <Item Type="point_posX" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="point_posY" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="point_posZ" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="point_matrixA" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="point_matrixB" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="point_matrixC" FormatString="%.0f"></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+            </Item>
+            <Item Type="moveAbsJ" FormatString="MoveAbsJ" Expression="" >
+              <Item Type="StringItem" FormatString=" [[" Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="1" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="2" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="3" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="4" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="5" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="6" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=" ]]" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+    </Item>
+    <Item Type = "Tail">
+      <Item Type="StringItem" FormatString="End"></Item>
+    </Item>
+  </File>
+</Post>
+

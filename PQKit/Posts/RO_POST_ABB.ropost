@@ -1,0 +1,415 @@
+<Post>
+  <File Name="" EXT = ".mod" >
+    <Item Type="Head" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString="%%%" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="VERSION:1" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="LANGUAGE:  ENGLISH" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="%%%" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="MODULE " Expression="" ></Item>
+      <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="Coordinate" FormatString="%.3f" Expression="" >
+        <Item Type="StringItem" FormatString="TASK PERS wobjdata " Expression="" ></Item>
+        <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="CoordinateName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=":=[" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="FALSE, TRUE, &quot;&quot;, [[" Expression="" ></Item>
+        <Item Type="Coordinate_posX" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Coordinate_posY" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Coordinate_posZ" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="],[" Expression="" ></Item>
+        <Item Type="Coordinate_QuaternionQ1" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Coordinate_QuaternionQ2" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Coordinate_QuaternionQ3" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Coordinate_QuaternionQ4" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="]], [" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="[0, 0, 0], [1, 0, 0, 0]]];" Expression="" ></Item>
+        <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      </Item>
+      <Item Type="ToolData" FormatString="%.3f" Expression="" >
+        <Item Type="StringItem" FormatString="TASK PERS tooldata " Expression="" ></Item>
+        <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=":=[" Expression="" ></Item>
+        <Item Type="ToolType" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=", [[" Expression="" ></Item>
+        <Item Type="Tool_posX" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Tool_posY" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Tool_posZ" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="],[" Expression="" ></Item>
+        <Item Type="Tool_QuaternionQ1" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Tool_QuaternionQ2" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Tool_QuaternionQ3" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Tool_QuaternionQ4" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="]], [" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="0.001, [0, 0, 0.001], [1, 0, 0, 0], 0, 0, 0]];" Expression="" ></Item>
+        <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        <Item Type="ToolWobjData" FormatString="%.3f" Expression="" >
+          <Item Type="StringItem" FormatString="TASK PERS wobjdata " Expression="" ></Item>
+          <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="ETT:=[TRUE, TRUE,&quot;&quot; , [[0.00000,0.00000,0.00000],[1.00000,-0.00000,-0.00000,-0.00000]], [[0, 0, 0], [1, 0, 0, 0]]];" Expression="" ></Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        </Item>
+      </Item>
+      <Item Type="ToolData" FormatString="TCPRelVar" Expression="" >
+        <Item Type="StringItem" FormatString="TASK PERS tooldata " Expression="" ></Item>
+        <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="_Org:=[" Expression="" ></Item>
+        <Item Type="ToolType" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=", [[" Expression="" ></Item>
+        <Item Type="Tool_posX" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Tool_posY" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Tool_posZ" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="],[" Expression="" ></Item>
+        <Item Type="Tool_QuaternionQ1" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Tool_QuaternionQ2" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Tool_QuaternionQ3" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="," Expression="" ></Item>
+        <Item Type="Tool_QuaternionQ4" FormatString="%.5f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="]], [" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="0.001, [0, 0, 0.001], [1, 0, 0, 0], 0, 0, 0]];" Expression="" ></Item>
+        <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        <Item Type="ToolWobjData" FormatString="%.3f" Expression="" >
+          <Item Type="StringItem" FormatString="TASK PERS wobjdata " Expression="" ></Item>
+          <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="ETT:=[TRUE, TRUE,&quot;&quot; , [[0.00000,0.00000,0.00000],[1.00000,-0.00000,-0.00000,-0.00000]], [[0, 0, 0], [1, 0, 0, 0]]];" Expression="" ></Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        </Item>
+      </Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+    </Item>
+    <Item Type="PathGroup" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString="PROC " Expression="" ></Item>
+      <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="GroupName" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="()" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="ConfL\on;" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="ConfJ\on;" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="VariableToolData" FormatString="%.3f" Expression="" >
+        <Item Type="StringItem" FormatString="&#x0009;" Expression="" ></Item>
+        <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=".tframe.trans." Expression="" ></Item>
+        <Item Type="TCPVariableType" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=" := " Expression="" ></Item>
+        <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString="_Org.tframe.trans." Expression="" ></Item>
+        <Item Type="TCPVariableType" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=" + " Expression="" ></Item>
+        <Item Type="TCPRelatedVar" FormatString="%.3f" Expression="" ></Item>
+        <Item Type="StringItem" FormatString=";" Expression="" ></Item>
+        <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      </Item>
+      <Item Type="PathData" FormatString="%.3f" Expression="" >
+        <Item Type="CommentItem" FormatString="%.3f" Expression="" >
+          <Item Type="StringItem" FormatString="    " Expression="" ></Item>
+          <Item Type="StringItem" FormatString="!!" Expression="" ></Item>
+          <Item Type="PathName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        </Item>
+        <Item Type="PointData" FormatString="%.3f" Expression="" SpaceCharacter="" >
+          <Item Type="PointFrontEvent" FormatString="%.3f" Expression="" PointFrontEvent="PrePoint" >
+            <Item Type="WaitTimeEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString="     WaitTime " Expression="" ></Item>
+              <Item Type="IOValue" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=";" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="WaitEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString="     WaitDI  " Expression="" ></Item>
+              <Item Type="IOName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="IOValue" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=";" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="ReleaseEvent" FormatString="%.3f" Expression="" >
+	          <Item Type="StringItem" FormatString="     WaitTime 0.8;" Expression="" ></Item>
+			  <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="     WaitTime 0.8;" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="CatchEvent" FormatString="%.3f" Expression="" >
+	          <Item Type="StringItem" FormatString="     WaitTime 0.8;" Expression="" ></Item>
+			  <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="     WaitTime 0.8;" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="SendEvent" FormatString="%.3f" Expression="" >
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="     WaitTime 0.8;" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="CustomeEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString="     " Expression="" ></Item>
+              <Item Type="CustomeInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+          </Item>
+          <Item Type="CommentItem" FormatString="%.3f" Expression="" >
+            <Item Type="StringItem" FormatString="    " Expression="" ></Item>
+            <Item Type="StringItem" FormatString="!!pt" Expression="" ></Item>
+            <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+            <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+          </Item>
+          <Item Type="StringItem" FormatString="     " Expression="" ></Item>
+          <Item Type="PointInstruction" FormatString="%.3f" Expression="" >
+            <Item Type="moveL" FormatString="MoveL" Expression="" >
+              <Item Type="StringItem" FormatString=" [[" Expression="" ></Item>
+              <Item Type="point_posX" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="point_posY" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="point_posZ" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="],[" Expression="" ></Item>
+              <Item Type="Point_QuaternionQ1" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="Point_QuaternionQ2" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="Point_QuaternionQ3" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="Point_QuaternionQ4" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="],[" Expression="" ></Item>
+              <Item Type="JointConfig_cf1" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointConfig_cf4" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointConfig_cf6" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointConfig_cfx" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="v" Expression="" ></Item>
+              <Item Type="Speed" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="PointCont" FormatString="%d" Expression="" PrecisePoint="fine" ></Item>
+              <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+              <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="PointToolName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="PointTCPName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="PointWobjData" FormatString="%.3f" Expression="" >
+                <Item Type="StringItem" FormatString="\WObj:=" Expression="" ></Item>
+                <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="StringItem" FormatString="ETT" Expression="" ></Item>
+              </Item>
+              <Item Type="PointCoordinateData" FormatString="%.3f" Expression="" >
+                <Item Type="StringItem" FormatString="\WObj:=" Expression="" ></Item>
+                <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="CoordinateName" FormatString="%.3f" Expression="" ></Item>
+              </Item>
+              <Item Type="StringItem" FormatString=";" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveJ" FormatString="MoveJ" Expression="" >
+              <Item Type="StringItem" FormatString=" [[" Expression="" ></Item>
+              <Item Type="point_posX" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="point_posY" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="point_posZ" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="],[" Expression="" ></Item>
+              <Item Type="Point_QuaternionQ1" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="Point_QuaternionQ2" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="Point_QuaternionQ3" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="Point_QuaternionQ4" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="],[" Expression="" ></Item>
+              <Item Type="JointConfig_cf1" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointConfig_cf4" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointConfig_cf6" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointConfig_cfx" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="v" Expression="" ></Item>
+              <Item Type="Speed" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="PointCont" FormatString="%d" Expression="" PrecisePoint="fine" ></Item>
+              <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+              <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="PointToolName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="PointTCPName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="PointWobjData" FormatString="%.3f" Expression="" >
+                <Item Type="StringItem" FormatString="\WObj:=" Expression="" ></Item>
+                <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="StringItem" FormatString="ETT" Expression="" ></Item>
+              </Item>
+              <Item Type="PointCoordinateData" FormatString="%.3f" Expression="" >
+                <Item Type="StringItem" FormatString="\WObj:=" Expression="" ></Item>
+                <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="CoordinateName" FormatString="%.3f" Expression="" ></Item>
+              </Item>
+              <Item Type="StringItem" FormatString=";" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveC" FormatString="MoveL" PointNumber="1" Expression="" >
+              <Item Type="StringItem" FormatString=" [[" Expression="" ></Item>
+              <Item Type="point_posX" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="point_posY" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="point_posZ" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="],[" Expression="" ></Item>
+              <Item Type="Point_QuaternionQ1" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="Point_QuaternionQ2" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="Point_QuaternionQ3" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="Point_QuaternionQ4" FormatString="%.5f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="],[" Expression="" ></Item>
+              <Item Type="JointConfig_cf1" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointConfig_cf4" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointConfig_cf6" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointConfig_cfx" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="v" Expression="" ></Item>
+              <Item Type="Speed" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="PointCont" FormatString="%d" Expression="" PrecisePoint="fine" ></Item>
+              <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+              <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="PointToolName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="PointTCPName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="PointWobjData" FormatString="%.3f" Expression="" >
+                <Item Type="StringItem" FormatString="\WObj:=" Expression="" ></Item>
+                <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="TCPName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="StringItem" FormatString="ETT" Expression="" ></Item>
+              </Item>
+              <Item Type="PointCoordinateData" FormatString="%.3f" Expression="" >
+                <Item Type="StringItem" FormatString="\WObj:=" Expression="" ></Item>
+                <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+                <Item Type="CoordinateName" FormatString="%.3f" Expression="" ></Item>
+              </Item>
+              <Item Type="StringItem" FormatString=";" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveAbsJ" FormatString="MoveAbsJ" Expression="" >
+              <Item Type="StringItem" FormatString=" [[" Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="1" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="2" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="3" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="4" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="5" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="6" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]]\NoEOffs, " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="v" Expression="" ></Item>
+              <Item Type="Speed" FormatString="%.0f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+              <Item Type="PointCont" FormatString="%d" Expression="" PrecisePoint="fine" ></Item>
+              <Item Type="StringItem" FormatString=", " Expression="" ></Item>
+              <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="PointToolName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="PointTCPName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=";" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+          </Item>
+          <Item Type="PointBackEvent" FormatString="%.3f" Expression="" PointBackEvent="PostPoint" >
+            <Item Type="WaitTimeEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString="     WaitTime " Expression="" ></Item>
+              <Item Type="IOValue" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=";" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="WaitEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString="     WaitDI  " Expression="" ></Item>
+              <Item Type="IOName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="IOValue" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=";" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="ReleaseEvent" FormatString="%.3f" Expression="" >
+	          <Item Type="StringItem" FormatString="     WaitTime 0.8;" Expression="" ></Item>
+		      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="     WaitTime 0.8;" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="CatchEvent" FormatString="%.3f" Expression="" >
+	          <Item Type="StringItem" FormatString="     WaitTime 0.8;" Expression="" ></Item>
+			  <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="     WaitTime 0.8;" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="SendEvent" FormatString="%.3f" Expression="" >
+              <Item Type="IOInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="     WaitTime 0.8;" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="CustomeEvent" FormatString="%.3f" Expression="" >
+              <Item Type="StringItem" FormatString="     " Expression="" ></Item>
+              <Item Type="CustomeInfo" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+      <Item Type="StringItem" FormatString="ENDPROC" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+    </Item>
+    <Item Type="Tail" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString="ENDMODULE" Expression="" ></Item>
+    </Item>
+  </File>
+</Post>

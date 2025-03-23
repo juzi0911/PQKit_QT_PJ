@@ -1,0 +1,88 @@
+<Post>
+	<PointFile Name="" EXT = ".pts" LimitPtNumber="1000">
+		<Item Type = "Head">
+			<Item Type="StringItem" FormatString="sVersion=&quot;2.0.0&quot;"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="bDisplayR=False"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="bDisplayS=False"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="bDisplayT=False"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="nNumberOfJoints=4"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="nNumberOfPoints="></Item>
+			<Item Type="PointNumber" FormatString=""></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+		</Item>
+		<Item Type = "PointData">
+			<Item Type="StringItem" FormatString="Point"></Item>
+			<Item Type="PointGlobalIndex" FormatString="%d"></Item>
+			<Item Type="StringItem" FormatString=" {"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    nNumber="></Item>
+			<Item Type="PointGlobalIndex" FormatString="%d"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    sLabel=&quot;"></Item>
+			<Item Type="StringItem" FormatString="Path"></Item>
+			<Item Type="PathIndex" FormatString="%d"></Item>
+			<Item Type="StringItem" FormatString="Point"></Item>
+			<Item Type="PointGlobalIndex" FormatString="%d"></Item>
+			<Item Type="StringItem" FormatString="&quot;"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    sDescription=&quot;&quot;"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    nUndefined=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    rX="></Item>
+			<Item Type="point_posX" FormatString="%.3f"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    rY="></Item>
+			<Item Type="point_posY" FormatString="%.3f"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    rZ="></Item>
+			<Item Type="point_posZ" FormatString="%.3f"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    rU="></Item>
+			<Item Type="point_matrixC" FormatString="%.3f"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    rV=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    rW=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    rR=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    rS=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    rT=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    nLocal=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    nHand=1"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    nElbow=1"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    nWrist=1"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    nJ1Flag=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    nJ2Flag=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    nJ4Flag=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    nJ6Flag=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    rJ1Angle=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    rJ4Angle=0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="    bSimVisible=False"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="}"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+		</Item>
+			
+		<Item Type = "Tail">
+		</Item>	
+	</PointFile>
+</Post>

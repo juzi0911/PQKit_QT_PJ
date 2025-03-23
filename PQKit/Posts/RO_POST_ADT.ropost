@@ -1,0 +1,28 @@
+<Post>
+	<File Name="" EXT = ".AR" >
+		<Item Type = "Head">
+			<Item Type="StringItem" FormatString="function main()"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+		</Item>
+		<Item Type = "PathGroup">
+			<Item Type = "PathData">
+				<Item Type = "PointData">
+					<Item Type="StringItem" FormatString="  MovL({x="></Item>
+					<Item Type="point_posX" FormatString="%.3f"></Item>
+					<Item Type="StringItem" FormatString=",y="></Item>
+					<Item Type="point_posY" FormatString="%.3f"></Item>
+					<Item Type="StringItem" FormatString=",z="></Item>
+					<Item Type="point_posZ" FormatString="%.3f"></Item>
+					<Item Type="StringItem" FormatString=",c="></Item>
+					<Item Type="point_matrixC" FormatString="%.1f"></Item>
+					<Item Type="StringItem" FormatString=",h=0})"></Item>
+					<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+				</Item>
+			</Item>
+		</Item>
+		<Item Type = "Tail">
+			<Item Type="StringItem" FormatString="end"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+		</Item>	
+	</File>
+</Post>

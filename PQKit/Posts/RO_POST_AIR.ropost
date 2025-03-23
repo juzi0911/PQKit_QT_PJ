@@ -1,0 +1,273 @@
+<Post>
+  <File Name="" EXT = "_data.arl" >
+    <Item Type="PathGroup">
+      <Item Type="PathData">
+        <Item Type="CommentItem">
+          <Item Type="StringItem" FormatString="    "></Item>
+          <Item Type="StringItem" FormatString="//"></Item>
+          <Item Type="PathName"></Item>
+          <Item Type="StringItem" FormatString="
+"></Item>
+        </Item>
+        <Item Type="PointData">
+          <Item Type="PointInstruction">
+            <Item Type="moveL" FormatString="moveL  ">
+              <Item Type="StringItem" FormatString="const pose p"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=" = { x "></Item>
+              <Item Type="point_posX" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", y "></Item>
+              <Item Type="point_posY" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", z "></Item>
+              <Item Type="point_posZ" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", a "></Item>
+              <Item Type="point_matrixA" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", b "></Item>
+              <Item Type="point_matrixB" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", c "></Item>
+              <Item Type="point_matrixC" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", cfg "></Item>
+              <Item Type="PointMode" FormatString="%.0f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", ej1 9.000e+09, ej2 9.000e+09, ej3 9.000e+09, ej4 9.000e+09, ej5 9.000e+09, ej6 9.000e+09 }"></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+              <Item Type="StringItem" FormatString="const speed v"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=" = { tcp "></Item>
+              <Item Type="Speed" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString="}"></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+              <Item Type="StringItem" FormatString="const slip s"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=" = { pdis "></Item>
+              <Item Type="PointCont" FormatString="%d" PrecisePoint="" Expression=""></Item>
+              <Item Type="StringItem" FormatString=" } "></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+            </Item>
+            <Item Type="moveJ" FormatString="moveJ ">
+              <Item Type="StringItem" FormatString="const joint j"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=" = { j1 "></Item>
+              <Item Type="Head"></Item>
+              <Item Type="StringItem" FormatString=", j2 "></Item>
+              <Item Type="Head"></Item>
+              <Item Type="StringItem" FormatString=" ,j3 "></Item>
+              <Item Type="Head"></Item>
+              <Item Type="StringItem" FormatString=" ,j4 "></Item>
+              <Item Type="Head"></Item>
+              <Item Type="StringItem" FormatString=", j5 "></Item>
+              <Item Type="Head"></Item>
+              <Item Type="StringItem" FormatString=", j6 "></Item>
+              <Item Type="Head"></Item>
+              <Item Type="StringItem" FormatString=", ej1 9.000e+09, ej2 9.000e+09, ej3 9.000e+09, ej4 9.000e+09, ej5 9.000e+09, ej6 9.000e+09 }"></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+              <Item Type="StringItem" FormatString="const speed v"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=" = { tcp "></Item>
+              <Item Type="Speed" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString="}"></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+              <Item Type="StringItem" FormatString="const slip s"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=" = { pdis "></Item>
+              <Item Type="PointCont" FormatString="%d" PrecisePoint="" Expression=""></Item>
+              <Item Type="StringItem" FormatString=" } "></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+            </Item>
+            <Item Type="moveAbsJ" FormatString="moveAbsJ ">
+              <Item Type="StringItem" FormatString="const pose p"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=" = { x "></Item>
+              <Item Type="point_posX" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", y "></Item>
+              <Item Type="point_posY" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", z "></Item>
+              <Item Type="point_posZ" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", a "></Item>
+              <Item Type="point_matrixA" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", b "></Item>
+              <Item Type="point_matrixB" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", c "></Item>
+              <Item Type="point_matrixC" FormatString="%.3f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", cfg "></Item>
+              <Item Type="PointMode" FormatString="%.0f" Expression=""></Item>
+              <Item Type="StringItem" FormatString=", ej1 9.000e+09, ej2 9.000e+09, ej3 9.000e+09, ej4 9.000e+09, ej5 9.000e+09, ej6 9.000e+09 }"></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+              <Item Type="StringItem" FormatString="const speed v"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=" = { tcp "></Item>
+              <Item Type="Speed" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString="}"></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+              <Item Type="StringItem" FormatString="const slip s"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=" = { pdis "></Item>
+              <Item Type="PointCont" FormatString="%d" PrecisePoint="" Expression=""></Item>
+              <Item Type="StringItem" FormatString=" } "></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+            </Item>
+            <Item Type="moveC" FormatString="cir " PointNumber="2">
+              <Item Type="PointData">
+                <Item Type="StringItem" FormatString="const pose p"></Item>
+                <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+                <Item Type="StringItem" FormatString=" = { x "></Item>
+                <Item Type="point_posX" FormatString="%.3f" Expression=""></Item>
+                <Item Type="StringItem" FormatString=", y "></Item>
+                <Item Type="point_posY" FormatString="%.3f" Expression=""></Item>
+                <Item Type="StringItem" FormatString=", z "></Item>
+                <Item Type="point_posZ" FormatString="%.3f" Expression=""></Item>
+                <Item Type="StringItem" FormatString=", a "></Item>
+                <Item Type="point_matrixA" FormatString="%.3f" Expression=""></Item>
+                <Item Type="StringItem" FormatString=", b "></Item>
+                <Item Type="point_matrixB" FormatString="%.3f" Expression=""></Item>
+                <Item Type="StringItem" FormatString=", c "></Item>
+                <Item Type="point_matrixC" FormatString="%.3f" Expression=""></Item>
+                <Item Type="StringItem" FormatString=", cfg "></Item>
+                <Item Type="PointMode" FormatString="%.0f" Expression=""></Item>
+                <Item Type="StringItem" FormatString=", ej1 9.000e+09, ej2 9.000e+09, ej3 9.000e+09, ej4 9.000e+09, ej5 9.000e+09, ej6 9.000e+09 }"></Item>
+                <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+              </Item>
+              <Item Type="StringItem" FormatString="const speed v"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=" = { tcp "></Item>
+              <Item Type="Speed" FormatString="%.0f"></Item>
+              <Item Type="StringItem" FormatString="}"></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+              <Item Type="StringItem" FormatString="const slip s"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=" = { pdis "></Item>
+              <Item Type="PointCont" FormatString="%d" PrecisePoint="" Expression=""></Item>
+              <Item Type="StringItem" FormatString=" } "></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+    </Item>
+  </File>
+  <File Name="" EXT = ".arl" >
+    <Item Type="Head">
+      <Item Type="StringItem" FormatString="func void main()"></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+      <Item Type="StringItem" FormatString="init()"></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+      <Item Type="ToolData" FormatString="%.3f">
+        <Item Type="StringItem" FormatString="tool "></Item>
+        <Item Type="ToolName"></Item>
+        <Item Type="TCPName"></Item>
+        <Item Type="StringItem" FormatString="={{ x "></Item>
+        <Item Type="Tool_posX" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString=", y "></Item>
+        <Item Type="Tool_posY" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString=", z "></Item>
+        <Item Type="Tool_posZ" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString=", a "></Item>
+        <Item Type="Tool_matrixA" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString=", b "></Item>
+        <Item Type="Tool_matrixB" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString=", c "></Item>
+        <Item Type="Tool_matrixC" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString="}}"></Item>
+        <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+      </Item>
+      <Item Type="Coordinate">
+        <Item Type="StringItem" FormatString="wobj "></Item>
+        <Item Type="CoordinateName" FormatString=""></Item>
+        <Item Type="StringItem" FormatString="={{ x "></Item>
+        <Item Type="Coordinate_posX" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString=", y "></Item>
+        <Item Type="Coordinate_posY" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString=", z "></Item>
+        <Item Type="Coordinate_posZ" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString=", a "></Item>
+        <Item Type="Coordinate_matrixA" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString=", b "></Item>
+        <Item Type="Coordinate_matrixB" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString=", c "></Item>
+        <Item Type="Coordinate_matrixC" FormatString="%.0f" Expression=""></Item>
+        <Item Type="StringItem" FormatString="}}"></Item>
+        <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+      </Item>
+      <Item Type="StringItem" FormatString="wobj BASE={{ x 0, y 0, z 0, a 0, b 0, c 0}}"></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+    </Item>
+    <Item Type="PathGroup">
+      <Item Type="PathData">
+        <Item Type="CommentItem">
+          <Item Type="StringItem" FormatString="    "></Item>
+          <Item Type="StringItem" FormatString="//"></Item>
+          <Item Type="PathName"></Item>
+          <Item Type="StringItem" FormatString="
+"></Item>
+        </Item>
+        <Item Type="PointData">
+          <Item Type="PointInstruction">
+            <Item Type="moveL" FormatString="lin ">
+              <Item Type="StringItem" FormatString="p"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=",v"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=",s"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="PointToolName"></Item>
+              <Item Type="PointTCPName"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="PointCoordinateData">
+                <Item Type="CoordinateName" FormatString=""></Item>
+              </Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+            </Item>
+            <Item Type="moveJ" FormatString="movej ">
+              <Item Type="StringItem" FormatString="j"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=",v"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=",s"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+            </Item>
+            <Item Type="moveC" FormatString="cir " PointNumber="2">
+              <Item Type="PointData">
+                <Item Type="StringItem" FormatString="p"></Item>
+                <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+                <Item Type="StringItem" FormatString=","></Item>
+              </Item>
+              <Item Type="StringItem" FormatString="v"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=",s"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="PointToolName"></Item>
+              <Item Type="PointTCPName"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="PointCoordinateData">
+                <Item Type="CoordinateName" FormatString=""></Item>
+              </Item>
+              <Item Type="StringItem" FormatString="CA:180"></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+            </Item>
+            <Item Type="moveAbsJ" FormatString="ptp ">
+              <Item Type="StringItem" FormatString="p"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=",v"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=",s"></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="PointToolName"></Item>
+              <Item Type="PointTCPName"></Item>
+              <Item Type="StringItem" FormatString=","></Item>
+              <Item Type="PointCoordinateData">
+                <Item Type="CoordinateName" FormatString=""></Item>
+              </Item>
+              <Item Type="WantReturn" FormatString="&#x000A;"></Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+    </Item>
+    <Item Type="Tail">
+      <Item Type="StringItem" FormatString="endfunc"></Item>
+    </Item>
+  </File>
+</Post>

@@ -1,0 +1,101 @@
+﻿<Post>
+	<File Name="" EXT = ".PRL" >
+		<Item Type = "Head" >
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="MAIN;"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+		</Item>
+		<Item Type = "PathGroup">
+			<Item Type = "PathData">
+				<Item Type = "PointData">
+					<Item Type="PointInstruction">
+						<Item Type="moveL" FormatString="MOVL">
+							<Item Type="StringItem" FormatString=" P*("></Item>
+							<Item Type="JointAngle" ItemType="1" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="2" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="3" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="4" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="5" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="6" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=",0.000000,0.000000,1,0),V"></Item>
+							<Item Type="Speed" FormatString="%.0f"></Item>
+							<Item Type="StringItem" FormatString=" ,"></Item>
+							<Item Type="PointCont" FormatString="%d" PrecisePoint=""></Item>
+							<Item Type="StringItem" FormatString=";"></Item>
+							<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+						</Item>
+						<Item Type="moveJ" FormatString="MOVJ">
+							<Item Type="StringItem" FormatString=" P*("></Item>
+							<Item Type="JointAngle" ItemType="1" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="2" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="3" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="4" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="5" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="6" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=",0.000000,0.000000,1,0),V"></Item>
+							<Item Type="Speed" FormatString="%.0f"></Item>
+							<Item Type="StringItem" FormatString=" ,"></Item>
+							<Item Type="PointCont" FormatString="%d" PrecisePoint=""></Item>
+							<Item Type="StringItem" FormatString=";"></Item>
+							<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+						</Item>
+						<Item Type="moveC" FormatString="MOVC" PointNumber="1">
+							<Item Type="StringItem" FormatString=" P*("></Item>
+							<Item Type="JointAngle" ItemType="1" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="2" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="3" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="4" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="5" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="6" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=",0.000000,0.000000,1,0),V"></Item>
+							<Item Type="Speed" FormatString="%.0f"></Item>
+							<Item Type="StringItem" FormatString=" ,"></Item>
+							<Item Type="PointCont" FormatString="%d" PrecisePoint=""></Item>
+							<Item Type="StringItem" FormatString=";"></Item>
+							<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+						</Item>
+						<Item Type="moveAbsJ" FormatString="MOVABSJ">
+							<Item Type="StringItem" FormatString=" P*("></Item>
+							<Item Type="JointAngle" ItemType="1" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="2" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="3" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="4" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="5" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=","></Item>
+							<Item Type="JointAngle" ItemType="6" FormatString="%.6f"></Item>
+							<Item Type="StringItem" FormatString=",0.000000,0.000000,1,0),V"></Item>
+							<Item Type="Speed" FormatString="%.0f"></Item>
+							<Item Type="StringItem" FormatString=" ,"></Item>
+							<Item Type="PointCont" FormatString="%d" PrecisePoint=""></Item>
+							<Item Type="StringItem" FormatString=";"></Item>
+							<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+		<Item Type = "Tail">
+			<Item Type="StringItem" FormatString="END;"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+		</Item>	
+	</File>
+</Post>

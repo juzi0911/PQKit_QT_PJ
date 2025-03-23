@@ -1,0 +1,537 @@
+<Post>
+  <File Name="" EXT = ".dat" >
+    <Item Type="Head" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString="&amp;ACCESS RVP" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="&amp;REL 2" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="&amp;PARAM EDITMASK = *" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="&amp;PARAM TEMPLATE = C:\KRC\Roboter\Template\vorgabe" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="DEFDAT  " Expression="" ></Item>
+      <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString=";FOLD EXTERNAL DECLARATIONS;%{PE}%MKUKATPBASIS,%CEXT,%VCOMMON,%P" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString=";FOLD BASISTECH EXT;%{PE}%MKUKATPBASIS,%CEXT,%VEXT,%P" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="EXT  BAS (BAS_COMMAND  :IN,REAL  :IN )" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="DECL INT SUCCESS" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString=";ENDFOLD (BASISTECH EXT)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString=";FOLD USER EXT;%{E}%MKUKATPUSER,%CEXT,%VEXT,%P" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString=";Make your modifications here" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString=";ENDFOLD (USER EXT)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString=";ENDFOLD (EXTERNAL DECLARATIONS)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="DECL BASIS_SUGG_T LAST_BASIS={POINT1[] &amp;quot;P8                      &amp;quot;,POINT2[] &amp;quot;P8                      &amp;quot;,CP_PARAMS[] &amp;quot;CPDAT6                  &amp;quot;,PTP_PARAMS[] &amp;quot;PDAT2                   &amp;quot;,CONT[] &amp;quot;C_DIS C_DIS             &amp;quot;,CP_VEL[] &amp;quot;2                       &amp;quot;,PTP_VEL[] &amp;quot;20                      &amp;quot;,SYNC_PARAMS[] &amp;quot;SYNCDAT                 &amp;quot;,SPL_NAME[] &amp;quot;S0                      &amp;quot;,A_PARAMS[] &amp;quot;ADAT0                   &amp;quot;}" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+    </Item>
+    <Item Type="PathGroup" FormatString="%.3f" Expression="" >
+      <Item Type="PathData" FormatString="%.3f" Expression="" >
+        <Item Type="PointData" FormatString="%.3f" Expression="" SpaceCharacter="" CompleteOutPut="FALSE" >
+          <Item Type="PointInstruction" FormatString="%.3f" Expression="" >
+            <Item Type="moveL" FormatString=" " Expression="" >
+              <Item Type="StringItem" FormatString="DECL E6POS " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="XP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="X " Expression="" ></Item>
+              <Item Type="point_posX" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="Y " Expression="" ></Item>
+              <Item Type="point_posY" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="Z " Expression="" ></Item>
+              <Item Type="point_posZ" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="A " Expression="" ></Item>
+              <Item Type="point_matrixA" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="B " Expression="" ></Item>
+              <Item Type="point_matrixB" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="C " Expression="" ></Item>
+              <Item Type="point_matrixC" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="S " Expression="" ></Item>
+              <Item Type="point_ValueS" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="T " Expression="" ></Item>
+              <Item Type="point_ValueT" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=",E1 0.0,E2 0.0,E3 0.0,E4 0.0,E5 0.0,E6 0.0}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString=" DECL FDAT " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="FP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="TOOL_NO " Expression="" ></Item>
+              <Item Type="ToolPos" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=",BASE_NO " Expression="" ></Item>
+              <Item Type="CoordinatePos" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=",IPO_FRAME #BASE,POINT2[] &amp;quot; &amp;quot;,TQ_STATE FALSE}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString=" DECL LDAT " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="LCPDAT" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={VEL 2.00000,ACC 100.000,APO_DIST 100.000,APO_FAC 50.0000,AXIS_VEL 100.000,AXIS_ACC 100.000,ORI_TYP #VAR,CIRC_TYP #BASE,JERK_FAC 50.0000,GEAR_JERK 50.0000,EXAX_IGN 0}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveJ" FormatString=" " Expression="" >
+              <Item Type="StringItem" FormatString="DECL E6POS " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="XP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="X " Expression="" ></Item>
+              <Item Type="point_posX" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="Y " Expression="" ></Item>
+              <Item Type="point_posY" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="Z " Expression="" ></Item>
+              <Item Type="point_posZ" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="A " Expression="" ></Item>
+              <Item Type="point_matrixA" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="B " Expression="" ></Item>
+              <Item Type="point_matrixB" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="C " Expression="" ></Item>
+              <Item Type="point_matrixC" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="S " Expression="" ></Item>
+              <Item Type="point_ValueS" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="T " Expression="" ></Item>
+              <Item Type="point_ValueT" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=",E1 0.0,E2 0.0,E3 0.0,E4 0.0,E5 0.0,E6 0.0}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="DECL FDAT " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="FP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="TOOL_NO " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="1" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=",BASE_NO " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="1" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=",IPO_FRAME #BASE,POINT2[] &amp;quot; &amp;quot;,TQ_STATE FALSE}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="DECL PDAT " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="PPDAT" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={VEL 100.000,ACC 100.000,APO_DIST 10.0000,APO_MODE #CDIS,GEAR_JERK 50.0000,EXAX_IGN 0}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveAbsJ" FormatString=" " Expression="" >
+              <Item Type="StringItem" FormatString="DECL E6POS " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="XP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={" Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="1" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="2" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="3" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="4" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="5" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="JointAngle" ItemType="6" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="S" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=" " Expression="" ></Item>
+              <Item Type="point_ValueS" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="T" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=" " Expression="" ></Item>
+              <Item Type="point_ValueT" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=",E1 0.0,E2 0.0,E3 0.0,E4 0.0,E5 0.0,E6 0.0}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="DECL FDAT " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="FP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={" Expression="" ></Item>
+              <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="CoordinateName" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="IPO_FRAME #BASE,POINT2[] &amp;quot; &amp;quot;,TQ_STATE FALSE}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="DECL PDAT " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="PPDAT" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={VEL 100.000,ACC 100.000,APO_DIST 10.0000,APO_MODE #CDIS,GEAR_JERK 50.0000,EXAX_IGN 0}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveC" PointNumber="" FormatString=" " Expression="" >
+              <Item Type="StringItem" FormatString="DECL E6POS " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="XP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="X " Expression="" ></Item>
+              <Item Type="point_posX" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="Y " Expression="" ></Item>
+              <Item Type="point_posY" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="Z " Expression="" ></Item>
+              <Item Type="point_posZ" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="A " Expression="" ></Item>
+              <Item Type="point_matrixA" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="B " Expression="" ></Item>
+              <Item Type="point_matrixB" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="C " Expression="" ></Item>
+              <Item Type="point_matrixC" FormatString="%.3f" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="S " Expression="" ></Item>
+              <Item Type="point_ValueS" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="T " Expression="" ></Item>
+              <Item Type="point_ValueT" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=",E1 0.0,E2 0.0,E3 0.0,E4 0.0,E5 0.0,E6 0.0}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="DECL FDAT " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="FP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="TOOL_NO " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="1" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="," Expression="" ></Item>
+              <Item Type="StringItem" FormatString=",BASE_NO " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="1" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=",IPO_FRAME #BASE,POINT2[] &amp;quot;XP8&amp;quot;,TQ_STATE FALSE}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="DECL LDAT " Expression="" ></Item>
+              <Item Type="StringItem" FormatString="LCPDAT" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%05d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="={VEL 2.00000,ACC 100.000,APO_DIST 100.000,APO_FAC 50.0000,AXIS_VEL 100.000,AXIS_ACC 100.000,ORI_TYP #VAR,CIRC_TYP #BASE,JERK_FAC 50.0000,GEAR_JERK 50.0000,EXAX_IGN 0}" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+          </Item>
+        </Item>
+      </Item>
+    </Item>
+    <Item Type="Tail" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString="ENDDAT" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+    </Item>
+  </File>
+  <File Name="" EXT = ".src" >
+    <Item Type="Head" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString="&amp;ACCESS RVP" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="&amp;REL 2" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="&amp;PARAM EDITMASK = *" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="&amp;PARAM TEMPLATE = C:\KRC\Roboter\Template\vorgabe " Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="DEF " Expression="" ></Item>
+      <Item Type="ModuleName" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="( )" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+    </Item>
+    <Item Type="Head" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString=";FOLD INI;%{PE}" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="  ;FOLD BASISTECH INI" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="    GLOBAL INTERRUPT DECL 3 WHEN $STOPMESS==TRUE DO IR_STOPM ( )" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="    INTERRUPT ON 3 " Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="    BAS (#INITMOV,0 )" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="  ;ENDFOLD (BASISTECH INI)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="  ;FOLD USER INI" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="    ;Make your modifications here" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="  ;ENDFOLD (USER INI)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString=";ENDFOLD (INI)" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+    </Item>
+    <Item Type="Head" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString=";FOLD PTP HOME  Vel= 100 % DEFAULT;%{PE}%MKUKATPBASIS,%CMOVE,%VPTP,%P 1:PTP, 2:HOME, 3:, 5:100, 7:DEFAULT" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="$BWDSTART = FALSE" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="PDAT_ACT=PDEFAULT" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="FDAT_ACT=FHOME" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="BAS (#PTP_PARAMS,100 )" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="$H_POS=XHOME" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="PTP XHOME " Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString=";ENDFOLD" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+    </Item>
+    <Item Type="ToolData" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString="TOOL_NAME[" Expression="" ></Item>
+      <Item Type="IterationNumber" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString=",]=&amp;quot;" Expression="" ></Item>
+      <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="&amp;quot;" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="TOOL_DATA[" Expression="" ></Item>
+      <Item Type="IterationNumber" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="]={X " Expression="" ></Item>
+      <Item Type="Tool_posX" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="," Expression="" ></Item>
+      <Item Type="StringItem" FormatString="Y " Expression="" ></Item>
+      <Item Type="Tool_posY" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="," Expression="" ></Item>
+      <Item Type="StringItem" FormatString="Z " Expression="" ></Item>
+      <Item Type="Tool_posZ" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="," Expression="" ></Item>
+      <Item Type="StringItem" FormatString="A " Expression="" ></Item>
+      <Item Type="Tool_matrixA" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="," Expression="" ></Item>
+      <Item Type="StringItem" FormatString="B " Expression="" ></Item>
+      <Item Type="Tool_matrixB" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="," Expression="" ></Item>
+      <Item Type="StringItem" FormatString="C " Expression="" ></Item>
+      <Item Type="Tool_matrixC" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="}" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+    </Item>
+    <Item Type="Head" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString="BASE_NAME[1,]=&amp;quot;BASE&amp;quot;" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="BASE_DATA[1]={X 0.000,Y 0.000,Z 0.000,A 0.000,B 0.000,C 0.000}" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+    </Item>
+    <Item Type="Coordinate" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString="BASE_NAME[" Expression="" ></Item>
+      <Item Type="IterationNumber" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString=",]=&amp;quot;" Expression="" ></Item>
+      <Item Type="CoordinateName" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="&amp;quot;" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="BASE_DATA[" Expression="" ></Item>
+      <Item Type="IterationNumber" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="]={X " Expression="" ></Item>
+      <Item Type="Coordinate_posX" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="," Expression="" ></Item>
+      <Item Type="StringItem" FormatString="Y " Expression="" ></Item>
+      <Item Type="Coordinate_posY" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="," Expression="" ></Item>
+      <Item Type="StringItem" FormatString="Z " Expression="" ></Item>
+      <Item Type="Coordinate_posZ" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="," Expression="" ></Item>
+      <Item Type="StringItem" FormatString="A " Expression="" ></Item>
+      <Item Type="Coordinate_matrixA" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="," Expression="" ></Item>
+      <Item Type="StringItem" FormatString="B " Expression="" ></Item>
+      <Item Type="Coordinate_matrixB" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="," Expression="" ></Item>
+      <Item Type="StringItem" FormatString="C " Expression="" ></Item>
+      <Item Type="Coordinate_matrixC" FormatString="%.3f" Expression="" ></Item>
+      <Item Type="StringItem" FormatString="}" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+    </Item>
+    <Item Type="PathGroup" FormatString="%.3f" Expression="" >
+      <Item Type="PathData" FormatString="%.3f" Expression="" >
+        <Item Type="PointData" FormatString="%.3f" Expression="" SpaceCharacter="" CompleteOutPut="FALSE" >
+          <Item Type="StringItem" FormatString=";FOLD " Expression="" ></Item>
+          <Item Type="PointInstruction" FormatString="%.3f" Expression="" >
+            <Item Type="moveL" FormatString="LIN" Expression="" >
+              <Item Type="StringItem" FormatString=" P" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=" CONT Vel=" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="2" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=" m/s CPDAT" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+            </Item>
+            <Item Type="moveJ" FormatString="PTP" Expression="" >
+              <Item Type="StringItem" FormatString=" P" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=" CONT Vel=" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="20" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=" % PDAT" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+            </Item>
+            <Item Type="moveAbsJ" FormatString="PTP" Expression="" ></Item>
+            <Item Type="moveC" PointNumber="" FormatString="CIRC" Expression="" >
+              <Item Type="StringItem" FormatString=" P" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=" P" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=" CONT Vel=" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="2" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=" m/s CPDAT" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+            </Item>
+          </Item>
+          <Item Type="StringItem" FormatString=" Tool[" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="1" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="]:" Expression="" ></Item>
+          <Item Type="ToolName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=" Base[" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="1" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="]:" Expression="" ></Item>
+          <Item Type="CoordinateName" FormatString="%.3f" Expression="" ></Item>
+          <Item Type="StringItem" FormatString=";%{PE}%R 8.3.40,%MKUKATPBASIS,%CMOVE,%V" Expression="" ></Item>
+          <Item Type="PointInstruction" FormatString="%.3f" Expression="" >
+            <Item Type="moveL" FormatString="LIN" Expression="" ></Item>
+            <Item Type="moveJ" FormatString="PTP" Expression="" ></Item>
+            <Item Type="moveAbsJ" FormatString="PTP" Expression="" ></Item>
+            <Item Type="moveC" PointNumber="" FormatString="CIRC" Expression="" ></Item>
+          </Item>
+          <Item Type="StringItem" FormatString=",%P 1:" Expression="" ></Item>
+          <Item Type="PointInstruction" FormatString="%.3f" Expression="" >
+            <Item Type="moveL" FormatString="LIN" Expression="" ></Item>
+            <Item Type="moveJ" FormatString="PTP" Expression="" ></Item>
+            <Item Type="moveAbsJ" FormatString="PTP" Expression="" ></Item>
+            <Item Type="moveC" PointNumber="" FormatString="CIRC" Expression="" ></Item>
+          </Item>
+          <Item Type="StringItem" FormatString=", 2:P" Expression="" ></Item>
+          <Item Type="StringItem" FormatString="1" Expression="" ></Item>
+          <Item Type="PointInstruction" FormatString="%.3f" Expression="" >
+            <Item Type="moveL" FormatString=", 3:C_DIS C_DIS, 5:" Expression="" ></Item>
+            <Item Type="moveJ" FormatString=", 3:C_DIS, 5:" Expression="" ></Item>
+            <Item Type="moveAbsJ" FormatString=" " Expression="" ></Item>
+            <Item Type="moveC" PointNumber="" FormatString=", 3:P " Expression="" >
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=", 4:C_DIS C_DIS, 6:" Expression="" ></Item>
+            </Item>
+          </Item>
+          <Item Type="StringItem" FormatString="2" Expression="" ></Item>
+          <Item Type="PointInstruction" FormatString="%.3f" Expression="" >
+            <Item Type="moveL" FormatString=", 7:CPDAT" Expression="" >
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+            </Item>
+            <Item Type="moveJ" FormatString=", 7:PDAT" Expression="" >
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+            </Item>
+            <Item Type="moveAbsJ" FormatString="moveAbsJ" Expression="" ></Item>
+            <Item Type="moveC" PointNumber="" FormatString=", 8:CPDAT" Expression="" >
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+            </Item>
+          </Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+          <Item Type="StringItem" FormatString="$BWDSTART=FALSE" Expression="" ></Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+          <Item Type="PointInstruction" FormatString="%.3f" Expression="" >
+            <Item Type="moveL" FormatString=" " Expression="" >
+              <Item Type="StringItem" FormatString="LDAT_ACT=LCPDAT" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="FDAT_ACT=FP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="BAS(#CP_PARAMS," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="2" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveJ" FormatString=" " Expression="" >
+              <Item Type="StringItem" FormatString="PDAT_ACT=PPDAT" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="FDAT_ACT=FP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="BAS(#PTP_PARAMS," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="20" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveAbsJ" FormatString=" " Expression="" >
+              <Item Type="StringItem" FormatString="PDAT_ACT=PPDAT" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+              <Item Type="StringItem" FormatString="FDAT_ACT=FP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="BAS(#PTP_PARAMS," Expression="" ></Item>
+              <Item Type="StringItem" FormatString="20" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=")" Expression="" ></Item>
+              <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+            </Item>
+            <Item Type="moveC" PointNumber="" FormatString=" " Expression="" ></Item>
+          </Item>
+          <Item Type="PointInstruction" FormatString="%.3f" Expression="" >
+            <Item Type="moveL" FormatString="LIN " Expression="" >
+              <Item Type="StringItem" FormatString="XP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString=" C_DIS C_DIS" Expression="" ></Item>
+            </Item>
+            <Item Type="moveJ" FormatString="PTP " Expression="" >
+              <Item Type="StringItem" FormatString="XP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="  C_DIS" Expression="" ></Item>
+            </Item>
+            <Item Type="moveAbsJ" FormatString="PTP " Expression="" >
+              <Item Type="StringItem" FormatString="XP" Expression="" ></Item>
+              <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+              <Item Type="StringItem" FormatString="  C_DIS" Expression="" ></Item>
+            </Item>
+            <Item Type="moveC" PointNumber="2" FormatString="CIRC " Expression="" >
+              <Item Type="PointData" FormatString="%.3f" Expression="" SpaceCharacter="," CompleteOutPut="FALSE" >
+                <Item Type="StringItem" FormatString="XP" Expression="" ></Item>
+                <Item Type="PointGlobalIndex" FormatString="%d" Expression="" ></Item>
+                <Item Type="StringItem" FormatString=" " Expression="" ></Item>
+              </Item>
+              <Item Type="StringItem" FormatString=" C_DIS C_DIS" Expression="" ></Item>
+            </Item>
+          </Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+          <Item Type="StringItem" FormatString=";ENDFOLD" Expression="" ></Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+          <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+        </Item>
+      </Item>
+    </Item>
+    <Item Type="Tail" FormatString="%.3f" Expression="" >
+      <Item Type="StringItem" FormatString=";FOLD PTP HOME  Vel= 100 % DEFAULT;%{PE}%MKUKATPBASIS,%CMOVE,%VPTP,%P 1:PTP, 2:HOME, 3:, 5:100, 7:DEFAULT" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="$BWDSTART = FALSE" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="PDAT_ACT=PDEFAULT" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="FDAT_ACT=FHOME" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="BAS (#PTP_PARAMS,100 )" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="$H_POS=XHOME" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="PTP XHOME " Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString=";ENDFOLD" Expression="" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="WantReturn" FormatString="&#x000A;" ></Item>
+      <Item Type="StringItem" FormatString="END" Expression="" ></Item>
+    </Item>
+  </File>
+</Post>

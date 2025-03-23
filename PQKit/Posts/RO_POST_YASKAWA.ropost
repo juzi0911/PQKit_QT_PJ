@@ -1,0 +1,90 @@
+﻿<Post>
+	<File Name="" EXT = ".JBI" >
+		<Item Type = "Head">
+			<Item Type="StringItem" FormatString="/JOB"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="//NAME "></Item>
+			<Item Type="ModuleName" FormatString=""></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="//POS"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="///NPOS "></Item>
+			<Item Type="PointNumber" FormatString=""></Item>
+			<Item Type="StringItem" FormatString=",0,0,0,0,0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="///TOOL 0"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="///POSTYPE PULSE"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="///PULSE"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+		</Item>
+		<Item Type = "PathGroup">
+			<Item Type = "PathData">
+				<Item Type = "PointData">
+					<Item Type="StringItem" FormatString="C"></Item>
+					<Item Type="PointGlobalIndex" FormatString="%.5d"></Item>
+					<Item Type="StringItem" FormatString="="></Item>
+					<Item Type="JointPulseS" FormatString="%.0f" PulseRate="1435.37"></Item>
+					<Item Type="StringItem" FormatString=","></Item>
+					<Item Type="JointPulseL" FormatString="%.0f" PulseRate="1300.37"></Item>
+					<Item Type="StringItem" FormatString=","></Item>
+					<Item Type="JointPulseU" FormatString="%.0f" PulseRate="1422.23"></Item>
+					<Item Type="StringItem" FormatString=","></Item>
+					<Item Type="JointPulseR" FormatString="%.0f" PulseRate="970.2"></Item>
+					<Item Type="StringItem" FormatString=","></Item>
+					<Item Type="JointPulseB" FormatString="%.0f" PulseRate="980.167"></Item>
+					<Item Type="StringItem" FormatString=","></Item>
+					<Item Type="JointPulseT" FormatString="%.0f" PulseRate="454.8"></Item>
+					<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+				</Item>
+			</Item>
+		</Item>
+		<Item Type = "Head">
+			<Item Type="StringItem" FormatString="//INST"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="///DATE "></Item>
+			<Item Type="TimeItem" FormatString="%d/%.2d/%.2d %.2d:%.2d"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="///ATTR SC,RW"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="///GROUP1 RB1"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+			<Item Type="StringItem" FormatString="NOP"></Item>
+			<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+		</Item>
+		<Item Type = "PathGroup">
+			<Item Type = "PathData">
+				<Item Type = "PointData">
+					<Item Type="PointInstruction">
+						<Item Type="moveL" FormatString="MOVL">
+							<Item Type="StringItem" FormatString=" "></Item>
+							<Item Type="StringItem" FormatString="C"></Item>
+							<Item Type="PointGlobalIndex" FormatString="%.5d"></Item>
+							<Item Type="StringItem" FormatString=" V="></Item>
+							<Item Type="Speed" FormatString="%.1f"></Item>
+							<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+						</Item>
+						<Item Type="moveJ" FormatString="MOVJ">
+							<Item Type="StringItem" FormatString=" C"></Item>
+							<Item Type="PointGlobalIndex" FormatString="%.4d"></Item>
+							<Item Type="StringItem" FormatString=" VJ=20.0"></Item>
+							<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+							
+						</Item>
+						<Item Type="moveAbsJ" FormatString="MOVJ">
+							<Item Type="StringItem" FormatString=" C"></Item>
+							<Item Type="PointGlobalIndex" FormatString="%.4d"></Item>
+							<Item Type="StringItem" FormatString=" VJ=20.0"></Item>
+							<Item Type="WantReturn" FormatString="&#x000A;"></Item>
+						</Item>	
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+		<Item Type = "Tail">
+			<Item Type="StringItem" FormatString="END"></Item>
+		</Item>	
+	</File>
+</Post>
+
