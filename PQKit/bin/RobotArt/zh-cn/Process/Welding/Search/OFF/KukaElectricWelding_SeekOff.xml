@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>Seek off</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+  </ProcessInfoColl>
+    </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>;FOLD CORR OFF CONT;%{PE}%R 1.1.5,%MKUKATPTOUCHSENSE,%CCORR,%VOFF,%P 2:1</Part>
+	</statement>
+	<statement>
+		<Part>H70(10,CD0,POS_DUMMY,PA0,CD0,CD0,CD0,CD0,CD0,1)</Part>
+	</statement>
+	<statement>
+		<Part>;ENDFOLD</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

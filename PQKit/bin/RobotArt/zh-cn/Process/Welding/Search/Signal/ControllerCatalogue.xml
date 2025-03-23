@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCatalogue name = "工艺目录">
+<Instruction>
+	<name>RO_POST_KUKA</name>
+	<Process>KukaOut</Process>
+</Instruction>
+<Instruction>
+	<name>xugonghouzhi重头排列点序+速度133</name>
+	<Process>KukaOut</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C4（ArcSearch）</name>
+	<Process>KukaOut</Process>
+</Instruction>
+</GeneralCatalogue>

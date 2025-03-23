@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>
+    <WeldOrder></WeldOrder>
+    <AC></AC>
+    <AV></AV>
+    <V></V>
+	  <T></T>
+  </Title>
+  <ProcessInfoColl>
+    <Info>
+		<WeldOrder>ARCON</WeldOrder>
+		<AC>100</AC>
+		<AV>16</AV>
+		<V>8</V>
+		<T>0.2</T>
+    </Info>
+  </ProcessInfoColl>
+</ProcessParameter>

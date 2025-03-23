@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>微信登录</title>
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script> 
+<script type="text/javascript" src="js/Login.js?t=2"></script>
+<script type="text/javascript" src="../Common/js/necessery.js?t=2"></script>
+<style>
+    .fatherPosition {
+        position:relative;
+    }
+    .childPosition {
+        position:absolute;
+        top:15px;
+        right:25px;
+    }
+    .imgPosition
+    {
+        position:absolute;
+        top:15px;
+        left:11px;
+		margin:0 !important;
+		height:462px;
+        }
+
+     .logoPosition
+    {
+        position:absolute;
+        top:15px;
+        left:10px;
+        }
+    .ma{
+        padding:10px; 
+        border:1px solid #e3e3e3;
+        width: 160px;height: 160px;
+        margin: -8px auto 26px;
+    }
+    .ma img{
+        width: 100%;
+    }
+ 
+</style>
+
+</head>
+
+<body ondragstart="return false" oncontextmenu="return false">
+    <input type="hidden" id="txtName" />
+<div class="bg-tan"></div>
+<div class="tan-main">
+	<div class="tit clearfix">
+    	<!--<h1 class="fl"><img src="images/tan-logo.png"  class="logoPosition"/></h1>
+        <a href="javascript:;" class="close fr" onclick="Closedlg();"></a>-->
+    </div>
+	<div class="logintu">
+        <img src="images/login.gif">
+    </div>
+    <div class="tan-con clearfix fatherPosition">
+    	<img src="images/tupian.png" class="imgPosition" />
+        <div class="input childPosition">
+            <div class="tabtith3">
+                <h3>微信扫码登录</h3>
+            </div>
+        	<div class="weilogin">
+                <div class="ma">
+                    <iframe scrolling="no" frameborder="0" width="160" height="160" id="login_wechat0"></iframe>
+                    <img usemap="#tryAgain" id="errorImg" src="images/wechatError.jpg" style="display:none;" />
+                    <map name="tryAgain" id="tryAgain">
+                        <area shape="rect" coords="40,130,130,160" href ="javascript:;" onclick="onClickRefeshWechatCode();" style="outline:none;"/>
+                    </map>
+                </div>
+                <div>
+                    <p id="errorMessage" style="position:unset"></p>
+                </div>
+                <a href="./RoLogin.html"  class="weiloginOther" style="margin-top: 20px;">其它快捷登录方式</a>
+                
+            </div>
+            <div class="weiloginbox">
+                    <span><input type="checkbox" value="" name="Login_AutoLogin" id="Login_AutoLogin"/>自动登录</span>
+            </div>
+            <div class="clearfix bottom">
+                <a href="javascript:;" onclick="OnBtnClickProxySet();">代理设置</a>
+                <a href="javascript:;" onclick="OnBtnClickLoginProblem();">登录遇到问题?</a>
+                <a>若没有创建账号，将默认创建新账号</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function showWechatErrorImg(bShow){
+        if(bShow == "0"){
+            document.getElementById("errorImg").style.display="none";
+            document.getElementById("login_wechat0").style.display="inline";
+        }
+        else if(bShow == "1"){
+            document.getElementById("errorImg").style.display="inline";
+            document.getElementById("login_wechat0").style.display = "none";
+        }
+    }
+
+    function onClickRefeshWechatCode(){
+        if(window.navigator.onLine==true) {　
+            //alert('online');
+　　　　    document.getElementById('login_wechat0').contentWindow.location.reload(true);
+           showWechatErrorImg("0");
+　　    }
+    }
+</script>
+</body>
+</html>

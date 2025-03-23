@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AllParam>
+  <Param>
+    <name>圆</name>
+    <ID>0</ID>
+    <ProcessID>Circle</ProcessID>
+	<controlvariable>1</controlvariable>
+  <variableName>半径</variableName>
+  </Param>
+  <Param>
+    <name>槽</name>
+	<ID>2</ID>
+    <ProcessID>groove</ProcessID>
+	<controlvariable>2</controlvariable>
+  <variableName>长</variableName>
+  <variableName2>宽</variableName2>
+  </Param>
+    <Param>
+    <name>矩形</name>
+      <ID>1</ID>
+    <ProcessID>Rect</ProcessID>
+	<controlvariable>2</controlvariable>
+   <variableName>长</variableName>
+   <variableName2>宽</variableName2>
+  </Param>
+    <Param>
+    <name>六边形</name>
+      <ID>3</ID>
+    <ProcessID>hexagon</ProcessID>
+	<controlvariable>1</controlvariable>
+    <variableName>长</variableName>
+  </Param>
+</AllParam>

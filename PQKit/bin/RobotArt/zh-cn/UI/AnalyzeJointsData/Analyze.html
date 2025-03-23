@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/analyse.css">
+    <script type="text/javascript" src="Scripts/jquery-3.4.1.min.js"></script>
+    <script src="./Scripts/echarts.min.js "></script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./images/background.png" alt="" class="bgimg">
+        <div class="title">机器人仿真准确率分析</div>
+
+        <div class="middle">
+            <div id="main" style="width:60%;height:100%;">
+
+            </div>
+            <div class="right">
+                <div class="precision">
+                    <div style="display: flex;">
+                        <img src="./images/precision.png" alt="" class="img-precision">
+                        <span>仿真准确率</span>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead class="t_head">
+                        <tr>
+                            <td>关节</td>
+                            <td>显示</td>
+                            <td>颜色</td>
+                            <td>误差</td>
+                        </tr>
+                    </thead>
+                    <tbody class="t_body">
+
+                    </tbody>
+                </table>
+                <div class="error">
+                    <div style="display: flex;">
+                        <img src="./images/error.png" alt="" class="img_error">
+                        <span>平均误差</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    //  轴角度数组
+    var JointAngleArray;
+    var colors = ['#FC6704', '#FCC604', '#04FCC5', '#A704FC', '#046DFC', '#FC0484', '#3D33C4', '#22B363', '#C48F33']
+    // 误差数组
+    var ErrorArray;
+    // 仿真准确率
+    var SimAccuracy;
+    // 平均误差
+    var AvgError;
+
+    var seriesArray = []
+    var xAxisData = []
+    function StartToDraw() {
+        SimAccuracy = SimAccuracy;
+        AvgError = AvgError;
+
+        ErrorArray = JSON.parse(ErrorArray);
+
+        // JointAngleArray=window.JointAngleArray  正式使用的时候替换下面测试数据
+        //  轴角度数组
+        // JointAngleArray = [
+        //     [[22.6, 30.5, 50.1, 36.8, 40.8, 10.8, 50.1, 36.8, 40.8, 10.8], [22.1, 30, 49.8, 36.8, 40.8, 10, 9.8, 6.8, 40.8, 10]],
+        //     [[32.6, 40.5, 20.1, 16.8, 10.8, 70.8, 20.1, 16.8, 10.8, 70.8], [32.1, 41, 22.8, 16.8, 9, 72, 22.8, 16.8, 9, 72]],
+        //     [[62.9, 50.7, 20.4, 26.2, 70.6, 30.3, 20.4, 26.2, 70.6, 30.3], [61.1, 48, 9.8, 26.8, 70.6, 30.8, 9.8, 26.8, 70.6, 30.8]],
+        //     [[62.9, 50.7, -10.4, 26.2, 70.6, 30.3, 10.4, 26.2, 70.6, 30.3], [61.1, -48, 20.8, 26.8, 70.6, 30.8, 20.8, 26.8, 70.6, 30.8]],
+        //     [[62.9, -50.7, 0.4, -26.2, -70.6, 30.3, 10.4, 2.2, 70.6, 30.3], [61.1, -4, 20.8, 26.8, 70.6, 3.8, 20.8, 26.8, 70.6, 30.8]],
+        //     [[22.6, 30, 50.1, 36.8, 40.8, 10.8, 50.1, 36.8, 40.8, 10.8], [22.6, 40, 9.8, 36.8, 4.8, 10, 9.8, 6.8, 40.8, 10]],
+        //     [[32.6, 40.5, 20.1, 16.8, 10.8, 70.8, 20.1, 16.8, 10.8, 70.8], [32.1, 41, 22.8, 16.8, 9, 72, 22.8, 16.8, 9, 72]],
+        //     [[62.9, 50.7, 20.4, 26.2, 70.6, 30.3, 20.4, 26.2, 70.6, 30.3], [61.1, 48, 9.8, 26.8, 70.6, 30.8, 9.8, 26.8, 70.6, 30.8]],
+        //     [[62.9, 50.7, -10.4, 26.2, 70.6, 30.3, 10.4, 26.2, 70.6, 30.3], [61.1, -48, 20.8, 26.8, 70.6, 30.8, 20.8, 26.8, 70.6, 30.8]],
+        //     [[62.9, -50.7, 0.4, -26.2, -70.6, 30.3, 10.4, 2.2, 70.6, 30.3], [61.1, -4, 20.8, 26.8, 70.6, 3.8, 20.8, 26.8, 70.6, 30.8]],
+
+        // ];
+        JointAngleArray = JSON.parse(JointAngleArray);
+
+
+        reSetWidth()
+        chart = echarts.init(document.getElementById('main'));
+        getSeriesArray()
+        // 指定图表的配置项和数据
+        var option = {
+            axisPointer: {
+                type: 'cross',
+                snap: true
+            },
+            tooltip: {
+                formatter: function (params) {
+                    if (params.seriesIndex % 2 == 0) {
+                        var index = (params.seriesIndex) / 2 + 1
+                    } else {
+                        var index = (params.seriesIndex + 1) / 2
+                    }
+                    // return '轴' + index + '<br/>' + params.seriesName + ':' + params.data +'°'
+                    var i = params.dataIndex
+                    var tempRate = sub(1, div(Math.abs(sub(JointAngleArray[index - 1][0][i], JointAngleArray[index - 1][1][i])), JointAngleArray[index - 1][0][i])) * 100;
+                    tempRate = roundToDecimalPlace(tempRate, 1);
+                    return '点' + (i + 1) + '<br/>实际环境:' + JointAngleArray[index - 1][0][i] + '°<br/>仿真环境:' + JointAngleArray[index - 1][1][i] + '°<br/>误差率:' + tempRate + '%';
+                }
+            },
+            legend: {
+                top: '0%',
+                right: '13  %',
+                textStyle: {
+                    color: '#292E32' // 图例文字颜色
+                },
+                itemWidth: 20, // 图例标记的图形宽度
+                itemHeight: 2, // 图例标记的图形高度
+                selectedMode: 'multiple', // 
+                data: [
+                    {
+                        name: '实际环境',
+                        icon: 'image://./images/solid.png',
+                    },
+                    {
+                        name: '仿真环境',
+                        icon: 'image://./images/dash.png'
+                    }
+                ],
+                selected: {
+                    '实际环境': true,
+                    '仿真环境': true
+                }
+
+            },
+            grid: {
+                left: '2%',
+                top: '7%',
+                right: '15%',
+                bottom: '7%',  // 调整底部的留白空间以放置轴名称
+                containLabel: true,
+                splitLine: {
+                    lineStyle: {
+                        color: 'red', // 参考线颜色
+                        type: 'solid', // 参考线类型
+                        width: 2 // 参考线宽度
+                    }
+                }
+            },
+            xAxis: {
+                type: 'category',
+                name: '轨迹点',
+                position: 'bottom', // 将 x 轴位置设置在顶部
+                boundaryGap: false,
+                data: xAxisData,
+                axisLine: {
+                    onZero: false, // 将 onZero 设置为 false
+                    show: true,
+                    lineStyle: {
+                        color: "#000000"
+                    }
+                },
+                axisTick: {
+                    alignWithLabel: true // 设置刻度线与标签对齐
+                },
+                splitLine: {
+                    show: true,
+                    lineStyle: {
+                        type: 'solid',
+                        color: '#ccc'
+                    },
+                    margin: 20
+                },
+                scale: false
+            },
+            yAxis: {
+                type: 'value',
+                name: '轴角度',
+                // nameLocation: 'end',
+                // min: -180, // 设置 y 轴的最小值
+                // max: 180, // 设置 y 轴的最大值
+                axisTick: {
+                    show: true, // 设置为true显示刻度线
+
+                },
+                axisLine: {
+                    show: true,
+                    lineStyle: {
+                        color: "#000000"
+                    }
+                },
+
+            },
+            series: seriesArray,
+
+        };
+        // 使用指定的配置项和数据显示图表
+        chart.setOption(option);
+        $('.precision').append('<span class="percentage" style="color:green">' + SimAccuracy + '%</span>')
+        $('.error').append('<span class="errorValue" style="color:red">' + AvgError + '%</span>')
+        $('.change_img').on('click', function () {
+            var index = $(this).closest('tr').index();
+            var option = chart.getOption();
+            if ($(this).hasClass('hide')) {
+                $(this).removeClass('hide').addClass('show')
+                $(this).attr('src', './images/hide.png')
+                option.series[index * 2].data = []
+                option.series[index * 2 + 1].data = []
+                $(this).parent().next().next().text('...')
+            } else {
+                $(this).removeClass('show').addClass('hide')
+                $(this).attr('src', './images/show.png')
+                option.series[index * 2].data = JointAngleArray[index][0]
+                option.series[index * 2 + 1].data = JointAngleArray[index][1]
+                $(this).parent().next().next().text(ErrorArray[index])
+            }
+            chart.setOption(option);
+        })
+        // 监听窗口大小变化事件
+        window.addEventListener('resize', function () {
+            reSetWidth();
+            //调用 ECharts 实例的 resize 方法重新渲染图表
+            chart.resize();
+        });
+    }
+    var chart;
+
+
+    // 生成随机颜色的函数
+    function getRandomHexColor() {
+        // 随机生成一个0到16777215之间的整数，对应十六进制颜色的范围
+        var color = Math.floor(Math.random() * 16777215).toString(16);
+        // 如果生成的颜色不足6位，则在前面补0，确保颜色为六位十六进制值
+        while (color.length < 6) {
+            color = '0' + color;
+        }
+        // 返回十六进制颜色值
+        return '#' + color;
+    }
+    function reSetWidth() {
+        if ($('.t_body').prop('scrollHeight') > $('.t_body').prop('clientHeight')) {
+            $('.t_head').css('width', 'calc(100% - 10px)')
+        } else {
+            $('.t_head').css('width', '100%')
+        }
+    }
+    function getSeriesArray() {
+        for (let i = 0; i < ErrorArray.length; i++) {
+            if (i > 8) {
+                var randomHexColor = getRandomHexColor();
+                colors.push(getRandomHexColor())
+            }
+            var tr = '<tr><td>轴' + (i + 1) + '</td><td><img src="./images/show.png" alt="" class="change_img hide"></td><td><div class="bg_color" style="background: ' + colors[i] + '"></div></td><td>' + ErrorArray[i] + '%</td></tr>'
+            $('.t_body').append(tr)
+            for (var j = 0; j < JointAngleArray[i].length; j++) {
+                var obj = {
+                    name: j == 0 ? '实际环境' : '仿真环境',
+                    type: 'line',
+                    data: JointAngleArray[i][j],
+                    itemStyle: {
+                        color: colors[i],
+                    },
+                    lineStyle: {
+                        type: j == 0 ? 'solid' : 'dashed',
+                        opacity: 1
+                    },
+                    markLine: {
+                        label: { show: false }, // 取消标线上的文本显示
+                        symbol: 'none', // 取消箭头
+                        data: [{
+                            yAxis: 0
+                        }],
+                        lineStyle: {
+                            color: 'red',
+                            width: 2,
+                            type: 'solid'
+                        },
+                        silent: true
+                    }
+                }
+                seriesArray.push(obj)
+            }
+        }
+        for (let i = 0; i < JointAngleArray[0][0].length; i++) {
+            var str = '点' + (i + 1)
+            xAxisData.push(str)
+        }
+    }
+    function sub(a, b) {
+        var c, d, e;
+        try {
+            c = a.toString().split(".")[1].length;
+        } catch (f) {
+            c = 0;
+        }
+        try {
+            d = b.toString().split(".")[1].length;
+        } catch (f) {
+            d = 0;
+        }
+        return e = Math.pow(10, Math.max(c, d)), (mul(a, e) - mul(b, e)) / e;
+    }
+    function div(a, b) {
+        var c, d, e = 0,
+            f = 0;
+        try {
+            e = a.toString().split(".")[1].length;
+        } catch (g) { }
+        try {
+            f = b.toString().split(".")[1].length;
+        } catch (g) { }
+        return c = Number(a.toString().replace(".", "")), d = Number(b.toString().replace(".", "")), mul(c / d, Math.pow(10, f - e));
+    }
+    function mul(a, b) {
+        var c = 0,
+            d = a.toString(),
+            e = b.toString();
+        try {
+            c += d.split(".")[1].length;
+        } catch (f) { }
+        try {
+            c += e.split(".")[1].length;
+        } catch (f) { }
+        return Number(d.replace(".", "")) * Number(e.replace(".", "")) / Math.pow(10, c);
+    }
+    function roundToDecimalPlace(number, decimalPlaces) {
+        const factor = Math.pow(10, decimalPlaces);
+        return Math.round(number * factor) / factor;
+    }
+
+</script>
+
+</html>

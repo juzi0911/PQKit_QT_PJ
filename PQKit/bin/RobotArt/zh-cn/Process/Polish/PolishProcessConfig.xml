@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PolishProcess Name ="打磨工艺包" Version ="1.0">
+  <InputInfo>
+    <WorkInfo>
+      <Item ParameterName="i_WorkMaterial"        DisplayName="工件材质" 	NeedDisplay="TRUE"	IsMultiple="TRUE"    ParameterValue="纯铜"       />
+      <Item ParameterName="i_PolishDepth"      	  DisplayName="磨削量"   	NeedDisplay="TRUE"	IsMultiple="FALSE"   ParameterValue="0.5"     />
+      <Item ParameterName="i_SurfaceEffect" 	  DisplayName="表面效果" 	NeedDisplay="TRUE"	IsMultiple="TRUE"    ParameterValue="镜面"       />
+      <Item ParameterName="i_PolishMode"          DisplayName="打磨模式" 	NeedDisplay="TRUE"	IsMultiple="TRUE"    ParameterValue="均衡"       />
+    </WorkInfo>
+    <ToolInfo>
+      <Item ParameterName="i_BeltLength"           DisplayName="砂带长度"   NeedDisplay="TRUE"	IsMultiple="FALSE" 	   ParameterValue="4000"          />
+      <Item ParameterName="i_BeltRadius"           DisplayName="砂带机半径" NeedDisplay="TRUE"	IsMultiple="FALSE"     ParameterValue="150"           />
+      <Item ParameterName="i_BeltMaterial"         DisplayName="砂带基材"   NeedDisplay="TRUE"	IsMultiple="FALSE"     ParameterValue="布基"          />
+      <Item ParameterName="i_BeltMachineSpeed"     DisplayName="砂带机转速" NeedDisplay="TRUE"	IsMultiple="FALSE"     ParameterValue="6000"     />
+      <Item ParameterName="i_PolishWheelSpeed"     DisplayName="抛光轮转速" NeedDisplay="TRUE"	IsMultiple="FALSE"     ParameterValue="7000"     />
+    </ToolInfo>
+  </InputInfo>
+  <OutPutInfo>
+    <BeltInfo>
+      <Item ParameterName="o_PolishMaterial"   DisplayName="磨料类型"   NeedDisplay="TRUE"	IsMultiple="TRUE"   DependParameter="i_WorkMaterial" 	DependSheet="Material"/>
+      <Item ParameterName="o_PolishNum"        DisplayName="打磨道数"   NeedDisplay="TRUE"	IsMultiple="TRUE"   DependParameter="i_SurfaceEffect"   DependSheet="SurfaceEffect"/>  
+    </BeltInfo>
+    <BeltProInfo>
+      <Item ParameterName="o_Granularity"      		DisplayName="颗粒度"     	NeedDisplay="TRUE"		IsMultiple="TRUE"  DependParameter="o_PolishNum"  	  DependSheet="Granularity"	Equation=""/>
+	  <Item ParameterName="o_GrindingEfficiency"    DisplayName="磨削率"	 	NeedDisplay="FALSE"		IsMultiple="FALSE" DependParameter="o_PolishNum"	  DependSheet="FixedPercentage"	Equation=""/>
+	  <Item ParameterName="o_FixedPercentage"  		DisplayName="磨削等级比" 	NeedDisplay="FALSE"		IsMultiple="FALSE" DependParameter="o_PolishNum"      DependSheet="GrindingEfficiency"	Equation=""/>
+      <Item ParameterName="o_Temperature"      		DisplayName="打磨温度"   	NeedDisplay="TRUE"		IsMultiple="FALSE" DependParameter="o_Granularity"	  DependSheet="Temperature"	Equation=""/>
+      <Item ParameterName="o_Speed"           		DisplayName="线速度"     	NeedDisplay="TRUE"		IsMultiple="FALSE" DependParameter=""				  DependSheet=""			Equation="6.28*i_BeltMachineSpeed*i_BeltRadius"	/>
+      <Item ParameterName="o_WheelReduction"   		DisplayName="砂轮形变量" 	NeedDisplay="TRUE"		IsMultiple="FALSE" DependParameter="o_Granularity"	  DependSheet="BeltReduction"	Equation=""/>
+      <Item ParameterName="o_BeltReduction"    		DisplayName="砂带形变量" 	NeedDisplay="TRUE"		IsMultiple="FALSE" DependParameter="o_Granularity"	  DependSheet="WheelReduction"	Equation=""/>
+      <Item ParameterName="o_PathRepeatNum"    		DisplayName="轨迹往复"   	NeedDisplay="TRUE"		IsMultiple="FALSE" DependParameter=""	  			  DependSheet=""			Equation="o_FixedPercentage*i_PolishDepth/(o_Speed*o_GrindingEfficiency*0.5)"/>
+    </BeltProInfo>
+    <PolishRoughWheelInfo>
+      <Item ParameterName="o_PGMSpeed"    	DisplayName="转速"   NeedDisplay="TRUE"	IsMultiple="FALSE" DependParameter="i_PolishWheelSpeed" 	DependSheet=""	Equation=""/>
+      <Item ParameterName="o_PGMRates"  	DisplayName="补偿率" NeedDisplay="TRUE"	IsMultiple="FALSE" DependParameter="" 						DependSheet=""	Equation="i_PolishWheelSpeed/175000"/>
+    </PolishRoughWheelInfo>
+    <PolishRagWheelInfo>
+      <Item ParameterName="o_PGBSpeed"    	DisplayName="转速"   NeedDisplay="TRUE"	IsMultiple="FALSE" DependParameter="i_PolishWheelSpeed" 	DependSheet=""	Equation=""/>
+      <Item ParameterName="o_PGBRates"  	DisplayName="补偿率" NeedDisplay="TRUE"	IsMultiple="FALSE" DependParameter="" 						DependSheet=""	Equation="i_PolishWheelSpeed/140000"/>
+    </PolishRagWheelInfo>
+    <PolishRoughPasteInfo>
+      <Item ParameterName="o_DLMType"  		DisplayName="种类"     	NeedDisplay="TRUE"	  IsMultiple="FALSE" ParameterValue="红蜡" 		DependParameter="" 	DependSheet=""	Equation=""/>
+      <Item ParameterName="o_DLMFrequency"  DisplayName="打蜡频率" 	NeedDisplay="TRUE"	  IsMultiple="FALSE" ParameterValue="5次/min"    DependParameter=""		DependSheet=""	Equation="" />
+    </PolishRoughPasteInfo>
+    <PolishRagPasteInfo>
+      <Item ParameterName="o_DLBType"  		DisplayName="种类"      NeedDisplay="TRUE"	IsMultiple="FALSE"  ParameterValue="绿蜡"      DependParameter="" 	DependSheet=""	 Equation=""/>
+      <Item ParameterName="o_DLBFrequency"  DisplayName="打蜡频率"  NeedDisplay="TRUE"	IsMultiple="FALSE"  ParameterValue="7次/min"   DependParameter="" 	DependSheet=""	 Equation=""/>
+    </PolishRagPasteInfo>
+  </OutPutInfo>  
+  <InitDataInfo>
+    <Item ParameterName="i_WorkMaterial"    CandidateValue="纯铜#铝合金#不锈钢#钛合金#"/>
+    <Item ParameterName="i_SurfaceEffect"   CandidateValue="镜面#精磨#半精磨#粗磨#去毛刺#"/>
+    <Item ParameterName="i_PolishMode"      CandidateValue="均衡#速度优先#效果优先#"/>
+    <Item ParameterName="o_PolishMaterial"  CandidateValue="黑碳化硅#白刚玉#棕刚玉#陶瓷系#"/>
+    <Item ParameterName="o_PolishNum"       CandidateValue="1#2#3#4#"/>
+    <Item ParameterName="o_Granularity"     CandidateValue="80#240#480#600#"/>
+  </InitDataInfo>
+</PolishProcess>

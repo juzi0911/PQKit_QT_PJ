@@ -1,0 +1,398 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+body{ font-family:'微软雅黑';color:#666;font-size:12px; } 
+html{width:100%;  height:100%;}
+ul,li{ list-style-type:none;}
+li{ vertical-align:bottom;}
+a{ text-decoration:none; color:#666;outline: none;}
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,a,img,b,u,i,dl,dt,dd,ul,li,input,table,tr,td{margin:0;padding:0;}
+input,select{vertical-align:middle;border:none; font-family:'微软雅黑'; color:#666;outline:medium;}
+ol,ul,li{list-style:none; vertical-align:middle;}
+a img{border:0;}
+.clearfix:after{content:".";display:block;height:0; clear:both;visibility:hidden;}
+img{vertical-align:middle;border:none;}
+em{font-style:normal;}
+p span{ overflow:hidden;}
+
+.fl{ float:left;}
+.fr{ float:right;}
+.none{ display: none; }
+
+
+
+/*弹框*/
+.bg-tan{width: 100%; height: 100%; position:fixed; left:0; background-color:#000; filter:alpha(opacity=60); opacity:0.6; top:0;z-index: 99;}
+.tan-main{ width:100%; height:100%; background:url(../images/tan-bg.jpg); background-position:100% 100%; background-size:100% 100%; position:fixed; left:0; margin-left:0; top:0; margin-top:0; z-index:999;-webkit-box-shadow:0 0 10px #9ebacb; -moz-box-shadow:0 0 10px #9ebacb; box-shadow:0 0 10px #9ebacb;}
+.tan-main .tit h1{ margin:7px 0 0 10px;}
+/*.tan-main .tit .close{ display:block; width:12px; height:12px; background:url(../images/close.png) no-repeat; cursor:pointer; margin:11px 12px 0 0;}*/
+.tan-con > img{ display:block; margin:140px 27px 0 27px;}
+.tan-con .input{ width:402px; height:460px; background:#fff; border:solid 1px #ddd;}
+.tan-con .input form{ margin:15px 36px 0;}
+fieldset{ border:none;}
+.u_relative{ width:328px; height:36px; background:#fff; border:solid 1px #bbb; position:relative; margin-bottom:15px;}
+.u_relative .txt{ position:absolute; left:38px; line-height:36px;height:36px; font-size:14px; color:#666; width:230px;}
+.login label{ width:14px; height:15px; background:url(../images/icon1.jpg) no-repeat; position:absolute; top:11px; left:10px;}
+.mima label{ width:13px; height:16px; background:url(../images/icon2.jpg) no-repeat; position:absolute; top:10px; left:9px;}
+.u_relative a.aggree-n{ position:absolute; right:10px; color:#349dff; font-size:12px; line-height:38px;}
+.agreeMent em{ margin-right:10px; cursor:pointer;}
+.agreeMent em > input{ margin:2px 0 0 0; display:block; float:left;}
+.agreeMent em:last-child{ margin-right:0; color:#666;}
+.agreeMent em.qc{ background:url(../images/icon3.jpg) left center no-repeat; padding-left:22px;}
+a.btnBlue{ display:block; width:330px; height:38px; background:#349dff; color:#fff; font-size:16px; text-align:center; line-height:38px; text-align:center; border-radius:6px; margin-top:30px;}
+.tan-con .input span{ display:block; text-align:right; font-size:12px; color:#666; margin-top:10px;}
+.tan-con .input span a{ color:#349dff;}
+.click-erweima{margin-top:20px; position:relative;}
+.click-erweima a{ display:block; width:32px; height:32px; margin:26px auto 8px;}
+.click-erweima p{ text-align:center; color:#999;}
+.erweima-big{ position:absolute; top:-55px; left:50%; margin-left:-38px; display:none;}
+
+
+.childPosition .tabtit{ height: 55px; border-bottom: solid 1px #ddd; text-align: center; }
+.childPosition .tabtit em{ cursor: pointer; display: inline-block; line-height: 53px; font-size: 16px; color: #333; font-weight: bold; padding: 0 10px; margin:0 33px; }
+.childPosition .tabtit em.cur{ color: #169bd5; border-bottom: solid 3px #169bd5; }
+.iphone label{ width:11px; height:16px; background:url(../images/icon4.jpg) no-repeat; position:absolute; top:10px; left:10px;}
+.yzm label{ width:15px; height:16px; background:url(../images/icon5.jpg) no-repeat; position:absolute; top:10px; left:10px;}
+.yzm .txt{ width:168px; }
+.u_relative.yzm{ width: 220px;}
+.yzm a.but{ display: block; width: 100px; height: 37px; right: -109px; position: absolute; top: 0; background: #aaa; text-align: center; line-height:37px; color: #fff;}
+.other-login .tit{ width: 271px; margin:22px auto 0; position: relative; }
+.other-login .tit span{ position: relative; z-index: 2; background: #fff; display: block; text-align: center; font-size: 14px; color: #666; width:127px; background: #fff; margin:auto; }
+.other-login .tit .line{ width: 271px; height:1px ; background: #ebebeb; position: absolute; top: 50%; z-index:1; }
+.other-login .img{ text-align: center; margin-top: 14px; }
+.other-login .img a{ display: inline-block; padding:0 10px; border-right:solid 1px #d7d7d7  }
+.other-login .img a img{ width:16px ; height:16px ;  float: left;}
+.other-login .img a span{ float: left; margin-left: 5px; font-size:12px; color: #323232; margin-top: 0; }
+.other-login .img a:last-child{ border-right: none; }
+.childPosition{ position: relative; }
+.childPosition .bottom{ width: 100%; position: absolute; bottom: 14px; text-align: center; font-size: 0; }
+.childPosition .bottom a{ display:inline-block; font-size: 12px; color: #999; padding:0 6px; border-right: solid 1px #999; }
+.childPosition .bottom a:last-child{ border-right: none; }
+#reloginbm{width: 100%; position: absolute; bottom: 14px;text-align: left; left: 75px; font-size: 0; }
+.logintu{
+	width: 100%;height: 100%;
+	display: none;justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.logintu img{
+	width:100%;
+	height:100%;
+	display: block;
+}
+.logintu p{
+	background: #0a97ef;padding: 6px 25px;
+	color: #fff;font-size: 14px;
+	min-width: 120px;z-index: 3;
+	position: absolute;
+	bottom: 206px;text-align: center;
+	left: 50%;margin-left: -85px;
+}
+.logintu span{
+	min-width: 120px;height: 28px;
+	background: #73c3f4;
+	position: absolute;z-index: 2;
+	padding: 0 30px;
+	bottom: 200px;
+	left: 50%;margin-left: -90px;
+}
+
+
+
+
+
+/*微信登录*/
+.childPosition .bottom a.bluea{
+	color: #349dfe;
+}
+.childPosition .tabtith3{
+	text-align: center;
+	padding: 35px 0;
+}
+.childPosition .tabtith3 h3{
+	color: #333;font-size: 20px;
+}
+.weilogin{
+	width: 330px;
+	margin: 0 auto;
+}
+.weilogin > img{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+}
+.weilogin .weiloginbtn{
+	width: 328px;
+	height: 48px;
+	border-radius: 48px;
+	border:1px solid #0bb20b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0;
+	color: #0bb20b;
+	font-size: 14px;
+}
+.weilogin .weiloginbtn1{
+	width: 328px;
+	height: 48px;
+	border-radius: 48px;
+	border:1px solid #349dfe;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0;
+	color: #158ee1;
+	font-size: 14px;
+}
+.weilogin .weiloginbtn img{
+	margin-right: 12px;
+}
+.weilogin .weiloginbtn1 img{
+	margin-right: 12px;
+}
+.weilogin .weiloginOther{
+	display: block;
+    width: 330px;
+    height: 46px;
+    background: #e4e4e4;
+    color: #565656;
+    font-size: 14px;
+    text-align: center;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 35px;
+}
+.childPosition .weiloginbox{
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 12px;
+    float:right;
+    padding: 0 46px;
+    width: 100%;
+    box-sizing: border-box;
+	bottom:46px;
+}
+.childPosition .weiloginbox span{
+	display: flex;
+	color: #666;
+	font-size: 14px;
+	align-items: center;
+	cursor: pointer;
+}
+.childPosition .weiloginbox span em{
+	
+}
+.childPosition .weiloginbox span img{
+	margin-right: 5px;
+}
+.childPosition .weiloginbox span input{
+	margin-right: 5px;
+}
+
+.choice ul{
+	width: 100%;
+}
+.choice ul li#login_wechat{
+	background: #f3fbf3;
+}
+.choice ul li#login_phone{
+	background: #f6f7f8;
+}
+.choice ul li#login_account{
+	background: #fff9f4;
+}
+.choice ul li{
+	height: 78px;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.choice ul li a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-size: 14px;
+}
+.choice ul li a img{
+	margin-right: 10px;
+}
+.choice ul li.qqlogin{
+	border:1px solid #349dfe;
+}
+.choice ul li.qqlogin a{
+	color: #158ee1;
+}
+.choice ul li.wxlogin{
+	border:1px solid #0bb20b;
+}
+.choice ul li.wxlogin a{
+	color: #0bb20b;
+}
+.choice ul li.phonelogin{
+	border:1px solid #4e5d74;
+}
+.choice ul li.phonelogin a{
+	color: #4e5d74;
+}
+.choice ul li.userlogin{
+	border:1px solid #f78a21;
+}
+.choice ul li.userlogin a{
+	color: #f78a21;
+}
+
+
+.weilogin .yzm a.but{
+	background: #349dfe;
+}
+.weilogin .iphone label{
+	width: 20px;height: 20px;
+	top: 8px;
+	background: url(../images/iconphone.png) no-repeat;
+}
+.weilogin .yzm label{
+	width: 20px;height: 20px;
+	top: 8px;
+	background: url(../images/iconyzm.png) no-repeat;
+}
+.weilogin .tabcon a.btnBlue{
+	height: 46px;
+    line-height: 46px;
+    margin-top:50px;
+}
+.weilogin .tabcon a.btnOther{
+	display: block;
+    width: 330px;
+    height: 46px;
+    background: #e4e4e4;
+    color: #565656;
+    font-size: 14px;
+    text-align: center;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 35px;
+}
+.weilogin .login label{
+	width: 20px;height: 20px;
+	top: 8px;
+	background: url(../images/iconuser.png) no-repeat;
+}
+.weilogin .mima label{
+	width: 20px;height: 20px;
+	top: 8px;
+	background: url(../images/iconpasswd.png) no-repeat;
+}
+
+#errorMessage{
+    line-height:16px;
+    color:red;
+    font-size:16px;
+    position:absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

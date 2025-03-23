@@ -1,0 +1,12 @@
+<ObjAssistorType>
+  <ObjAssistor>
+      <name>喷刷</name>
+	  <VaribleName>Painting</VaribleName>
+	  <FileName>SprayPainting.xml</FileName>
+  </ObjAssistor>
+  <ObjAssistor>
+      <name>旋杯</name>
+	  <VaribleName>RevolvingCup</VaribleName>
+	  <FileName>RotaryCup.xml</FileName>
+  </ObjAssistor>
+</ObjAssistorType>

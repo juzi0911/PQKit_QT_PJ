@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			SUB		</Title>
+  <GroupColl>  
+   <Group> 
+   
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>R</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+		
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>R_</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+		
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+  </Group> 
+   </GroupColl> 
+   
+  
+  <statementSrcColl>
+	<statement>
+		<Part> SUB		R[[1]] R[[2]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

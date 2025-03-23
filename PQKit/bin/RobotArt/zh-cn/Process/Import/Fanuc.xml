@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImportRule>
+  <Title>Fanuc import rule</Title>
+  <Rules>
+    <Rule>
+		<type>Speed</type>
+		<min>0</min>
+		<max>600</max>
+    </Rule>
+	  <Rule>
+		<type>Speed</type>
+		<min>600</min>
+		<max>3000</max>
+    </Rule>
+	<!--<Rule>
+		<type>Function</type>
+		<FuncName>A10</FuncName>
+		<ParaSize>2</ParaSize>
+		<ParaIndex>0</ParaIndex>
+		<ParaName>#PRE_ARC_ON</ParaName>
+		<ProcessType>RO_PATHTYPE_ARC</ProcessType>
+    </Rule>-->
+  </Rules>
+</ImportRule>

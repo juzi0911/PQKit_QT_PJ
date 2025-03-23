@@ -1,0 +1,40 @@
+$$ -----------------------------------------------------------------
+$$     Generated on 2014Äê9ÔÂ6ÈÕ 18:02:58
+$$     CATIA APT VERSION 1.0
+$$ -----------------------------------------------------------------
+$$ Manufacturing Program.1
+$$  Part Operation.1
+$$*CATIA0
+$$ Manufacturing Program.1
+$$     1.00000     0.00000     0.00000     0.00000
+$$     0.00000     1.00000     0.00000     0.00000
+$$     0.00000     0.00000     1.00000     0.00000
+PARTNO PART TO BE MACHINED
+COOLNT/ON
+CUTCOM/OFF
+$$ OPERATION NAME : Tool Change.1
+$$  Start generation of : Tool Change.1
+MULTAX
+$$ TOOLCHANGEBEGINNING
+CUTTER/ 10.000000,  2.000000,  3.000000,  2.000000,  0.000000,$
+         0.000000, 50.000000
+TOOLNO/1,   10.000000
+TPRINT/T1 End Mill D 10
+LOADTL/1
+$$ TOOLCHANGEEND
+$$  End of generation of : Tool Change.1
+$$ OPERATION NAME : Multi-Axis Curve Machining.1
+$$  Start generation of : Multi-Axis Curve Machining.1
+LOADTL/1,1
+FEDRAT/ 1000.0000,MMPM
+SPINDL/   70.0000,RPM,CLW
+GOTO  /   61.90354,  -780.53631,    700.00000,-0.619035, 0.785363, 0.000000
+GOTO  /   68.46383,  -720.88830,    700.00000,-0.684638, 0.728883, 0.000000
+GOTO  /   74.51096,  -660.69420,    700.00000,-0.745110, 0.666942, 0.000000
+GOTO  /   79.99987,  -600.00017,    700.00000,-0.799999, 0.600002, 0.000000
+GOTO  /   84.88915,  -520.85672,    700.00000,-0.848891, 0.528567, 0.000000
+$$  End of generation of : Multi-Axis Curve Machining.1
+SPINDL/OFF
+REWIND/0
+END
+

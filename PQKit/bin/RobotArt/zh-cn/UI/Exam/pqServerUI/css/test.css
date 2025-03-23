@@ -1,0 +1,164 @@
+input::-ms-clear{display:none;}
+input::-ms-reveal{display:none;}
+*{ padding: 0; margin: 0; }
+html{ font-size:62.5%;}
+body,html{ position: relative; width: 100%; height:100%}
+body { background: #f8f8f8; font-family:'微软雅黑','宋体','仿宋'; color:#000; }
+li { list-style: outside none none;}
+img { border: medium none; border:none;display: block;}
+a img { border:none;}
+.clear:after {content: "."; display: block; height: 0; clear: both;visibility: hidden; }
+.clear { *zoom: 1;}
+h1{ font-family:'微软雅黑','宋体','仿宋';}
+a{ text-decoration:none; outline:none;}
+input,button,textarea{ outline:none;}
+
+
+
+
+
+
+
+/* 考点端登录页 */
+.testBox {
+    background-image: url(../images/test2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+}
+.testContents {
+    padding: 80px 0;
+    background-color: #ebebeb;
+    border-radius: 15px;
+    font-size: 30px;
+    color: #333;
+}
+.skillTitles {
+    font-weight: 700;
+    margin-top: 30px;
+}
+.skillSuccess {
+    margin-top: 60px;
+    color: #e47933;
+}
+.skillInput {
+    margin-top: 80px;
+}
+.skillCons>input {
+    width: 420px;
+    height: 35px;
+    border: 1px solid #fff;
+    text-indent: 15px;
+    border-radius: 5px;
+    margin-bottom: 22px;
+    font-size: 14px;
+}
+.skillCons .errorInputs {
+    border: 1px solid #f93b3b;
+}
+.errorInputs::-webkit-input-placeholder {
+    color: #f93b3b;
+}
+.errorInputs:-moz-placeholder {
+    color: #f93b3b;
+}
+.errorInputs::-moz-placeholder {
+    color: #f93b3b;
+}
+.errorInputs:-ms-input-placeholder {
+    color: #f93b3b;
+}
+.skillImgs {
+    position: absolute;
+    top: 18px;
+    right: 250px;
+    width: 17px;
+    height: 17px;
+	display:none;
+}
+.skillError {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.skillCons {
+    position: relative;
+}
+.skillCons .errorBlocks {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    font-size: 14px;
+    color: #f93b3b;
+	
+}
+.skillCons .errorBlocks>img {
+    vertical-align: middle;
+}
+.skillCons .errorBlocks>span {
+    vertical-align: middle;
+}
+.skillBtns {
+    margin-top: 95px;
+    display: inline-block;
+    width: 240px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #169bd5;
+    border-radius: 20px;
+}
+.testFooter {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #666;
+}
+.testFooter>div {
+    margin-bottom: 5px;
+}
+.skillTests_diff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    width: 100%;
+    height: 90%;
+}
+.testContents {
+    width: 570px;
+    margin: 0 auto;
+}
+.testCon_port {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+.testCon_port>span {
+    position: absolute;
+    top: 5px;
+    left: 125px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+.skillCons>div>label {
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+}
+.skillCons>div>input {
+    width: 420px;
+    height: 35px;
+    border: 1px solid #ddd;
+    text-indent: 15px;
+    border-radius: 5px;
+    margin-bottom: 22px;
+    font-size: 14px;
+}

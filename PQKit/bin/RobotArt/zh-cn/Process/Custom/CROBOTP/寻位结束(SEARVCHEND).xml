@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>寻位结束(SEARVCHEND)</Title>
+  <GroupColl>
+    <Group> 
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>寻位结束</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>SEARVCHEND</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>SEARVCHEND</ShowValue>
+				<OutValue>SEARVCHEND</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+  </Group>
+   </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> SEARVCHEND</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

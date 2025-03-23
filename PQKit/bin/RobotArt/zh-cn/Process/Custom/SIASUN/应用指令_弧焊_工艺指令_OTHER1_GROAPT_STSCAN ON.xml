@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			STSCAN ON		</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name></Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+     </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> STSCAN ON</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

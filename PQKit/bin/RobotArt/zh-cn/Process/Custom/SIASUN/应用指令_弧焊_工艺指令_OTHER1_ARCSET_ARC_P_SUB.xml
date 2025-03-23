@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			ARC_P_SUB		</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>P</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>.(1)</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>-P</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>.(2)</Name>
+		<Id>[[4]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	
+		<ProcessInfo>
+		<Name>=R</Name>
+		<Id>[[5]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+     </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> ARC_P_SUB	P[[1]].[[2]]-P[[3]].[[4]]=R[[5]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>
+    <ID></ID>
+    <随动高度></随动高度>
+    <占空比频率></占空比频率>
+    <激光功率></激光功率>
+    <PWM></PWM>
+    <气压></气压>
+  </Title>
+  <ProcessInfoColl>
+    <Info>
+      <ID>1</ID>
+      <随动高度>10</随动高度>
+      <占空比频率>10</占空比频率>
+      <激光功率>2</激光功率>
+      <PWM>2</PWM>
+      <气压>2</气压>
+    </Info>
+  </ProcessInfoColl>
+</ProcessParameter>

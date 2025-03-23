@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>关节运动</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>终点ID</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>运动速度</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit>mm/s</Unit>
+		<defaultValue>1000</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>平滑度百分比</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>0</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>运动速度</Name>
+		<Id>[[4]]</Id>
+		<Type>Edit</Type>
+		<Unit>mm/s</Unit>
+		<defaultValue>1000</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>&quot;Extra_axis 0 [[1]] 0 [[2]] 0 [[3]]&quot;</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

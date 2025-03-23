@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			WHILE		</Title>
+    <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>N&lt;</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>10</defaultValue>
+		
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>L</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>10</defaultValue>
+		
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+        </Group>
+  </GroupColl>
+  
+  <statementSrcColl>
+	<statement>
+		<Part>WHILE		N&lt;[[1]] L[[2]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

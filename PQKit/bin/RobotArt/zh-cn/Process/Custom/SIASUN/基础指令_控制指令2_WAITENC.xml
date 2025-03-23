@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			WAITENC		</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>&lt;</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>10</defaultValue>
+		
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+     </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>WAITENC		&lt;[[1]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>MULTIEND</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+   <ProcessInfo>
+		<Name>MULTIEND</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>MULTIEND</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>MULTIEND</ShowValue>
+				<OutValue>MULTIEND</OutValue>
+			</Value>
+			</AllValue>
+    </ProcessInfo>
+    </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>[[1]]</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

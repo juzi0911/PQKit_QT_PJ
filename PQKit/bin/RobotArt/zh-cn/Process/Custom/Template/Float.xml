@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>浮点信号</Title>
+    <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>类型</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>组输出</ShowValue>
+				<OutValue>GDO</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>组输入</ShowValue>
+				<OutValue>GDI</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+    <ProcessInfo>
+		<Name>地址</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+    <ProcessInfo>
+		<Name>状态</Name>
+		<Id>[[3]]</Id>
+		<Unit></Unit>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+  	<statement>
+		<Part> [[1]],[[2]],[[3]];</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>组输出</DependedValue>
+	</statement>
+  	<statement>
+		<Part> WaitGDI[[2]],[[3]];</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>组输入</DependedValue>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

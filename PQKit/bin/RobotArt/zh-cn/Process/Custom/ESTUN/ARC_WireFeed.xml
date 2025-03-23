@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>送丝</Title>
+  <GroupColl>
+      <Group>
+	<ProcessInfoColl>
+	<ProcessInfo>
+		<Name>类型</Name>
+		<Id>[[6]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>送丝</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>送丝</ShowValue>
+				<OutValue>送丝</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+    <ProcessInfo>
+		<Name>送丝时间（ms）</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit>0-10000</Unit>
+		<defaultValue>0</defaultValue>
+		<min>0</min>
+		<max>10000</max>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedAllValue>
+			<DependedValue>送丝</DependedValue>
+		</DependedAllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>ARC_WireFeed([[2]])</Part>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedValue>送丝</DependedValue>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

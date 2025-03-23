@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>延时指令(TIME)</Title>
+  <GroupColl>
+    <Group> 
+  <ProcessInfoColl>
+	<ProcessInfo>
+		<Name>延时时间(1-9999999ms)</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+  </Group>
+   </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> TIME T=[[1]]</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

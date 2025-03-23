@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>SearchApply</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>1</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+	</ProcessInfo>
+	    <ProcessInfo>
+		<Name>2</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>2</defaultValue>
+	</ProcessInfo>
+	<ProcessInfo>
+		<Name>3</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>2</defaultValue>
+	</ProcessInfo>
+	<ProcessInfo>
+		<Name>4</Name>
+		<Id>[[4]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>2</defaultValue>
+	</ProcessInfo>
+	<ProcessInfo>
+		<Name>5</Name>
+		<Id>[[5]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>2</defaultValue>
+	</ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>CALL IL_INSP([[1]],[[2]],[[3]],[[4]],[[5]]) ;</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

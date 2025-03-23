@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <title>上传数据信息</title>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/ExportUtility.js"></script>
+    <script type="text/javascript" src="js/ExportAnimation.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/necessery.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select/bootstrap-select.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="css/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" />
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
+    <link href="css/iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+
+</head>
+<style>
+    .block {
+        display: none;
+    }
+</style>
+
+<body style="background: #fff;">
+    <!-- 弹窗 -->
+    <div id="myModal" class="modal">
+        <!-- 弹窗内容 -->
+        <div class="modal-content">
+            <!--<span class="close"><img src="images/close.png"></span>-->
+            <img src="images/wen.png">
+            <p>该名称文件已存在，继续上传将覆盖同名文件！</p>
+            <div>
+                <a href="javascript:;" class="on cancelbtn">取消</a>
+                <a href="javascript:;" class="confirm" id="btnConfirm">确定</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="animat">
+        <h1>
+            微服务计算
+            <span>
+                <img id="closeDlg" src="images/close.png" onclick="OnClickedClose();">
+            </span>
+        </h1>
+
+        <!-- 圆形进度条 -->
+        <div class="middleContent fixTop block">
+            <div class="surePass">
+                <img src="images/xiaoren.png" class="perple">
+                <div class="anyield">
+                    <h3>正在上传动画</h3>
+                    <!-- <p>已完成</p> -->
+                </div>
+                <canvas class="circleRun" data-run="0" id="canvasThree" amout="1000" nowData="1000"></canvas>
+            </div>
+        </div>
+        <div class="box">
+            <div class="num">
+                <ul class="numul">
+                    <li class="on">
+                        <img src="images/icon1.png" alt="" style="position: relative !important;margin-right: 20px;">
+                        <span>上传数据信息</span>
+                        <img src="images/sanjiao.png">
+                    </li>
+                    <li>
+                        <img src="images/icon5.png" alt="" style="position: relative !important;margin-right: 20px;">
+                        <span>加载后置模板</span>
+                        <img src="images/sanjiao.png">
+                    </li>
+                    <li>
+                        <img src="images/icon6.png" alt="" style="position: relative !important;margin-right: 20px;">
+                        <span>后置程序转换</span>
+                        <img src="images/sanjiao.png">
+                    </li>
+                    <li>
+                        <img src="images/icon4.png" alt="" style="position: relative !important;margin-right: 20px;">
+                        <span>程序转换完成</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="form">
+                <ul>
+                    <li class="liItem">
+                        <span class="span">工程文件名称</span>
+                        <input type="text" class="input" maxlength="30" value="PQArt_Paint_Case" id="robxName" disabled>
+                    </li>
+                    <li class="liItem">
+                        <span class="span">机器人名称</span>
+                        <input type="text" class="input" maxlength="30" value="ABB_RIB5500_R" id="robotName" disabled>
+                    </li>
+                    <li class="liItem">
+                        <span class="span">轨迹点个数</span>
+                        <input type="text" class="input" maxlength="30" value="5000" id="pathNum" disabled>
+                    </li>
+                    <li class="liItem">
+                        <span class="span">依赖坐标系</span>
+                        <input type="text" class="input" maxlength="30" value="轨迹坐标系" id="baseCoor" disabled>
+                    </li>
+                    <li class="liItem">
+                        <span class="span">机器人末端</span>
+                        <input type="text" class="input" maxlength="30" value="工具末端" id="robotTail" disabled>
+                    </li>
+                    <li class="liItem">
+                        <span class="span">程序名称</span>
+                        <input type="text" class="input" maxlength="30" value="Ramain" id="programName" disabled>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="liItem" style="justify-content: center;">
+                        <div class="confirm" id="startExport" class="submit" onclick="OnClickStartExport();">确认上传</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

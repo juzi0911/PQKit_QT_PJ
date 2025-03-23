@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>LaserTestPluse</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>LSR</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>Test</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>Test</ShowValue>
+				<OutValue>Test</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>Focus</ShowValue>
+				<OutValue>Focus</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>Pulse LSet</Name>
+		<Id>[[2]]</Id>
+		<COLORREF>16768685</COLORREF>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>PIULSE1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>PulsMaximumPower</Name>
+		<Id>[[4]]</Id>
+		<COLORREF>16768685</COLORREF>
+		<ShowMark>0</ShowMark>
+		<Type>Eidt</Type>
+		<Unit>w</Unit>
+		<defaultValue>500</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>Laser pgram numberro</Name>
+		<COLORREF>16768685</COLORREF>
+		<ShowMark>0</ShowMark>
+		<Id>[[5]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>Duration</Name>
+		<Id>[[3]]</Id>
+		<COLORREF>16768685</COLORREF>
+		<ShowMark>0</ShowMark>
+		<Type>Eidt</Type>
+		<Unit>ms</Unit>
+		<defaultValue>1000</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+    </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>;FOLD LSR [[1]] Pulse LSet=[[2]] Duration=[[3]] ms;%{PE}%R 6.1.22,%MKUKATPLASER,%CTEST,%VTEST_PULSE,%P 2:#TEST, 5:1, 7:500, 10:PULSE1, 12:[[3]] </Part>
+	</statement>
+	<statement>
+		<Part>LSR_PULSE(LP[[2]], [[3]], #[[1]])</Part>
+	</statement>
+	<statement>
+		<Part>;ENDFOLD</Part>
+	</statement>
+  </statementSrcColl>
+    <statementDatColl>
+	<statement>
+		<Part>DECL LSR_PWR_T LP[[2]]={LSR_MAX_PWR 2500,LSR_MIN_PWR 500,LSR_PRG [[5]],LSR_RAISE_TIME 12,LSR_DROP_TIME 12,LSR_MAX_TEST_PWR [[4]],LSR_MAX_FOCUS_PWR 500}</Part>
+	</statement>
+  </statementDatColl>
+</ProcessParameter>

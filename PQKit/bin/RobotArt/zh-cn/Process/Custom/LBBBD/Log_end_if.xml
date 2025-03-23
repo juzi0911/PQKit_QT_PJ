@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>条件判断指令块结束</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>&quot;Log_end_if&quot;</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

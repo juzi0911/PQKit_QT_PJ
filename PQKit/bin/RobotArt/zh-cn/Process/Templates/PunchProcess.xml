@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>
+    <ID></ID>
+    <出刀点xyz></出刀点xyz>
+    <入刀点xyz></入刀点xyz>
+  </Title>
+  <ProcessInfoColl>
+    <Info>
+      <ID>1</ID>
+      <出刀点xyz></出刀点xyz>
+      <入刀点xyz></入刀点xyz>
+    </Info>
+  </ProcessInfoColl>
+</ProcessParameter>

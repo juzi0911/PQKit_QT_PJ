@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>弹框</title>
+<link rel="stylesheet" href="css/common.css">
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/necessery.js"></script>
+</head>
+<body>
+<div class="index">
+	<div class="tankuang">
+		<div class="title">
+			文档属性
+			<img src="img/close.png" onclick="OnClickedClose();">
+		</div>
+		<div class="center">
+			<img src="img/people.png">
+			<ul>
+				<li>创建者:
+					<a href="" id="Creator" onclick="OnClickedCreator();"></a>
+				</li>
+				<li>创建版本:
+					<font id="CreateVersion" class="txt"></font>
+				</li>
+				<li>创建时间:
+					<font id="CreateTime"></font>
+				</li>
+				<li>上次编辑者:
+					<a href="" id="Editor" onclick="OnClickedEditor();"></a>
+				</li>
+				<li>上次编辑版本:
+					<font id="EditVersion"></font>
+				</li>
+				<li>上次编辑时间:
+					<font id="EditTime"></font>
+				</li>
+				<li>总编辑次数:
+					<font id="EditCount"></font>
+				</li>
+				<li>总编辑时长(分钟):
+					<font id="EditTotalTime"></font>
+				</li>
+			</ul>
+	    </div>
+	</div>
+</div>
+<script>
+	var vCreator,vCreateVersion,vCreateTime;
+	var vEditor,vEditVersion,vEditTime;
+	var vEditCount,vEditTotalTime;
+
+	function UpdateInfo(){
+		document.getElementById("Creator").innerHTML = vCreator;	
+		document.getElementById("CreateVersion").innerHTML = vCreateVersion;	
+		document.getElementById("CreateTime").innerHTML = vCreateTime;	
+		document.getElementById("Editor").innerHTML = vEditor;	
+		document.getElementById("EditVersion").innerHTML = vEditVersion;	
+		document.getElementById("EditTime").innerHTML = vEditTime;	
+		document.getElementById("EditCount").innerHTML = vEditCount;	
+		document.getElementById("EditTotalTime").innerHTML = vEditTotalTime;	
+	}
+
+	function OnClickedClose(){
+	    window.ClickedClose();
+	}
+
+	function OnClickedCreator(){
+		window.ClickedCreator();
+	}
+
+	function OnClickedEditor(){
+		window.ClickedEditor();
+	}
+	
+</script>
+</body>
+</html>

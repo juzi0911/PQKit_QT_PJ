@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  /* min-width: 1000px; */
+}
+.art_center {
+  width: 80%;
+  height: auto;
+  /* min-height: 495px; */
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.art_center .art_left {
+  width: 30%;
+  height: 100%;
+  position: relative;
+}
+.art_center .file_box{
+  width: 100%;
+  height: auto;
+  overflow: scroll;
+}
+.art_center .art_left .welcome {
+  width: 100%;
+  height: 45px;
+  font-size: 46px;
+  color: #000000;
+  text-align: center;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+.art_center .art_left .open {
+  width: 100%;
+  height: 19px;
+  font-size: 20px;
+  color: #2885f6;
+  line-height: 19px;
+  margin-bottom: 39px;
+}
+.file {
+  width: 100%;
+  height: 42px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.file_img {
+  width: 42px;
+  height: 42px;
+  margin-right: 9px;
+  margin-left: 10px;
+}
+.file_right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ .file_name {
+  width: 100%;
+  height: 16px;
+  font-size: 16px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #333333;
+  line-height: 12px;
+}
+ .file_address {
+  width: 100%;
+  height: 15px;
+  font-size: 15px;
+  font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+  font-weight: 400;
+  text-align: left;
+  color: #999999;
+  line-height: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.open_more{
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  line-height: 30px;
+  text-align: center;
+  background-color: white;
+}
+.art_center .file_box::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 6px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+}
+.art_center .file_box::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 0px;
+  background: #2885F6;
+}
+.art_center .file_box::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  border-radius: 0px;
+}
+.art_center .art_right {
+  width: 80%;
+  height: max-content;
+  border-left: 1px solid #cccccc;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 2560px) {
+  .file .file_right {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 2048px) {
+  .file .file_right {
+    width: 83%;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .art_center {
+    width: 80%;
+  }
+  .art_center .art_right{
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1760px) {
+  .art_center {
+    width: 84%;
+  }
+  .art_center .art_right{
+    width: 86%;
+  }
+}
+@media screen and (max-width: 1536px) {
+  .art_center {
+    width: 87%;
+  }
+  .file .file_right {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 1465px) {
+  .art_center {
+    width: 93%;
+  }
+  .file .file_right {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .art_center {
+    width: 85%;
+    min-width: 984px;
+
+  }
+  .file .file_right {
+    width: 74%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .art_center {
+    width: 85%;
+  }
+  .file .file_right {
+    width: 74%;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .art_center {
+    width: 86%;
+  }
+  .file_right {
+    width: 107px;
+  }
+}
+@media screen and (max-width: 998px) {
+  .art_center .art_right{
+    width: 90%;
+    height: max-content;
+  }
+  .art_center {
+    height: auto;
+    width: 100%;
+    min-width: 700px;
+  }
+  .file .file_right {
+    width: 74%;
+  }
+  .art_center .art_left{
+    min-width: 200px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .art_center .art_right{
+    width: 90%;
+    height: max-content;
+  }
+  .art_center {
+
+    width: 100%;
+    min-width: 600px;
+  }
+  .file .file_right {
+    width: 66%;
+  }
+  .art_center .art_left{
+    min-width: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .art_center .art_right{
+    width: 90%;
+    height: max-content;
+  }
+  .art_center {
+    height: auto;
+    width: 100%;
+    min-width: 650px;
+  }
+  .file .file_right {
+    width: 65%;
+  }
+  .art_center .art_left{
+    min-width: 200px;
+  }
+}
+
+/* 右侧修改 */
+.art_right_top{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  box-shadow:1px 1px 10px #eeeeee;
+}
+.art_right_top .create{
+  width: 50%;
+  height: 300px;
+  border-right: solid 1px #dcdcdc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.art_right_top .create:last-child{
+  border-right: none;
+}
+.art_right_top .create .img{
+  margin-top: 78px;
+}
+.art_right_top .create span{
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 35px;
+}
+.art_right_top .create:hover{
+  background-color: rgba(245, 244, 244, 0.5);
+}
+.art_right_top .create:hover .open{
+  color: #349dff;
+}
+.art_right .tu1{
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+.art_right .tu2{
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}

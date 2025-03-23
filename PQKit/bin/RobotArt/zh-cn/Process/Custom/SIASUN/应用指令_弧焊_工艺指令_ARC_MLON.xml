@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			MLON		</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>N=</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>N1</defaultValue>
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+     </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>MLON   N=[[1]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

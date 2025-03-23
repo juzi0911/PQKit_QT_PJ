@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>六边形</Title>
+    <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+	<ProcessInfo>
+		<Name>速度</Name>
+		<Id>Speed</Id>
+		<Type>Edit</Type>
+		<Unit>mm/s</Unit>
+		<defaultValue>5</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>圆弧过度</Name>
+		<Id>Cont</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>加速度</Name>
+		<Id>Acc</Id>
+		<Type>Edit</Type>
+		<Unit>m/s2</Unit>
+		<defaultValue>2</defaultValue>
+    </ProcessInfo>
+		<ProcessInfo>
+		<Name>工艺号</Name>
+		<Id>Num</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>功率</Name>
+		<Id>Power</Id>
+		<Type>Edit</Type>
+		<Unit>KW</Unit>
+		<defaultValue>1000</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>开光</Name>
+		<Id>Open</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>Weld start ([Num],[Power])</defaultValue>
+    </ProcessInfo>
+		<ProcessInfo>
+		<Name>关光</Name>
+		<Id>Close</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>Weld end ([Num],[Power])</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl> 
+        </Group>
+  </GroupColl>
+</ProcessParameter>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FeatureGroup>
+  <GroupName>写字工艺包</GroupName>
+  <PathGenerateTypes>
+    <PathGenerateType>PS_FaceLoop</PathGenerateType>
+    <PathGenerateType>PS_CurveShape</PathGenerateType>
+  </PathGenerateTypes>
+  <AssemblyFeature>FALSE</AssemblyFeature>
+  <GroupImage>WriteWordProcess.bmp</GroupImage>
+  <GroupTips>
+    注： 1. 双击参数值可自定义设置写字工艺包参数值，编辑完成后，点击表格空白处，点击确定按钮即可保存更改。
+         2. 参数值可自定义设置，但参数名称不可更改。
+         3. 生成轨迹时，选中字体的二维草图即可，无需选中所有文字笔画。
+         4. 仅为直线生成首末点选项值仅支持1、0；1为真，0为假。
+  </GroupTips>
+  <FeatureItems>
+    <FeatureItem>
+    	<Type>RODT_PFM_Compensation</Type>
+    </FeatureItem>
+    <FeatureItem>
+      <Type>RODT_PFM_ZFixed</Type>
+    </FeatureItem>
+  </FeatureItems>
+  <FeatureParameters>
+    <FeatureParameter Label="步长" 		  				      FeatureIndex="1"	 	  ParameterName="STEP_VALUE"		  		DefaultValue="10"/>
+    <FeatureParameter Label="仅为直线生成首末点" 		 	FeatureIndex="1"	 	  ParameterName="MIN_PTCNT"		  		DefaultValue="0"/>
+    <FeatureParameter Label="出/刀点偏移量"          FeatureIndex="2"	    ParameterName="Z_OFFSET"				DefaultValue="20"/>
+  </FeatureParameters>
+</FeatureGroup>
+

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>焊接寻位参数</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>寻位序号</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	 <ProcessInfo>
+		<Name>Retry Direction</Name>
+		<Id>[[2]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>non</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>non</ShowValue>
+				<OutValue>non</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>X+</ShowValue>
+				<OutValue>X+</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>X-</ShowValue>
+				<OutValue>X-</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>Y+</ShowValue>
+				<OutValue>Y+</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>Y-</ShowValue>
+				<OutValue>Y-</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>Z+</ShowValue>
+				<OutValue>Z+</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>Z-</ShowValue>
+				<OutValue>Z-</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>T+</ShowValue>
+				<OutValue>T+</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>T-</ShowValue>
+				<OutValue>T-</OutValue>
+			</Value>
+			</AllValue>
+    </ProcessInfo>
+	 <ProcessInfo>
+		<Name>Retry Max-COUNT</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>0</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>Retry Distance</Name>
+		<Id>[[4]]</Id>
+		<Type>Edit</Type>
+		<Unit>mm</Unit>
+		<defaultValue>0</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>Retry Speed</Name>
+		<Id>[[5]]</Id>
+		<Type>Edit</Type>
+		<Unit>cm/min</Unit>
+		<defaultValue>0</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>3D-Sensing Angle</Name>
+		<Id>[[6]]</Id>
+		<Type>Edit</Type>
+		<Unit>deg</Unit>
+		<defaultValue>0</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>SLS TCH, [[1]], [[2]], [[3]], [[4]], [[5]], [[6]].00, 0, 0, 0x01, 0, 0</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

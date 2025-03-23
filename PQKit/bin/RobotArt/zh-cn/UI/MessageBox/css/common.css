@@ -1,0 +1,134 @@
+﻿@charset "UTF-8";
+*{ padding: 0; margin: 0; }
+html{ font-size:62.5%;}
+body,html{ position: relative; width: 100%; height: 100%;}
+body { background: #ffffff; font-family:'微软雅黑' !important; color:#000;}
+li { list-style: outside none none;}
+img { border: medium none; border:none;display: block;}
+a img { border:none;}
+.clear:after {content: "."; display: block; height: 0; clear: both;visibility: hidden; }
+.clear { *zoom: 1;}
+a{ text-decoration:none; outline:none;}
+input,button,textarea{ outline:none;}
+input[type=text], input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none; } 
+input[type="text"] { -webkit-appearance: none;}
+input:-webkit-autofill {
+ -webkit-box-shadow: 0 0 0px 1000px #26272a inset;
+ -webkit-text-fill-color: #fff;
+}
+
+
+.index{
+	width: 420px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.index .tankuang{   
+	background: #fff;
+	text-align: center;
+	height: 100%;
+}
+.index .tankuang .title{
+	border-bottom: 1px solid #e6e7e8;
+	height: 19%;
+}
+.index .tankuang .title p{
+	float: left;
+	color: #222;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	position: relative;
+	top:50%;
+    transform:translate(0,-50%);
+    margin:0 0 0 10px;
+}
+.index .tankuang .title img{
+	float: right;
+}
+
+.index .tankuang .tanbox{
+	width: 420px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #e6e7e8;
+	height: 60%;
+}
+
+.index .tankuang .tanbox img{
+    padding:0 5px;
+	margin:0 6px 0 26px;
+}
+
+.index .tankuang .tanbox .tanbox1{
+    width:70%;
+	word-wrap:break-word;
+}
+
+.index .tankuang .tanbox h1{
+	color: #363636;
+	font-size: 14px;
+	text-align: left;
+    line-height: 25px;
+    font-weight:normal;
+}
+.index .tankuang .indexdiv{
+	display: flex;
+	/*justify-content:space-between;*/
+	height: 20%;
+}
+.index .tankuang .indexdiv a{
+	width: 60px;
+    height: 22px;
+	text-align: auto;
+	line-height: 22px;
+	background: #349efe;
+	color: #fff;
+	border-radius: 16px;
+	font-size: 14px;
+    position: relative;
+	top:50%;
+    transform:translate(0,-50%);
+    margin:0;
+}
+
+.index .tankuang .indexdiv a.Cancel{
+	background: #349efe;
+	color: #fff;
+}
+.index .tankuang .indexdiv a.Deny{
+	background: #349efe;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCatalogueS>
+  <GeneralCatalogue name = "松下焊接">
+	<Instruction>
+		<name>转换为焊接轨迹</name>
+		<Process>转换为焊接轨迹.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>摆动参数</name>
+		<Process>摆动参数.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>寻位参数</name>
+		<Process>寻位参数.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>焊接启停</name>
+		<Process>焊接启停.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>AMP</name>
+		<Process>AMP.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>CALL</name>
+		<Process>CALL.xml</Process>
+	</Instruction>
+    <Instruction>
+		<name>DELAY</name>
+		<Process>DELAY.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>IF</name>
+		<Process>IF.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>JUMP</name>
+		<Process>JUMP.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>Label</name>
+		<Process>Label.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>MNU WLD</name>
+		<Process>MNU WLD.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>MULTIEND</name>
+		<Process>MULTIEND.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>WIRERWD</name>
+		<Process>WIRERWD.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>WPLS</name>
+		<Process>WPLS.xml</Process>
+	</Instruction>
+  </GeneralCatalogue>
+</GeneralCatalogueS>

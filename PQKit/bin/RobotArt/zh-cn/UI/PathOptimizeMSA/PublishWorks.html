@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta content="telephone=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link href="css/index.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
+<title>输出动画</title>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/ExportUtility.js"></script>
+<script type="text/javascript" src="js/necessery.js"></script>
+</head>
+<style> 
+	.block{display: none;}
+</style>
+<body style="background: #fff;">
+
+    <div class="animat">
+        <h1>输出动画<span><img id="closeDlg" src="images/close.png" onclick="OnClickedClose();"></span></h1>
+
+        <div class="box">
+            <div class="num">
+	        	<ul class="numul">
+	        		<li class="on">
+	        			<span class="countindex">1</span>
+	        			<span>作品信息</span>
+	        			<img src="images/sanjiao.png">
+	        		</li>
+	        		<li class="on">
+	        			<span class="countindex">2</span>
+	        			<span>公开到作品墙</span>
+	        			<img src="images/sanjiao.png">
+	        		</li>
+	        		<li>
+	        			<span class="countindex">3</span>
+	        			<span>动画上传</span>
+	        			<img src="images/sanjiao.png">
+	        		</li>
+	        		<li>
+	        			<span class="countindex">4</span>
+	        			<span>上传成功</span>
+	        		</li>
+	        	</ul>
+	        </div>
+	        <div class="two">
+	        	<h1><a href="javascript:;" style="color:#349dff" id="publicWorkWall">动画作品墙</a>为您提供作品展示的舞台</h1>
+	        	<ul class="twoul">
+	        		<li openType="1">
+	        			<img src="images/jiantou.png" class="jiantou">
+	        			<div class="twoimg"></div>
+	        			<div class="twotxt">
+	        				<h2>公开到作品墙</h2>
+	        				<p><span>√ 个人中心</span><span>√ 分享作品</span><span>√ 作品墙</span></p>
+	        			</div>
+	        		</li>
+	        		<li openType="0">
+	        			<img src="images/jiantou.png" class="jiantou">
+	        			<div class="twoimg1"></div>
+	        			<div class="twotxt">
+	        				<h2>仅个人可见</h2>
+	        				<p><span>√ 个人中心</span><span>√ 分享作品</span><span>× 作品墙</span></p>
+	        			</div>
+	        		</li>
+	        	</ul>
+    			<div class="twoa">
+    				<a href="javascript:;" id="realExport">下一步</a>
+    			</div>
+	        </div>
+	    </div>
+    </div>
+<script>
+$(function(){
+	$('.twoul li').click(function(){
+	    var openType = $(this).attr("openType");
+		$('.twoul li').css({'background':'#eaf5ff','border':'1px solid #eaf5ff'});
+		$('.twoul li').find('h2').css({'color':'#349dff'});
+		$('.twoul li').find('span').css({'color':'#349dff'});
+		$('.twoul li').find('.jiantou').hide();
+
+		$(this).find('.twoimg').css("background","url(./images/deng3.png) no-repeat");
+		$(this).find('.twoimg1').css("background","url(./images/jian3.png) no-repeat");
+		$(this).css({'background':'#349dff','border':'1px solid #349dff'});
+		$(this).find('h2').css({'color':'#fff'});
+		$(this).find('span').css({'color':'#fff'});
+		$(this).find('.jiantou').show();
+		$('.twoa').find('a').addClass('on');
+		window.productPublic = openType;
+	})
+
+    var onRealExport = document.getElementById('realExport');
+    onRealExport.onclick = function () {
+        if (window.productPublic == "0" || window.productPublic == "1") {
+            window.OnStartExportAnimation(window.productPublic);
+        }
+    }
+
+    var onWorkWall = document.getElementById('publicWorkWall');
+    onWorkWall.onclick = function () {
+        window.cPublicWorkWall();
+    }
+
+})
+
+
+</script>
+</body>
+</html>
+

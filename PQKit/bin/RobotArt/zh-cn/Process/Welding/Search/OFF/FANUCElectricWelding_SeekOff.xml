@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>Seek off</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+  </ProcessInfoColl>
+    </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>Touch Offset End ;</Part>
+	</statement>
+	</statementSrcColl>
+</ProcessParameter>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>设置cloos任务</Title>
+  <GroupColl>
+      <Group>
+	<ProcessInfoColl>
+	<ProcessInfo>
+		<Name>类型</Name>
+		<Id>[[6]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>设置cloos任务</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>设置cloos任务</ShowValue>
+				<OutValue>设置cloos任务</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+    <ProcessInfo>
+		<Name>JOBID</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit>0-50</Unit>
+		<defaultValue>0</defaultValue>
+		<min>0</min>
+		<max>50</max>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedAllValue>
+			<DependedValue>设置cloos任务</DependedValue>
+		</DependedAllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>SetCloosJOB([[2]])</Part>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedValue>设置cloos任务</DependedValue>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

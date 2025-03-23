@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>送气</Title>
+  <GroupColl>
+      <Group>
+	<ProcessInfoColl>
+	<ProcessInfo>
+		<Name>类型</Name>
+		<Id>[[6]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>送气</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>送气</ShowValue>
+				<OutValue>送气</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+    <ProcessInfo>
+		<Name>送气时间（ms）</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit>0-10000</Unit>
+		<min>0</min>
+		<max>10000</max>
+		<defaultValue>0</defaultValue>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedAllValue>
+			<DependedValue>送气</DependedValue>
+		</DependedAllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>ARC_GasFeed([[2]])</Part>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedValue>送气</DependedValue>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

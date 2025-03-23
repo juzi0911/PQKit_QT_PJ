@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCatalogue name = "工艺目录">
+<Instruction>
+	<name>RO_CMD_PROCESS_WELD</name>
+	<Process>Welding\Process</Process>
+</Instruction>
+<Instruction>
+	<name>RO_CMD_KUKA_SEARCH_ASSIGNMENT_OFF</name>
+	<Process>Welding\Search\OFF</Process>
+</Instruction>
+<Instruction>
+	<name>RO_CMD_KUKA_SEARCH_ASSIGNMENT_1D</name>
+	<Process>Welding\Search\1D</Process>
+</Instruction>
+<Instruction>
+	<name>RO_CMD_KUKA_SEARCH_ASSIGNMENT_2D</name>
+	<Process>Welding\Search\2D</Process>
+</Instruction>
+<Instruction>
+	<name>RO_CMD_KUKA_SEARCH_ASSIGNMENT_3D</name>
+	<Process>Welding\Search\3D</Process>
+</Instruction>
+<Instruction>
+	<name>RO_CMD_KUKA_SEARCH_ASSIGNMENT_4D</name>
+	<Process>Welding\Search\4D</Process>
+</Instruction>
+  <Instruction>
+    <name>RO_CMD_KUKA_CUTWIRE</name>
+    <Process>ElectricWelding\KukaLaserwelding_CutWire</Process>
+  </Instruction>
+  <Instruction>
+    <name>RO_CMD_KUKA_InitializeGas</name>
+    <Process>ElectricWelding\KukaLaserwelding_InitializeGas</Process>
+  </Instruction>
+    <Instruction>
+    <name>RO_CMD_KUKA_ActivateProcess</name>
+    <Process>ElectricWelding\KukaLaserwelding_ActivateProcess</Process>
+  </Instruction>
+    <Instruction>
+    <name>RO_CMD_KUKA_SwitchProcess</name>
+    <Process>ElectricWelding\KukaLaserwelding_SwitchProcess</Process>
+  </Instruction>
+    <Instruction>
+    <name>RO_CMD_KUKA_DeactiveProcess</name>
+    <Process>ElectricWelding\KukaLaserwelding_DeactiveProcess</Process>
+  </Instruction>
+    <Instruction>
+    <name>RO_CMD_KUKA_StepSeam</name>
+    <Process>ElectricWelding\KukaLaserwelding_StepSeam</Process>
+  </Instruction>
+    <Instruction>
+    <name>RO_CMD_KUKA_LaserTestPluse</name>
+    <Process>ElectricWelding\KukaLaserwelding_LaserTestPluse</Process>
+  </Instruction>
+    <Instruction>
+    <name>RO_CMD_KUKA_EnableLaser</name>
+    <Process>ElectricWelding\KukaLaserwelding_EnableLaser</Process>
+  </Instruction>
+    <Instruction>
+    <name>RO_CMD_KUKA_LaserOff</name>
+    <Process>ElectricWelding\KukaLaserwelding_LaserOff</Process>
+  </Instruction>
+    <Instruction>
+    <name>RO_CMD_KUKA_LaserRequest</name>
+    <Process>ElectricWelding\KukaLaserwelding_LaserRequest</Process>
+  </Instruction>
+    <Instruction>
+    <name>RO_CMD_KUKA_SwitchGas</name>
+    <Process>ElectricWelding\KukaLaserwelding_SwitchGas</Process>
+  </Instruction>
+    <Instruction>
+    <name>RO_CMD_KUKA_InitializeLaser</name>
+    <Process>ElectricWelding\KukaLaserwelding_InitializeLaser</Process>
+  </Instruction>
+</GeneralCatalogue>

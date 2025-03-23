@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCatalogueS>
+  <GeneralCatalogue name = "ARC_ON（起弧方式)">
+	<Instruction>
+		<name>ARC_ON-DEFAULT</name>
+		<Process>ARC_ON-DEFAULT.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>ARC_ON-CurVol</name>
+		<Process>ARC_ON-CurVol.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>ARC_ON-WeldCfg</name>
+		<Process>ARC_ON-WeldCfg.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>ARC_ON-JOB</name>
+		<Process>ARC_ON-JOB.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "ARC_OFF（收弧方式）">
+	<Instruction>
+		<name>ARC_OFF-DEFAULT</name>
+		<Process>ARC_OFF-DEFAULT.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>ARC_OFF-CurVol</name>
+		<Process>ARC_OFF-CurVol.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>ARC_OFF-ArcOFFCfg</name>
+		<Process>ARC_OFF-ArcOFFCfg.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "ARC_SET（电弧设置）">
+	<Instruction>
+		<name>ARC_SET</name>
+		<Process>ARC_SET.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "ARC_WireFeed（送丝）">
+	<Instruction>
+		<name>ARC_WireFeed</name>
+		<Process>ARC_WireFeed.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "ARC_WireFeedBack（抽丝）">
+	<Instruction>
+		<name>ARC_WireFeedBack</name>
+		<Process>ARC_WireFeedBack.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "ARC_WireSpeed（慢送丝速度）">
+	<Instruction>
+		<name>ARC_SlowWireSpeed</name>
+		<Process>ARC_SlowWireSpeed.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "ARC_GasFeed（送气）">
+	<Instruction>
+		<name>ARC_GasFeed</name>
+		<Process>ARC_GasFeed.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "WaitArcOn（等待起弧）">
+	<Instruction>
+		<name>WaitArcOn</name>
+		<Process>WaitArcOn.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "SetBurnTime（设置回烧时间）">
+	<Instruction>
+		<name>SetBurnTime</name>
+		<Process>SetBurnTime.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "ARC_Count（工件计数）">
+	<Instruction>
+		<name>ARC_Count</name>
+		<Process>ARC_Count.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "SetCloosJOB（设置cloos任务）">
+	<Instruction>
+		<name>SetCloosJOB-cloos</name>
+		<Process>SetCloosJOB-cloos.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "SetWeaveCFG（摆弧规范号）">
+	<Instruction>
+		<name>SetWeaveCFG</name>
+		<Process>SetWeaveCFG.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "ARC_Fast（飞行起弧）">
+	<Instruction>
+		<name>ARC_Fast</name>
+		<Process>ARC_Fast.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "SetBlendParam（设置过渡参数）">
+	<Instruction>
+		<name>SetBlendParam</name>
+		<Process>SetBlendParam.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "主从运动指令（主从运动指令）">
+	<Instruction>
+		<name>SetSyncSignal</name>
+		<Process>SetSyncSignal.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>GetSyncSignal</name>
+		<Process>GetSyncSignal.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+ </GeneralCatalogueS>

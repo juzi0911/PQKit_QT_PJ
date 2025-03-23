@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>布尔信号</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>类型</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>输出</ShowValue>
+				<OutValue>DO</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>输入</ShowValue>
+				<OutValue>DI</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+    <ProcessInfo>
+		<Name>地址</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+    <ProcessInfo>
+		<Name>状态</Name>
+		<Id>[[3]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>TRUE</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>TRUE</ShowValue>
+				<OutValue>1</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>FALSE</ShowValue>
+				<OutValue>0</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+  	<statement>
+		<Part> [[1]],[[2]],[[3]];</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>输出</DependedValue>
+	</statement>
+  	<statement>
+		<Part> WaitDI[[2]],[[3]];</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>输入</DependedValue>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

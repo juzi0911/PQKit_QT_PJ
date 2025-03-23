@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCatalogueS>
+   <GeneralCatalogue name = "运动指令">
+  	<Instruction>
+		<name>关节插补</name>
+		<Process>MoveAbsj.xml</Process>
+	</Instruction>
+	  	<Instruction>
+		<name>直线插补</name>
+		<Process>MoveL.xml</Process>
+	</Instruction>
+   </GeneralCatalogue>
+   <GeneralCatalogue name = "运算指令">
+  	<Instruction>
+		<name>加法运算</name>
+		<Process>Add.xml</Process>
+	</Instruction>
+  	<Instruction>
+		<name>减法运算</name>
+		<Process>Sub.xml</Process>
+	</Instruction>
+   </GeneralCatalogue>
+   <GeneralCatalogue name = "信号指令">
+  	<Instruction>
+		<name>布尔信号</name>
+		<Process>Bool.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>浮点信号</name>
+		<Process>Float.xml</Process>
+	</Instruction>
+   </GeneralCatalogue>
+</GeneralCatalogueS>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			IRQON		</Title>
+  <GroupColl>  
+   <Group> 
+   
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>LEV</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>I</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>&lt;>I</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>JOB</Name>
+		<Id>[[4]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>SUB1</defaultValue>
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+  </Group> 
+   </GroupColl> 
+   
+  
+  <statementSrcColl>
+	<statement>
+		<Part> IRQON		LEV=[[1]] I[[2]] &lt;>I[[3]] [[4]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

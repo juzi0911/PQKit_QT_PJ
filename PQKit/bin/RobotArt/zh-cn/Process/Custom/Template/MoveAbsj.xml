@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>关节插补</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>选择类型</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>MoveAbsj</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>MoveAbsj</ShowValue>
+				<OutValue>MoveAbsj</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>MoveJ</ShowValue>
+				<OutValue>MoveJ</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>PTP</ShowValue>
+				<OutValue>PTP</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+    <ProcessInfo>
+		<Name>点序号</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>速度</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit>mm/s</Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> [[1]] P[[2]],V[[3]]mm/s;</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

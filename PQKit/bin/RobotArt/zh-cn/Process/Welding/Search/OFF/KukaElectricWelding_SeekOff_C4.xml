@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>Seek off</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+  </ProcessInfoColl>
+    </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>;FOLD TouchSense Corr Off ;%{PE}</Part>
+	</statement>
+	<statement>
+		<Part>;FOLD Parameters Corr Off ;%{h}</Part>
+	</statement>
+	<statement>
+		<Part>;Params IlfProvider=KukaRoboter.TouchSense.CorrectionOFF</Part>
+	</statement>
+	<statement>
+		<Part>;ENDFOLD</Part>
+	</statement>
+	<statement>
+		<Part>TS_CorrOff()</Part>
+	</statement><statement>
+		<Part>;ENDFOLD</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

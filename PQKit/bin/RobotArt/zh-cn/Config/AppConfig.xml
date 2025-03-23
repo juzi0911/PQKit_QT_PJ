@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppConfig>
+  <AppInfo ID="ID_APP_ROBOTART" >
+    <Product Category="PQART_PLATFORM_COMPONENT" ID="PQART_PLATFORM_COMPONENT" VersionID="1.0">
+      <EndUserLocalName>PQKit</EndUserLocalName>
+      <InternalLocalName>PQKit</InternalLocalName>
+      <EndUserVersion>PQKit_Component</EndUserVersion>
+      <InternalVersion>1.0.0.1</InternalVersion>
+      <Date>2015-05-28</Date>
+	    <ShowLogo>false</ShowLogo>
+      <VirPlayerType></VirPlayerType>
+    </Product>
+    <Company ID="CHL">
+      <LocalName>CHL</LocalName>
+      <WebSite>http://www.chlrob.com</WebSite>
+    </Company>
+  </AppInfo>
+  
+  <Environments DefaultID="ENV_DESIGN">
+    <Environment ID="ENV_STARTPAGE" Type="0" >
+      <UI>
+        <Default>
+          <UI Path="StartPageUI.xml" Default="" />
+          <Command Path="StartPageCmd.xml" Default="RO_CMD_DEFAULT_CMD" />
+        </Default>
+      </UI>
+    </Environment>
+    <Environment ID="ENV_DESIGN" Type="1" >
+      <UI>
+        <Default>
+          <UI Path="DesignUI.xml" Default="" />
+          <Command Path="DesignCmd.xml" Default="RO_CMD_DEFAULT_CMD" />
+        </Default>
+      </UI>
+    </Environment>
+  </Environments>
+</AppConfig>
+

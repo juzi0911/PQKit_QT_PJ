@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>EnableLaser</Title>
+  <ProcessInfoColl>
+  </ProcessInfoColl>
+  <statementSrcColl>
+	<statement>
+		<Part>;FOLD LSR Free;%{PE}%R 6.1.22,%MKUKATPLASER,%CLSR_CTRL,%VLASER_FREE </Part>
+	</statement>
+	<statement>
+		<Part>TRIGGER WHEN PATH=0  DELAY=0 DO LSR_ALLOCATION_RELEASE( ) PRIO= -1</Part>
+	</statement>
+	<statement>
+		<Part>;ENDFOLD</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

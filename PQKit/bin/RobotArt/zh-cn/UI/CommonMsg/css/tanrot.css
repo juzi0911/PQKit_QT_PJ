@@ -1,0 +1,85 @@
+
+/* 是否删除的弹框 */
+.tsbox {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/*margin: 100px auto;
+	border: 1px solid #ddd;
+	border-radius: 10px;*/
+}
+.tit{ 
+	height:78px; 
+	line-height:85px; 
+	padding-left: 20px;
+	border-bottom:solid 1px #e4e4e4; 
+}
+b.close { 
+	width:12px; 
+	height:12px; 
+	display:block; 
+	position:absolute; 
+	background:url(../images/iconbiao.png) -142px 0 no-repeat; 
+	cursor:pointer; 
+	top:20px; 
+	right:20px;
+}
+.tsbox .tscon{ 
+	margin-top:98px;
+}
+.tsbox .tscon .wrong { 
+	display:block; 
+	margin:0 auto 18px;
+}
+.tsbox .tscon p{ 
+	text-align:center; 
+	font-size:20px; 
+	color:#464646; 
+	line-height:26px;
+	font-weight: 700;
+}
+.tsbox .tscon p img { 
+	vertical-align: middle;
+	margin-right: 0;
+}
+.tsbox .tscon p .lastspan {
+	margin-left: 10px;
+	color: #f56b0b;
+}
+.tsbox .tscon .lastp {
+	font-size: 18px;
+	color: #797979;
+	font-weight: 400;
+}
+
+.tsbox .tscon .but {
+	margin: 30px 0 70px 0;
+}
+.tsbox .tscon .but a {
+	display: block;
+	text-align:center; 
+	width:168px; 
+	height:68px; 
+	background:#518ff4; 
+	color:#fff;
+	border-radius:10px; 
+	margin: 0 auto;
+	line-height:68px; 
+	font-size:28px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

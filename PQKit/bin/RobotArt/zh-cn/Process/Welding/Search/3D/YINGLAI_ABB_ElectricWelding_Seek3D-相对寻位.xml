@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>Seek 1D</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>IL_STCorr\ID_X</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>IL_STCorr\ID_Y</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>IL_STCorr\ID_Z</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>IL_STCorr\ID_X:=[[1]]\ID_Y:=[[2]]\ID_Z:=[[3]];</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

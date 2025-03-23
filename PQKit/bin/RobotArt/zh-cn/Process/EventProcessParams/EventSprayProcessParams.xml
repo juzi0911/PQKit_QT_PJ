@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>喷涂</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>喷枪流量</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit>ml/s</Unit>
+		<defaultValue>200</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>油漆粘稠度</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit>s</Unit>
+		<defaultValue>80</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>油漆颜色</Name>
+		<Id>[[3]]</Id>
+		<Type>Color</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+    </ProcessInfo>
+	</ProcessInfoColl>
+  </Group>
+  </GroupColl>
+</ProcessParameter>

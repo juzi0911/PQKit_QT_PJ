@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta content="telephone=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<title>输出动画</title>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/ExportUtility.js"></script>
+<script type="text/javascript" src="js/ExportAnimation.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/necessery.js"></script>
+<script type="text/javascript" src="js/bootstrap-select/bootstrap-select.js"></script>
+
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link href="css/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" />
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link href="css/index.css" type="text/css" rel="stylesheet" />
+<link href="css/iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+
+</head>
+    <style>
+        .block{display: none;}
+    </style>
+    <body style="background: #fff;">
+        <!-- 弹窗 -->
+	<div id="myModal" class="modal">
+	    <!-- 弹窗内容 -->
+	    <div class="modal-content">
+	        <!--<span class="close"><img src="images/close.png"></span>-->
+	        <img src="images/wen.png">
+	        <p>该名称文件已存在，继续上传将覆盖同名文件！</p>
+	        <div>
+	        	<a href="javascript:;" class="on cancelbtn">取消</a>
+	            <a href="javascript:;" class="confirm" id="btnConfirm">确定</a>
+	        </div>
+	    </div>
+	</div>
+
+    <div class="animat">
+        <h1>输出动画<span><img id="closeDlg" src="images/close.png" onclick="OnClickedClose();"></span></h1>
+
+		<!-- 圆形进度条 -->
+		<div class="middleContent fixTop block">
+			<div class="surePass" >
+				<img src="images/xiaoren.png" class="perple">
+		        <div class="anyield">
+		        	<h3>正在上传动画</h3>
+		            <!-- <p>已完成</p> -->
+		        </div>
+				<canvas class="circleRun" data-run="0" id="canvasThree" amout="1000" nowData="1000"></canvas>
+		    </div>
+		</div>
+
+        <div class="box">
+            <div class="num">
+	        	<ul class="numul">
+	        		<li class="on">
+	        			<span class="countindex">1</span>
+	        			<span>作品信息</span>
+	        			<img src="images/sanjiao.png">
+	        		</li>
+	        		<li>
+	        			<span class="countindex">2</span>
+	        			<span>公开到作品墙</span>
+	        			<img src="images/sanjiao.png">
+	        		</li>
+	        		<li>
+	        			<span class="countindex">3</span>
+	        			<span>动画上传</span>
+	        			<img src="images/sanjiao.png">
+	        		</li>
+	        		<li>
+	        			<span class="countindex">4</span>
+	        			<span>上传成功</span>
+	        		</li>
+	        	</ul>
+	        </div>
+	        <div class="form">
+	        	<ul>
+	        		<li class="liItem">
+	        			<span class="span">作品名称</span>
+	        			<input type="text" class="input" maxlength="30" value="" placeholder="请输入作品名称" id="productName">
+	        			<a class="link" href="javascript:;" style="display:none" id="viewSrc">查看重名作品</a>
+	        			<p  style="display:none;" id="pError"><img src="images/error.png">该名称已存在，重名文件将被覆盖</p>
+	        		</li>
+	        		<li class="liItem" >
+	        			<span class="span">作品描述</span>
+	        			<textarea class="textarea" maxlength="500" placeholder="添加描述，让大家更好的了解你的作品吧！" id="productDescription"></textarea>
+	        		</li>
+					<li class="liItem">
+						<span class="span">应用场景</span>
+                        <div style="width:75%;margin-left: 20px;">
+							<select  id="productScene"  class="selectpicker show-tick form-control" multiple data-live-search="false" title="为作品选择一个应用场景吧！">
+                             
+							</select>
+						</div>
+                        <p style="display:none;" id="errScene"><img src="images/error.png">请至少选择一个场景</p>
+					</li>
+	        	</ul>
+                <!--<div style="display:none;margin-left:173px;margin-top:5px;color:red;" id="errScene">请至少选择一个场景</div>-->
+	        	<ul>
+	        		<li class="liItem">
+	        			<input type="button" value="开始" id="startExport" class="submit" onclick="OnClickStartExport();">
+                        <div class="set_box" onclick="OnclickShezhi()">
+                            <img src="images/shezhi.png" alt="" class="shezhi">
+                            <span>输出参数</span>
+                        </div>
+	        		</li>
+	        	</ul>
+            </div>
+        </div>
+        <!-- 设置弹框 -->
+        <div class="shezhi_alert" style="display: none;" id="SetDialog">
+            <div class="shezhi_box">
+                <div class="input">
+                    <span class="title">帧率</span>
+                    <input type="number" class="parameterFPS" maxlength="30" value="60" placeholder="" id="parameterFPS">
+                </div>
+                <div class="input">
+                    <span class="title">速度</span>
+                    <input type="number" class="parameterVEC" maxlength="30" value="100" placeholder="速度可调范围1~1000" id="parameterVEC">
+                </div>
+                <div class="button">
+                    <div class="save" onclick="OnclickParameterOK()">确定</div>
+                    <div class="cancwl" onclick="closeDialog()">取消</div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    var _IsValidCharacter = true;
+$(function(){
+    $("#productScene").change(function () {
+        var scene = $(this).val();
+        if (scene == null || scene == "") {
+            $("#errScene").show();
+        }
+        else {
+            $("#errScene").hide();
+        }
+    });
+    var oChange = document.getElementById('viewSrc');
+    oChange.onclick = function(){
+        window.OnViewRepeatedFile();
+    }
+   
+    $("#productName").blur(function () {
+        var productName = "";
+        productName = $("#productName").val();
+        $("#pError").hide();
+        _IsValidCharacter = true;
+        if (!CheckIsValidCharacter(productName)) {
+            _IsValidCharacter = false;
+            $("#pError").show();
+            $("#pError").html("<img src=\"images/error.png\">作品名称包含特殊字符!");
+            return;
+        }
+
+        window.OnCheckNameClashes(productName);
+    });
+
+    $('.cancelbtn').click(function() {
+        $('.modal').css({'display':'none'});
+    })
+    $("#btnConfirm").click(function(){
+        $('.modal').css({ 'display': 'none' });
+        if(window.exportPublicUrl!="" )
+        {
+            window.location.href=window.exportPublicUrl;
+        }
+
+	});
+
+})
+        //点击设置图标
+        function OnclickShezhi() {
+            $('#SetDialog').css({ 'display': 'block' });
+        }
+		function OnclickParameterOK(){
+			var parametersFPS = $("#parameterFPS").val();
+			var parametersVEC = $("#parameterVEC").val();
+			if(parametersVEC < 1){
+				parametersVEC = 1;
+			}
+			if(parametersVEC > 1000){
+				parametersVEC = 1000;
+			}
+			var parameters = parametersFPS;
+			parameters += "#";
+			parameters += parametersVEC;
+			
+			window.OnParameterSetting(parameters);
+			
+			$('#SetDialog').css({ 'display': 'none' });
+		}
+        function closeDialog(){
+            $('#SetDialog').css({ 'display': 'none' });
+        }
+//点击开始上传的响应函数
+        function OnClickStartExport() {
+            if (_IsValidCharacter == false) {
+                return;
+            }
+    $("#errScene").hide();
+    {
+        //获取用户所选的应用场景
+        var sceneVal = $("#productScene").val();
+        if (sceneVal == null || sceneVal == "")
+        {
+            $("#errScene").show();
+            return;
+        }
+        var t_sceneVal="";
+        if(null != sceneVal)
+        {
+            $.each(sceneVal,function(index,value){
+                t_sceneVal+=value+",";
+            });
+        }
+		window.productScene =  t_sceneVal;
+        window.productDescript = $("#productDescription").val();
+        //调用C++的开始上传函数
+        //alert(window.productScene);
+        //alert(window.productDescript);
+        var productName = "";
+        productName = $("#productName").val();
+
+        var inputInfo = "";
+        inputInfo = productName;
+        inputInfo += "&";
+        inputInfo += window.productScene;
+        inputInfo += "&";
+        inputInfo += window.productDescript;
+        window.OnBtnClickedBeginExport(inputInfo);
+        
+    }
+}
+
+function jsStartExport(strValue) {
+    var paras = strValue.split("&");
+    if (paras.length > 1) {
+        window.productCheckStatus = paras[0];
+        window.exportPublicUrl = paras[1];
+    }
+    if (window.exportPublicUrl != "" && window.productCheckStatus == "0") {
+        window.location.href = window.exportPublicUrl;
+    }
+
+}
+
+function jsUpdateDescription(strValue){
+    $("#productDescription").val(strValue);
+}
+
+//更新应用场景下拉列表内容
+function jsInitScene(strValue) {
+    $("#productScene").html(strValue);
+    $('#productScene').selectpicker('refresh');
+    $('#productScene').selectpicker('render');
+}
+
+function jsUpdateSceneSelect(strValue) {
+    var paras = strValue.split(",");
+    $('#productScene').selectpicker('val', paras);
+}
+
+//网页端对输出作品开始上传前检查结果的处理
+//-1 查询异常、 0 正常可传、 1 重名
+function jsCheckeBeforeExport(strValue) {
+    var paras = strValue.split("&");
+    if (paras.length > 1)
+    {
+        window.productCheckStatus = paras[0];
+        window.productCheckMessage = paras[1];
+    }
+   
+    if (window.productCheckStatus == "-1") {
+        $("#pError").show();
+        $("#pError").html("<img src=\"images/error.png\">"+window.productCheckMessage);
+	}
+    else if (window.productCheckStatus == "1") {
+        $("#pError").show();
+        $("#pError").html("<img src=\"images/error.png\">"+window.productCheckMessage);
+        $("#viewSrc").show();
+	}
+    else{
+        $("#pError").hide();
+        $("#viewSrc").hide();
+	}
+
+}
+
+function jsWhetherCoverExport() {
+    $('.modal').css({'display':'flex'});
+}
+
+function OnClickAgreeMent(){
+    if($("#agreeMent").is(':checked')) {
+        $("#startExport").css("color","#fff");
+        $("#startExport").css("background","#349dff");
+    }
+    else{
+        $("#startExport").css("color","#999");
+        $("#startExport").css("background","#e7e7e7");
+    }
+}
+
+
+</script>
+</body>
+</html>
+

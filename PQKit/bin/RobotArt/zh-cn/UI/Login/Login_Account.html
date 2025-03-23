@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>账号登录</title>
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script> 
+    <script type="text/javascript" src="js/Login.js?t=2"></script>
+	<script type="text/javascript" src="../Common/js/necessery.js?t=2"></script>
+<style>
+    .fatherPosition {
+        position:relative;
+        display:none;
+    }
+    .childPosition {
+        position:absolute;
+        top:15px;
+        right:25px;
+    }
+    .imgPosition
+    {
+        position:absolute;
+        top:15px;
+        left:11px;
+		margin:0 !important;
+		height:462px;
+        }
+
+     .logoPosition
+    {
+        position:absolute;
+        top:15px;
+        left:10px;
+        }
+ 
+</style>
+
+</head>
+
+<body ondragstart="return false" oncontextmenu="return false">
+    <input type="hidden" id="txtName" />
+<div class="bg-tan"></div>
+<div class="tan-main">
+	<div class="tit clearfix">
+    	<!--<h1 class="fl"><img src="images/tan-logo.png"  class="logoPosition"/></h1>
+        <a href="javascript:;" class="close fr" onclick="Closedlg();"></a>-->
+    </div>
+    <div class="logintu">
+        <img src="images/login.gif">
+    </div>
+    <div class="tan-con clearfix fatherPosition">
+    	<img src="images/tupian.png" class="imgPosition" />
+        <div class="input childPosition">
+            <div class="tabtith3">
+                <h3>账号登录</h3>
+            </div>
+            <div class="weilogin">
+                <div class="tabcon">
+                    <fieldset class="u_relative login">
+                        <div>
+                            <label></label>
+                            <input type="text" name="Login_Name" id="Login_Name" value="" placeholder="账号" class="txt" />
+                        </div>
+                    </fieldset>
+                    <fieldset class="u_relative mima" style="top:-1px;">
+                        <div>
+                            <label></label>
+                            <input type="password" class="txt" name="Login_Pwd" id="Login_Pwd" placeholder="密码" />
+                            <a href="javascript:;" class="aggree-n" onclick="OnBtnClickRetrievePwd();">忘记密码</a>
+                        </div>
+                    </fieldset>
+                    <div class="agreeMent clearfix" style="margin-top:15px;margin-bottom:10px">
+                        <em class="fl"><input name="Login_RemberPwd" id="Login_RemberPwd" type="checkbox" /><span style="margin-top:-1px; height: 25px; width: 140px;text-align: left; ">记住密码</span></em>
+                        <em class="fl"><input name="Login_AutoLogin" id="Login_AutoLogin" type="checkbox" onclick="onClickAutoLogin();"/><span style="margin-top:-1px; height: 25px; width: 80px;text-align: left;">自动登录</span></em>
+                        <em class="fr qc" onclick="ClearData();" style="margin-bottom:15px;">清除数据</em>
+                    </div>
+                    <div>
+                        <p id="errorMessage" style="position:unset"></p>
+                    </div>
+                    
+                    <a href="javascript:;" class="btnBlue"  type="button" style="margin-top:15px;"  onclick="Login();">登录</a> 
+                    <a href="./RoLogin.html" class="btnOther" style="margin-top: 20px;">其它快捷登录方式</a>
+                </div>
+            </div>
+
+            <div class="clearfix bottom" id="reloginbm">
+                <a href="javascript:;" onclick="OnBtnClickProxySet();">代理设置</a>
+                <a href="javascript:;" onclick="OnBtnClickLoginProblem();">登录遇到问题?</a>
+               <!-- <a href="javascript:;" onclick="OnBtnClickRegister();" class="bluea">没有账号？快速注册</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function onClickAutoLogin() {
+        var boxAutoLogin = $("#Login_AutoLogin");
+        if (boxAutoLogin.is(":checked")) {
+            var boxRemberPwd = $("#Login_RemberPwd");
+            if (!boxRemberPwd.is(":checked")) {
+                boxRemberPwd.prop("checked","true");
+            }
+        }
+    }
+</script>
+</body>
+</html>

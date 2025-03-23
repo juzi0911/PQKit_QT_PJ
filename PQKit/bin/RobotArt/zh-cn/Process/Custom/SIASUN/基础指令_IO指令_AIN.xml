@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			AIN		</Title>
+    <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>AI</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+		
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>CH#</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+		
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>M#</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+		
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+        </Group>
+  </GroupColl>
+  
+  <statementSrcColl>
+	<statement>
+		<Part>AIN		AI[[1]] CH#[[2]] M#[[3]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

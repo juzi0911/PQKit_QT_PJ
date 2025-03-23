@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>DELAY T=[Timer]</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+   <ProcessInfo>
+		<Name>Timer</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit>s</Unit>
+		<defaultValue>0.00</defaultValue>
+    </ProcessInfo>
+    </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>DELAY, [[1]]</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

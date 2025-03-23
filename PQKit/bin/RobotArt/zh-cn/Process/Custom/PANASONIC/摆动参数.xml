@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>焊接摆动参数</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>摆动形式</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>摆动频率</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1.0</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+	    <Name>摆动时间</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>0.0</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>	[[1]]	[[2]]	[[3]]</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>伺服通讯点焊(SPOT)</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+	<ProcessInfo>
+		<Name>参数文件</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>通讯焊机内焊接工艺</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>点焊保持压力</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+  </Group>
+   </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> SPOT([[1]]) S([[2]])P([[3]])</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

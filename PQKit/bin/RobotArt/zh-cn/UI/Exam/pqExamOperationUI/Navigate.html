@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>blink</title>
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+<style>
+    .blinkCon {
+        padding: 8px 0;
+        box-shadow: 0 0 10px #9ebacb;
+        margin-top: 5px;
+		font-weight: 700;
+		color:#000;
+    }
+    .blinkTitle {
+        font-size: 14px;
+        vertical-align:middle;
+        margin-right: 10px;
+    }
+	
+	.blinkCon .close{margin: 6px 12px 0 0;}
+</style>
+</head>
+
+<body>
+    <div class="blinkCon">
+	    <span class="blinkTitle" style="margin:0 30px">华航唯实考生作答系统（实操）</span>
+		<span class="blinkTitle">网络连接:</span>
+        <img src="images/net.png" alt="" class="iconBlink" id="netimg">
+		<span class="blinkTitle" id="ServerStatus"></span>
+		<a href="javascript:;" class="close fr" onclick="OnNavigateClose();"><img src="images/close.png" width="16" height="16"></a>
+    </div>
+
+</body>
+<script>
+	
+	function GetUrlParms() {
+		var args = new Object();
+		var query = location.search.substring(1); //获取查询串
+		var pairs = query.split("&");
+		for (var i = 0; i < pairs.length; i++) {
+			var pos = pairs[i].indexOf('=');
+			if (pos == -1) continue;
+			var argname = pairs[i].substring(0, pos);
+			var value = pairs[i].substring(pos + 1);
+			args[argname] = unescape(value);
+		}
+		return args;
+	}
+
+	$(function () {
+		var args = GetUrlParms();
+		if (args["NetStatus"] == "0") {
+			$("#netimg").attr("src","images/nonet.png");
+			$("#ServerStatus").text("(服务器连接失败)");
+		}
+		else if (args["NetStatus"] == "1") {
+			$("#netimg").attr("src","images/net.png");
+			$("#ServerStatus").text("(已连接)");
+    }
+    
+    
+   
+});
+    function updateNetStatus(value)
+	{
+		
+		var values = value.split("#");
+		if(values.length == 0)
+		{
+			return;
+		}
+		var sNet = values[0];
+		if("0" == sNet)
+		{
+			$("#netimg").attr("src","images/nonet.png");
+			$("#ServerStatus").text("(服务器连接失败)");
+		}
+		else
+		{
+			$("#netimg").attr("src","images/net.png");
+			$("#ServerStatus").text("(已连接)");
+		}
+			
+    }
+
+    
+</script>
+</html>

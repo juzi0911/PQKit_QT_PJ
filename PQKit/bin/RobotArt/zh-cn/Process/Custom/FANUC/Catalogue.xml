@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCatalogueS>
+  <GeneralCatalogue name = "Weave（摆动指令)">
+	<Instruction>
+		<name>Weave Sine[ ]        （摆焊 正弦【】）</name>
+		<Process>Weave Sine[ ]     （摆焊 正弦【】）.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>Weave Figure 8[ ]    （摆焊 圆8【】）</name>
+		<Process>Weave Figure 8[ ] （摆焊 圆8【】）.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>Weave Circle[ ]      （摆焊 圆【】）</name>
+		<Process>Weave Circle[ ]   （摆焊 圆【】）.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>Weave End        （摆焊 结束）</name>
+		<Process>Weave End        （摆焊 结束）.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>Weave Sine 2[ ]    （摆焊 正弦2【】）</name>
+		<Process>Weave Sine 2[ ]    （摆焊 正弦2【】）.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>Weave L         （摆焊 L【】）</name>
+		<Process>Weave L         （摆焊 L【】）.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>Weave End[ ]     （摆焊 结束【】）</name>
+		<Process>Weave End[ ]     （摆焊 结束【】）.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+	<GeneralCatalogue name = "Track/Offset（跟踪/偏移）">
+	<Instruction>
+		<name>Track（跟踪）</name>
+		<Process>Track（跟踪）.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>Track End</name>
+		<Process>Track End.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>MP Offset（多层多道偏移）</name>
+		<Process>MP Offset（多层多道偏移）.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>MP Offset End（多层多道偏移结束）</name>
+		<Process>MP Offset End（多层多道偏移结束）.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>Track RPM（带多层多道的跟踪）</name>
+		<Process>Track RPM（带多层多道的跟踪）.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>Track End[ ]（跟踪结束）</name>
+		<Process>Track End[ ]（跟踪结束）.xml</Process>
+	</Instruction>
+	</GeneralCatalogue>
+ </GeneralCatalogueS>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>AMP=[Amperage](A)</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+   <ProcessInfo>
+		<Name>AMP</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit>A</Unit>
+		<defaultValue>0</defaultValue>
+    </ProcessInfo>
+    </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>AMP, [[1]]</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

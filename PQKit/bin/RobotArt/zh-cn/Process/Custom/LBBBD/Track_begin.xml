@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>启动流水线跟踪</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>流水线跟踪功能包ID</Name>
+		<Id>[[1]]</Id>
+		<Type>edit</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>&quot;Track_begin 0 [[1]]&quot;</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

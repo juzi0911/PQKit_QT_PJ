@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			IF		</Title>
+  <GroupColl>  
+   <Group> 
+   
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>I</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+		
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>&lt;></Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>0.0</defaultValue>
+		
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>L</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>10</defaultValue>
+		
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+  </Group> 
+   </GroupColl> 
+   
+  
+  <statementSrcColl>
+	<statement>
+		<Part> IF		I[[1]] &lt;>[[2]] L[[3]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <PreloadDLL>1</PreloadDLL>
+  <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <file name="fmArchitecture.dll" hashalg="SHA1">
+      <comClass clsid="{5B13D0D4-137E-4E5A-B306-A50C99A5D259}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoControlCenter Class"/>
+      <comClass clsid="{122DC5D8-94BD-4D5A-AC4A-005B4CCC2C54}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoSession Class"/>
+      <comClass clsid="{715B4238-B593-4170-B106-EA2CCF486960}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoViewCenter Class"/>
+      <comClass clsid="{478F3CEC-659F-4C84-BCC0-2D1D0B506C33}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoServer Class"/>
+      <comClass clsid="{2E301076-E478-421C-8A43-F36DEF0B80ED}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoDocument Class"/>
+      <comClass clsid="{FBCF73C4-E131-480D-A80F-2B5A7001E70C}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoServiceCmdLine Class"/>
+      <comClass clsid="{670A7D31-AC62-43BD-9D12-3FDACF2522F6}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoSysServiceColl Class"/>
+      <comClass clsid="{D1E4FF9E-8BCC-42D1-8304-BA021F8F76A0}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoCmdContext Class"/>
+      <comClass clsid="{F7DE7422-AE5D-4D0E-AB92-621FFC87FE7F}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoCommandColl Class"/>
+      <comClass clsid="{646BFFFF-F22F-4BB2-AA6A-12316019EE47}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoInteractionHistory Class"/>
+      <comClass clsid="{582CE040-45C5-46B8-9910-41BC76D2045C}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoDocumentColl Class"/>
+      <comClass clsid="{C8B1A763-AD99-4FBF-8979-0EBA2F13784B}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoPathMng Class"/>
+      <comClass clsid="{B2AD22CD-064B-478E-A037-EC6DCF4DA7CD}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoReactorManager Class"/>
+      <comClass clsid="{052193DE-EB76-4B31-856E-84645D961418}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoDbObjectTigger Class"/>
+      <comClass clsid="{D0445C14-4DE4-492D-907B-E39A746B596D}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoDbDatabaseTigger Class"/>
+      <comClass clsid="{20B9161F-8ABE-4F50-9391-6BA02CAC2318}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoEditorTigger3 Class"/>
+      <comClass clsid="{7B376B20-0A3A-4428-A8D9-CEC2CBB54846}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoApProfileManagerTigger Class"/>
+      <comClass clsid="{7B8A2109-B3C0-4883-8441-2FF537540D49}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoApDocManagerTrigger Class"/>
+      <comClass clsid="{61DEE31C-79D2-4E7C-9F8E-378542DD4249}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoEdInputContextTrigger Class"/>
+      <comClass clsid="{CD65E0FD-99EA-4362-BDE8-C7C8D2073A7B}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoCtlEditorTrigger Class"/>
+      <comClass clsid="{AD6F3AD4-9E3A-4753-817E-F227EB7D1222}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoDropTargetTrigger Class"/>
+      <comClass clsid="{6A3F4092-5AFB-43B9-A361-11A2DF64257E}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoCFIDInfo Class"/>
+      <comClass clsid="{048644BC-E3C4-4634-AABF-B247BF3C1D02}" tlbid="{B95B8E92-C6E3-4F84-9817-832E96B4FC1D}" description="RoBlockEditTrigger Class"/>
+      <comClass clsid="{D5706F8E-F1AB-4371-AF78-81C0CDE0511B}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoCmdAccount Class"/>
+      <comClass clsid="{6DB763D8-1558-46B5-B63E-E313188192D4}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoCmdAccountColl Class"/>
+      <!--<comClass clsid="{C44D0394-8272-489E-A667-5E1E6F46953B}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoEnvironment Class"/>-->
+      <comClass clsid="{827C6EA1-0F59-4C18-B810-9471B7529AFD}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoEnvironmentColl Class"/>
+      <comClass clsid="{9ACAA817-95E1-4A70-B592-8231412E100E}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoModule Class"/>
+      <comClass clsid="{6E476E6B-5C8A-4C2E-B881-C5960F81268D}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoModuleColl Class"/>
+      <comClass clsid="{1D987F45-13DB-47A5-AAB7-79FB819ACBD0}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoSysServiceCLSID Class"/>
+      <comClass clsid="{CACD59CE-3AFA-41BA-8EB7-144E8CC8A248}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoSysServiceCLSIDColl Class"/>
+      <comClass clsid="{2E8D9AB6-7F73-4B90-9FAA-F6C9F6118248}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoTemplate Class"/>
+      <comClass clsid="{9F212199-89BD-48AB-B358-60830C302CCE}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoTemplateColl Class"/>
+      <comClass clsid="{1A540E68-B45E-4689-BFBD-C947CFA82E3B}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoConfiguration Class"/>
+      <comClass clsid="{17D021D9-274B-4645-AF81-199CFECE986F}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoConfigurationColl Class"/>
+      <comClass clsid="{458DA852-520E-4322-B10F-0FBFD74B5037}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="RoTxtTemplate Class"/>
+      <comClass clsid="{6F8946B2-4F9C-4339-93FC-216553A58719}" tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" description="CLSID_RoAppConfig Class"/>
+      <comClass clsid="{7DE87C86-2FC9-432A-A759-977E97757953}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoUI Class"/>
+      <comClass clsid="{2DC681CD-16C4-4C49-A466-056331BA8B57}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoMenu Class"/>
+      <comClass clsid="{ED95A461-ACF3-4E12-B746-551A3E935260}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoMenuItem Class"/>
+      <comClass clsid="{4D418F14-2B57-44C4-8F5D-A6CF2D96B43A}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoMenuItemPopup Class"/>
+      <comClass clsid="{D5A27E2A-80B8-43B1-8B05-2580B5CAA608}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoMenuItemSeparator Class"/>
+      <comClass clsid="{EC82DFE1-D4B1-48D7-8BFF-F23A03BF047A}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoToolBar Class"/>
+      <comClass clsid="{5725AA15-795D-46DB-A891-F0287FCE2D4D}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoToolBars Class"/>
+      <comClass clsid="{41728E0C-C5BA-4763-A5FB-F1069D654A51}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoToolBarButton Class"/>
+      <comClass clsid="{92021DF9-1989-441C-A2EC-5849BE52E832}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoAccelerator Class"/>
+      <comClass clsid="{161F078A-1FB5-4919-A314-B7FFAA59D8A0}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoAccelKeyAssignment Class"/>
+      <comClass clsid="{1A241346-007A-4148-902B-2F9F35011FF4}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoStatusBar Class"/>
+      <comClass clsid="{71825B7F-E90B-4D71-8FB5-F8C9A9CC9146}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoToolBarButtonSeparator Class"/>
+      <comClass clsid="{00266931-DEDA-4E47-A629-4092CA44BAC8}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoPrompt Class"/>
+      <comClass clsid="{FD433141-B16B-4DD8-8EA3-C72342634DC3}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoPrompts Class"/>
+      <comClass clsid="{370C5016-02C5-421F-A949-2FEB46780AAF}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoCustomWnd Class"/>
+      <comClass clsid="{534385B5-24A5-4E56-9E58-356CF7C4B3F9}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoCustomWnds Class"/>
+      <comClass clsid="{A3DCE140-D7C3-4269-9BA9-B681110CA4D2}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoInstruction Class"/>
+      <comClass clsid="{310CF2F4-205D-4F14-AC5E-5C059BB3D7FB}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoInstructions Class"/>
+      <comClass clsid="{6FFB6291-3103-40C8-9279-DBE338BEF407}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoIMenuLong Class"/>
+      <comClass clsid="{25AE94CE-7976-4CFE-9649-7C6AAD817028}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoIMenuDouble Class"/>
+      <comClass clsid="{4957BE53-58C7-4027-90F3-B1EE95FF01CB}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoIMenuString Class"/>
+      <comClass clsid="{4C2991B2-F976-44AF-9D7E-35B578D86C74}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoIMenuChoice Class"/>
+      <comClass clsid="{966C7E51-D1CB-4459-95FA-D14AD7DF4174}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoIMenuSize Class"/>
+      <comClass clsid="{879F44E7-4975-4959-8B01-118353394E62}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoToolAccelerator Class"/>
+      <comClass clsid="{56D0E038-99BA-42AF-968C-9E4CAD290821}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoAcceleratorGroup Class"/>
+      <comClass clsid="{81BA79D0-1374-43A8-9573-2830A8CEE855}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoMainButton Class"/>
+      <comClass clsid="{68E48BA2-3881-41C4-9208-322BC9D75646}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoQuickAccessTool Class"/>
+      <comClass clsid="{87F5A78D-E946-4AD6-AF1D-B693D1AFE2DF}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoRibbonBar Class"/>
+      <comClass clsid="{128557A9-2BC7-4CFD-8D09-C34088DD941E}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoRibbonTab Class"/>
+      <comClass clsid="{3F32E876-4F54-41FC-BDAA-DF05DB2301D8}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoRibbonTabColl Class"/>
+      <comClass clsid="{15CD455C-8880-4CE0-84BA-8249F88B4FA5}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoRibbonPanel Class"/>
+      <comClass clsid="{FD31F990-E097-4A96-9644-FF0787F51EDF}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoRibbonPanelColl Class"/>
+      <comClass clsid="{1A306EBE-6624-4D80-8553-D9D37BDE2DB5}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoHiddenButtons Class"/>
+      <comClass clsid="{C0B502E9-7664-41AF-87E9-1EFA83FC6216}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoRibbonButton Class"/>
+      <comClass clsid="{35D16F1B-EB53-4822-B517-26C0635EE3B3}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoRibbonButtonColl Class"/>
+      <comClass clsid="{0168156B-E0C0-4145-985E-593434035C99}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoSelectionMgr Class"/>
+      <comClass clsid="{E72A8AEC-A8C1-453F-B5BF-98D023E24468}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoSysEventColl Class"/>
+      <comClass clsid="{AC576F5E-5F93-41C5-9681-A74F07CDC1C9}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoSelectionBreadcrumb Class"/>
+      <comClass clsid="{604FD7E4-17CA-45E0-9C66-B6DBBE8DE42E}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoLoginInfoCfg Class"/>
+      <comClass clsid="{79B94009-73FD-45F5-BB17-C6BAFD59BA12}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoNetWorkCfg Class"/>
+      <comClass clsid="{99838115-A888-449A-A822-FA99027ABBC3}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransaction Class"/>
+      <comClass clsid="{73520EDA-2318-4DF6-B9A8-5FA47F4F917B}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionObjectChg Class"/>
+      <comClass clsid="{108CA82E-AF38-44CE-A771-886066DC3DEA}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionObjectAdd Class"/>
+      <comClass clsid="{B105E1E1-B3B6-4B81-8D69-5C715732A6C2}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionObjectDel Class"/>
+      <comClass clsid="{59260246-28F3-4F80-934A-D40A29FAF6CC}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionObjectColl Class"/>
+      <comClass clsid="{BBA4E2A8-3140-47C4-B7A6-7CFA0BBAC3EA}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionColl Class"/>
+      <comClass clsid="{A99E7166-FF81-4E51-A6CA-A719406A556F}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionContainer Class"/>
+      <comClass clsid="{F293CEE9-A4EB-4AA7-AA82-0535361803E2}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionHide Class"/>
+      <comClass clsid="{6D5BEE46-9146-47CD-A9C5-06F71C2C7D50}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionEditPoint Class"/>
+      <comClass clsid="{8D1F99F0-A8DE-47A7-BB3D-CA3DE2FE35F8}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionObjectHomePos Class"/>
+      <comClass clsid="{DA47CFEC-C847-44A5-A9E1-7900CF31CED4}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionObjectTCP Class"/>
+      <comClass clsid="{0E157BD7-85DD-490B-AA35-BF5BA00DDCB6}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionObjectDriveMtx Class"/>
+      <comClass clsid="{729E4082-855D-4D31-9045-D1E9DFA1F0AB}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionObjectDrivingObj Class"/>
+      <comClass clsid="{1688C0EC-6828-4215-9555-8C8CAF32563D}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionObjectMoveItem Class"/>
+      <comClass clsid="{6F9C74EB-896C-4E73-8562-C3B3B5655130}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoTransactionObjectSwap Class"/>
+      <comClass clsid="{76746D26-A5FC-4B67-90D2-00455B155FFC}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoSystemCfg Class"/>
+      <comClass clsid="{A77F7E02-749B-4688-99AC-E1FEB9B9F0F5}" tlbid="{A4EBA6CA-3F33-4641-AE29-766F7888B544}" description="RoDataExchange Class"/>
+      <comClass clsid="{CD649F21-9420-4787-8F6E-E5FDFDCB94FB}" tlbid="{D08B647D-1295-4D70-8DD4-004741A98572}" description="RoBroadcastSystem Class"/>
+      <comClass clsid="{61F3175D-441A-429C-9B41-AFF56374C000}" tlbid="{D08B647D-1295-4D70-8DD4-004741A98572}" description="RoBroadcast Class"/>
+      <comClass clsid="{E4F55207-3321-453F-B28E-DC88499FC637}" tlbid="{D08B647D-1295-4D70-8DD4-004741A98572}" description="RoEnvironmentStartPage Class"/>
+      <comClass clsid="{05F2DA0B-F970-45CD-8686-56FE219321F4}" tlbid="{D08B647D-1295-4D70-8DD4-004741A98572}" description="RoEnvironmentDesignDoc Class"/>
+      <comClass clsid="{DF3F407B-DC69-44EB-BB3D-9573F92CF90D}" tlbid="{D08B647D-1295-4D70-8DD4-004741A98572}" description="RoInternalAppNotify Class"/>
+      <typelib tlbid="{DB7470A0-131B-4253-83CE-DECBA54769B9}" version="1.0" helpdir="" flags="HASDISKIMAGE"/>
+    </file>
+    <file name="fmConfigIO.dll" hashalg="SHA1">
+      <comClass clsid="{A28BCDAB-4389-47C6-A6A8-318A4D607A2B}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoAppParser Class"/>
+      <comClass clsid="{316F0437-A72B-4E8F-B325-6129435D3D39}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoTmplParser Class"/>
+      <comClass clsid="{0A02DC11-D098-49E3-A4EB-93D9B8B24930}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoUiParser Class"/>
+      <comClass clsid="{C3619F2B-383A-4349-97A6-C509FD0C5353}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsUI Class"/>
+      <comClass clsid="{BD178DFA-B0C8-4AB8-ABF1-1602C03341E3}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsMainMenu Class"/>
+      <comClass clsid="{E814760E-B1F8-45DD-834A-B280F5FD915F}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsAccel Class"/>
+      <comClass clsid="{DC87E5E0-3648-40A7-A178-9048C24C861B}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsCustomWnd Class"/>
+      <comClass clsid="{91F9572E-C4DD-4924-A282-1FF72B7F7DC3}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsInstruction Class"/>
+      <comClass clsid="{03C19B82-4A32-4AE6-90A1-E361D3524084}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsMenuItem Class"/>
+      <comClass clsid="{2C1FEB1D-53BD-4D95-BBAC-0EE5F4D0DE52}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsPrompt Class"/>
+      <comClass clsid="{0B996F10-1F66-48C6-A585-AA5B41C962D0}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsStatusBar Class"/>
+      <comClass clsid="{ABBEBF01-5252-468A-B0F9-350C97F203AF}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsToolBar Class"/>
+      <comClass clsid="{322CDA15-5602-4E95-9CCF-AA1F63F5D7DD}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoModuleParser Class"/>
+      <comClass clsid="{C1C53550-201E-45E6-B507-A9DD46571021}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoEnvParser Class"/>
+      <comClass clsid="{0F84ACA7-B6BA-4443-BDF4-062DC6708F43}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoCmdParser Class"/>
+      <comClass clsid="{8ABD425E-9ED7-446F-905E-19FA15A1616B}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsAccelGroup Class"/>
+      <comClass clsid="{A7BE4D75-D982-4A57-B75D-8228872987AF}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoDisplayCfgParser Class"/>
+      <comClass clsid="{7FF2B22F-BDE5-46BE-B3D7-258D574B3DF8}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoDWGInterfaceCfgParser Class"/>
+      <comClass clsid="{E50F9AA3-D01C-4C0C-B54E-7271F9454E90}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoFileAttributeCfgParser Class"/>
+      <comClass clsid="{38088E38-2BC1-4B33-9BDC-A686D209B34D}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoFilePathCfgParser Class"/>
+      <comClass clsid="{42F3EB97-B2F9-4340-AABF-8797B15EA2A6}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoProductCfgParser Class"/>
+      <comClass clsid="{9DA9DEB6-BB3A-4F24-BEA7-CE5E1DCC7144}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoSelectCfgParser Class"/>
+      <comClass clsid="{D7C5F709-200A-48D6-A661-22B3D3B7C5E4}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoSysParameterCfgParser Class"/>
+      <comClass clsid="{0EE5A171-8669-4E59-BF59-0327A35CBA66}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoSmartPosCfgParser Class"/>
+      <comClass clsid="{502A55DD-6C25-4695-A380-73B001A35675}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoSmartPosParaParser Class"/>
+      <comClass clsid="{E120E75E-C633-4191-A32D-6B7506806B28}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsConfigColl Class"/>
+      <comClass clsid="{398108FA-F7D4-40F1-8891-B97365405546}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsConfig Class"/>
+      <comClass clsid="{DB243F0E-E6D1-438F-855C-257A9F195DA2}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsOpenFileType Class"/>
+      <comClass clsid="{72A96971-0C36-4D5B-8C24-4F70903DEE59}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsOpenFileTypeColl Class"/>
+      <comClass clsid="{C113301F-179F-4F5A-AFF2-87AD1AD05BE7}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsEditObj Class"/>
+      <comClass clsid="{96583F79-C73A-4DE2-8EF2-07C97E582A17}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsEditObjColl Class"/>
+      <comClass clsid="{F32C6AC0-078F-41C4-82C3-3A6EF80DDF03}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsCommand Class"/>
+      <comClass clsid="{A7118754-5C00-4816-BC87-D47B9B2B4D37}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsCommandColl Class"/>
+      <comClass clsid="{13A93BD3-93C0-48B2-8143-6792929C5C5B}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsMainButton Class"/>
+      <comClass clsid="{35385C3F-B3F5-41EF-9197-EC9B6C79FD2D}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsQuickAccessTool Class"/>
+      <comClass clsid="{59B0E7CB-BD66-4AA1-BBD6-509E89B3BDFD}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsRibbonBar Class"/>
+      <comClass clsid="{70B659BD-D0EF-4A35-B55B-BD142058A5A2}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsRibbonTab Class"/>
+      <comClass clsid="{773145B3-6B52-4A47-9189-47B9B6093DA6}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsRibbonTabColl Class"/>
+      <comClass clsid="{D3CAA595-593C-4B1F-9463-89C8FC97C3F3}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsRibbonPanel Class"/>
+      <comClass clsid="{11DA9D16-DFE8-4C2D-B6F4-41767141CE2B}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsRibbonPanelColl Class"/>
+      <comClass clsid="{084244AC-F397-40F5-A90C-21365CBE4805}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsHiddenButtons Class"/>
+      <comClass clsid="{0E943ECA-DD50-49DB-BB64-9463DAF9B07B}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsRibbonButton Class"/>
+      <comClass clsid="{65EC56FA-0B6E-4BD3-975F-5235953BED10}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsRibbonButtonColl Class"/>
+      <comClass clsid="{81BAD570-85E3-4EC8-A08F-72A3F774BB3F}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsAccelColl Class"/>
+      <comClass clsid="{79619134-45BC-49F1-9BDF-C2B7BE463E65}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsAccelGroupColl Class"/>
+      <comClass clsid="{4E1520E8-9AF1-4831-8011-FF2C11F4371D}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsToolBarButton Class"/>
+      <comClass clsid="{4C8CEB35-17FC-4AC5-93C0-2B90E9342EBD}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsToolBarButtonColl Class"/>
+      <comClass clsid="{A2CC3896-7C90-4A68-9EE4-15EC2236AEE9}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsCustomWndColl Class"/>
+      <comClass clsid="{A34FFF67-D4DD-475C-9576-7A6EF0479D53}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsInstructionColl Class"/>
+      <comClass clsid="{64779A85-38E7-4479-8F6E-3A5DDFCEC20A}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsMenuItemColl Class"/>
+      <comClass clsid="{C852CADC-63F2-4DD4-8BFC-7C1ADF615443}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsPromptColl Class"/>
+      <comClass clsid="{EEF56BC9-AC91-458F-8925-EAC29E126EE1}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsToolBarColl Class"/>
+      <comClass clsid="{680E9E75-69F6-4807-9795-C1AF4052849C}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoProjectionCfgParser Class"/>
+      <comClass clsid="{C5A22995-F609-420E-9B63-5C7EB4083E9E}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoTxtParser Class"/>
+      <comClass clsid="{1A3E1DA5-0210-46FF-B967-E858AB152A4D}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoTxtTemplateFileParser Class"/>
+      <comClass clsid="{1BEC2BB0-3E60-4A79-91BE-8205C11B209A}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoCustomPTParser Class"/>
+      <comClass clsid="{AA58C003-C39A-48BD-8F49-AF095374ACB7}" tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" description="RoPrsEnvirColl Class"/>
+      <typelib tlbid="{BBCEFA5F-0D5D-4A3E-85F1-CE1695F8AF23}" version="1.0" helpdir="" flags="HASDISKIMAGE"/>
+    </file>
+    <file name="fmArchitecture{POST}.dll" hashalg="SHA1">
+      <comClass clsid="{E6B52E36-A113-4B24-8387-7BE2CD2EE8A3}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoControlCenterCAXA Class"/>
+      <comClass clsid="{927E60E7-F74E-4666-9F78-852AE7972559}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoCmdContextCAXA Class"/>
+      <comClass clsid="{91E2185C-861E-442F-A5F9-1324349CD419}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoCommandMgrCAXA Class"/>
+      <comClass clsid="{CE9BBB83-4D23-4517-B755-214702C627D9}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoSelectionMgrCAXA Class"/>
+      <comClass clsid="{C1FB7782-AA91-4F90-9ECA-C916D0F4254F}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoViewCenterCAXA Class"/>
+      <comClass clsid="{8D881ED3-35EE-48B6-8416-7506593536D6}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoInternalAppCAXA Class"/>
+      <comClass clsid="{50F93441-1F63-42BF-A604-30E8A309E711}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoDocumentCAXA Class"/>
+      <comClass clsid="{73C40100-BA4D-4779-92EB-2C7C942676F4}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoUIManagerCAXA Class"/>
+      <comClass clsid="{28DAE92D-7565-4C6D-A8AC-FB1C1B499276}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoDataModelHandler Class"/>
+      <comClass clsid="{B02E3332-FE50-453D-8000-93CB4C75EC27}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoSelectionBreadcrumbCAXA Class"/>
+      <comClass clsid="{146FDBA0-7C1D-41A6-BCD4-A2D90F03483F}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoTransactionChangeElement Class"/>
+      <comClass clsid="{E56AD70B-CE88-4810-9996-2B8161CAA720}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoTransactionVectorElement Class"/>
+      <comClass clsid="{1A10A91B-75B4-4DA5-A9B7-7A86863DC579}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoTransactionChangeExtensionObject Class"/>
+      <comClass clsid="{AD98E227-AFED-4D41-9633-02BD9B2BEABE}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoWindow Class"/>
+      <comClass clsid="{86B4A0D0-DC89-4534-A626-FB85DCBAAAE6}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoSystemCfgCAXA Class"/>
+      <comClass clsid="{17E6984D-2A58-4673-A591-20FA22E52B6E}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoFloorCAXA Class"/>
+      <comClass clsid="{58C22D69-D340-4861-B64B-44F3CADE44B7}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoInternalExtendAppPQ Class"/>
+      <comClass clsid="{8FC5CD96-F32B-4EC7-B7AD-187B752AB995}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoCameraCAXA Class"/>
+      <comClass clsid="{5E93A4D9-98E4-4DDB-A9BF-6E21184833E8}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoDockBarMgrCAXA Class"/>
+      <comClass clsid="{3CBAD7C7-B708-4BC1-A4BB-C57AEB9FBAE4}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoImportSetupCAXA Class"/>
+      <comClass clsid="{5C27EDCC-42C6-464D-A901-CE2182630CC2}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoDataExchangePQ Class"/>
+      <comClass clsid="{B06DAD61-4515-4B72-A9F9-7EB537FFF69A}" tlbid="{6E3BE31E-4233-445E-BD88-E02123C07C82}" description="RoBoxSelectionHandlerCAXA Class"/>
+    </file>
+    <file name="apDataPrepare.dll" hashalg="SHA1">
+      <comClass clsid="{b1288c68-921b-11ef-b52b-207bd29c04d9}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoColorCardSetting Class"/>
+      <comClass clsid="{0998b368-c5bc-11ed-9d10-085bd6ca3740}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoDownFileByFtp Class"/>
+      <comClass clsid="{13ae24a8-6ae2-11ed-9190-085bd6ca3743}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoWeldingOption Class"/>
+      <comClass clsid="{b197d198-75ad-11eb-9e32-6014b35caef6}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoPathSynSetting Class"/>
+      <comClass clsid="{ed02e782-02e2-11eb-b1d2-6214b35caef5}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoInstallFL Class"/>
+      <comClass clsid="{d20a7be4-bca0-11e8-868f-6014b35caef6}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoSelInstallAngel Class"/>
+      <comClass clsid="{6b134bfa-b1ae-11e8-bb95-6057187a9384}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoReplaceTool Class"/>
+      <comClass clsid="{3bafc0a6-8fe8-11e8-a3be-6014b35caef6}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoInstallObj Class"/>
+      <comClass clsid="{4346d2f6-8fdf-11e8-bc86-6014b35caef6}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoSelInstallRobot Class"/>
+      <comClass clsid="{EF4446BB-CBDA-407C-9005-C7F7D0180876}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoChooseSeat Class"/>
+      <comClass clsid="{C65C88D9-7145-4500-84EC-835B9F0576FC}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoStartPage Class"/>
+      <comClass clsid="{d631c640-e942-11e7-8f35-184f3282d4c8}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoChooseDevice Class"/>
+      <comClass clsid="{c1adeee4-d444-11e7-acaf-184f3282d4c8}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoChooseTool Class"/>
+      <comClass clsid="{1e268f8a-6776-11e7-b957-c85b76b23397}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoSaveWorkingPart Class"/>
+      <comClass clsid="{2EB6B6AE-13DE-426A-ADDF-B5AC7B50C7CF}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoOption Class"/>
+      <comClass clsid="{EA540EC8-5F75-4237-B7A3-61EAEF878989}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoImportTool Class"/>
+      <comClass clsid="{32A8E0A7-A15F-47BB-956A-72E2DFFBC765}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoImportSeat Class"/>
+      <comClass clsid="{EB90DEBA-3BAF-4A10-9CD4-157A3154ECA3}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoModelTreeMgr Class"/>
+      <comClass clsid="{5EAD2AB6-20BF-4D69-AA43-ECE6CA06CF8F}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoFileNew Class"/>
+      <comClass clsid="{E071DDC7-B772-4830-95DC-E44D6F18678C}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoFileOpen Class"/>
+      <comClass clsid="{8C7A819E-3438-4AEF-A4CC-75296F4CA54D}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoFileSave Class"/>
+      <comClass clsid="{59404F97-F53B-4616-A206-3E1567299726}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoFileSaveAs Class"/>
+      <comClass clsid="{54292E10-774C-4E94-A2BE-A00FCC5A2598}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoTCPSetting Class"/>
+      <comClass clsid="{0A4B6801-FDCB-4186-86EB-F293F5787108}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoPointProp Class"/>
+      <comClass clsid="{34BE8891-F5B5-46B9-9BC1-4BF0ABB624AA}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoShowObj Class"/>
+      <comClass clsid="{39B30708-FF8E-4F48-BB49-969FBB1C33F5}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoHideObj Class"/>
+      <comClass clsid="{A550CC15-021A-4013-A05C-A314A4258E11}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoNotExportCoordinate Class"/>
+      <comClass clsid="{71EB43BA-D784-40A2-A174-87CCE49500E8}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoReNameObj Class"/>
+      <comClass clsid="{AA4529FD-D21B-4552-8311-1AFE568219BC}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoDeleteObj Class"/>
+      <comClass clsid="{5C4239B3-372F-41CE-B75B-F04D6903819E}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoEditCoord Class"/>
+      <comClass clsid="{A58A410D-C583-46E7-B3BB-0EBE20283D4F}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCopyCoord Class"/>
+      <comClass clsid="{154336BB-3502-4D97-A794-721425FD0B4F}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCoordinateDetection Class"/>
+      <comClass clsid="{2B27E444-3CA8-4073-93F1-8AE046C88622}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCoordProp Class"/>
+      <comClass clsid="{87469351-0A20-4229-9E01-9147CDA05555}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoDeleteEvent Class"/>
+      <comClass clsid="{B41F26CE-F290-402D-B4C6-93793C4A52D0}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoImportWorkStation Class"/>
+      <comClass clsid="{73EAFA85-EF26-4BB5-AB32-8B54315289B5}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoShowAllHideObj Class"/>
+      <comClass clsid="{E5E48BCC-A170-4866-981C-317BB23AD830}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoImportAccessoryPart Class"/>
+      <comClass clsid="{EE75B465-57E0-49FA-A240-25355162CC22}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCompile Class"/>
+      <comClass clsid="{ACC3BCB5-2170-4A87-94B4-FF942772648B}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoEncryptWorkStation Class"/>
+      <comClass clsid="{520D7D76-03A1-48A6-A386-C2AC9AC64A05}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoDecryptWorkStation Class"/>
+      <comClass clsid="{94B5E048-171B-4BEE-B184-4190D77A5EF7}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoExportModel Class"/>
+      <comClass clsid="{77935E2B-C675-4429-BC92-DD1E4FD9FD7D}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoSequceneSim Class"/>
+      <comClass clsid="{26FA3C95-3186-45DF-9D74-9FD223934492}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoImportMechState Class"/>
+      <comClass clsid="{03BE3B18-763E-4785-971E-08E79957A7B8}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCreateWorkCell Class"/>
+      <comClass clsid="{670232F7-D78D-4F6E-9631-F5D3AA339445}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoDismissWorkCell Class"/>
+      <comClass clsid="{3EC57AAA-FC5A-41F9-B378-BB1CAF4F2C6E}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoDmProxy Class"/>
+      <comClass clsid="{D6E92DC4-484A-40D1-B744-001F0187A2EC}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoDmUndo Class"/>
+      <comClass clsid="{D47E6C4A-9109-4E68-B559-B9347A07A4B8}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoDmRedo Class"/>
+      <comClass clsid="{4DB17731-A4B5-4E56-9FFA-D15DB03E8C0B}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoStartPageDockMgr Class"/>
+      <comClass clsid="{13CBE726-F011-4542-A063-6BEF51A18EC1}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoShowHide Class"/>
+      <comClass clsid="{4B2FA3AA-3A9A-4763-B209-A63EF18369AC}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoSynergismSet Class"/>
+      <comClass clsid="{717F48FA-7620-4E24-A2FA-84A2002C1150}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCreatBaseFrame Class"/>
+      <comClass clsid="{44C66F3F-3C12-4E91-A49E-DCB434CFE17C}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoShowFloor Class"/>
+      <comClass clsid="{5AF9BCE2-95B1-4B4E-B35B-C709B6429A32}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCorrectBaseFrame Class"/>
+      <comClass clsid="{0219788C-1140-4C1D-95E2-DC8F4DE6B05A}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCopyDmDataObject Class"/>
+      <comClass clsid="{C362A13F-D7E3-4BF6-AED9-3E15C24A70E2}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoFileLite Class"/>
+      <comClass clsid="{FD3F7808-79A6-4335-AA16-F1326B0FFF85}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoSetRobotCooperation Class"/>
+      <comClass clsid="{FCC76D9A-E3F7-4396-95DD-FADBEB91FF0B}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoImportWorkStationResource Class"/>
+      <comClass clsid="{85A28134-BDDA-44EA-9A78-60AF7E2F0A4D}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoImportTemplate Class"/>
+      <comClass clsid="{90A99C47-ACB0-490D-A6BA-E9369A77B168}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCleanRedundantData Class"/>
+      <comClass clsid="{B20B5A4A-E121-4B61-A7B7-A5E6A8C69269}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoViewAnimation Class"/>
+      <comClass clsid="{4B324E72-24AB-4E09-92F5-1B5FF8244D76}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoImportConveyor Class"/>
+      <comClass clsid="{A3AAC6CC-6AFD-4DF0-B248-8B7113842189}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoUpdataSize Class"/>
+      <comClass clsid="{5170837D-125A-4154-A010-46FFF02F0F3F}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCustomViewMgr Class"/>
+      <comClass clsid="{F8C0F4AD-4FA8-4387-89E9-FDC57D77DE79}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoMoveTogether Class"/>
+      <comClass clsid="{6B470D02-4B7B-4754-B813-8659555F4EC2}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoSetProcessParameters Class"/>
+      <comClass clsid="{CB207CA7-D17C-4550-A936-A3994BB27936}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoEditPointGroupParameter Class"/>
+      <comClass clsid="{5C7DE4C2-84D4-492A-9439-770E812A12C9}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCopyRobot Class"/>
+      <comClass clsid="{D275AFD4-65B4-43DF-93BA-406CB37EF129}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoDeletePaintEffect Class"/>
+      <comClass clsid="{E30690E6-FF0B-48EB-93C9-1C075B5A4DAF}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoOpenAutoSaveFile Class"/>
+      <comClass clsid="{88f8311c-4014-11ef-93ca-e86538708448}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoSetPathParameters Class"/>
+      <comClass clsid="{BB8594DE-F86B-479C-BC34-FF0358D261F1}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCaptureWorkingPartSnapshot Class"/>
+      <comClass clsid="{5B942F20-024D-4E12-88B0-6689E1EEBE2E}" tlbid="{4048013F-1CC6-4A46-A051-5D77FB9664CD}" description="RoCompensateExtAxisOnSnapshot Class"/>
+    </file>
+    <file name="apPath.dll" hashalg="SHA1">
+      <comClass clsid="{770D4FA9-99EB-45EA-98F5-C43FB27764D3}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoWorkingPathVelocity Class"/>
+      <comClass clsid="{FD241003-54AF-483F-9D8D-EC7FE11E2A81}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoGenerateDetectingPath Class"/>
+      <comClass clsid="{B1F4149F-DE6D-49EA-BC68-B540CCF0464D}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoAddLayerNumber Class"/>
+      <comClass clsid="{6B23DA07-9BFD-47C8-B703-EB1AE22964AB}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoUpdatePoseByRobot Class"/>
+      <comClass clsid="{D901FD56-E21E-4AD7-ABE1-7BD57AB94A18}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoFixed3P2RAngle Class"/>
+      <comClass clsid="{46C3DB77-C8AA-4288-A06E-99D593B9F0B1}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoProcessLaserCut Class"/>
+      <comClass clsid="{C25DEEF6-DD1D-4E46-AA36-ECEF5BAB1DAF}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoAddLeapfrogPath Class"/>
+      <comClass clsid="{D6C23D7E-F9F4-4F36-BA56-65F8984F23FE}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoAddEventBat Class"/>
+      <comClass clsid="{419063BF-FE06-4FBB-BA66-BDD7AB4FE4C7}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoPlaneLikePath Class"/>
+      <comClass clsid="{7E9CC4E8-F5CB-4E8C-9EA6-DAD53A9313F7}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoSpinSprayPath Class"/>
+      <comClass clsid="{d7929e12-bc95-11ec-b7d3-44af280f9faa}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoInsertPointDistance Class"/>
+      <comClass clsid="{b2a2e42c-9acf-11ec-a59d-085bd6ca3743}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoBatchEditMulitPoint Class"/>
+      <comClass clsid="{cbc72e4a-69e4-11ec-9283-44af280f9faa}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoGenGeodesic Class"/>
+      <comClass clsid="{b97d28e4-5d45-11ec-8b14-44af280f9faa}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoAddTransitPath Class"/>
+      <comClass clsid="{4383228a-318d-11ec-b263-38fc9884e396}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoApplyTrans Class"/>
+      <comClass clsid="{804b1a92-3189-11ec-8e03-38fc9884e396}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoComputeTrans Class"/>
+      <comClass clsid="{29a6e870-bc36-11eb-a58e-c83dd4f5f86c}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoLoadPathFeaturesFromFile Class"/>
+      <comClass clsid="{d56e8aa4-b9e2-11eb-8357-c83dd4f5f86c}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="SavePathFeatures2File Class"/>
+      <comClass clsid="{d68bc664-4688-11eb-9848-0050b6daf2ae}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoTouchPoint Class"/>
+      <comClass clsid="{0b0c3e30-0c32-11eb-9c83-c83dd4f5f86c}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="UserDefineFeature Class"/>
+      <comClass clsid="{ccf1b750-0228-11eb-b501-c83dd4f5f86c}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoEditPointsVelocity Class"/>
+      <comClass clsid="{47C4495E-4F16-4BD9-95DB-763ABD81B154}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoEditPointsCalInverseType Class"/>
+      <comClass clsid="{27540786-d84b-11ea-b6d0-c83dd4f5f86c}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoPathCurveVelocity Class"/>
+      <comClass clsid="{361e0dc6-d210-11ea-81ae-c83dd4f5f86c}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="PathInterference Class"/>
+      <comClass clsid="{0144cc88-cc81-11ea-968a-c83dd4f5f86c}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="PointDipAngle Class"/>
+      <comClass clsid="{c6b53818-bf6c-11ea-b4f0-c83dd4f5f86c}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="POINTSTOCIIRCLE Class"/>
+      <comClass clsid="{dc7ad4a4-499a-11ea-a986-c83dd4f5f86c}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="EditPointProperty Class"/>
+      <comClass clsid="{4f9791e2-e815-11e9-8432-b808cf478c12}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoTransferPoint Class"/>
+      <comClass clsid="{a028bdbe-d9e9-11e9-ad53-6014b35caef6}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoClearProcess Class"/>
+      <comClass clsid="{a622c912-77aa-11e9-b789-c83dd4f5f86c}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="CPathReorderPtInDist Class"/>
+      <comClass clsid="{b7aad6de-63b7-11e8-9f43-6014b35caef6}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoEditExternalAxleJoint Class"/>
+      <comClass clsid="{e552cdac-2696-11e8-9d6d-0050b6daf2ae}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoSearchEvent Class"/>
+      <comClass clsid="{4739afe2-c044-11e7-9d69-a0a8cdbc63ac}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoCreateEmptyPath Class"/>
+      <comClass clsid="{5D2F6FD9-4380-48D3-9AB1-FD6F7429D881}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoGeneratePath Class"/>
+      <comClass clsid="{D2D49BFB-80D9-428E-A9E1-2EC51404070B}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoUpDatePath Class"/>
+      <comClass clsid="{59FB8A8D-E7E1-48FC-A2F3-2BA4EA835B60}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoInsertPosPoint Class"/>
+      <comClass clsid="{F70FDEAA-B1F5-42AB-97C4-60B8E748E1B8}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoSetStartPt Class"/>
+      <comClass clsid="{F365DDD3-7B09-483B-9793-F72AEFF95248}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoReversePath Class"/>
+      <comClass clsid="{8CEA87FB-8A3D-44F3-9A92-B3EB88E6BD6D}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoEntryPoint Class"/>
+      <comClass clsid="{E0953A7B-969F-484D-AB69-00B7C04D1610}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoCutInOut Class"/>
+      <comClass clsid="{DF1E26C0-4B1B-4176-9102-DBBAA6080D1D}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoFeedAndOvercut Class"/>
+      <comClass clsid="{9AB08846-061E-40E7-92DE-ECD0CBBDF6A8}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoCopyPoint Class"/>
+      <comClass clsid="{44A498D4-3163-4DB0-AB72-223F9F385C77}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoCopyPath Class"/>
+      <!--<comClass clsid="{2669DBFE-B8D9-4477-B51D-67932EBC5A35}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoResetPath Class"/>
+    <comClass clsid="{B013B62D-1B3D-49A5-BA18-C9C1899BBB7F}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoResetPoint Class"/>-->
+      <comClass clsid="{7C70F366-83F5-4D96-B89A-913E4EC50B24}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoClearModifyHistory Class"/>
+      <comClass clsid="{20D59C4B-5E66-4F4D-B9F9-E95AC741349E}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoPathXYFixed Class"/>
+      <comClass clsid="{28551B63-7B53-4675-9849-70CF8FB7D2AC}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoPathZIn Class"/>
+      <comClass clsid="{F2708A90-3554-4F93-87D3-2EA6D00FC597}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoPathXDirection Class"/>
+      <comClass clsid="{C33CE715-216E-4A39-AE0A-740AD5D96648}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoModifyPathFeature Class"/>
+      <comClass clsid="{41C77467-F34A-4CD7-97F9-3047FD937D09}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoDeletePathFeature Class"/>
+      <comClass clsid="{06834804-6916-435C-BCA0-55FAF4B98AD4}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoModifyPathPitch Class"/>
+      <comClass clsid="{43E5C5AF-5CB8-4D9A-BD7F-69AEE58C653E}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoModifyDepth Class"/>
+      <comClass clsid="{CDF84F86-039A-4D27-AC85-766976978A2F}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoDeletePFAfterID Class"/>
+      <comClass clsid="{6D25E0DB-3040-4E1C-8E00-1A9AE70E393E}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoMergePathFeature Class"/>
+      <comClass clsid="{CB8D8DAB-64E1-4203-B0AB-7C0B22CCB799}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoReciprocatingProperty Class"/>
+      <comClass clsid="{215041F1-6698-4D4C-A220-86873A6E7455}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoExportPathAnimation Class"/>
+      <comClass clsid="{BB433228-5065-4D88-A0A0-F02AE2F1F344}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoEntryPath Class"/>
+      <comClass clsid="{05F21369-300B-489D-BE73-02B8B2C723A9}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoSimulateToPoint Class"/>
+      <comClass clsid="{2E4E1FFD-7699-46F4-A4CE-6384F0B42F7F}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoModifyGeodesicOption Class"/>
+      <comClass clsid="{178AE1AC-E7F1-42AC-AE7B-FAFE160CD1FC}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="CRoAddRefWorkingPart Class"/>
+      <comClass clsid="{96C46C5C-ADA6-4A51-B314-466DE0D9D4F7}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoPathPlan Class"/>
+      <comClass clsid="{93B85FB6-4140-451B-B4C5-E16A84DA7E46}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoRoundPath Class"/>
+      <comClass clsid="{3742F2FC-165F-4128-904F-A73962E2A23A}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoChangeName Class"/>
+      <comClass clsid="{EEAEC462-292E-42C2-84BF-34A478964F9B}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoCreateAndRenamePathGroup Class"/>
+      <comClass clsid="{A9639F58-8843-412B-B5E0-6A4EC2305016}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoCopyPathGroup Class"/>
+      <comClass clsid="{96C5D7AF-7762-438B-953F-6329EE929199}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoPathComment Class"/>
+      <comClass clsid="{A705E629-9898-4ADD-A4C7-EE3F7C6775C1}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoEditPointAbsJoint Class"/>
+      <comClass clsid="{E2A0A2C5-694F-45A1-BE62-C409A1D2DA27}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoMergePath Class"/>
+      <comClass clsid="{AB7FBAF6-CA24-4354-BB53-A8306D5B83A9}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoSplitPath Class"/>
+      <comClass clsid="{8D974F42-BB48-4863-8652-4D57E12207ED}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoDeletePointBefore Class"/>
+      <comClass clsid="{954F453C-9361-41CC-8E10-1137C5040BCB}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoDeletePointAfter Class"/>
+      <comClass clsid="{953E921A-FF8F-47BF-95B8-A0B7FF4AFC07}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoMechMoveToPoint Class"/>
+      <comClass clsid="{EA4E838A-DC0D-4BDF-816E-C09716A5B3D6}"  tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoEditPahtVel Class"/>
+      <comClass clsid="{36801666-5fb3-11e7-8476-a0a8cdbc63ac}"  tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}"  description="RoInsertCopyPosByAxis Class"/>
+      <comClass clsid="{ef3511e4-75a2-11e7-878b-a0a8cdbc63ac}"  tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoEditPathPointSetting Class"/>"
+      <comClass clsid="{9c6e46fe-b667-11e7-9a88-a0a8cdbc63ac}"  tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoMovePointAccordingAxis Class"/>"
+      <comClass clsid="{6916DDF7-92B6-41FE-9C45-108D03946585}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoAddSendEvent Class"/>
+      <comClass clsid="{12079115-5520-4946-AB47-27BE8324CADE}" tlbid="{C12B8F9B-C025-4CF7-A99C-18F7A7E478FB}" description="RoCopyPathToOtherEngine Class"/>
+    </file>
+    <file name="apRobot.dll" hashalg="SHA1">
+    <comClass clsid="{a4a4309a-e709-11ef-84ec-207bd29c04d9}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoWorkingPartProperty Class"/>
+      <comClass clsid="{67ec1ae8-886f-11ed-86ec-085bd6ca3743}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoLocationProgram Class"/>
+      <comClass clsid="{cfbceb86-08d8-11ec-a157-c66f2b04ce37}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoCustomCheckCode Class"/>
+      <comClass clsid="{a0cdc98c-aeea-11eb-b92d-6014b35caef6}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoFixedRobotEnd Class"/>
+      <comClass clsid="{e0d962b6-2559-11eb-9e90-6014b35caef6}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoInstallByRobotAxis Class"/>
+      <comClass clsid="{af913f98-7073-11e8-b027-6014b35caef6}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoReleseEngine Class"/>
+      <comClass clsid="{5b012d38-7069-11e8-800e-6014b35caef6}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoCreateLink Class"/>
+      <comClass clsid="{113286fa-3d69-11e8-ad53-6014b35caef6}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoEditRobotHomePt Class"/>
+      <comClass clsid="{6975b968-28b9-11e8-abdb-6014b35caef6}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoCreateRobotHomePt Class"/>
+      <comClass clsid="{3441d95c-8d5e-11e7-9367-184f3282d4c8}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoReplaceCustomRobot Class"/>
+      <comClass clsid="{1249b69e-7e2c-11e7-934d-0050b6daf2ae}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSyncToMe Class"/>
+      <comClass clsid="{20401912-8F6B-439F-9248-C372E30366A4}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoChooseRobot Class"/>
+      <comClass clsid="{0AB2A1D8-50E2-4CB3-B076-A1CF6D29B958}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoPost Class"/>
+      <comClass clsid="{1C433C19-ED8C-430A-83FC-5E11065862B8}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSimulateMgr Class"/>
+      <comClass clsid="{802FE7C2-109E-4767-A45A-891A6A385257}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoExport Class"/>
+      <comClass clsid="{F0082726-DD07-426A-98C8-B813CA588B94}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoapProcessSet Class"/>
+      <comClass clsid="{3fc10912-7ae4-11ef-bba9-2c981139b224}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSwingJoint Class"/>
+      <comClass clsid="{e344399a-f606-11eb-8aa0-be600c8ad978}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoPostPython Class"/>
+      <comClass clsid="{35F53D5F-960E-419B-B805-C6D2D5817F96}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoExportAniamtion Class"/>
+      <comClass clsid="{700E5AF9-F013-4173-8AE7-6D9F48B6D17E}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSemiPhysicalSimulate Class"/>
+      <comClass clsid="{8519EAD0-334A-4DC4-85B8-4C9D6B47880C}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoExportAnimationSink Class"/>
+      <comClass clsid="{EE4735AB-CCAF-4FC5-85D4-8599E4913E73}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSetRobotInitVel Class"/>
+      <comClass clsid="{7FD97804-76B8-4513-A66A-DDACAB9EAD89}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoEditProgram Class"/>
+      <comClass clsid="{72C21CDE-9802-4277-8C0C-E3A27E658100}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoAddNewProgram Class"/>
+      <comClass clsid="{6FA6D13B-E184-4BCD-8E05-6B78C8CF6215}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoPostProgram Class"/>
+      <comClass clsid="{ECABF422-6785-4E18-841C-6DDCE5042D0B}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoDeleteProgram Class"/>
+      <comClass clsid="{8E1263A5-4DCF-474D-B291-C0EF1F5CE3DB}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoDefRobotSetup Class"/>
+      <comClass clsid="{83BDDC4A-F1FF-4B74-BD23-9C51219651AF}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSelPostExport Class"/>
+      <comClass clsid="{52CE360E-85BB-4C00-9002-3CC4E5266080}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoPopMessageOutPut Class"/>
+      <comClass clsid="{A64EB3AA-0BC4-4CA1-B7CE-A1C5859D0DAC}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoRobotBackToOrigin Class"/>
+      <comClass clsid="{E92AA6FD-D628-4BB6-B6E2-B55C072D99F7}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoReadRobotJoint Class"/>
+      <comClass clsid="{38C8AD5B-01AE-4614-B0BF-AE7B97E7726F}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSaveRobotJoint Class"/>
+      <comClass clsid="{88D723A1-E05F-45B8-AE08-541214672DCD}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoExportPostFormat Class"/>
+      <comClass clsid="{816C96E0-C8E6-48C5-87B6-35DF8AB0B1AB}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoImportPostFormat Class"/>
+      <comClass clsid="{673D00AE-948E-4984-B0C0-32EFAAB2F751}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSaveRobrd Class"/>
+      <comClass clsid="{F24A5B85-D5C5-43A2-B105-95454E8671D8}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoChangeIKAldorithm Class"/>
+      <comClass clsid="{E1B83684-DB21-43C1-9EE5-23E818402066}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSaveRobr Class"/>
+      <comClass clsid="{772695A0-86CF-4899-913B-FFAE3BF2E938}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="CRoRobotProperty Class"/>
+      <comClass clsid="{A9DEFBE2-91A0-4505-B2CA-7EF5A44F03DB}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="CRoActiveteRobot Class"/>
+      <comClass clsid="{B286762A-3B06-423F-8F66-E0B7A947894C}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="CRoEditPointCustomParam Class"/>
+      <comClass clsid="{F495CE36-EBEA-485A-8E4B-92ECA0901A9E}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSimulateWithPLC Class"/>
+      <comClass clsid="{E6FAA26D-119B-4940-85B4-2FE55CAF175D}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSimulateToPoint Class"/>
+      <comClass clsid="{98DE1386-719F-4DA3-B2C7-9074EB23309A}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoStopVirtualSimulate Class"/>
+      <comClass clsid="{7B6E22DA-21D9-4441-9F74-826CA99CDEA0}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoDefineVar Class"/>
+      <comClass clsid="{8D1FBD43-AF89-4DCB-9FF7-1A7EDECB1600}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoCalculateCoodeDirection Class"/>
+      <comClass clsid="{3C14CCE4-6581-436B-ABD2-93247FFA3707}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoControllerSimulate Class"/>
+      <comClass clsid="{8D01D839-C967-4BF4-9712-AAD7AB56E915}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoExportVideo Class"/>
+      <comClass clsid="{6236E8E5-5A28-4129-A8B1-B49E2D5764AA}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSetRobotFLInfor Class"/>
+      <comClass clsid="{D13A7BE9-B212-49C7-A191-1F1891C1370C}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoAGVVirtualSimulate Class"/>
+      <comClass clsid="{DCE05479-4F79-4BCF-9CB8-2499A02A0371}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoExportAnimationLocal Class"/>
+      <comClass clsid="{7AD25E7E-1430-4937-A553-98EAAD9B38BC}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoSetRobotSimExtendDllPath Class"/>
+      <comClass clsid="{B8CBEEF6-D8E5-47AF-9CDA-DC23BF42D5B1}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoConnectToRobotController Class"/>
+      <comClass clsid="{C737F78E-48FB-42B1-9874-CAF9BCFE52A7}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoDisConnectToRobotController Class"/>
+      <comClass clsid="{DE4D9291-70B3-4ED8-B4C1-B68BC5FABC28}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoCollisionMgr Class"/>
+      <comClass clsid="{93EC8762-C028-46C4-A573-C2A21982D225}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoStartRCS Class"/>
+      <comClass clsid="{3C552424-E7F7-4043-90F3-2593D02197AA}" tlbid="{5CEA7B67-58E9-4F60-8D8D-88FAA525A47F}" description="RoStopRCS Class"/>
+    </file>
+    <file name="dmBase.dll" hashalg="SHA1">
+      <comClass clsid="{4cd98254-b082-11ef-a440-2e981139bd67}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmLineLaser Class"/>
+      <comClass clsid="{048e06f0-9221-11ef-83f6-207bd29c04d9}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCfgColorCardSetting Class"/>
+      <comClass clsid="{F05A69CE-4EE0-45D8-A5AC-D65E61F7FDA6}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPathPosTemplate Class"/>
+      <comClass clsid="{ba0e0ac0-8562-11eb-9ed3-6014b35caef6}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPropertySyncInfo Class"/>
+      <comClass clsid="{85952a9a-d859-11ea-a0c0-6014b35caef5}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCfgCoordNameShow Class"/>
+      <comClass clsid="{11f0541c-c574-11e9-a793-6014b35caef6}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPropertyJointSpeedPercent Class"/>
+      <comClass clsid="{ea1645a1-f0eb-4de3-9138-1f897c547bff}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCfgTCP Class"/>
+      <comClass clsid="{6CEC795A-371C-42A9-BAE5-1A8959705C61}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCfgPathShow Class"/>
+      <comClass clsid="{697A5880-9B0B-4959-99CA-0789519B795C}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoDmCfgCPRPShow Class"/>
+      <comClass clsid="{c6c6a2d5-bd3d-4876-91ed-e6b287126c83}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmConfigColl Class"/>
+      <comClass clsid="{0E7E8B76-9316-42A5-BF5E-81D7E83BE08D}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmRobotColl Class"/>
+      <comClass clsid="{8DA23325-E993-48A9-947A-2328816BFDDA}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmSeatColl Class"/>
+      <comClass clsid="{67DD9FE9-D8FD-4429-A4ED-C417553C1D6F}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmToolColl Class"/>
+      <comClass clsid="{4D0BA131-7039-4097-8A42-39B391CE530C}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmPathMgr Class"/>
+      <comClass clsid="{D0EBB395-081F-4DE8-A4F1-567CE5ED126D}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmPathColl Class"/>
+      <comClass clsid="{538F2BFC-5464-48F0-928B-9BA3D03D59CD}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmWorkingPartColl Class"/>
+      <comClass clsid="{5F413D29-9A6E-4812-94B7-1B31DC3121DD}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmJointLink Class"/>
+      <comClass clsid="{3F60EE56-01CD-494F-BB51-15A83A423496}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmJointLinkColl Class"/>
+      <comClass clsid="{21D97553-0C12-4297-B8E3-E7770A3A8EF5}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmPointMgr Class"/>
+      <comClass clsid="{7D7D8B5D-C1A0-4649-B435-C56AD73ED1D5}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmProcessNodeDef Class"/>
+      <comClass clsid="{4997E718-BBC0-4FCD-A42C-458DB6386C32}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmProcessNodeIns Class"/>
+      <comClass clsid="{8F102817-F795-400E-BA39-5B45DC2FF290}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmProcessDefMgr Class"/>
+      <comClass clsid="{97996BB7-0D20-475D-B42F-8DEF05090248}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmProcessInsMgr Class"/>
+      <comClass clsid="{EE72B632-0B2F-4171-900A-4E19525F760F}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmProcessNodeInsMgr Class"/>
+      <comClass clsid="{19677460-7CEC-4D6D-A241-8BE780E5344B}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmProcessItemIns Class"/>
+      <comClass clsid="{2eeebcbc-1e72-49a5-b683-8aca7026c928}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmRelation Class"/>
+      <comClass clsid="{4ca32d43-1bd8-40ac-b7d2-39cdde70c409}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmRelationColl Class"/>
+      <comClass clsid="{A2A6AD02-81DC-412B-9712-96484B05A96A}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmRelationMgr Class"/>
+      <comClass clsid="{DD1DD75A-B84B-4E6F-98DB-E93A7B42B96E}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmFrame Class"/>
+      <comClass clsid="{7B5B59F2-EF46-4973-9A11-0991DE00E9B7}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmFrameColl Class"/>
+      <comClass clsid="{025692D3-41AA-4AD1-A52B-46EE2B7F6485}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmDataObjColl Class"/>
+      <comClass clsid="{4C76868E-5CF8-4B43-8659-3F59107E9199}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmVarible Class"/>
+      <comClass clsid="{FF48D997-D924-43FB-879E-6B4536EA41C8}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoDmVaribleMgr Class"/>
+      <comClass clsid="{3D3FD1F1-BE54-4299-AFC1-A7DD49ED1844}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoDmVaribleColl Class"/>
+      <comClass clsid="{1F3F1330-749E-4C39-BFF1-0CB9D217251F}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoIOBus Class"/>
+      <comClass clsid="{B9A282C1-C427-4C49-BD85-EF0C61DB1855}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoIOBusMgr Class"/>
+      <comClass clsid="{331ed601-b7cc-4898-a256-662b93478a82}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointColl Class"/>
+      <comClass clsid="{475D4E66-8BF9-43CE-9C00-F30B219C8494}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointGroupLine Class"/>
+      <comClass clsid="{78E126EA-B4A8-453B-B07D-B5BF928A7864}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointGroupCircle Class"/>
+      <comClass clsid="{C80520AB-42D1-4EB8-AF3B-4605E200D66D}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointGroupSpline Class"/>
+      <comClass clsid="{DB776053-3D0E-4D1A-9AD2-D85BC4E09BD4}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointGroupMgr Class"/>
+      <comClass clsid="{5429CD4F-F136-4324-A41E-35522DA5B44B}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCfgToolShow Class"/>
+      <comClass clsid="{D44062E5-B9EF-43DC-936F-1978EB43E168}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmInforBase Class"/>
+      <comClass clsid="{B18FA70C-104F-4353-AE68-AD3F962B86DB}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmModulInfor Class"/>
+      <comClass clsid="{05DDA7FE-1BFF-40ED-B655-E779A66EB515}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmProgram Class"/>
+      <comClass clsid="{7810F64B-96CF-4B45-B5CE-358E688C2FA3}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmProgramMgr Class"/>
+      <comClass clsid="{93A2E8E7-4CC6-490D-87B2-E189F5DF979F}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmSimulateLog Class"/>
+      <comClass clsid="{9FD0E7FB-787B-4337-BE2A-8F60ABA05CF9}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmLogColl Class"/>
+      <comClass clsid="{911D04A5-F9A7-4A0F-8F7D-73FD252D28BD}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmAccessoryPartMgr Class"/>
+      <comClass clsid="{4AD0678B-855E-4587-B102-0A608C893650}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCfgSimulate Class"/>
+      <comClass clsid="{C2D55C5D-69DD-48D9-ACED-99B6128FD155}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointGroupColl Class"/>
+      <comClass clsid="{C114E529-98DF-4C58-99FB-C42411132794}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointSystemID Class"/>
+      <comClass clsid="{C0DA38BF-E55E-4DBD-8F75-25D56B2107B7}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPropertyInstruction Class"/>
+      <comClass clsid="{79DEEB7A-0F8F-4620-9CC5-482343AF0291}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPropertyCalType Class"/>
+      <comClass clsid="{84C634E7-158B-40B5-A705-CDAAD9BE62C7}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPropertyConfig Class"/>
+      <comClass clsid="{DF097E7D-DCAA-499E-AE5C-DB810A52A6BF}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPropertyCont Class"/>
+      <comClass clsid="{1AD57922-E33A-49AF-B5A3-9C443535F16E}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPropertyVelocity Class"/>
+      <comClass clsid="{79F2E121-05D3-4B29-A9F3-5004101EBD57}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPropertyRotationVelocity Class"/>
+      <comClass clsid="{80F2B9F7-0474-493A-B7A3-4E775745578D}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointPropertyColl Class"/>
+      <comClass clsid="{3090F478-A224-408E-B9BE-EC6B17ADBCE0}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointGroupColl Class"/>
+      <comClass clsid="{49C18C7E-913C-4C5F-8181-6448C3800612}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmProperty Class"/>
+      <comClass clsid="{1B3CBF4D-2289-4D5B-A611-CE6A5066365F}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmEngineColl Class"/>
+      <comClass clsid="{BB01D61E-9D7F-4295-B55B-94516FA1530A}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoDmCfgRobotShow Class"/>
+      <comClass clsid="{C11CCC9B-9D79-4FB1-92F9-00504F60C212}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoDmMechStateMgr Class"/>
+      <comClass clsid="{8AAF405C-FACA-4D8D-9592-59160A1B98D0}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmWorkCell Class"/>
+      <comClass clsid="{6D2DEC36-791C-467F-9BEB-9F30C138E746}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmWorkCellMgr Class"/>
+      <comClass clsid="{FF598EDB-A701-49B7-BA4B-27C029B7E269}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoDmCfgGeneration Class"/>
+      <comClass clsid="{ACAE9625-3872-4456-B3EA-15DA31F526D3}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmAccessoryPartColll Class"/>
+      <comClass clsid="{40AA2A03-4980-40A4-BDD0-F835444727A8}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmConfigColll Class"/>
+      <comClass clsid="{E499219A-501C-4694-86AA-3EC4B8AB5E50}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCoordinateColl Class"/>
+      <comClass clsid="{5096A2E2-E437-46C3-A3C7-F82C0E43CC30}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmMechStateColl Class"/>
+      <comClass clsid="{E924CA72-D114-491A-9219-6379A871C186}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmProgramColl Class"/>
+      <comClass clsid="{15F7C162-B27A-4327-92DF-6AD57F33DCB1}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmRobotColl Class"/>
+      <comClass clsid="{79C707FC-D34A-4041-9590-D629B09C20FD}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmSeatColl Class"/>
+      <comClass clsid="{9864A845-949E-4620-9A00-E40C58F098B2}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmToolColl Class"/>
+      <comClass clsid="{DF0736C8-F627-491B-9F03-C558B2AB701F}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmWorkCellColl Class"/>
+      <comClass clsid="{F323E1CC-01C6-4CE9-841E-198A078FB33F}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmWorkingPartColl Class"/>
+      <comClass clsid="{CD0D2DD1-F9A8-4353-BE35-DD814A4870B5}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoIOBusColl Class"/>
+      <comClass clsid="{1E415412-EA21-48F7-9A1A-24E8DC8B4462}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCfgSeatShow Class"/>
+      <comClass clsid="{2EB59270-BB2B-4435-8D6E-0E3BCC1CE1A4}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCfgStudio Class"/>
+      <comClass clsid="{23CA13C4-81B0-467E-AE64-784D5C823367}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCfgDocumentMeta Class"/>
+      <comClass clsid="{D908B766-14CC-47B9-8842-0D4174404286}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoComplierOutput Class"/>
+      <comClass clsid="{677FB532-4F81-484F-B008-199986EAAFC9}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoIOServerReceiverColl Class"/>
+      <comClass clsid="{6BDB2BB6-878C-40C7-AF12-FD953300539B}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoDmSensorColl Class"/>
+      <comClass clsid="{7E6A7A10-99B6-4E09-9B7F-B31FDD30717B}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoDmSensorMgr Class"/>
+      <comClass clsid="{23BE19A4-048A-4E6D-8163-98237882F91E}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoExternalDevice Class"/>
+      <comClass clsid="{4B3651C2-FA98-4777-9856-14D0590B45E8}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoExternalDeviceMgr Class"/>
+      <comClass clsid="{B51B6693-4D1F-4BC0-BEBB-C04E3D650A46}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoExternalDeviceColl Class"/>
+      <comClass clsid="{17C3DB9C-8F57-4F1A-97A8-3C6232A239B8}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoDmMechStateBaseColl Class"/>
+      <comClass clsid="{0950FD74-9CF5-4379-866E-48503280F1C2}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoSynergismMgr Class"/>
+      <comClass clsid="{54F1AE58-D79E-4BD2-BD42-FC5212363410}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoSynergismSystem Class"/>
+      <comClass clsid="{D62EB416-85F7-46AF-93D3-AF2BDB0F8B15}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoSynergismSystemMgr Class"/>
+      <comClass clsid="{B25B0E5D-C952-4686-BF1D-111E7D9C6D98}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoSynergismSystemColl Class"/>
+      <comClass clsid="{B3C94A5E-2432-495D-8129-A421C3E3F1D5}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPartsGenerator Class"/>
+      <comClass clsid="{7C134A9F-90DD-4FFC-9BF4-0558F31221ED}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPartsItemColl Class"/>
+      <comClass clsid="{1DCDEB15-F7B9-48CD-A58E-32A54CAA9BAD}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPartsGeneratorMgr Class"/>
+      <comClass clsid="{23C82186-54F9-42F5-9FB4-E232E7828697}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPartsGeneratorColl Class"/>
+      <comClass clsid="{C46E40DB-F52F-4750-92B4-F8DE165DCC08}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPathTemplate Class"/>
+      <comClass clsid="{40D7657C-5D33-4B2C-97E0-1E605010F361}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmTemplateColl Class"/>
+      <comClass clsid="{EDF4E94D-4E2A-4DBB-B69C-DC60F8EF9B98}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmTemplateMgr Class"/>
+      <comClass clsid="{47262AEB-BDBF-4A4C-B6E9-EDEAD90B7AD8}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPathTemplateColl Class"/>
+      <comClass clsid="{9669EBA1-BE61-4A1C-A1DD-D21A807938EE}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPathTemplateMgr Class"/>
+      <comClass clsid="{E0DAF3EA-0063-4DAA-9F56-AB35AF9CF543}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmViewPoint Class"/>
+      <comClass clsid="{06DFE3EF-5F00-4509-B89B-BE71EDE3EECE}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmViewPointColl Class"/>
+      <comClass clsid="{2997C72A-6C12-44A7-820D-F5ADBA9E3ACD}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmViewPointMgr Class"/>
+      <comClass clsid="{3798DD59-9F53-49A9-9037-FCF2624BD0F2}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmSnapshot Class"/>
+      <comClass clsid="{D817A2C2-4D3C-431C-A012-4DDDB279A7D5}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmSnapshotDataColl Class"/>
+      <comClass clsid="{2C6C6815-916E-4270-AF2B-C9D727A73633}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmSnapshotDataMgr Class"/>
+      <comClass clsid="{114AA679-D740-4190-871E-139C615DB8BA}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmSnapshotColl Class"/>
+      <comClass clsid="{E9E8A99F-38CD-4E21-9A3F-99175EC530AB}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmSnapshotMgr Class"/>
+      <comClass clsid="{48D6E7A7-AF4F-4C56-AD23-4EEDAB10D19A}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmSnapshotData Class"/>
+      <comClass clsid="{6ECC3B6F-1B9B-496C-9B85-70625FE98FAC}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoParameterModelColl Class"/>
+      <comClass clsid="{BEB2D1A6-C536-4569-A2D2-F895FF82ED98}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoParameterModelMgr Class"/>
+      <comClass clsid="{AD40962B-6B44-41D7-BDF6-87D66E238BBF}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoParameterBehaviorMgr Class"/>
+      <comClass clsid="{86A7258F-952A-4A51-99C5-FB7DF784F307}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoParameterBehaviorColl Class"/>
+      <comClass clsid="{6E452DE2-87CC-477F-9CD6-4429CBB16991}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPathGroup Class"/>
+      <comClass clsid="{227DF89E-2876-4C46-96CC-FEF5BCAD2F38}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCfgWeldingOptions Class"/>
+      <comClass clsid="{EC012919-8874-4BEA-830D-5B0A23F4D12A}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPathGroupMgr Class"/>
+      <comClass clsid="{8777CBE9-382F-4D17-A131-1037D3F23DD0}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPathGroupColl Class"/>
+      <comClass clsid="{F817913B-3B61-4485-BFE7-F9AE8FCB911C}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointGroupCircleEx Class"/>
+      <comClass clsid="{0BBE73CD-9E6A-4EF1-8AB3-A1C5A685E5D0}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointGroupSlot Class"/>
+      <comClass clsid="{04B54689-1EFC-4337-8AAB-77148E539980}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointGroupRect Class"/>
+      <comClass clsid="{0BC23A8C-885D-4658-9ACA-ECF9740B32AB}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmPointGroupHexagon Class"/>
+      <comClass clsid="{8965E8EB-A83F-4E86-9E94-DAB6DC985761}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCfgCollisionOption Class"/>
+      <comClass clsid="{28DBFC0B-22AC-4EF2-8C58-E112A46D7392}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmConveyorMgr Class"/>
+      <comClass clsid="{712469F7-0205-4B40-B3B7-A06F91C2E0E2}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmConveyorColl Class"/>
+      <comClass clsid="{04AD8BA6-A4B2-4091-B21B-91A2C6BEC454}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmObjAssistorColl Class"/>
+      <comClass clsid="{6AFAEE21-3210-4F46-AE86-A7D750078B2E}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmObjAssistorMgr Class"/>
+      <comClass clsid="{24553434-1D6F-4EDE-9BFC-28A297709A93}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmRenderPackMgr Class"/>
+      <comClass clsid="{77F475DB-0DE0-4B20-B834-9C6E1E68C32F}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmRenderPackColl Class"/>
+      <comClass clsid="{E987B63C-60F7-4592-A1A4-D2B4195856D7}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmRenderNodeMgr Class"/>
+      <comClass clsid="{E2E96E9B-93FD-492A-942F-B4C2A5A55BA1}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmRenderNodeColl Class"/>
+      <comClass clsid="{999D4158-830C-4C6F-BFAD-FCD8B67A8570}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoSprayNozzleColl Class"/>
+      <comClass clsid="{9B6D6CBA-1314-4C03-A277-7A5B95A4A03C}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoSprayNozzleMgr Class"/>
+      <comClass clsid="{2046B81B-7441-4E51-8A61-729AD91A9A76}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmAnnotationColl Class"/>
+      <comClass clsid="{8131E126-0816-4E84-8BAE-D07BB5402807}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmAnnotationMgr Class"/>
+      <comClass clsid="{854E8530-869F-4FA7-9EB0-B21C7273B05F}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoDmBrushInstanceMgr Class"/>
+      <comClass clsid="{53D9D266-89D8-43E3-9C7F-4C1341ABBD8C}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="CRoDmBrushInstanceColl Class"/>
+      <comClass clsid="{D15E5B3E-1CF6-4F89-AFB1-4ECFDAAAD04E}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmObjAssisitorInstanceColl Class"/>
+      <comClass clsid="{38E04EB6-46F3-4DA9-821D-892502E58A3B}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmObjAssistorInstanceMgr Class"/>
+      <comClass clsid="{8A652455-8B63-4DC4-8186-986DE5887779}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmConicalBrush Class"/>
+      <comClass clsid="{F10EBC57-BCEF-43A3-B3AD-8A004E0E6148}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCameraColl Class"/>
+      <comClass clsid="{02869857-D819-47E7-87D2-21FDA87D7328}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCameraMgr Class"/>
+      <comClass clsid="{BC43A4E3-FAAD-4B91-9291-9E44D2E85CE4}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCamera Class"/>
+      <comClass clsid="{CEDB1D03-8CAB-415B-973F-F4C4B63EE035}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCheckDeviceColl Class"/>
+      <comClass clsid="{33543529-7727-4B34-9AB4-FDEB3A1DEFC5}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCheckDeviceMgr Class"/>
+      <comClass clsid="{7B9F6945-F521-47DC-A6CB-303834ED18D0}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoDmCheckDevice Class"/>
+    </file>
+    <file name="dmArchitecture{POST}.dll" hashalg="SHA1">
+      <comClass clsid="{5DCFC618-AAC1-4926-B2B0-2A158F648300}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDataModelCAXA Class"/>
+      <comClass clsid="{DEBBD4F9-364D-4DB8-9F55-02E806590DE9}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmWoringPartCAXA Class"/>
+      <comClass clsid="{9a7a2133-7228-4f6d-8898-88d7b4d67343}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmToolCAXA Class"/>
+      <comClass clsid="{5f56c154-9278-4dc8-8712-810242dc2185}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmSeatCAXA Class"/>
+      <comClass clsid="{7ADF81A0-DB5C-4975-BFD8-12289BCF37DC}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmRobotCAXA Class"/>
+      <comClass clsid="{40FB7B98-4874-4533-A878-A01EA8938F6B}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmPathCAXA Class"/>
+      <comClass clsid="{5c773dbc-9d7f-4bc8-ab96-8e9bbb815af7}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmPathOrgDataCAXA Class"/>
+      <comClass clsid="{E65AC122-ECB9-49F9-846D-ECB24A23FD22}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmCoordinateCAXA Class"/>
+      <comClass clsid="{6B849128-EA4F-450E-BD51-B08BC204B49E}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmPoint Class"/>
+      <comClass clsid="{E51F38DC-18AE-4D62-81BB-A2ECE6B6E290}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmAccessoryPartCAXA Class"/>
+      <comClass clsid="{55D98168-0E78-4A62-B2AD-D16FD47A4628}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmMechStateCAXA Class"/>
+      <comClass clsid="{4F30B4FD-B2D0-4E6A-AE74-EF1627BF088E}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="CRoDmSensorCAXA Class"/>
+      <comClass clsid="{F7CB2121-54D3-41B5-A3B9-04AED00DB34B}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmPartsItemCAXA Class"/>
+      <comClass clsid="{0E6BFEC5-D838-41E9-BD6A-A61B39E0C02D}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoParameterBehavior Class"/>
+      <comClass clsid="{B5262EBC-EB95-4871-9154-884AC5CB12F1}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoParameterModel Class"/>
+      <comClass clsid="{5E7B8E9A-1041-4A35-8A5E-910B077370BC}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmBoxWorkingPartCAXA Class"/>
+      <comClass clsid="{2BCE9E70-9002-489A-822E-A0CA623521A2}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmSensorScanCAXA Class"/>
+      <comClass clsid="{A66265A1-25AE-4ECB-A2BF-C566ED58095F}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmSensorWatchCAXA Class"/>
+      <comClass clsid="{C25BBB55-9B75-4EB1-AFBC-4942EF40A209}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmConveyorCAXA Class"/>
+      <comClass clsid="{1C03F307-2A6F-4FEB-BA4F-F3C66A7715E1}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmPaintEffectCAXA Class"/>
+      <comClass clsid="{F954176F-2864-444D-BA27-92C10D20D0DA}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmObjectRenderPackCAXA Class"/>
+      <comClass clsid="{D165071B-9C17-4315-AE27-5C5107D0BEB5}" tlbid="{45EB1489-C793-402F-8BE6-C1AA65B78B18}" description="RoDmRenderNodeCAXA Class"/>
+      <comClass clsid="{E2199CAA-5F95-4BF5-9541-DEF4433DA218}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoSimulateReleseEventExt Class"/>
+      <comClass clsid="{4092BBAB-976F-41F1-96F7-E52512DF5716}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoSimulateCatchEventExt Class"/>
+      <comClass clsid="{899F0953-EB8E-47ED-8020-11810546742F}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoSimulateReleseToolEventExt Class"/>
+      <comClass clsid="{CAFE116B-BB30-48B6-B57A-37C93C6F21CE}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoSimulateCatchToolEventExt Class"/>
+      <comClass clsid="{2E4AFA79-2934-4F70-BCED-EA81F5C33E77}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoSimulateSynergismEvent Class"/>
+      <comClass clsid="{4F081AA0-A8D3-4BAC-A3AD-E62FC17AEC04}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoSimulateChangeColour Class"/>
+      <comClass clsid="{A8D1E110-FB92-41C0-977C-4132487173E0}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoSimulateDisplay Class"/>
+      <comClass clsid="{82F80CB6-C985-4170-ADC0-8CED77B8B868}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoSimulateHide Class"/>
+      <comClass clsid="{80371AE0-1292-41FC-AD4F-1679CBA0D9BC}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateCatchToolEvent Class"/>
+      <comClass clsid="{950C1585-AD2B-4B9C-9B13-364A75257830}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateReleseToolEvent Class"/>
+      <comClass clsid="{E0CF7306-E905-4598-83F2-08BEDFB74A34}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoSimulateWaitTimeEvent Class"/>
+      <comClass clsid="{C1159C28-F52D-4E24-99FF-309E3BEA4DC6}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoCustomEvent Class"/>
+      <comClass clsid="{FFF1EA95-BFA4-44BC-A4B7-E57732CD6CF6}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoCustomMechStateEvent Class"/>
+      <comClass clsid="{5C0DB41F-ED92-4634-99AB-0C7B6C35DA6F}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateWaitEvent Class"/>
+      <comClass clsid="{0AB0A353-37DB-4FB3-BA4B-43C909A8A16A}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateSendEvent Class"/>
+      <comClass clsid="{CBEF0BFB-D431-49A4-96BF-E7985AD13AFA}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateReceiveEvent Class"/>
+      <comClass clsid="{36F14F14-4592-47B2-966F-56A881174D45}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoSimulateCatchEvent Class"/>
+      <comClass clsid="{49124121-4B1A-470B-A435-B5ABB0DCBED2}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoSimulateReleseEvent Class"/>
+      <comClass clsid="{0e873124-f930-11e9-81de-6014b35caef6}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateCustomInstructEvent Class"/>
+      <comClass clsid="{36aabe48-8c88-11eb-8fef-6014b35caef6}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateSearchInstructEvent Class"/>
+      <comClass clsid="{A3459ACB-170E-4C48-B4CA-FB0BD618FBDD}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateStopEvent Class"/>
+      <comClass clsid="{0538AB00-701A-4369-97BC-C93DAD25E003}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateStopEvent Class"/>
+      <comClass clsid="{dbfb1f86-44de-11ef-b5ea-2e981139bd67}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmObjAssistorContainer Class"/>
+      <comClass clsid="{a90a6c10-3f9f-11ef-b743-2c9811399d48}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmNozzle Class"/>
+      <comClass clsid="{25DA9037-4D59-41C7-8F20-0437CC8F7E6C}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmTextAnnotationCAXA Class"/>
+      <comClass clsid="{CA7E7DF1-DCA8-4330-B97A-5809941DD89C}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSwingEvent Class"/>
+      <comClass clsid="{FD6D301C-D7C9-45E1-A10D-4D237BB66099}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateSearchLineLaserEvent Class"/>
+      <comClass clsid="{947F252B-EE86-435C-AD62-372937923066}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoDmLineLaserInstanceCAXA Class"/>
+      <comClass clsid="{ACA6AE40-4D19-4A72-96B3-A5A668241D7C}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateSearchIntersectEvent Class"/>
+      <comClass clsid="{C098F0BF-C544-4C0D-B775-F5B1F36BA8DD}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateSandBlastEvent Class"/>
+	  <comClass clsid="{F88B996E-E28B-4E85-A213-5472B7198A90}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSimulateChannelCommandEvent Class"/>
+    </file>
+    <file name="bmGeom.dll" hashalg="SHA1">
+      <comClass clsid="{902ab435-a0c8-482f-b171-5bbfcdf69265}" tlbid="{cefab3f1-7512-463f-8762-cd131c7d51e6}" description="RoPoint Class"/>
+      <comClass clsid="{7CD1802F-571E-4E55-A761-ACF619CCB918}" tlbid="{cefab3f1-7512-463f-8762-cd131c7d51e6}" description="RoVector Class"/>
+      <comClass clsid="{E2C8A47C-E762-4123-95E9-012C037C222F}" tlbid="{cefab3f1-7512-463f-8762-cd131c7d51e6}" description="RoLocation Class"/>
+      <comClass clsid="{8F4A1ADA-7D2B-4032-B9F5-25A8A8747487}" tlbid="{cefab3f1-7512-463f-8762-cd131c7d51e6}" description="RoPath Class"/>
+      <comClass clsid="{D8DB9B5B-A2D0-4303-970F-FAB6D971E572}" tlbid="{cefab3f1-7512-463f-8762-cd131c7d51e6}" description="RoPathPt Class"/>
+      <comClass clsid="{A09AC1E1-B60E-4C8D-AC97-A8207073B9D0}" tlbid="{cefab3f1-7512-463f-8762-cd131c7d51e6}" description="RoPointColl Class"/>
+      <comClass clsid="{7BEFCCFB-8079-4B1F-B072-F32CDC94BA4A}" tlbid="{cefab3f1-7512-463f-8762-cd131c7d51e6}" description="RoVectorColl Class"/>
+      <comClass clsid="{722B5E69-F2B7-4AEC-B66D-0E7B1C0BF86D}" tlbid="{cefab3f1-7512-463f-8762-cd131c7d51e6}" description="RoLocationColl Class"/>
+      <comClass clsid="{405C17C0-5CCD-473B-AC60-1FFDDE8B5B5F}" tlbid="{cefab3f1-7512-463f-8762-cd131c7d51e6}" description="RoLocationColl Class"/>
+
+    </file>
+    <file name="bmWebService.dll" hashalg="SHA1">
+      <comClass clsid="{6D82F8E5-D5E3-4846-92FB-41F19BEB091C}" tlbid="{F17FE42F-A46A-4C13-8ACA-A7A7D3E90DD6}" description="RoAutoUpdate Class"/>
+    </file>
+    <file name="bmWebServiceRAC.dll" hashalg="SHA1">
+      <comClass clsid="{E53BCBC5-2593-4347-B0FB-BBEF8723638C}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoUpLoad Class"/>
+      <comClass clsid="{B4F39F95-0A56-4176-A53D-D58B9331BB01}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoQREncode Class"/>
+      <comClass clsid="{01F5A7E1-9E65-4617-BA9B-0C03C425CD4C}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoPublishAnimation Class"/>
+      <comClass clsid="{D9C6A77A-7263-409A-ABEA-F878DA685C30}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoHeartPacket Class"/>
+      <comClass clsid="{DA74B0B7-031E-4054-8EE9-E2B05DC0F4D5}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoLogMgr Class"/>
+      <comClass clsid="{55303F14-837D-4C29-99BB-23E6DAAD3D8A}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoUserOperation Class"/>
+      <comClass clsid="{DFDAB98F-8954-4E7F-91CC-D9FC221CB019}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoUpdateRAC Class"/>
+      <comClass clsid="{68E52478-855F-4910-A665-0C444F6492EC}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoWebServicesExchange Class"/>
+      <comClass clsid="{2596CD44-A977-488E-AEDB-0554F4CD2188}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoWebServicesRAC Class"/>
+      <comClass clsid="{F2D178B7-C589-4CB4-AA55-9BAAE8896919}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoDownLoadFile Class"/>
+      <comClass clsid="{176CECAC-1779-4507-BB3F-DD5EBCFA54FF}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoWebConfig Class"/>
+      <comClass clsid="{7BC74A75-5903-430E-B09D-C8656C5F979F}" tlbid="{5F24DE6D-0811-4515-93D9-3C01EA4F68C8}" description="RoWebServiceRaw Class"/>
+    </file>
+    <file name="bmMath.dll" hashalg="SHA1">
+      <comClass clsid="{4402278D-EECC-4E9C-8D20-5208D82F5F7C}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoArrangePoints Class"/>
+      <comClass clsid="{8a0530da-f758-4992-97e4-269bff2ec314}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoMarix Class"/>
+      <comClass clsid="{00DDED3B-9A49-4695-80D9-DEECD85B5F7A}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoMarixColl Class"/>
+      <comClass clsid="{59D57DE1-A41A-40CB-A98B-658395038B40}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoalcFun Class"/>
+      <comClass clsid="{553749B8-84A4-44AE-BC8E-8EFD7D75BCB3}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoTransFunctions Class"/>
+      <comClass clsid="{0362DC31-3ADE-4262-8B92-DBF9B4D9F99A}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoGeoAlgorithm Class"/>
+      <comClass clsid="{A119A030-A60D-4B73-9FE0-AF30C73C1061}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoMeshAlignment Class"/>
+      <comClass clsid="{1F1E4AF7-5EA3-406A-90EE-4E231C0F3030}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoRocalc3R1pFun Class"/>
+      <comClass clsid="{DD4FFED2-9CA1-4F0C-98AE-02D9626E324E}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="RoCompute6RInverseKinematics Class"/>
+    </file>
+    <file name="bmServices.dll" hashalg="SHA1">
+      <comClass clsid="{E29EB5B3-CD12-45FA-8820-7488DDA688D1}" tlbid="{5f2024d7-45da-433f-81e6-12740cad1551}" description="RoOpenXmlFile Class"/>
+      <comClass clsid="{60C28676-A400-472A-8473-01E9E0F564CC}" tlbid="{5f2024d7-45da-433f-81e6-12740cad1551}" description="RoOpenXmlStorage Class"/>
+      <comClass clsid="{04877F75-A7CF-4624-9DE3-5249C2943C99}" tlbid="{5f2024d7-45da-433f-81e6-12740cad1551}" description="RoOpenXmlStream Class"/>
+      <comClass clsid="{78393605-4E48-44F8-8D30-2EFBC02CA7B1}" tlbid="{5f2024d7-45da-433f-81e6-12740cad1551}" description="RoDebugLog Class"/>
+      <comClass clsid="{71A07C35-4F8E-4589-8A51-0BE9F61CFF32}" tlbid="{5f2024d7-45da-433f-81e6-12740cad1551}" description="RoJsonStream Class"/>
+      <comClass clsid="{67BABCA6-FE72-4A72-B510-7268200B6AEF}" tlbid="{5f2024d7-45da-433f-81e6-12740cad1551}" description="RoLicenceManager Class"/>
+      <comClass clsid="{FDDBD2EF-E29B-4485-9D9F-E930ADC0F764}" tlbid="{5f2024d7-45da-433f-81e6-12740cad1551}" description="RoAutoSaveThread Class"/>
+    </file>
+    <file name="dmAlgorithmPath.dll" hashalg="SHA1">
+      <comClass clsid="{63F47D6E-C95E-4AF7-B746-69443BB6BD3D}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoPathGenerator Class"/>
+      <comClass clsid="{8DC73FCA-A7AB-4214-A5F0-CB459122CD05}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoGeoPoint Class"/>
+      <comClass clsid="{22AFB332-8EC5-48E6-8BAF-82BEE8A4B17A}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoGeoPointGroupGeneral Class"/>
+      <comClass clsid="{1BA2BF26-BC49-43B3-99B5-3F3621A9EE16}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoGeoPointGroupLine Class"/>
+      <comClass clsid="{B02B4BF1-B7C3-4BBA-9970-F3365DA63B94}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoGeoPointGroupCircle Class"/>
+      <comClass clsid="{DD13611C-9ECD-4A64-96BB-EBEE7782BB84}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoGeoPointGroupSpline Class"/>
+      <comClass clsid="{7B124445-BB09-412E-BF69-BC11FCAB95AC}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoGeoPointColl Class"/>
+      <comClass clsid="{4E51550C-EE67-4188-94B6-9B16491B40AA}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoGeoPointGroupColl Class"/>
+      <comClass clsid="{0BD493FB-E08E-49EA-8F48-7B1F2AB1981C}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoGeoPointGroupCircleEx Class"/>
+      <comClass clsid="{DEE57D04-FFE2-4970-B555-B3440AF1D597}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoGeoPointGroupSlot Class"/>
+      <comClass clsid="{9622DF7B-FE40-460B-BA3A-B35E64228FB5}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoGeoPointGroupRect Class"/>
+      <comClass clsid="{1BCC02E5-DCD4-4682-A9D9-C3D032AEAD4E}" tlbid="{8143A0AD-9D5A-414C-AB53-DF84496FA215}" description="RoGeoPointGroupHexagon Class"/>
+    </file>
+    <file name="dmAlgorithmPath{POST}.dll" hashalg="SHA1">
+      <comClass clsid="{CFD46E3B-5755-44CC-8314-27A38FB7E121}" tlbid="{60413FA5-6C67-431B-B029-218AE58EADB2}" description="RoTopo Class"/>
+    </file>
+    <file name="dmAlgorithmRobot.dll" hashalg="SHA1">
+      <comClass clsid="{c5395162-ed92-11ec-a9ba-002432248074}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsConfigPsi Class"/>
+      <comClass clsid="{355ef9f4-1d0c-11ec-a18a-085bd6ca3740}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsConfigExtAxis Class"/>
+      <comClass clsid="{AC6C4E02-945C-4550-89B4-E904FDC4A4B4}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoExtKinematicsConfigFixedDir Class"/>
+      <comClass clsid="{C87D7E77-4606-4B32-BE9D-98466D9CC4A9}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoExtKinematicsConfigPos Class"/>
+      <comClass clsid="{13CD84BD-C09D-4F6D-92CA-9FCDE64572E1}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoExtKinematicsConfigMech Class"/>
+      <comClass clsid="{9FF8D68A-7525-4AE5-98A2-A99D4ED19FC2}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoExtKinematicsConfigStation Class"/>
+      <comClass clsid="{E9C6B965-DDA7-4787-8872-63648D9D5A1B}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoExtKinematicsConfigExData Class"/>
+      <comClass clsid="{c5354212-191d-11ec-8c3f-b808cf478c12}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinZVec Class"/>
+      <comClass clsid="{4a05360c-eac2-11eb-8c72-d718abc8b6c1}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics1P3R Class"/>
+      <comClass clsid="{e6b89be4-c8f7-11eb-ae92-e711812ceeb2}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics3P3RYXZ Class"/>
+      <comClass clsid="{e194c9a2-d913-11e9-9ec5-6014b35caef6}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsMechPosZ Class"/>
+      <comClass clsid="{95d2eca8-d913-11e9-8f9d-6014b35caef6}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoCRoKinematicsMechPosZ Class"/>
+      <comClass clsid="{3D34E88A-76B5-11E8-88BA-0050B6DAF2AE}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoAlgorithmRobot Class"/>
+      <comClass clsid="{2F7EFCC8-748F-4E9A-A43D-D68BD5741030}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics6R Class"/>
+      <comClass clsid="{4F14B644-0243-4656-8776-09011ADE6510}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics3P3R Class"/>
+      <comClass clsid="{C8AAE852-AE19-46A4-A814-4CB21A339DEC}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsEX3P3R Class"/>
+      <comClass clsid="{9BAEDB05-2C0C-4BB9-9520-F85CAFAD9A4B}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics6RZSHX Class"/>
+      <comClass clsid="{6991F625-5E23-4358-989F-491647E5D567}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics3P2R Class"/>
+      <comClass clsid="{2D0AB43A-012C-42A3-A332-814D8CDE6216}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics3R1P Class"/>
+      <comClass clsid="{56885FCA-6E00-4B17-9F32-292D9AB56469}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsQF7Links Class"/>
+      <comClass clsid="{24ADE74D-048F-45E2-8D7D-F15C9D9463ED}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsNonSpherical6R Class"/>
+      <comClass clsid="{60DF47FE-6377-4127-81F8-5E27C60999BD}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics6RUR Class"/>
+      <comClass clsid="{5394F01A-0327-409B-A92C-266AB77D75BB}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsUniversal Class"/>
+      <comClass clsid="{AB2CCD49-922A-4759-8A4E-97579CC83DA7}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsMech Class"/>
+      <comClass clsid="{CE6FE72A-2FE4-4B88-838B-4D621B4DFDBE}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics3P Class"/>
+      <comClass clsid="{7C347BF0-9564-4782-8F54-2568F336FA34}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsConfigBase Class"/>
+      <comClass clsid="{5F9D1C1D-A7C3-49B0-8FC4-D1258D3284BF}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsConfig3R1P Class"/>
+      <comClass clsid="{081D01BE-5739-41C3-878D-B320DB329611}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsConfig6R Class"/>
+      <comClass clsid="{AA5F2A50-E7B2-4E70-A32C-6E5DC50C6194}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsConfig3P2R Class"/>
+      <comClass clsid="{F6400A0A-A3D0-41F1-97B8-A080EBDD38D5}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsConfig3P3R Class"/>
+      <comClass clsid="{8DB21647-C778-4C1B-8760-29D5604F5DA1}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsConfigContainer Class"/>
+      <comClass clsid="{E718848F-B5D9-4061-A4F1-115A3BF41354}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoExtKinematicsConfigContainer Class"/>
+      <comClass clsid="{99CBF000-4412-41E7-BD63-4FFC08B1DE10}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics1P4R Class"/>
+      <comClass clsid="{60785D0B-E9B4-4C89-9145-7765CA79896C}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics1P4R_2R Class"/>
+      <comClass clsid="{20D6B6E1-E3E0-48C8-B666-F7268698F381}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematics4R_Picking Class"/>
+      <comClass clsid="{79C171CA-0089-47BC-AE31-4B1AD906E83B}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsMechPosZ_3P2R Class"/>
+      <comClass clsid="{128477F1-BEC0-4B86-965B-1787D2AE8372}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsMechPosZ_PPPR_R Class"/>
+      <comClass clsid="{AD2DD1A9-F38C-44D4-8877-057BEBE060C3}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsDelta Class"/>
+      <comClass clsid="{0CC5FE1F-95C0-4D4B-8710-17A42112A038}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoExtKinematicsConfigAngle Class"/>
+      <comClass clsid="{36CF6606-A301-4E5E-988F-D03C54D7263A}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsCornAttitude Class"/>
+      <comClass clsid="{EA1913A7-4C74-4660-8B7E-13A74EB087CD}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsESTUN Class"/>
+      <comClass clsid="{030D180C-6B29-4F3C-A76E-755EA8F60B9B}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsAnalyticalNonSpherical6R Class"/>
+      <comClass clsid="{6154824F-F4FF-4CFA-9F18-9C88A65F9DD2}" tlbid="{387ACA18-E3B7-417D-AF62-7D4B5623363F}" description="RoKinematicsPosOnly Class"/>
+	  
+    </file>
+    <file name="dxABB.dll" hashalg="SHA1">
+      <comClass clsid="{a3508d07-9270-4ec6-a35e-463dc6a8a3aa}" tlbid="{969cfece-f91e-4f99-aaf5-a9dfc6a5cbbd}" description="RoDxExportCodeABB Class"/>
+    </file>
+    <file name="dxStaubli.dll" hashalg="SHA1">
+      <comClass clsid="{BA71AE69-7C7F-41B7-BD7E-AED288F026C6}" tlbid="{9229A3C8-4704-43EE-ADFC-8C71939F6B72}" description="RoDxExportCodeStaubli Class"/>
+    </file>
+    <file name="dxKuka.dll" hashalg="SHA1">
+      <comClass clsid="{a7af2a74-8e62-487b-826a-da3baad38fbc}" tlbid="{ebc228b4-ecf9-419d-8150-ae8c95de6340}" description="RoDxExportCodeKuka Class"/>
+    </file>
+    <file name="dxPath.dll" hashalg="SHA1">
+      <comClass clsid="{E8F224A9-D446-40DC-ADC2-E3E7BA00B490}" tlbid="{ba2c4b86-a04e-4ee1-a820-78652ffe4b52}" description="RoDxImportCAS Class"/>
+      <comClass clsid="{ef8bfccb-a1e9-4626-aa05-a8d495f5cee1}" tlbid="{ba2c4b86-a04e-4ee1-a820-78652ffe4b52}" description="RoDxImportPath Class"/>
+      <comClass clsid="{7A57B558-97E9-4B34-97DA-85F1E81047BA}" tlbid="{ba2c4b86-a04e-4ee1-a820-78652ffe4b52}" description="RoDxImportAptCode Class"/>
+      <comClass clsid="{4FB8BF20-CA2A-41E9-9E92-E6B15666A739}" tlbid="{ba2c4b86-a04e-4ee1-a820-78652ffe4b52}" description="RoDxImportLasman Class"/>
+      <comClass clsid="{B1C0AD22-196D-49B5-B9FA-7F7C58A58ACD}" tlbid="{ba2c4b86-a04e-4ee1-a820-78652ffe4b52}" description="RoDxImportGCode Class"/>
+    </file>
+    <file name="apEdu.dll" hashalg="SHA1">
+      <comClass clsid="{6ff932f6-82aa-11ea-9307-6014b35caef6}" tlbid="{1647F67F-D227-4A86-99CC-EEAA5F694F73}" description="RoClearExamContent Class"/>
+      <comClass clsid="{7f6ca990-7492-11ea-b19e-6014b35caef6}" tlbid="{1647F67F-D227-4A86-99CC-EEAA5F694F73}" description="RoClearStateInfo Class"/>
+      <comClass clsid="{e37ccb14-700c-11ea-adf0-6014b35caef6}" tlbid="{1647F67F-D227-4A86-99CC-EEAA5F694F73}" description="RoImportExamContent Class"/>
+      <comClass clsid="{b793498c-700c-11ea-9bc2-6014b35caef6}" tlbid="{1647F67F-D227-4A86-99CC-EEAA5F694F73}" description="RoExportExamContent Class"/>
+      <comClass clsid="{0c8f0eb8-700c-11ea-a6aa-6014b35caef6}" tlbid="{1647F67F-D227-4A86-99CC-EEAA5F694F73}" description="RoStartTheExam Class"/>
+      <comClass clsid="{f65ac32c-6eaa-11ea-ab54-6014b35caef6}" tlbid="{1647F67F-D227-4A86-99CC-EEAA5F694F73}" description="RoSubmitAnswers Class"/>
+      <comClass clsid="{b69f214c-6dc9-11ea-9c83-6014b35caef6}" tlbid="{1647F67F-D227-4A86-99CC-EEAA5F694F73}" description="RoCreateExamContent Class"/>
+      <comClass clsid="{EEEDAEF7-2D01-4396-8915-41721B5009E0}" tlbid="{1647F67F-D227-4A86-99CC-EEAA5F694F73}" description="RoDemonstrator Class"/>
+    </file>
+    <file name="apHelp.dll" hashalg="SHA1">
+      <comClass clsid="{570D1CBF-E554-452C-8C5F-7300CC4C22E6}" tlbid="{6B420F36-F3C8-4AE5-AB1C-A5098E892D67}" description="RoHelp Class"/>
+      <comClass clsid="{C77C7CAD-6B67-4314-A2C2-3021CF0BA613}" tlbid="{6B420F36-F3C8-4AE5-AB1C-A5098E892D67}" description="RoAbout Class"/>
+      <comClass clsid="{9A78D7F0-FE78-468B-8D86-F6CE51FDE6A9}" tlbid="{6B420F36-F3C8-4AE5-AB1C-A5098E892D67}" description="RoLogin Class"/>
+      <comClass clsid="{38BC3E4E-E4C1-4E2A-9554-1B095F026718}" tlbid="{6B420F36-F3C8-4AE5-AB1C-A5098E892D67}" description="RoHelpGuide Class"/>
+      <comClass clsid="{1820CA64-4A00-4827-BB27-78D4727F41D2}" tlbid="{6B420F36-F3C8-4AE5-AB1C-A5098E892D67}" description="RoShowMangeRobotTree Class"/>
+      <comClass clsid="{8911206B-9E5A-41AD-93F3-43657260A5F2}" tlbid="{6B420F36-F3C8-4AE5-AB1C-A5098E892D67}" description="RoRobotContrl Class"/>
+      <comClass clsid="{529882E0-3931-46CD-A4C8-12C7924E6C40}" tlbid="{6B420F36-F3C8-4AE5-AB1C-A5098E892D67}" description="RoReLogin Class"/>
+      <comClass clsid="{6C78E410-B4F7-4E17-9301-FED6B303A627}" tlbid="{6B420F36-F3C8-4AE5-AB1C-A5098E892D67}" description="RoDebugOption Class"/>
+      <comClass clsid="{1ECF90B8-1DED-43D9-B73E-FEACAF0BCAD9}" tlbid="{6B420F36-F3C8-4AE5-AB1C-A5098E892D67}" description="RoDocumentMeta Class"/>
+      <comClass clsid="{E52C5F19-4E89-4BB7-8447-790A3081CCFE}" tlbid="{6B420F36-F3C8-4AE5-AB1C-A5098E892D67}" description="RoShowSignalSim Class"/>
+    </file>
+    <file name="apProcess.dll" hashalg="SHA1">
+      <comClass clsid="{A8E7875F-05EC-46D0-9D8F-8D152E91D92A}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoProcessDeburr Class"/>
+      <comClass clsid="{A9B2F189-E5CC-4044-8C84-C59FCE3BF9AE}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoProcessMill Class"/>
+      <comClass clsid="{79987DE7-F358-43E8-805D-0DA04FE74DAC}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoPerformanceAnalysis Class"/>
+      <comClass clsid="{8e2ad06e-8df9-11eb-a425-6014b35caef6}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSearchInstructEvent Class"/>
+      <!--<comClass clsid="{E18A80D6-C964-4844-8D0D-9FACC4E079A7}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoCatchWorkingPart Class"/>
+    <comClass clsid="{02F83474-D701-4B12-ACCE-856F6E20D885}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoReleseWorkingPart Class"/>-->
+      <comClass clsid="{24F79535-B6B6-4F9E-A444-00D1B03AF6C1}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoGoHome Class"/>
+      <comClass clsid="{113DBA55-8C83-4C1B-8C44-776280146CE3}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoProcessStack Class"/>
+      <comClass clsid="{7A0C8020-C8FB-4B49-879B-CFE7AB55B8C9}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoImportProcessTemplate Class"/>
+      <comClass clsid="{A7C363AD-41DE-48A4-9265-157487084267}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoInsertPointByWpt Class"/>
+      <comClass clsid="{5421BDF5-6230-40A9-9F48-D393BDFD43F6}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoCutHole Class"/>
+      <comClass clsid="{D2EF3FB9-989F-42FC-8082-70AE6C9F000C}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoProcessPath Class"/>
+      <comClass clsid="{69204F42-7825-4D25-B4AB-DF916299429B}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoImportWord Class"/>
+      <comClass clsid="{25D5CA2F-8638-4CB8-99F3-F1FFDA14D5A4}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoImportAGVStation Class"/>
+      <comClass clsid="{CE2617FF-B6F2-48A1-965E-5788400ED90E}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoAGVPathProcess Class"/>
+      <comClass clsid="{43BEC3EB-F86D-4175-AF62-1999CDD94502}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoImportRobotRestaurant Class"/>
+      <comClass clsid="{E2505CD1-55FA-417E-AEDF-45A46CAC88CE}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoDeletePointSimEvent Class"/>
+      <comClass clsid="{D3915631-38E6-4A4B-809C-C6C8AF392014}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoChangeState Class"/>
+      <comClass clsid="{AF6F8066-5D80-4FBB-8DB5-E913E7818158}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoProcessPolish Class"/>
+      <comClass clsid="{AD4908BA-A68E-42D7-AA22-AFC4600F02CB}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoPortMatch Class"/>
+      <comClass clsid="{B725BA58-FCDD-4954-93D2-0D90EA8C6592}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSetSensor Class"/>
+      <comClass clsid="{92FD45CF-6761-4BB6-98CB-0452FD453B48}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoActivateEvent Class"/>
+      <comClass clsid="{650F3820-1908-42C4-A33D-4C1DAD6F2B0E}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoDelActivateEvent Class"/>
+      <comClass clsid="{42809D9A-627D-492A-98DB-7686390A4953}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoMechMgrEvent Class"/>
+      <comClass clsid="{0D70BF9C-8D05-4487-8172-11704BF1B803}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoAddEvents Class"/>
+      <comClass clsid="{680C4763-F003-40A6-BAD9-92D3F2866483}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoRestoreState Class"/>
+      <comClass clsid="{BD355D20-2EB3-472A-96EC-5BC957CC0C4B}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoRestoreAllState Class"/>
+      <comClass clsid="{37E488AF-3E54-4157-B02F-EA6E9CBA2D8D}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoRecordState Class"/>
+      <comClass clsid="{422F96E5-4107-4ABA-94B6-6B9F4853B32A}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSetEngineVel Class"/>
+      <comClass clsid="{ACF93D25-FE16-4F06-A482-DC57432F43B2}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoDoPython Class"/>
+      <comClass clsid="{A8395131-E6A0-42E9-8117-6F2031DED026}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoCreateMechVarible Class"/>
+      <comClass clsid="{E954172A-B81C-4523-BB1A-1428194F49BF}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSetEngineVel Class"/>
+      <comClass clsid="{F218611B-4697-4231-A9E2-DFEDE25B2138}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoKukaLaserwelding Class"/>
+      <comClass clsid="{ABB4C47E-DA76-4B99-BC1D-6587F78D4208}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSyncSeting Class"/>
+      <comClass clsid="{241BFCB9-5424-4ABB-86E9-AB9FD6B957DA}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoCreatePartsGenerator Class"/>
+      <comClass clsid="{58200689-F7E2-4E4D-8960-844553653FB4}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSyncPath Class"/>
+      <comClass clsid="{00FB76F4-C991-48B1-9A9C-B08BD971C3DD}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoDefineInstructions Class"/>
+      <comClass clsid="{e344399a-f606-11eb-8aa0-be600c8ad978}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoPostPython Class"/>
+      <comClass clsid="{13412817-D99E-47EF-8464-0380D8A0B34F}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoImportMoreCodeFile Class"/>
+      <comClass clsid="{3DCD7FFA-C197-49F5-83FE-4A93A6F6B732}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSetAGVBaseCoord Class"/>
+      <comClass clsid="{EA85063D-778E-402C-B8E1-8D85C1E3534F}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoHUMANSETING Class"/>
+      <comClass clsid="{4CD92B60-C069-4E46-9E97-2EDB35D3D776}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSetConnectIP Class"/>
+      <comClass clsid="{84242977-3915-484C-9DB9-E8C6BA9AFE37}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoCheckTool Class"/>
+      <comClass clsid="{55DFBA0F-AF33-4523-B12D-631A552BDE8B}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoOpenDefineCatalogue Class"/>
+      <comClass clsid="{9ABB8A82-F643-43F5-9527-98C1307AE35D}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSetPathParameterTemplate Class"/>
+      <comClass clsid="{C449D440-36D4-477C-9368-07989533DE3C}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoXmlCtrlRead Class"/>
+      <comClass clsid="{2F5741E6-00FF-48EB-B965-0604DDC40C0E}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoGetCustomEventByParameter Class"/>
+      <comClass clsid="{556D3CF4-3843-4FC8-A467-76283FDE65AF}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoExternalGeneratePath Class"/>
+      <comClass clsid="{c7848e38-65a3-11ee-ab69-085bd6ca3740}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoModifyVaribleName Class"/>
+      <comClass clsid="{CB2644B2-DD39-4F72-925F-3E6335292D54}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoGetJointsData Class"/>
+      <comClass clsid="{BAEA8DD4-6071-4908-B22F-5485A6C1200F}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoAnalyzeJointsData Class"/>
+      <comClass clsid="{9678441E-AA87-471C-815E-037976136629}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoDefineParameters Class"/>
+      <comClass clsid="{def37d4a-9c02-11ef-9744-2c981139b224}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSpraySwingEventSeting Class"/>
+      <comClass clsid="{7E2DD959-8EEE-4385-B016-B7F545F50AA6}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSprayPredisplay Class"/>
+      <comClass clsid="{2C4F1A94-421E-4F0F-A891-5C54571FD76E}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoSearchApply Class"/>
+      <comClass clsid="{61D0D1F4-5F30-491F-9DEA-272F3D250636}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoProgramProperty Class"/>
+      <comClass clsid="{AE8C4E3B-393F-45CB-8C50-217AD5527413}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoExportPlatingThickness Class"/>
+      <comClass clsid="{D1A6CAEE-2731-4AC8-BD4D-624D86C8D41F}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoCallSearchEvent Class"/>
+      <comClass clsid="{A45F9582-F3E5-11EF-84A0-2C9811399D48}" tlbid="{79231AEB-49C9-4220-BB63-485F03F04E91}" description="RoAddChannelCommandEvent Class"/>
+    </file>
+    <file name="apContext{POST}.dll" hashalg="SHA1">
+	  <comClass clsid="{634E5604-FEEF-4059-9FF5-CC7F80E860F8}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="CRoPathPointToCoordinate Class"/>
+	  <comClass clsid="{224B7F1D-FE4E-42EE-9205-D0662F068753}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="CRoLineLaserSearchPath Class"/>
+      <comClass clsid="{e8313522-b2d7-11ef-a4bc-207bd29c04d9}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateToolLineLaser Class"/>
+      <comClass clsid="{d0ce49ae-a5bc-11ef-b2c5-2c9811399d48}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateMultiAxisTool Class"/>
+      <comClass clsid="{D0E7E511-8895-4EB0-9FA0-75656DC16710}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoWorkingPathTransit Class"/>
+      <comClass clsid="{2ef701f0-8d21-11ef-a4d7-2c981139b224}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoOutputElementIdAndName Class"/>
+      <comClass clsid="{79709176-8d18-4f89-afed-90d817b9f333}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoZoomPath Class"/>
+      <comClass clsid="{488feda9-46c4-4960-81fb-c6f0bbefdd4b}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoAddLinearSprayPath Class"/>
+      <comClass clsid="{d11136e4-4078-11ef-95c0-2c9811399d48}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateSprayingTool Class"/>
+      <comClass clsid="{49d26852-2eea-11ef-81f6-085bd6ca3743}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoObjAssistorManage Class"/>
+      <comClass clsid="{40f59fec-1ef3-11ef-a641-c8e265f76a29}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoRoOutputElementID Class"/>
+      <comClass clsid="{a402f9f0-1cdc-11ef-8932-085bd6ca3743}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoShowConicalBrush Class"/>
+      <comClass clsid="{123354e8-1cce-11ef-8300-085bd6ca3740}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoHideConicalBrush Class"/>
+      <comClass clsid="{ACBDE54D-E98E-4EBC-9300-8453DFF87FBE}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoInverseKinematicsExternalAxis Class"/>
+      <comClass clsid="{4f2200a2-e61e-11ee-ac60-207bd29c04d9}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateSparyGun Class"/>
+      <comClass clsid="{3d77d418-d5a1-11ee-8e39-207bd29c04d9}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoEditConveyorBelt Class"/>
+      <comClass clsid="{c9d72f8a-d266-11ee-9030-085bd6ca3740}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoDefineConveyorBelt Class"/>
+      <comClass clsid="{CF9009D9-E2CE-47A0-A7AC-DD87A028FF7E}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="'RoPathTransition  Class"/>
+      <comClass clsid="{13D1D0B9-8D18-4319-813A-EBAC31E6AEA0}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="'RoZaxisToCenter  Class"/>
+      <comClass clsid="{109ed95a-0d26-46ac-b6f2-3cf26a1c8b6e}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPathFaceProj Class"/>
+      <comClass clsid="{d2164e08-ed6a-11ec-8056-002432248074}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoModifyPsi Class"/>
+      <comClass clsid="{B973AC7C-9A6F-4ADC-9D94-99426FC1BBF9}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPathSmooth Class"/>
+      <comClass clsid="{c49bf1fe-7379-11ec-8314-44af280f9faa}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoAddWeldPath Class"/>
+      <comClass clsid="{f6c7ea38-4748-11ec-8b38-002432248074}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoBatchExportModel Class"/>
+      <comClass clsid="{2894b188-104e-11ec-909b-44af280f9faa}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoAddLocatingPath Class"/>
+      <comClass clsid="{fb8243fe-143d-11ec-87cb-002432248074}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateFrameByLineAndFace Class"/>
+      <comClass clsid="{64174310-f984-11eb-b537-44af280f9faa}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoApplyPathTemplate Class"/>
+      <comClass clsid="{6d0dd17a-f401-11eb-a3c7-44af280f9faa}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreatePathTemplate Class"/>
+      <comClass clsid="{3c8505da-d7b7-11eb-88de-44af280f9faa}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="InsertPosAtTail Class"/>
+      <comClass clsid="{7975abf0-bec8-11eb-8bab-c83dd4f5f86c}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPointXAlongAxis Class"/>
+      <comClass clsid="{2f7ba20a-bd37-11eb-b7ee-a281895d706d}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoImportStpDefineTool Class"/>
+      <comClass clsid="{E8F00421-873C-4394-94FC-3846655AAE93}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoEditPointAbsJointBall Class"/>
+      <comClass clsid="{744c48b8-39dd-11eb-8a3e-c83dd4f5f86c}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoExtractCentralLine Class"/>
+      <comClass clsid="{8a449d9a-3b7a-11eb-9140-6014b35caef6}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoResetPostName Class"/>
+      <comClass clsid="{46d131f8-d63a-11ea-961b-54e1ad8ab3bf}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCoordTransform Class"/>
+      <comClass clsid="{D0ABC9CD-C8B1-4C00-9D28-3B7555E4B010}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoImportPath Class"/>
+      <comClass clsid="{46bc7676-99a8-11ea-8169-c83dd4f5f86c}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="InsertPosAfterPt Class"/>
+      <comClass clsid="{a22d1ad8-4764-11ea-902e-b808cf478c12}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoZPointTo Class"/>
+      <comClass clsid="{046ba312-10fe-11ea-988e-c83dd4f5f86c}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCopyPathBasedOnTribalMove Class"/>
+      <comClass clsid="{40695892-09d1-11ea-8cd4-6014b35caef6}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoEditCoordinateByArcball Class"/>
+      <comClass clsid="{b9d64e30-a83a-11e9-a69e-c83dd4f5f86c}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="PathProjection Class"/>
+      <comClass clsid="{5989ce10-940a-11e9-adec-c83dd4f5f86b}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoMirrorCopyPath Class"/>
+      <comClass clsid="{7be2c1e2-90a6-11e9-b4f3-c83dd4f5f86c}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="AddPointsArray Class"/>
+      <comClass clsid="{68bb170c-90a3-11e9-8731-6014b35caef6}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoRobotTranslationArcball Class"/>
+      <comClass clsid="{a754c842-8e6c-11e9-aff7-b808cf478c12}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="PointTo Class"/>
+      <comClass clsid="{28dd359e-85cc-11e9-9794-0050b6daf2ae}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSetPointPostureWithCurrent Class"/>
+      <comClass clsid="{05c12ce2-81b0-11e9-b336-c83dd4f5f86b}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="MultiSelPtsLocalRotate Class"/>
+      <comClass clsid="{a086bd00-7f65-11e9-8a49-c83dd4f5f86c}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoMultiSelPtsLocalTranslate Class"/>
+      <comClass clsid="{ad6fd440-7dc4-11e9-a454-c83dd4f5f86c}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoEdiMultiSelPts Class"/>
+      <comClass clsid="{2e42b5c0-7c70-11e9-b740-c83dd4f5f86b}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoUnifyMultiPtsPosture Class"/>
+      <comClass clsid="{c1107b80-3fee-11e9-8555-c83dd4f5f86b}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoMergeWireObjs Class"/>
+      <comClass clsid="{37327cd4-9c3f-11e8-91d1-b808cf478c12}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="MultiLevel Class"/>
+      <comClass clsid="{d922d3f4-7cf1-11e7-af75-0050b6daf2ae}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoMessurePt Class"/>
+      <comClass clsid="{ab4b9090-6094-11e7-b9d1-5800e349f99a}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoGenCusPostFormat Class"/>
+      <comClass clsid="{C5BF924E-3B66-41CD-A04D-AF88914C09FA}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoAlignPart Class"/>
+      <comClass clsid="{702BD42A-C0A8-4076-8528-AB5976FEEE07}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateCoordinate Class"/>
+      <comClass clsid="{5CF95314-9617-47BC-AC13-293C17D353D0}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoEditPoint Class"/>
+      <comClass clsid="{06E3639F-80C6-46AE-9A39-83FE23E96640}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoDeletePoint Class"/>
+      <comClass clsid="{D79AD3D8-7E49-464E-86DD-B9C8E541D1CD}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoDeletePath Class"/>
+      <comClass clsid="{A39BF4C6-2E04-47E6-B50A-6B2A4A220F75}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoDeleteWorkingPart Class"/>
+      <comClass clsid="{6558CBBE-8259-430C-8CC7-91F4664A165A}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoAscOrderPath Class"/>
+      <comClass clsid="{9F367A91-09CA-4824-89E4-C07DBBE2F183}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoDescOrderPath Class"/>
+      <comClass clsid="{5D33341D-1CC8-4889-950C-4E1E1CA2E2C2}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSortPath Class"/>
+      <comClass clsid="{0985E182-E6CF-4DE1-9032-B12027FFEB3D}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoEditMultiPts Class"/>
+      <comClass clsid="{7EFECED2-1216-4D7D-9660-56927054B00B}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoMovetoPt Class"/>
+      <comClass clsid="{C56CDEC3-689D-4E5A-A4DB-9EEDF0077574}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoRobotSetting Class"/>
+      <comClass clsid="{A31CBD60-DA96-4630-846B-043667CE5751}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoRemoveRefWorkingPart Class"/>
+      <comClass clsid="{BADF0936-20B1-4CD7-A5BD-1CA7DA589E1B}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSavePath2File Class"/>
+      <comClass clsid="{3FDF496F-C780-402B-9A2B-AD316D55759F}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoLoadPathFromFile Class"/>
+      <comClass clsid="{D072D6FD-29D1-4723-8BB1-D29B25ADC182}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoLookAt Class"/>
+      <comClass clsid="{C7995993-145E-4E7F-9AE3-899CB9620FE3}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoShowCoordinate Class"/>
+      <comClass clsid="{AE6C5A92-59D5-4E75-8738-477BB32443E9}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoHideCoordinate Class"/>
+      <comClass clsid="{BB60E620-C259-4F1E-BA2B-210006DAC7E2}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSetPointPosture Class"/>
+      <comClass clsid="{285C5272-021E-4B0C-81F7-D1D93C7A2704}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSimulate Class"/>
+      <comClass clsid="{73F7429B-9522-49A8-9DDE-46A7FB53B06C}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPathZFixed Class"/>
+      <comClass clsid="{713EEEF8-05D8-42AA-8558-6F6A48A256AC}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateTool Class"/>
+      <comClass clsid="{9B0FC892-3EE5-4558-9D80-C8BB2193B20D}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateWorkingPart Class"/>
+      <comClass clsid="{31D5565D-0C59-4103-9B95-97F9EF84C36A}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateSeat Class"/>
+      <comClass clsid="{C1A7A9B1-728F-4180-97DB-DA44D7FC11F0}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateRPPositionByself Class"/>
+      <comClass clsid="{1B905464-F610-4C26-8D8B-DABCFA66330A}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateRPPositionByAUTO Class"/>
+      <comClass clsid="{8C4C4A1D-3149-4DED-A054-5D4E9B3EACAB}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateCPPositionByAUTO Class"/>
+      <comClass clsid="{436AA39E-8D5E-4D75-8255-B163738515AE}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoRobotEstablish Class"/>
+      <comClass clsid="{35B51441-19C7-4668-AE95-21B879D3D340}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoEditTCP Class"/>
+      <comClass clsid="{E21A5CF7-61DC-434B-9A11-A274C179E1A0}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoInsertPosPointByPath Class"/>
+      <comClass clsid="{2C0A756A-4929-4818-B3DE-CA89E6D1D693}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoInsertPosPointInPath Class"/>
+      <comClass clsid="{7FD7B649-2BAE-47CA-98FE-A9E27B0A5A60}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSimulateCommom Class"/>
+      <comClass clsid="{2AEAA6F2-2F4F-4A55-A3B7-622EEA05A1E7}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSimulateFromPoint Class"/>
+      <comClass clsid="{1ADC19A2-51A7-48C3-A00D-25F1DDC9DDCE}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSimualtePath Class"/>
+      <comClass clsid="{746012F8-15AE-4127-9E24-8C8EDDDE555A}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSimualtePathGroup Class"/>
+      <comClass clsid="{3276A6E7-7E57-4A73-A2DB-1D1326463AE8}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoRobrdEdit Class"/>
+      <comClass clsid="{7933CAA9-6547-4C83-B21A-7AFDF19D3AB9}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoEditPointRelativePosition Class"/>
+      <comClass clsid="{AFC7D0BC-A565-4C16-BBA8-695B71151BE7}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoUnstack Class"/>
+      <comClass clsid="{D775DCEB-9AF1-4D50-BEC0-263B66E1F564}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPathRotate Class"/>
+      <comClass clsid="{B008C6BF-C01E-4CE4-B6AB-EAB23A6AE825}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPathRotateArcball Class"/>
+      <comClass clsid="{E0F407C2-F6D9-4F4A-BBF7-3E43605168F0}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPathTranslation Class"/>
+      <comClass clsid="{54FD25CF-44EC-4B25-A114-301B0DC12F8D}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPathTranslationArcball Class"/>
+      <comClass clsid="{A5DDAD38-9B26-4F2F-AA4D-8E79C34B76A1}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoImportWorkingPart Class"/>
+      <comClass clsid="{984F06DB-86FA-4E56-AB13-32646B7C3E16}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoAdjustWorkingPart3D Class"/>
+      <comClass clsid="{0D5310B0-5DB4-45F5-9705-FDD17E84949F}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoChangeRobotObj Class"/>
+      <comClass clsid="{AB58F618-0E4B-4304-9A27-D7593BC36A95}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoMechanismEstablish Class"/>
+      <comClass clsid="{2159B242-4348-4217-9BEA-A3E1C92647D6}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="CRoModifyPostFormat Class"/>
+      <comClass clsid="{a47773f6-914f-11e7-b01a-a0a8cdbc63ac}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="CRoMeasureCenterPt Class"/>
+      <comClass clsid="{056869BB-3FF8-4DB5-BAA2-FA128B8EEED2}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="CResetRobotZeroPos Class"/>
+      <comClass clsid="{DEC52070-A135-42F7-90D9-BFFE5ABD47F6}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="CRoAssemblePart Class"/>
+      <comClass clsid="{47E3635A-49AC-4B23-86F0-BEF666E37E71}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="CRoDisAssemblePart Class"/>
+      <comClass clsid="{CA541705-B9F7-4D15-A991-9FAEC27340C2}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="CRoDefineMechState Class"/>
+      <comClass clsid="{7EE5EC27-4690-497E-8CF9-129F08D9AA2B}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoImportWorkCell Class"/>
+      <comClass clsid="{3331573D-B228-4358-959E-7272D4D86473}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCatchWorkingPart Class"/>
+      <comClass clsid="{261A9F6B-4A46-4BF1-95B9-7E9E73C96817}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoReleseWorkingPart Class"/>
+      <comClass clsid="{0D5E3B49-17A0-48EC-A3EB-DE7083FA96ED}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoRelseTool Class"/>
+      <comClass clsid="{B39A7E6D-0A4F-4D1E-BBD3-2DEB05A01BA5}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCatchTool Class"/>
+      <comClass clsid="{83C373AE-15E1-4F25-9588-1D1FE224718D}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoChangeOldRobot Class"/>
+      <comClass clsid="{81543dc0-5e5c-11e8-94d6-c83dd4f5f86c}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="CRoCreate_NewSketch Class"/>
+      <comClass clsid="{1c04f610-5eef-11e8-91b8-c83dd4f5f86c}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="CRoEdit_WKPTSketch Class"/>
+      <comClass clsid="{528513DD-61AF-4A4E-9033-1A095EA023EB}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoTriBalCmdProxy Class"/>
+      <comClass clsid="{15b988b0-96e5-11e8-b371-c83dd4f5f86c}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoZaxisAngleMin Class"/>
+      <comClass clsid="{CB2322C1-D4F0-4FE0-8314-F22A7521C8FD}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSaveOfficialFile Class"/>
+      <comClass clsid="{D3ECCEE0-BB2E-4E86-AD1E-F6AFCF1EA99B}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoRegistration Class"/>
+      <comClass clsid="{9F1F55E8-6777-4409-BE4B-01E802636107}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoObjectProperty Class"/>
+      <comClass clsid="{D3673EE3-E36C-4D52-8C8E-055C94EC343A}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoVirtualImportModel Class"/>
+      <comClass clsid="{0F8551B7-0B35-4135-94D1-290DF4A4CB12}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoStartChartlet Class"/>
+      <comClass clsid="{FC181AF1-EC59-4A07-8344-574CB5D77CA1}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoStartHomePagePQ Class"/>
+      <comClass clsid="{0466874C-1CB2-4889-8A43-8DC047F90049}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateEffect Class"/>
+      <comClass clsid="{95D736EB-93EB-4F58-A531-D23423209F38}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateEffect Class"/>
+      <comClass clsid="{7793FE97-6259-4C15-84A1-CC85C94E6727}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoAlignPart3Plane Class"/>
+      <comClass clsid="{419DA283-D248-4F77-8279-54048862F6B5}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoAlignPart3Point Class"/>
+      <comClass clsid="{BB5DA8FC-90E0-4E1F-B6FE-BABAEC84AAF9}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoAlignPart5Point Class"/>
+      <comClass clsid="{4A6C3EF2-6F2B-476A-B315-19171DD7FBC4}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoAlignPartPointAxis Class"/>
+      <comClass clsid="{43FF4EAF-AF11-4008-911F-2844D0ABCC3A}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoMoveTop Class"/>
+      <comClass clsid="{9290C2E6-E842-426E-981A-92FF11DE6C47}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoResetLocalCoord Class"/>
+      <comClass clsid="{A3037A0C-1370-47C7-BE0E-69A7365D66DD}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoEditGeomModel Class"/>
+      <comClass clsid="{9B5302CD-E37D-4AF1-9FDC-AF0A632E8680}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoShowRobotTrajectory Class"/>
+      <comClass clsid="{C07136EC-794C-472B-AA30-44C48C9FA598}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreatSensor Class"/>
+      <comClass clsid="{9F6B20E6-1A13-458F-ADC2-B937DCD2604E}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoADDCP Class"/>
+      <comClass clsid="{0195E1DF-103A-48A0-9CEF-83EA7C718CAF}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoImport3DFileToWorkPart Class"/>
+      <comClass clsid="{826C6040-649A-4064-B14B-7E5E9BCEE63F}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoExtendedDevelop Class"/>
+      <comClass clsid="{4BDC3BF5-BA7F-441B-8CD8-5557F0D1DB8D}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoFixToolToFL Class"/>
+      <comClass clsid="{28CB7E8D-54AB-4B68-8ECE-2824520402BA}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoDefineConveyor Class"/>
+      <comClass clsid="{20163EAA-3007-4B5F-8702-F8433F407859}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoMotionPlan Class"/>
+      <comClass clsid="{BC6EFD98-3929-4684-8A72-7D3412AAE631}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPathPlanValidChecker Class"/>
+      <comClass clsid="{719584C4-7B06-473D-BACD-97C2C2E11814}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoMotionPlanUiReceive Class"/>
+      <comClass clsid="{F6B5942D-C6EB-4717-8504-F4B20EE1065C}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoMoveToSuitPoint Class"/>
+      <comClass clsid="{1B1CD7EE-7750-4D79-9250-92C3CB959034}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoAlignPath Class"/>
+      <comClass clsid="{4B7EEE43-0E7D-4C56-917F-23DD7248F50E}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoDefaultCmd Class"/>
+      <comClass clsid="{72F31EC5-30B8-44D9-93D5-018F2C395048}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="'RoDefineWatchSensor  Class"/>
+      <comClass clsid="{336FCB5E-D3B1-40B0-A0B4-59B5B356E134}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPickupElement Class"/>
+      <comClass clsid="{48aa1d53-b316-40fe-894f-dc4a79dda4c3}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSelectionElement Class"/>
+      <comClass clsid="{C3192451-7329-47FB-B20F-1CB85BCFD482}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCreateTextAnnotation Class"/>
+      <comClass clsid="{F2ED09A0-E65D-44BC-9E9B-0819922D5D9F}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPickFilmThickness Class"/>
+      <comClass clsid="{52BBD06E-4DE4-440E-8EE7-BA032A05EB6A}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoExtendedDevelopCLR Class"/>
+      <comClass clsid="{53729423-B380-4822-A7D8-11A93C547EC9}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoDefineCamera Class"/>
+      <comClass clsid="{ADBC136B-1C20-4969-89E2-E63084433D22}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoSimulateThicknessMSA Class"/>
+      <comClass clsid="{CB89BF6A-61D5-400F-A383-C91866936397}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoCopyAndAdjustPath Class"/>
+      <comClass clsid="{08D9B261-A437-41CA-B85E-1FD75AB5BB92}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoDefineCheckDevice Class"/>
+      <comClass clsid="{19C1B56A-535A-4BA7-B811-F32ED60514D2}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPathSmoothMSAServer Class"/>
+      <comClass clsid="{913F5749-D482-4990-99A7-D21F1E611C68}" tlbid="{00FF086F-FED4-42F5-A387-06A7ECB7CC26}" description="RoPathSmoothMSAClient Class"/>
+    </file>
+    <file name="dxMotion.dll" hashalg="SHA1">
+      <comClass clsid="{3bacb9e9-1ec5-4f7f-8c66-b4654bb6a2ed}" tlbid="{f9776811-9969-4333-bacb-2d5e28a8501d}" description="RoDxExportMotion Class"/>
+      <comClass clsid="{8F5BF876-49DE-4A13-ADD6-5272A3BB1071}" tlbid="{f9776811-9969-4333-bacb-2d5e28a8501d}" description="RoDxVideoWriter Class"/>
+      <comClass clsid="{BEE89020-9B2F-4CF6-8471-194324407B7E}" tlbid="{f9776811-9969-4333-bacb-2d5e28a8501d}" description="RoExBroadcast Class"/>
+    </file>
+    <file name="dxPRZshx.dll" hashalg="SHA1">
+      <comClass clsid="{49CF2698-DBE3-4A11-A42F-DD54EB038AAA}" tlbid="{81E78243-F3FD-438A-A07B-E4402326D61F}" description="RoDxExportCodeZshx Class"/>
+    </file>
+    <file name="dmProcess.dll" hashalg="SHA1">
+      <comClass clsid="{898d507a-dc6f-11ea-bfb9-6214b35caef5}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoEngineEventList Class"/>
+      <comClass clsid="{f1627c62-db9d-11ea-9e62-54e1ad8ab3bf}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoRobotVarible Class"/>
+      <comClass clsid="{840b7f70-db9c-11ea-8917-54e1ad8ab3bf}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoSensorVarible Class"/>
+      <comClass clsid="{3b830624-db9c-11ea-9d13-54e1ad8ab3bf}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoMechStateVarible Class"/>
+      <comClass clsid="{328D9AA5-28A3-4F7C-970E-049D7153C980}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoDmProcessCommonInfo Class"/>
+      <comClass clsid="{FC490026-0D8C-44CC-BD34-CB883F0AB74B}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessCenter Class"/>
+      <comClass clsid="{E34D19BF-CC96-4092-87CA-8E315C55433D}" tlbid="{A2826D16-3C48-4285-91A7-DDA026E64E8C}" description="DmProcess Class"/>
+      <comClass clsid="{62E2535C-D096-468B-86D8-4155C5EFD6EC}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessCuttingInfo Class"/>
+      <comClass clsid="{0001B89B-1804-42C9-BEA5-E317C11AEF9F}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessWeldingInfo Class"/>
+      <comClass clsid="{26B230D1-31F2-471A-992F-A72BE1836110}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessPunchingInfo Class"/>
+      <comClass clsid="{C742FF97-EABA-443B-A9EA-482B41D2DFD0}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmElectricSpindleCutInfo Class"/>
+      <comClass clsid="{90A6AEE0-5FFC-4669-8823-C82C00C206C0}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmProcessCategory Class"/>
+      <comClass clsid="{343A7266-2082-4F7A-8DE2-E7F0466F5277}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmProcessCategoryMgr Class"/>
+      <comClass clsid="{B7CAB34C-0564-4BA2-BDDE-DB01F5510800}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmProcessInstance Class"/>
+      <comClass clsid="{31E59224-B5BB-49D2-BB59-1CB46C581773}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmProcessInstanceMgr Class"/>
+      <comClass clsid="{0F2D50E0-E8BF-4F94-984A-45C752FAA341}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmProcessInfo Class"/>
+      <comClass clsid="{A7B240F1-F61C-4D3F-826D-A6EE0B5F53EB}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmProcessInfoMgr Class"/>
+      <comClass clsid="{2E66CBF8-118A-4043-937D-25A46F4A7E91}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmEventMgr Class"/>
+      <comClass clsid="{5C70BCCD-973F-4D86-963E-F9E649DA5397}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmProcessEventMgr Class"/>
+      <comClass clsid="{77A4DEB9-BDDE-47F3-9971-894307F532C9}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmProcessEvent Class"/>
+      <comClass clsid="{017017D0-9787-4131-8C0B-3CF3F05AB831}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmProcessAction Class"/>
+      <comClass clsid="{F4882830-DED3-46B6-B6D9-C17802E9F434}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmProcessActionMgr Class"/>
+      <comClass clsid="{9494EC75-FFD0-4957-B2F4-F9D193D868DD}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoProSimulateEventColl Class"/>
+      <comClass clsid="{62923D88-9650-4A4A-8CCE-4ABA8694D12A}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CLSID_RoDmRobotActionColl Class"/>
+      <comClass clsid="{935EC87C-A863-48CC-9EF5-1CA628DF9C25}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoDmProcessMgr Class"/>
+      <comClass clsid="{98023897-42C9-4535-86E9-28DFFE1E79FB}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoDmGSKWeldingInfo Class"/>
+      <comClass clsid="{AC61E7D1-F2D3-4634-B3D1-D4A5C1649B20}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmEventColl Class"/>
+      <comClass clsid="{391AF215-EFDF-4C25-B261-4E91E0775A79}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessActionColl Class"/>
+      <comClass clsid="{9A975B30-75F3-47F8-BA8A-00A116C1605D}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessCategoryColl Class"/>
+      <comClass clsid="{CB17B033-8E81-4E30-982C-605793BEEA50}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessEventColl Class"/>
+      <comClass clsid="{883808A4-3C3D-4892-A653-16BD99F9AF8E}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessInfoColl Class"/>
+      <comClass clsid="{5821715B-4DFC-4F8A-BB2C-B02F937EE83F}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessInstanceColl Class"/>
+      <comClass clsid="{AEB514BE-8B7C-465E-A89B-E037A065357E}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessColl Class"/>
+      <comClass clsid="{E6B7CC3B-7100-44F6-AF4C-02A7A8CA39AE}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmEffectMgr Class"/>
+      <comClass clsid="{BDBAF839-4002-4B8F-9E19-AC711EACC3E0}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmEffectColl Class"/>
+      <comClass clsid="{1A8A749E-CB77-41FE-B9F4-B9D6E6216891}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmEffect Class"/>
+      <comClass clsid="{D1DBC91B-99EC-47EA-B852-EBB72716D7BB}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmLayupMaterial Class"/>
+      <comClass clsid="{61AD41AC-2AB5-44C5-B5BA-C1E5C264FE75}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmLayupEffect Class"/>
+      <comClass clsid="{F4F7EB3A-DC82-489A-BDF2-793F4C7868F4}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmLayupMaterialColl Class"/>
+      <comClass clsid="{25EB9398-CC08-4885-B5B6-DC719F1CFF58}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmLayupMaterialMgr Class"/>
+      <comClass clsid="{59C9820D-4961-4EBF-9F39-D60B7D9235D8}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoDmExamContent Class"/>
+      <comClass clsid="{BA2EA164-C7DB-4425-84FC-61F6D3F5D04F}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoDmExamContentMgr Class"/>
+      <comClass clsid="{1268017D-FD35-4931-A310-571E90FC3369}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoDmExamContentColl Class"/>
+      <comClass clsid="{3C817AED-A132-45A8-A689-F567E8D121E0}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoDmScoringPointsMgr Class"/>
+      <comClass clsid="{ADCF800C-6408-440B-9B95-EBF53666E3DF}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoDmScoringPointsColl Class"/>
+      <comClass clsid="{2E787C02-963D-410F-881E-AB0B57014539}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoCalWorkingPartPosition Class"/>
+      <comClass clsid="{D4B3344B-B233-4AFC-BA6B-BE07422DC4C6}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoExistAbnormalPoints Class"/>
+      <comClass clsid="{7EF9A84B-B65D-4C85-B533-6B105EA28CC6}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoExistAccessPoint Class"/>
+      <comClass clsid="{D4B3344B-B233-4AFC-BA6B-BE07422DC4C6}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoExistAbnormalPoints Class"/>
+      <comClass clsid="{7B60E524-3036-4FDC-ADB7-E1C8E8A8FD34}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoExistEvent Class"/>
+      <comClass clsid="{CC791089-FBDF-4812-855E-F3F646911BD4}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoOptimalTime Class"/>
+      <comClass clsid="{A8850BAD-31F7-4F42-85B1-E2C84A5435C2}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoPathGroupLength Class"/>
+      <comClass clsid="{49ECCC87-2944-43FD-8ABD-00515A72A954}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="CRoExistObject Class"/>
+      <comClass clsid="{1022DF1D-E2F0-4479-B9F4-8353FF243B4C}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessParameters Class"/>
+      <comClass clsid="{799DBE0F-2CBD-4D7A-8ED6-00C69D3ACA4E}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessParametersColl Class"/>
+      <comClass clsid="{4A073372-5B76-443F-A73E-219F17499910}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessParametersMgr Class"/>
+      <comClass clsid="{5F4BA70E-5B5A-458A-98CF-D49C388971A9}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessWeldingParams Class"/>
+      <comClass clsid="{71827D41-69CB-4C8D-AF07-3F450EAA772B}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessParamsBaseColl Class"/>
+      <comClass clsid="{699DC4C0-4135-48AA-B10C-5CEE335E8601}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="RoDmProcessParametersMgr Class"/>
+      <comClass clsid="{02EAFAF0-5FB0-4F57-94E0-CBBE1A872C0F}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="DmProcessCutParams Class"/>
+      <comClass clsid="{D4750226-76E4-4885-876F-2C7955D232DD}" tlbid="{7CB636D5-827F-4873-9DEB-8492DE561A46}" description="dmSwingCalculator Class"/>
+    </file>
+    <file name="apiPath.dll" hashalg="SHA1">
+      <comClass clsid="{21DC3803-272A-4D00-85C4-A8180ECB8AF6}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CAPIPreformanceAnalysis Class"/>
+      <comClass clsid="{0070F21A-069E-4176-9F53-A0635A226732}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CAPISimulate Class"/>
+      <comClass clsid="{2EB8D31C-6A0F-4EE4-8B42-7CB411E58154}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateObj Class"/>
+      <comClass clsid="{A2EA8594-61BA-467B-9733-5E7C80795342}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateObjColl Class"/>
+      <comClass clsid="{7EF249DF-84C5-4F6C-ADE6-12594D46A827}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateEngineColl Class"/>
+      <comClass clsid="{B66E6A42-F02D-442B-BBE0-925458F86844}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateEngine Class"/>
+      <comClass clsid="{DA7501C3-4BF1-4007-99D8-8BAD8ADF19A4}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoKeyPointColl Class"/>
+      <comClass clsid="{B7461C3A-7191-45CD-B809-FE160C1FFCBD}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CKeyPointCommon Class"/>
+      <comClass clsid="{49905BF4-C4CA-41BC-BAD5-E80ED6B9B79D}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateRobot Class"/>
+      <comClass clsid="{DF033B79-3ADA-40D7-9E82-75D9A72438FE}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateWorkingPart Class"/>
+      <comClass clsid="{EE421D9F-74FA-4769-B9D5-35933F615C80}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimulatePath Class"/>
+      <comClass clsid="{170C4C69-3D2A-48C9-9BE4-E1526E4490AC}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimulatePathColl Class"/>
+      <comClass clsid="{FDCFDC95-2710-45C7-A6BE-B5C9D3613E0D}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateMechStateClass"/>
+      <comClass clsid="{EE404804-F39B-49F5-92E9-F5C77271CDFD}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateRobotEngine Class"/>
+      <comClass clsid="{463596EB-2E8A-4F69-9A3D-76981E61839D}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateWktEngine Class"/>
+      <comClass clsid="{AF3AFDA7-2F01-4616-88FC-058A1D87A7EF}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateMechEngine Class"/>
+      <comClass clsid="{DCFF7904-948D-4506-9CCF-349BA1C9BDE4}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CKeyPointCircle Class"/>
+      <comClass clsid="{2965A48F-0A6A-4C4C-A9F3-A374570AF33F}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CKeyPointTCP Class"/>
+      <comClass clsid="{D8B05FCB-93E0-4BC8-9F12-01E0D5174C73}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CKeyPointEvent Class"/>
+      <comClass clsid="{68CC0F48-4FF7-490F-BC2A-6B0C0B84BF6B}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoInstructionsSimulateAbb Class"/>
+      <comClass clsid="{41F51E13-5ADD-4A1A-B269-D1C4C3E2F6D0}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoInstructionsSimulateKuka Class"/>
+      <comClass clsid="{BDAB3D40-3D46-4CCA-8082-13EC27C296D4}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimulateEffect Class"/>
+      <comClass clsid="{C73946A8-B70F-4719-9ACE-2D8C8331B4B0}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimEffectKeyPoint Class"/>
+      <comClass clsid="{95A40AFE-9F84-44AB-8CCC-2DA804B8FB10}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimEffectPointColl Class"/>
+      <comClass clsid="{50FEC8F2-760C-4186-9B50-84A925570559}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimEffectPath Class"/>
+      <comClass clsid="{9184CA84-9E5A-4E8A-89CF-3816E8E89903}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimEffectPathColl Class"/>
+      <comClass clsid="{4EBDF9A4-2F64-48E2-A656-39E6BBDEDE34}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CVirtualSimulate Class"/>
+      <comClass clsid="{C49C980B-D383-480C-BC4A-9B98FAF4F3F8}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CVirtualEngine Class"/>
+      <comClass clsid="{49D8FDC1-32D1-43D6-ADBD-67F76C4324DC}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CVirtualEngineColl Class"/>
+      <comClass clsid="{13F7105B-CC26-48B6-8997-1E3774FAF458}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CVirtualWktEngine Class"/>
+      <comClass clsid="{639CF155-EBCC-445D-8132-0C111EA4CFE5}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CVirtualMechEngine Class"/>
+      <comClass clsid="{E95355B8-90F9-44B7-8406-C3EDA449D4A9}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CVirtualModuleEngine Class"/>
+      <comClass clsid="{8521EF43-5CE5-4A05-ADAD-B7E40F5C2D55}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoInstructionsSimulateStep Class"/>
+      <comClass clsid="{36DBBF35-F119-46BC-8317-CF35085ABC63}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoInstructionsSimulateADT Class"/>
+      <comClass clsid="{FD15692D-B01C-458E-86CF-FD72874AC2A1}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoInstructionsSimulateCommon Class"/>
+      <comClass clsid="{7DD6E7BD-2491-4291-A75E-0F114CA2FE12}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoPythonManager Class"/>
+      <comClass clsid="{FF5CF727-19F4-4F0A-89B9-6017D24BE866}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoLoopShareMemory Class"/>
+      <comClass clsid="{09CAA6B7-4D86-4D46-B220-7065D77C28C0}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoStringParsing Class"/>
+      <comClass clsid="{27D52D96-EFA5-461E-B962-4FA2485AC592}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CVirtualPartsGenerator Class"/>
+      <comClass clsid="{CB7D48D3-078C-43CB-BA99-7A9611857857}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CVirtualMonitorEngine Class"/>
+      <comClass clsid="{47791998-F638-482C-94AB-919461A3B86A}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateRobotCooperationEngine Class"/>
+      <comClass clsid="{0C269077-F822-4F52-A1A6-51EA52F61B23}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="RoVirtualAGVEngine Class"/>
+      <comClass clsid="{EDF900D5-FA64-4A4A-87AB-1BB62604FCD2}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateCamera Class"/>
+      <comClass clsid="{3F56A142-4A8D-4FDD-AE4D-7E78932CE935}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimKeyPointBlock Class"/>
+      <comClass clsid="{3596834A-EADF-4311-B8BC-17C04CEE54C0}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimKeyPointBlockColl Class"/>
+      <comClass clsid="{C652874F-9DF8-4606-87EC-0FF4A11811B9}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoInstructionsPySimulate Class"/>
+      <comClass clsid="{F7EDFE81-5855-4658-B395-73DD5551E44E}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateSensorEngine Class"/>
+      <comClass clsid="{F84D1028-E95A-4B81-9D88-03787513BEC5}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulatePaint Class"/>
+      <comClass clsid="{2B76FD5B-A05F-4F2D-89C8-ACE334DDF7F6}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimulatePaintObject Class"/>
+      <comClass clsid="{CD9AB523-2F44-4DF4-A224-D912DD1FCE05}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimulatePaintObjectColl Class"/>
+      <comClass clsid="{5763936E-423C-43C6-8B39-E0156B7A3C54}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimulatePaintNode Class"/>
+      <comClass clsid="{F6BBBA8D-CA89-4CFB-AC7D-00E2C83441CD}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimulatePaintNodeColl Class"/>
+      <comClass clsid="{6E151D22-A2D3-4663-992C-4FEAB70413B7}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimulatePaintVertex Class"/>
+      <comClass clsid="{3CFF1B54-0A03-4D5D-BCF6-8099932F4B1F}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoSimulatePaintVertexColl Class"/>
+      <comClass clsid="{6F1B91D3-4D1C-4F12-9FF2-FF8989E27DCE}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CSimulateToolEngine Class"/>
+      <comClass clsid="{E6CEBC62-60F7-44BD-85ED-BEB8E46D7159}" tlbid="{E196922D-5A2F-4DA3-A009-605687552C24}" description="CRoVirtualCameraEngine Class"/>
+    </file>
+    <file name="dxYaskawa.dll" hashalg="SHA1">
+      <comClass clsid="{A670F1EA-DACB-4394-90B1-9D9106EABF07}" tlbid="{9541CC8C-5398-4B7E-A233-0808E8C60826}" description="RoDxExportYSRJapan Class"/>
+    </file>
+    <file name="dxEFort.dll" hashalg="SHA1">
+      <comClass clsid="{3433762A-C6D0-4C68-8256-94B4F78CCD90}" tlbid="{815AF191-1DCB-486B-A652-346EBD7450AE}" description="RoDxExportEFort Class"/>
+    </file>
+    <!--<file name="dxEstun.dll" hashalg="SHA1">
+    <comClass clsid="{EC155A6A-6F4B-4E0A-A74A-3D4C9BC7F61D}" tlbid="{22F852B9-AF35-4B9C-A0C3-4441FC73544F}" description="RoDxExportEstun Class"/>
+  </file>-->
+    <file name="dxGSK.dll" hashalg="SHA1">
+      <comClass clsid="{E16E3696-5CD6-483B-9DD5-22A4BF383C7E}" tlbid="{35440D81-418A-43BB-AE07-DB103D476CDB}" description="RoDxExportGSK Class"/>
+    </file>
+    <file name="dxSTEP.dll" hashalg="SHA1">
+      <comClass clsid="{65E07400-8958-4BD4-A03C-173F62FDBC96}" tlbid="{2D469E2C-7B9B-4076-8126-A92F0AFB5740}" description="RoDxExportSTEP Class"/>
+    </file>
+    <file name="dxADT.dll" hashalg="SHA1">
+      <comClass clsid="{E763ACA0-4183-4DB4-9E1E-DBC91D235262}" tlbid="{CC5B0063-3EFE-4C5F-8530-71072DD36946}" description="RoDxExportADT Class"/>
+    </file>
+    <file name="dxYaskawaNX100.dll" hashalg="SHA1">
+      <comClass clsid="{69380AB9-090C-4A66-9772-81C7F35029BE}" tlbid="{4BB990EE-BBBD-4021-AAFC-57282E38FD0F}" description="RoDxExportYSRNX100 Class"/>
+      <comClass clsid="{43C0C565-7EA2-40CD-97FF-EE586AD0620F}" tlbid="{4BB990EE-BBBD-4021-AAFC-57282E38FD0F}" description="RoDxExportMH24 Class"/>
+    </file>
+    <file name="apProgram.dll" hashalg="SHA1">
+      <comClass clsid="{0D177F49-F2CA-46B8-AFEB-4C60D0BDDCC6}" tlbid="{0D9C481A-03E5-4CDB-A39B-FE592EE3985A}" description="RoDefinitionVarible Class"/>
+      <!--<comClass clsid="{C3F6A5CF-FBCA-4CDF-A03F-EE2A82494367}" tlbid="{0D9C481A-03E5-4CDB-A39B-FE592EE3985A}" description="RoManageVarible Class"/>-->
+      <comClass clsid="{8A5E7864-EEC0-4F75-942E-0C97DEBDCFD7}" tlbid="{0D9C481A-03E5-4CDB-A39B-FE592EE3985A}" description="RoEditCommunicationPort Class"/>
+      <comClass clsid="{DF8E253E-E870-4024-BD17-D3E54C03F32F}" tlbid="{0D9C481A-03E5-4CDB-A39B-FE592EE3985A}" description="RoProgramDownloadFromRobot Class"/>
+    </file>
+    <file name="cmKeBa.dll" hashalg="SHA1">
+      <comClass clsid="{2676472E-02C9-4AF4-AFE7-55C9ABD294DB}" tlbid="{11ABA09A-90A0-416D-A8D9-754E2B566B96}" description="CLSID_RoCommunicate Class"/>
+      <comClass clsid="{5A806FB5-AC9E-4AE9-AA51-363382E0372B}" tlbid="{11ABA09A-90A0-416D-A8D9-754E2B566B96}" description="CLSID_RoCommunicateServer Class"/>
+    </file>
+    <file name="fmUIService.dll" hashalg="SHA1">
+      <comClass clsid="{A1C3FC28-8EA6-4CB3-8769-5037DDD6A761}" tlbid="{8D96156C-6DDD-4DA4-8FF2-405D2602EC78}" description="CLSID_RoTipMessage Class"/>
+    </file>
+
+    <file name="apTeachProgram.dll" hashalg="SHA1">
+      <comClass clsid="{7258C42D-D236-4399-9719-CF63F07C48DA}" tlbid="{3C92750E-7F3C-4590-87FB-126D17FE2FE2}" description="RoTpImportWSDSingleRobot Class"/>
+      <comClass clsid="{3E6BC45C-3004-4051-9439-E0831C31991D}" tlbid="{3C92750E-7F3C-4590-87FB-126D17FE2FE2}" description="RoTpImportWSDS01 Class"/>
+      <comClass clsid="{222C508B-0367-4724-A702-4A399591A996}" tlbid="{3C92750E-7F3C-4590-87FB-126D17FE2FE2}" description="RoTpImportWSDS02 Class"/>
+      <comClass clsid="{D7A36692-1154-4539-A4FD-80E9DD3D11F1}" tlbid="{3C92750E-7F3C-4590-87FB-126D17FE2FE2}" description="RoTpShowOrHideFence Class"/>
+      <comClass clsid="{64D37949-007F-4000-96C7-83FDDB18973C}" tlbid="{3C92750E-7F3C-4590-87FB-126D17FE2FE2}" description="RoTpLoginTeaching Class"/>
+      <comClass clsid="{98F33E89-FA0A-470B-8CEB-73A01F3D4806}" tlbid="{3C92750E-7F3C-4590-87FB-126D17FE2FE2}" description="RoTpShowControlPanel Class"/>
+      <comClass clsid="{C0CF38BC-4E32-49B0-99C7-3D8C321C0A47}" tlbid="{3C92750E-7F3C-4590-87FB-126D17FE2FE2}" description="RoTpHelp Class"/>
+      <comClass clsid="{66A687A7-C5F8-40A5-BA76-B98AAD3557D9}" tlbid="{3C92750E-7F3C-4590-87FB-126D17FE2FE2}" description="RoTpAbout Class"/>
+    </file>
+    <file name="dxEpson.dll" hashalg="SHA1">
+      <comClass clsid="{223378EC-5D94-4BDF-BF00-7184FF284F5A}" tlbid="{EAE5BD47-7C3E-4042-9062-8E33A6FD354C}" description="CRoDxExportEpson Class"/>
+    </file>
+    <file name="dxFanuc.dll" hashalg="SHA1">
+      <comClass clsid="{C847B249-B98C-407D-867F-0F3FB0AE68D0}" tlbid="{264E0253-8684-4FD8-A39C-8CE14E7E9376}" description="RoDxExportCodeFanuc Class"/>
+    </file>
+    <file name="dxExportCN.dll" hashalg="SHA1">
+      <comClass clsid="{21a8f0d2-b72b-11ed-b54f-085bd6ca3740}" tlbid="{39092247-5939-4EAF-A672-97EF93D76152}" description="RoRunPostPython Class"/>
+      <comClass clsid="{398989F8-E012-4600-A6A4-CBA65556296F}" tlbid="{39092247-5939-4EAF-A672-97EF93D76152}" description="RoDxExportCodeSanLi Class"/>
+      <comClass clsid="{5356A38F-EB90-4E8D-8ABE-9FDC131105DA}" tlbid="{39092247-5939-4EAF-A672-97EF93D76152}" description="RoDxExportCodeUniversal Class"/>
+    </file>
+    <file name="fmUI{POST}.dll" hashalg="SHA1">
+      <comClass clsid="{FD77A1CF-614D-4C06-95B6-6309CE5F3F4E}" tlbid="{84B2553E-6391-4950-B2FD-C819D3C22240}" description="RoUIGanttMgr Class"/>
+      <comClass clsid="{6BD68F6F-7C0E-4008-BC7F-92837E3332DF}" tlbid="{84B2553E-6391-4950-B2FD-C819D3C22240}" description="RoConfigUIMgr Class"/>
+      <comClass clsid="{9B8B15CD-61B7-4F45-A0C0-F266356E4ED3}" tlbid="{84B2553E-6391-4950-B2FD-C819D3C22240}" description="RoExtConfigUIMgr Class"/>
+    </file>
+    <file name="dmFeature.dll" hashalg="SHA1">
+	  <comClass clsid="{8D6ED102-318E-45AE-8E68-150641CE8A05}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFMPointToCoordinate Class"/>
+	  <comClass clsid="{AB3829EF-B333-456A-BF79-703D544361D1}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFGLineLaserSearching Class"/>
+      <comClass clsid="{C04748B7-6E3C-40D8-9864-2A08E0FACA3D}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFMWorkingPathVelocity Class"/>
+      <comClass clsid="{CA30FD49-6AB8-4F98-8778-6BE33EEC32CF}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFMWorkingPathTransit Class"/>
+      <comClass clsid="{c419d5b1-3a7c-41d8-ab8f-a17606bc2e09}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFGLinearSpraying Class"/>
+      <comClass clsid="{2f56b64d-1436-4cce-9151-f5a66bdfaabe}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFGLinearSpraying Class"/>
+      <comClass clsid="{24EEFBD9-D543-4AEA-993E-2C3977BD90DF}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMUpdatePoseByRobot Class"/>
+      <comClass clsid="{98981389-67D5-4126-8D28-B1C6D7667F89}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFMPathTransition Class"/>
+      <comClass clsid="{805B1D93-1E3E-4F6E-B600-17502792CB9F}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFGWelding Class"/>
+      <comClass clsid="{2e7aa289-2ea8-4dcd-9b2a-aa9ea373dd9c}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFGSearching Class"/>
+      <comClass clsid="{8b5d96ab-732c-41ca-88ed-8e4c66d1ab97}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFGZaxisToCenter Class"/>
+      <comClass clsid="{e4f04892-dad5-47be-8fb1-2e97f8c972d9}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFMPathFaceProjection Class"/>
+      <comClass clsid="{D44CA27D-B348-4083-AB09-47AA28339E30}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFGSpinSprayLine Class"/>
+      <comClass clsid="{d3a2419b-bc94-11ec-bcd7-44af280f9faa}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMInsertPointDistance Class"/>
+      <comClass clsid="{45661B48-731A-41E8-8E10-78945F5F9B9B}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFGBoundaryEdges Class"/>
+      <comClass clsid="{3ca75649-d7b7-11eb-a2f8-44af280f9faa}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMInsertPosAtTail Class"/>
+      <comClass clsid="{79af258b-bec8-11eb-b646-c83dd4f5f86c}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMRoPointXAlongAxis Class"/>
+      <comClass clsid="{0dfa5819-0c32-11eb-86a2-c83dd4f5f86c}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMUserDefineFeature Class"/>
+      <comClass clsid="{8DA317D5-4567-4CD7-9194-7B47F4C42877}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFGEdgeBetweenFaces Class"/>
+      <comClass clsid="{FAB969CF-B1EE-40FD-9E80-53EF940E962F}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMPathMultiVelocity Class"/>
+      <comClass clsid="{38fa1d6d-d210-11ea-b52d-c83dd4f5f86c}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMPathInterference Class"/>
+      <comClass clsid="{0179576d-cc81-11ea-bf77-c83dd4f5f86c}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMPointDipAngle Class"/>
+      <comClass clsid="{c8be19f7-bf6c-11ea-a24e-c83dd4f5f86c}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMPOINTSTOCIIRCLE Class"/>
+      <comClass clsid="{4972e4c3-99a8-11ea-8466-c83dd4f5f86c}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMInsertPosAfterPt Class"/>
+      <comClass clsid="{dc7c0d25-499a-11ea-bf1f-c83dd4f5f86c}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMEditPointProperty Class"/>
+      <comClass clsid="{bca39f01-a83a-11e9-bea6-c83dd4f5f86c}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMPathProjection Class"/>
+      <comClass clsid="{7c2485d1-90a6-11e9-a55a-c83dd4f5f86c}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMAddPointsArray Class"/>
+      <comClass clsid="{ac9f7b0b-8e6c-11e9-b564-b808cf478c12}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMXPointTo Class"/>
+      <comClass clsid="{131A2C60-0F2C-42E7-901F-4CF99187FE59}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMZPointTo Class"/>
+      <comClass clsid="{067c1871-81b0-11e9-88b3-c83dd4f5f86b}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMMultiSelPtsLocalRotate Class"/>
+      <comClass clsid="{53620AC9-6EB6-4CEB-A675-36ABD3452D72}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMMultiSelPtsLocalTranslate Class"/>
+      <comClass clsid="{b03ed2c1-7dc4-11e9-b6f5-c83dd4f5f86c}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMEdiMultiSelPts Class"/>
+      <comClass clsid="{2fb09da3-7c70-11e9-8f96-c83dd4f5f86b}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMUnifyMultiPtsPosture Class"/>
+      <comClass clsid="{376d8b25-9c3f-11e8-8851-b808cf478c12}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMMultiLevel Class"/>
+      <comClass clsid="{6987ABA6-BB66-47FE-9AFD-BB2AA90E856B}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmHistory Class"/>
+      <comClass clsid="{BEFD49D1-D39B-4A5E-8A9C-6DE1FC06112A}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPathFeatureMgr Class"/>
+      <comClass clsid="{4ccea5d7-dd86-477d-b086-7291586c9dd3}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPathFeatureColl Class"/>
+      <comClass clsid="{9344E7EF-CCC8-4AC0-A1C2-67D14935FEE3}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmFeatureColl Class"/>
+      <comClass clsid="{a0102646-f06d-484d-84bd-57e4182942aa}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFGenerative Class"/>
+      <comClass clsid="{9a1d6973-d484-4716-ae03-79c5a33c88b8}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFGSEF Class"/>
+      <comClass clsid="{37af6770-7e19-49c2-ba09-4385591312e5}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFGCurveShape Class"/>
+      <comClass clsid="{200b7d96-a318-4395-9092-b119140dd7ca}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFGHole Class"/>
+      <comClass clsid="{aabcb659-297b-4e9d-a06b-4883e578766e}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFGPoint Class"/>
+      <comClass clsid="{e30133a2-95c7-425a-885f-8182c3005cdd}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFGGeodesicParallel Class"/>
+      <comClass clsid="{76382697-F22F-4CEE-9FFB-C257BB37F9F4}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFGSectionLine Class"/>
+      <comClass clsid="{7EB18CB9-8C50-4873-909E-10145340E31E}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMEditPoint Class"/>
+      <comClass clsid="{BCEBB9E8-1E43-406E-80BE-C4C5379AD689}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMEditMultiPoint Class"/>
+      <comClass clsid="{56A0A098-6495-4EB3-83EB-E7CB22E9E85A}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMRotate Class"/>
+      <comClass clsid="{82FC89F5-B83C-429D-8273-39A6A9F8BCF9}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMRotateArcball Class"/>
+      <comClass clsid="{4723248E-EF92-4306-954B-9C089875D8BF}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMTranslation Class"/>
+      <comClass clsid="{E411C28D-78F1-477A-A489-2F7F36305EE5}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMTranslationArcball Class"/>
+      <comClass clsid="{B59543AE-D048-4478-8145-D956A95420AA}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMZin Class"/>
+      <comClass clsid="{49CEF6E8-C24D-4B77-AB12-84763C66CA26}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMZFixed Class"/>
+      <comClass clsid="{5858A4BF-AB1A-4ADB-8ECA-2A810417C111}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMXYFixed Class"/>
+      <comClass clsid="{19029D77-CEB1-412A-9D07-33095A3AC941}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMXDirection Class"/>
+      <comClass clsid="{F115A47D-920E-4F1C-8584-F6B088E931A0}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMReverse Class"/>
+      <comClass clsid="{2B22B18D-CDC6-41E8-AA36-556CC22D0F0F}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMSetStart Class"/>
+      <comClass clsid="{64443A8C-B389-4FA7-80E6-E698F4D934BA}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMAdjust Class"/>
+      <comClass clsid="{6D3F75DC-54E1-4EC0-9242-06D5E581A676}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMCompensation Class"/>
+      <comClass clsid="{EF93424A-FF23-495B-82DA-125311C23765}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMCutInOut Class"/>
+      <comClass clsid="{660FE783-EBDD-4983-9B88-030F16DF7479}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMSetPointPosture Class"/>
+      <comClass clsid="{02A7B091-E186-4D5F-B27D-0EF4757B1DD1}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMDeletePoint Class"/>
+      <comClass clsid="{477C6562-F055-401B-9693-DCFD6DDAA158}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMDeletePointBefore Class"/>
+      <comClass clsid="{FA71EF43-893B-4DCD-A81B-42F6BF2C358F}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMDeletePointAfter Class"/>
+      <comClass clsid="{8ec314f8-6359-4b12-8034-303235cad9f0}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFMReciprocating Class"/>
+      <comClass clsid="{6117EBE9-8D17-4AF1-9D7D-7FFAD89CCDFD}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMCompensationPath Class"/>
+      <comClass clsid="{6E338300-AE59-4A06-AC94-40066D5546F1}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMPosCompensation Class"/>
+      <comClass clsid="{0F7DB195-8EAC-4675-AFCE-83BD136D80AD}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMPosPointInPath Class"/>
+      <comClass clsid="{979D426A-560B-45DE-9423-00F6A315F790}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMEditPointRelativePosition Class"/>
+      <comClass clsid="{573D815D-34AC-4731-A448-9CA7A5B4977B}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMRound Class"/>
+      <comClass clsid="{4527EF8B-BD03-4E13-A7F2-C070909DF6E3}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmProcessFeature Class"/>
+      <comClass clsid="{3B73D8AF-49C5-4B6C-BC63-026DD657FE55}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmStackProcessFeature Class"/>
+      <comClass clsid="{2F511897-12DF-4FFD-97AF-49EA27773D6F}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMFeedAndOvercut Class"/>
+      <comClass clsid="{036394AA-7A57-459D-98AA-E3A06E684C2C}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMMovePoint Class"/>
+      <comClass clsid="{C7B378F0-468A-4CD2-962D-27D0A262E00E}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="RoDmPFMReNamePoint Class"/>
+      <comClass clsid="{70311D48-DB3C-4C57-8DCE-6B62A73C8A24}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFMZaxisAngleMin Class"/>
+      <comClass clsid="{1BE6CD4B-3343-4710-8AFA-FB21F7FCA713}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFMReorderPtInDist Class"/>
+      <comClass clsid="{70A50574-96A7-4AB7-A54E-6A37421BCD5D}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFGCam Class"/>
+      <comClass clsid="{4B18B9F2-E11A-42BC-83E9-A8DBDFA1D80F}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFMEditPointRelativeByPosition Class"/>
+      <comClass clsid="{F3F296A1-7896-47CE-9272-B5FD73D439B1}" tlbid="{B476024E-0F59-46C0-93E2-336463BE66B5}" description="CRoDmPFMEditPointRelativeByPosture Class"/>
+    </file>
+
+    <file name="fmFitting.dll" hashalg="SHA1">
+      <comClass clsid="{863275A8-CD09-4986-B975-3B6F1F9A0D7B}" tlbid="{75879FF8-F996-4755-B0BC-6752B63D4C88}" description="RofmCurveFitting Class"/>
+    </file>
+
+    <file name="fmCFBrowser.dll" hashalg="SHA1">
+      <comClass clsid="{3A2D8C52-7AD2-45F0-8C5A-0CC986B1B1BC}" tlbid="{8FD5BE16-28EC-48AC-A597-516B2CAF0DA3}" description="RoBrowser Class"/>
+      <comClass clsid="{E3F3D68A-493C-4106-9325-1DA6E6D42E59}" tlbid="{8FD5BE16-28EC-48AC-A597-516B2CAF0DA3}" description="RoBrowserApp Class"/>
+    </file>
+    <file name="fmEditor.dll" hashalg="SHA1">
+      <comClass clsid="{53A61D6B-6601-4A96-ABA2-43F579350BBF}" tlbid="{EC1AA7D7-9405-4E66-ADE8-8D391E677D6E}" description="RoScintiall Class"/>
+    </file>
+    <file name="fmExpression.dll" hashalg="SHA1">
+      <comClass clsid="{24c321d3-b08d-4d4b-8d9b-b7e26ed2ca63}" tlbid="{B0F19426-9D5A-4C85-992D-426688BDB89D}" description="RoExpression Class"/>
+    </file>
+    <file name="fmDictionary.dll" hashalg="SHA1">
+      <comClass clsid="{DA6E7B37-7B90-418C-9D69-591BAF4BA258}" tlbid="{BC2D347F-09B4-4755-B144-9AE98C329A9D}" description="CRoDictionary Class"/>
+    </file>
+    <file name="fmComWebBrowser.dll" hashalg="SHA1">
+      <comClass clsid="{E1BCA9C6-4AB1-46D4-A5B8-81DC4DD1DED1}" tlbid="{CD1B2587-77C5-416C-8731-3D868FEE8BC4}" description="RoImportModelWindow Class"/>
+      <comClass clsid="{03A6873A-B453-448B-B7AB-7AB14E0F09AB}" tlbid="{CD1B2587-77C5-416C-8731-3D868FEE8BC4}" description="RoPopMessage Class"/>
+    </file>
+    <file name="apBridge.dll" hashalg="SHA1">
+      <comClass clsid="{5B8CB805-E866-4393-8794-5F33811BE020}" tlbid="{67B1150A-55FB-47D5-9207-386D7E85AA8A}" description="RoGeneralWebFunction Class"/>
+    </file>
+    <file name="dxComplier.dll" hashalg="SHA1">
+      <comClass clsid="{53b28400-ab77-11ee-a06d-207bd29c04d9}" tlbid="{05C74746-6042-4F0C-9AB7-77C22CB2184D}" description="RoDxCfgComplier Class"/>
+      <comClass clsid="{b312b6f4-a311-11eb-8898-6014b35caef6}" tlbid="{05C74746-6042-4F0C-9AB7-77C22CB2184D}" description="RoDxSclComplier Class"/>
+      <comClass clsid="{1cb13b5a-af6f-11e9-ac13-6214b35caef5}" tlbid="{05C74746-6042-4F0C-9AB7-77C22CB2184D}" description="RoDxImportXGCodeByAntlr Class"/>
+      <comClass clsid="{6b7a9fec-9946-11e9-9385-6014b35caef6}" tlbid="{05C74746-6042-4F0C-9AB7-77C22CB2184D}" description="RoDxImportGCodeByAntlr Class"/>
+      <comClass clsid="{ADB1ABF0-D8D8-47EE-AD24-C2EFC9F8E29A}" tlbid="{0C46B695-0B8B-4CEA-A587-406E3D8310BE}" description="RoDxComplier Class"/>
+      <comClass clsid="{3F202332-5C32-47C9-BEC1-F9848C1DACBC}" tlbid="{0C46B695-0B8B-4CEA-A587-406E3D8310BE}" description="RoDxComplierCodeToPoint Class"/>
+      <comClass clsid="{899937CE-67C7-4F9E-AE4A-B906C7A0EAA1}" tlbid="{0C46B695-0B8B-4CEA-A587-406E3D8310BE}" description="RoModifyVariable Class"/>
+      <comClass clsid="{4A299389-6F2E-4254-9816-9AA1BA52296D}" tlbid="{0C46B695-0B8B-4CEA-A587-406E3D8310BE}" description="RoDxImportCodeToPointPackaging Class"/>
+    </file>
+    <file name="apEditor.dll" hashalg="SHA1">
+      <comClass clsid="{03b40706-ae3d-11ee-bd51-207bd29c04d9}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoInsertEnvironmentalInstruction Class"/>
+      <comClass clsid="{e09427da-ae3c-11ee-98e9-207bd29c04d9}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoInsertInterruptInstruction Class"/>
+      <comClass clsid="{80f2fdcc-ae3c-11ee-b2bb-207bd29c04d9}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoInsertCommunicationInstruction Class"/>
+      <comClass clsid="{3dc13818-ad7e-11ee-be81-207bd29c04d9}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoConfigFileControls Class"/>
+      <comClass clsid="{5fcf5a46-8e3b-11ec-9e67-002432248074}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoInsertOperationInstruction Class"/>
+      <comClass clsid="{94173f00-7ecb-11e9-a204-6014b35caef6}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoEditorSendToControl Class"/>
+      <comClass clsid="{86062828-131b-11e9-ada8-6014b35caef6}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoInsertIOInstruction Class"/>
+      <comClass clsid="{1f9e6ddc-1319-11e9-80c5-6014b35caef6}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoInsertControlInstruction Class"/>
+      <comClass clsid="{4dc20d18-1228-11e9-81de-6014b35caef6}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoInsertSportsInstruction Class"/>
+      <comClass clsid="{30bf6040-0434-11e9-8bb2-6014b35caef6}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoEditorCheckCode Class"/>
+      <comClass clsid="{C1D5649B-13B6-446F-89CE-2DA49F43775F}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoEditorSync Class"/>
+      <comClass clsid="{36D62A77-93D6-406F-AD6F-CAB3F75A1D67}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoEditorStart Class"/>
+      <comClass clsid="{C9465244-0336-4655-B595-F6AA1AA0EAC5}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoEditorExit Class"/>
+      <comClass clsid="{3CED724A-C347-4BB7-B1D1-D5970E0BC41E}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoCodeEditor Class"/>
+      <comClass clsid="{1E4ED2A9-5768-404B-B1D8-2FB6C9C20095}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoEditorCommonOperation Class"/>
+      <comClass clsid="{76D3CF06-28E8-4529-ACF2-4008E0D5E1A7}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoEditorStop Class"/>
+      <comClass clsid="{BDE4EDE5-3BA8-4EDE-A2EF-12F655644AAD}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoEditorEdit Class"/>
+      <comClass clsid="{8CD07FB1-A16A-4E30-81BC-011346BA6FE1}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoEditorSyncShell Class"/>
+      <comClass clsid="{70359A31-7E93-43C9-A078-6EA08DEB29D5}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoSuspend Class"/>
+      <comClass clsid="{137D9EFA-88E5-4D97-B1BA-A44D47589B3E}" tlbid="{4133DB99-B655-4E45-9EA6-551C1B2132F1}" description="RoShowEditForVirtualPLC Class"/>
+    </file>
+    <file name="apIOServer.dll" hashalg="SHA1">
+      <comClass clsid="{702BA1FA-3169-4270-A4C2-D0DC879103C6}" tlbid="{933717D4-1394-4D21-B0CC-3468D8C11C74}" description="RoIOServer Class"/>
+      <comClass clsid="{9229280B-D694-4F8B-8D99-664B44B32E3E}" tlbid="{933717D4-1394-4D21-B0CC-3468D8C11C74}" description="RoStartIOServer Class"/>
+      <comClass clsid="{D3E54D10-A7FD-4B25-919C-4ADB2EEFADB2}" tlbid="{933717D4-1394-4D21-B0CC-3468D8C11C74}" description="RoEndIOServer Class"/>
+      <comClass clsid="{5584ABB1-3853-471A-B5B5-F738165332CC}" tlbid="{933717D4-1394-4D21-B0CC-3468D8C11C74}" description="RoVirtualPLCPort Class"/>
+      <comClass clsid="{F8F59EA8-2921-44CC-B6BF-05F44641BE9A}" tlbid="{933717D4-1394-4D21-B0CC-3468D8C11C74}" description="RoVirtualPLCReset Class"/>
+      <comClass clsid="{6FC0857A-9997-4B29-864D-A1E24409A1F4}" tlbid="{933717D4-1394-4D21-B0CC-3468D8C11C74}" description="RoVirtualPLCLoad Class"/>
+      <comClass clsid="{B870B393-EFAA-4A19-9CD7-D3296901D4B3}" tlbid="{933717D4-1394-4D21-B0CC-3468D8C11C74}" description="RoPQIOServer Class"/>
+      <comClass clsid="{2C793709-EB48-4154-8F1A-7C3DEFDBC324}" tlbid="{933717D4-1394-4D21-B0CC-3468D8C11C74}" description="RoAIIOServer Class"/>
+      <comClass clsid="{99E82060-093A-4ABE-A892-F3563A68059F}" tlbid="{933717D4-1394-4D21-B0CC-3468D8C11C74}" description="RoIOSymLinkServer Class"/>
+      <comClass clsid="{F8445111-518A-49CE-8AA0-68EF202F69CF}" tlbid="{933717D4-1394-4D21-B0CC-3468D8C11C74}" description="RoMQTTServer Class"/>
+    </file>
+    <file name="apRobotController.dll" hashalg="SHA1">
+      <comClass clsid="{ADCB61FA-FECC-406D-9F2B-8A30E471B7E9}" tlbid="{A780D471-6D3D-44B2-9D7F-07D1CE212BA8}" description="RoVirtualControllerINOVANCE Class"/>
+      <comClass clsid="{69D7A1E3-7063-47BD-AEB0-4C07AD78F5C4}" tlbid="{A780D471-6D3D-44B2-9D7F-07D1CE212BA8}" description="RoVirtualControllerHUACHENG Class"/>
+      <comClass clsid="{303CA082-7E37-46DB-8E5A-5EAAF9932A8C}" tlbid="{A780D471-6D3D-44B2-9D7F-07D1CE212BA8}" description="RoVirtualControllerHANS Class"/>
+      <comClass clsid="{8E155506-CE18-4348-9F27-7B29DF34A72B}" tlbid="{A780D471-6D3D-44B2-9D7F-07D1CE212BA8}" description="RoVirtualControllerUniversal Class"/>
+      <comClass clsid="{D148A6A8-6B57-4B4C-9DCA-9022FE89317A}" tlbid="{A780D471-6D3D-44B2-9D7F-07D1CE212BA8}" description="RoVirtualControllerAUBO Class"/>
+      <comClass clsid="{D797D8B8-59E8-4FC4-974C-841EE57B4757}" tlbid="{A780D471-6D3D-44B2-9D7F-07D1CE212BA8}" description="RoVirtualControllerESTUN Class"/>
+      <comClass clsid="{D2691D62-E7F3-4C4D-ADF9-8FD165A22567}" tlbid="{A780D471-6D3D-44B2-9D7F-07D1CE212BA8}" description="RoVirtualControllerYEAHBOT Class"/>
+      <comClass clsid="{37A07756-5AF2-4B49-A59B-0FF7FA495DE9}" tlbid="{A780D471-6D3D-44B2-9D7F-07D1CE212BA8}" description="RoVirtualControllerGSK Class"/>
+    </file>
+    <file name="fmExternalApp.dll" hashalg="SHA1">
+      <comClass clsid="{87305C38-C143-4737-B7A1-7C659FABADAC}" tlbid="{1B5E5603-31E5-47A0-86C9-B8A51C548E3D}" description="RoExternalAppInner Class"/>
+      <comClass clsid="{DA2623A2-6449-4567-9411-FCBBF298C237}" tlbid="{1B5E5603-31E5-47A0-86C9-B8A51C548E3D}" description="RoKitOption Class"/>
+    </file>
+    <file name="fmCommunication.dll" hashalg="SHA1">
+      <comClass clsid="{11590F86-5034-4666-9635-8BE60456D256}" tlbid="{6694F438-A002-42FC-B761-FC6EF0A65B01}" description="RoCommunicationSocket Class"/>
+      <comClass clsid="{2F6018A6-2090-4676-806C-56D0A9BBB923}" tlbid="{6694F438-A002-42FC-B761-FC6EF0A65B01}" description="RoCommunicationMQTT Class"/>
+      <comClass clsid="{4E998273-120C-4EEF-ADA6-6420A052DE68}" tlbid="{6694F438-A002-42FC-B761-FC6EF0A65B01}" description="RoUserParameterCfg Class"/>
+      <comClass clsid="{701D72B1-5524-453D-9CC0-9B7631AB87A4}" tlbid="{6694F438-A002-42FC-B761-FC6EF0A65B01}" description="RoCommunication Class"/>
+      <comClass clsid="{23368884-8AC1-4259-9261-10B6EEE84CD2}" tlbid="{6694F438-A002-42FC-B761-FC6EF0A65B01}" description="RoCommunicationDataParserPQ Class"/>
+      <comClass clsid="{C1C2F7E6-AC9E-438F-87D6-052A9831232B}" tlbid="{6694F438-A002-42FC-B761-FC6EF0A65B01}" description="RoCommunicationDataParserINSPUR Class"/>
+      <comClass clsid="{0D6CE8FD-A67C-4818-B45C-B55BD7829A63}" tlbid="{6694F438-A002-42FC-B761-FC6EF0A65B01}" description="RoCommunicationSerial Class"/>
+      <comClass clsid="{BAF57E8A-48FD-42E0-927B-4B880321D90E}" tlbid="{6694F438-A002-42FC-B761-FC6EF0A65B01}" description="RoCommunicationModbus Class"/>
+    </file>
+    <file name="apCam.dll" hashalg="SHA1" preLoad = "0">
+      <comClass clsid="{E8172143-24E2-4778-B2EF-558DB7408720}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoCamPathCreateEdit Class"/>
+      <comClass clsid="{BF27B044-3550-427E-AAC6-239CD782F3F7}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoCamRoughCreateEdit Class"/>
+      <comClass clsid="{D332F71B-C29B-469E-A307-9FC472D1F446}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoCamPathSimulate Class"/>
+      <comClass clsid="{1F64B471-4401-48D8-9284-53415551F5ED}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoCamCreateBoundarySketch Class"/>
+      <comClass clsid="{C3A7820A-09B8-4B5B-8A18-2719643B6969}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoPickSurface Class"/>
+      <comClass clsid="{6ADAEB66-C21A-4C53-B4A6-F34097A7CB3B}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoPickPoint Class"/>
+      <comClass clsid="{12DCFF8B-5930-4C0E-818C-81421B73AC5E}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoPickCurveChain Class"/>
+      <comClass clsid="{27B6B7B7-8B0B-4C03-A707-3F6BAD5EB328}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoPickCurve Class"/>
+      <comClass clsid="{6392EBAE-508D-4A9F-A073-D2E4B67617EB}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoPickVector Class"/>
+      <comClass clsid="{7F98C8E1-5A36-41FF-9B55-46729914D2DD}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoPickPath Class"/>
+      <comClass clsid="{FEA5BC06-26A1-42B3-812F-2846EDB612F1}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoPickHole Class"/>
+      <comClass clsid="{AD85B44C-2CBE-4E83-A1A8-3DBC3444537F}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoCamPath Class"/>
+      <comClass clsid="{e41f00e0-1468-45ff-8d59-0c283b7ae7c8}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoCamAlgorithm Class"/>
+      <comClass clsid="{8f1f095b-1c2f-4b8e-a5d7-d959e0e3cf00}" tlbid="{5DBC8155-0E99-4E0D-B175-F01633FB9310}" description="RoPickPlane Class"/>
+    </file>
+    <file name="dmExternalDrivedBase.dll" hashalg="SHA1">
+      <comClass clsid="{D7FA0C41-F773-405D-8C29-337731BBB45B}" tlbid="{EE115A4D-4948-4D14-B285-B01EEC67BFF0}" description="RoExternalDriveRobot Class"/>
+      <comClass clsid="{9A61CAF3-7ABB-42BB-BAA4-836AC322E853}" tlbid="{EE115A4D-4948-4D14-B285-B01EEC67BFF0}" description="RoExternalDriveAGV Class"/>
+      <comClass clsid="{BBD4FA58-575C-4CC0-AB3C-BECEC7738ABB}" tlbid="{EE115A4D-4948-4D14-B285-B01EEC67BFF0}" description="RoExternalDrivedObjColl Class"/>
+      <comClass clsid="{EA1748FF-A779-4AF9-8342-FB4F38F2C9BD}" tlbid="{EE115A4D-4948-4D14-B285-B01EEC67BFF0}" description="RoExternalDrivedObjMgr Class"/>
+      <comClass clsid="{86B96C08-8FE2-4C4C-A327-538670B038B0}" tlbid="{EE115A4D-4948-4D14-B285-B01EEC67BFF0}" description="RoExternalDriveRobotGetJoints Class"/>
+    </file>
+    <file name="apThirdEngine.dll" hashalg="SHA1">
+      <comClass clsid="{2DA110D3-9B07-465C-ADBC-5323BA74BF2F}" tlbid="{F2ECE8A1-76AE-4F4B-84E3-9EC4BCCFE6EC}" description="RoExportMonitor Class"/>
+      <comClass clsid="{596D8EE6-1A82-49B4-82B5-65228AC86430}" tlbid="{F2ECE8A1-76AE-4F4B-84E3-9EC4BCCFE6EC}" description="RoStartMonitor Class"/>
+      <comClass clsid="{81B393B2-D638-4F63-BF4D-19CB7A9E2A35}" tlbid="{F2ECE8A1-76AE-4F4B-84E3-9EC4BCCFE6EC}" description="RoExportMonitorWeb Class"/>
+      <comClass clsid="{D07D7CA0-9D78-40CD-8C7A-6B797C9BAF70}" tlbid="{F2ECE8A1-76AE-4F4B-84E3-9EC4BCCFE6EC}" description="RoStartMonitorWeb Class"/>
+      <comClass clsid="{A868A749-4C1D-434B-96DD-35387313F18B}" tlbid="{F2ECE8A1-76AE-4F4B-84E3-9EC4BCCFE6EC}" description="RoExportVR Class"/>
+      <comClass clsid="{6E01DA23-796C-4814-A148-50E65E49A505}" tlbid="{F2ECE8A1-76AE-4F4B-84E3-9EC4BCCFE6EC}" description="RoStopMonitorWeb Class"/>
+      <comClass clsid="{87A82292-AB72-4FEF-BF2E-0F14DC4B676C}" tlbid="{F2ECE8A1-76AE-4F4B-84E3-9EC4BCCFE6EC}" description="RoDataMonitor Class"/>
+      <comClass clsid="{8E804D81-7618-456A-B3AB-93FCAC587F24}" tlbid="{F2ECE8A1-76AE-4F4B-84E3-9EC4BCCFE6EC}" description="RoStartMonitorFSPlus Class"/>
+      <comClass clsid="{13758425-2C43-4DD6-A92F-A5931A6269AD}" tlbid="{F2ECE8A1-76AE-4F4B-84E3-9EC4BCCFE6EC}" description="RoExportMonitorFSPlus Class"/>
+    </file>
+    <file name="fmThirdEngine.dll" hashalg="SHA1">
+      <comClass clsid="{CC2545D7-0E11-401A-BA45-25F4A7FC2986}" tlbid="{91512AFA-55AD-41A6-85C0-7C24DC72CF65}" description="RoThirdEngineUtility Class"/>
+    </file>
+    <file name="dmPathPlan.dll" hashalg="SHA1">
+      <comClass clsid="{7BD28DBE-67CB-4545-B754-6AF77F979F5B}" tlbid="{F9750CB8-0618-492C-8D8C-3AEAC685AA35}" description="CRoPathPlanTraveler Class"/>
+    </file>
+    <file name="dmCollisionDetection.dll" hashalg="SHA1">
+      <comClass clsid="{E455BE8C-AC9E-4E85-92E3-B1D333D99155}" tlbid="{EA416910-406F-42AC-A489-AA662C536013}" description="RoCollisionDetection Class"/>
+    </file>
+    <file name="apUI.dll" hashalg="SHA1">
+      <comClass clsid="{9C3066EB-7C52-459D-9E6F-9F41C07C7E6E}" tlbid="{301338A8-064F-4E97-AADA-8EB00346128E}" description="RoAddEvent2 Class"/>
+      <comClass clsid="{302C9822-F921-4D29-A182-2580C08577AE}" tlbid="{301338A8-064F-4E97-AADA-8EB00346128E}" description="RoCustomizeMenu Class"/>
+      <comClass clsid="{D705C5F9-0ABE-45B0-8A4F-DBFC8EBC3F57}" tlbid="{301338A8-064F-4E97-AADA-8EB00346128E}" description="RoCollisionOption Class"/>
+      <comClass clsid="{395A7A5D-7EF5-4EEE-AEFE-450F612DC0D5}" tlbid="{301338A8-064F-4E97-AADA-8EB00346128E}" description="RoCreatePaintMesh Class"/>
+      <comClass clsid="{95976d0c-e822-11ef-b7f6-2c98113907a4}" tlbid="{301338A8-064F-4E97-AADA-8EB00346128E}" description="RoDefineSandBlast Class"/>
+      <comClass clsid="{3FE1CB78-3603-4787-903A-5CCD0C88328F}" tlbid="{301338A8-064F-4E97-AADA-8EB00346128E}" description="RoPaintSimOption Class"/>
+    </file>
+    <file name="cmABB.dll" hashalg="SHA1">
+      <comClass clsid="{7215C804-0C64-4EB9-8A95-A961A20A5C60}" tlbid="{D6259F99-B40A-444F-9283-C00D4E900567}" description="cmABB Class"/>
+    </file>
+    <file name="fmRobotController.dll" hashalg="SHA1">
+      <comClass clsid="{38FB0719-6D42-43A6-A575-A90884C91397}" tlbid="{89B37784-A215-4887-BF8B-9BF58CB49B41}" description="RoRCSEstun Class"/>
+    </file>
+  </assembly>
+</Root>

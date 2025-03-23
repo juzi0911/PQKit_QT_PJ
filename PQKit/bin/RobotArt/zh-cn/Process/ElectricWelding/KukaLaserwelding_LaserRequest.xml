@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>LaserRequest</Title>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>Path</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit>mm</Unit>
+		<defaultValue>-500</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>Delay</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit>ms</Unit>
+		<defaultValue>-500</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>Allocate</Name>
+		<Id>[[3]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>否</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>是</ShowValue>
+				<OutValue>True</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>否</ShowValue>
+				<OutValue>False</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+  <statementSrcColl>
+	<statement>
+		<Part>;FOLD LSR Request Path=[[1]] mm Delay=[[2]] ms [[3]].name;%{PE}%R 6.1.22,%MKUKATPLASER,%CLSR_CTRL,%VREQUEST,%P 3:[[1]], 6:[[2]], 8:[[3]] </Part>
+	</statement>
+	<statement>
+		<Part>TRIGGER WHEN PATH=[[1]] DELAY=RequestDelay([[2]]) DO LSR_PreRequest() PRIO=-1</Part>
+		<Dependedid>[[3]]</Dependedid>
+		<DependedValue>是</DependedValue>
+	</statement>
+	<statement>
+		<Part>TRIGGER WHEN PATH=[[1]] DELAY=[[2]] DO LSR_REQUEST([[3]]) PRIO=-1</Part>
+	</statement>
+	<statement>
+		<Part>;ENDFOLD</Part>
+	</statement>
+  </statementSrcColl>
+  <statementDatColl>
+	<statement>
+		<Part>DECL LSR_SUGG_T LAST_LSR={DATA_SET[] "LS0                     ",MEDIA_SET[] "ME0                     ",PRESSURE_SET[] "PR0                     ",LSR_HANDLE[] "TECH                    ",GEO_NAME[] "GP0                     ",CUT_NAME[] "CS0                     ",STEP_NAME[] "SP0                     ",PULSE_NAME[] "PULSE0                  "}</Part>
+		<Dependedid>[[3]]</Dependedid>
+		<DependedValue>否</DependedValue>
+	</statement>
+  </statementDatColl>
+</ProcessParameter>

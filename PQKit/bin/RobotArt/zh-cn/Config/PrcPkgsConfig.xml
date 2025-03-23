@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessPackages>
+	<!--对每个独立的工艺信息的一个具体描述-->
+	<Process1>
+		<ProcessName>Milling</ProcessName>
+		<Robot>
+			<Velocity name="RobotVelocity" Description="v"/>
+			<Acceleration name="RobotAcceleration" Description=""/>
+		</Robot>
+		<Tool>
+			<Velocity name="ToolVelocity" Description="v"/>
+			<Acceleration name="ToolAcceleration" Description=""/>
+		</Tool>
+	</Process1>
+	<!--添加IO的基本配置，一个工作站对应一个专门的IO配置-->
+	<IOConfig>
+		<DI1 name="iWorkPartReach" Description="Wait DI1"/>
+		<DO1 name="oRobotReach" Description="Set DO1"/>
+		<DI2 name="iSafeDoorClose" Description="Wait DI2"/>
+		<DO2 name="oCoolWater" Description="Set DO2"/>
+		<AI1 name="iToolVelocity" Description="ToolVelocity100"/>
+		<AO1 name="oRobotVelocity" Description="RobotVelocity100"/>
+	</IOConfig>
+	<!--添加时间参数的基本配置，一个机器人对应一个专门的时间参数配置-->
+	<TimeControl>
+		<WaitTime name="TimeToWait" Description="Wait"/>
+	</TimeControl>
+	<!--添加在初始化工艺脚本时候的基本信息，可以包含预加的工艺，这个需要在配置好前面之后，在对配置好的框架添加一些值-->
+	<InitialConfig>
+		<PreProcessNum>3</PreProcessNum>	
+	</InitialConfig>
+</ProcessPackages>
+<!--"PreLine"表示参数添加在行前"，"InLine"表示参数添加在行中，"PostLine"表示参数添加在行后"-->

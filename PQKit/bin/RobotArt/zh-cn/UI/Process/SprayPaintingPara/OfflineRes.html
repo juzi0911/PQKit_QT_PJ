@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://www.prepro.robotart.com:8001/robot/offline -->
+<html>
+ <head>
+  <meta content="IE=11.0000" http-equiv="X-UA-Compatible" /> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  user-scalable=0;" /> 
+  <meta name="format-detection" content="telephone=no" /> 
+  <meta name="format-detection" content="email=no" /> 
+  <meta http-equiv="Cache-Control" content="no-cache" /> 
+  <link href="Resource/common.css" rel="stylesheet" /> 
+  <link href="Resource/style.css" rel="stylesheet" /> 
+  <link href="Resource/dropload.css" rel="stylesheet" /> 
+  <script src="Resource/jquery-1.10.2.min.js" type="text/javascript"></script> 
+  <script src="Resource/index.js" type="text/javascript"></script> 
+  <script src="Resource/cufon.js" type="text/javascript"></script> 
+  <script src="Resource/jquery.tinyscrollbar.min.js" type="text/javascript"></script> 
+  <script src="Resource/website.js" type="text/javascript"></script> 
+  <script src="Resource/OffLine.js" type="text/javascript"></script> 
+  <title>机器人选择</title> 
+  <meta name="GENERATOR" content="MSHTML 11.00.10240.17443" />
+     <style>
+         .searchbox {
+        display:flex;
+        align-items:center;
+        text-align:center;
+        line-height:30px;
+         }
+         .searchbox .txt {
+             width:200px;
+             height:30px;
+             border:1px solid #ccc;
+             font-size:14px;
+             text-indent:10px;
+             outline:none;
+             }
+             .searchbox .but {
+                 width:50px;
+                 height:30px;
+                 border:1px solid #ccc;
+                 background:#f8f8f8;
+                 border-left:none;
+             }
+     </style>
+ </head> 
+ <body "return false;" oncontextmenu="return false" onselectstart="return false">
+  <!--弹框--> 
+  <div class="tanbg"></div> 
+  <div class="gl-itemTan gl-itemTan2">
+   <b class="guanbi"></b> 
+   <div class="picbox clearfix"> 
+    <div class="preview fl"> 
+     <div class="bigImg" id="vertical">
+      <img name="defaultPic" width="233" height="285" id="midimg" src="ToolResource/img21.jpg" />
+     </div>
+     <!--bigImg end--> 
+     <div class="smallImg"> 
+      <div class="scrollbutton smallImgUp disabled">
+       &lt;
+      </div> 
+      <div id="imageMenu"></div> 
+      <div class="scrollbutton smallImgDown">
+       &gt;
+      </div>
+     </div>
+     <!--smallImg end--> 
+    </div> 
+    <div class="txt-list fl">
+     <a name="ResBtn" class="but" onclick="InsertOfflineRes(this);" href="javascript:;">插入</a>
+    </div>
+   </div>
+  </div>
+  <div class="gl-itemTan4"> 
+   <b class="guanbi"></b> 
+   <img src="ToolResource/mark1.png" /> 
+   <div class="toolTitles">
+    该文件名已存在，继续上传将覆盖同名文件!
+   </div> 
+   <div class="toolBtns"> 
+    <a href="#" class="toolOff">取消</a> 
+    <a href="#" class="toolEnsure">确定</a> 
+   </div> 
+  </div>
+  <!--进度条--> 
+  <div class="barline-box">
+   <b class="guanbi"></b> 
+   <div class="barline"> 
+    <div class="charts" id="divBar" style="width: 0px;" w="100%"></div>
+   </div>
+   <span id="counter"></span>
+  </div> 
+  <div class="product-con Html-con"> 
+      <div class="searchbox">
+          <input type="text" placeholder="在结果中搜索" id="txtSearchTxt" class="txt">
+          <a href="javascript:;" class="but" onclick="DoSearch();">确定</a>
+      </div>
+   <div class="m-list"> 
+    <ul class="gl-warp clearfix"> 
+       
+    </ul>
+   </div>
+  </div>
+  <!--置顶--> 
+  <div class="Top" id="zhi_dID">
+   <img src="Resource/top.jpg" />
+  </div> 
+ </body>
+</html>

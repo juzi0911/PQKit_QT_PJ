@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>停止码垛</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>&quot;Pallet_end&quot;</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PolishProcess Name ="打磨工艺包" Version ="1.0">
+  <DataInfo>
+	<Material DependParameter="纯铜" Result="黑碳化硅">
+		<SurfaceEffect>
+			<Item DependParameter="去毛刺" Result="1" />
+			<Item DependParameter="粗磨"   Result="2" />
+			<Item DependParameter="半精磨" Result="2" />
+			<Item DependParameter="精磨"   Result="3" />
+			<Item DependParameter="镜面"   Result="4" />
+		</SurfaceEffect>
+		<Granularity>
+			<Item DependParameter="1" Result="80"  />
+			<Item DependParameter="2" Result="240" />
+			<Item DependParameter="3" Result="480" />
+			<Item DependParameter="4" Result="600" />
+		</Granularity>
+		<Temperature>
+			<Item DependParameter="80"  Result="900" />
+			<Item DependParameter="240" Result="850" />
+			<Item DependParameter="480" Result="800" />
+			<Item DependParameter="600" Result="750" />
+		</Temperature>
+		<BeltReduction>
+			<Item DependParameter="80"  Result="30" />
+			<Item DependParameter="240" Result="30" />
+			<Item DependParameter="480" Result="30" />
+			<Item DependParameter="600" Result="30" />
+		</BeltReduction>
+		<WheelReduction>
+			<Item DependParameter="80"  Result="1" />
+			<Item DependParameter="240" Result="1" />
+			<Item DependParameter="480" Result="1" />
+			<Item DependParameter="600" Result="1" />
+		</WheelReduction>
+		<FixedPercentage>
+			<Item DependParameter="1" Result="0.6"  />
+			<Item DependParameter="2" Result="0.2" />
+			<Item DependParameter="3" Result="0.1" />
+			<Item DependParameter="4" Result="0.1" />
+		</FixedPercentage>
+		<GrindingEfficiency>
+			<Item DependParameter="1" Result="0.025"  />
+			<Item DependParameter="2" Result="0.013" />
+			<Item DependParameter="3" Result="0.011" />
+			<Item DependParameter="4" Result="0.008" />
+		</GrindingEfficiency>
+	</Material>
+	<Material DependParameter="铝合金" Result="白刚玉">
+		<SurfaceEffect>
+			<Item DependParameter="去毛刺" Result="1" />
+			<Item DependParameter="粗磨"   Result="2" />
+			<Item DependParameter="半精磨" Result="3" />
+			<Item DependParameter="精磨"   Result="3" />
+			<Item DependParameter="镜面"   Result="4" />
+		</SurfaceEffect>
+		<Granularity>
+			<Item DependParameter="1" Result="180"  />
+			<Item DependParameter="2" Result="340" />
+			<Item DependParameter="3" Result="580" />
+			<Item DependParameter="4" Result="700" />
+		</Granularity>
+		<Temperature>
+			<Item DependParameter="180"  Result="900" />
+			<Item DependParameter="340" Result="850" />
+			<Item DependParameter="580" Result="800" />
+			<Item DependParameter="700" Result="750" />
+		</Temperature>
+		<BeltReduction>
+			<Item DependParameter="180"  Result="30" />
+			<Item DependParameter="340" Result="30" />
+			<Item DependParameter="580" Result="30" />
+			<Item DependParameter="700" Result="30" />
+		</BeltReduction>
+		<WheelReduction>
+			<Item DependParameter="180"  Result="1" />
+			<Item DependParameter="340" Result="1" />
+			<Item DependParameter="580" Result="1" />
+			<Item DependParameter="700" Result="1" />
+		</WheelReduction>
+		<FixedPercentage>
+			<Item DependParameter="1" Result="0.7"  />
+			<Item DependParameter="2" Result="0.5" />
+			<Item DependParameter="3" Result="0.2" />
+			<Item DependParameter="4" Result="0.2" />
+		</FixedPercentage>
+		<GrindingEfficiency>
+			<Item DependParameter="1" Result="0.035"  />
+			<Item DependParameter="2" Result="0.023" />
+			<Item DependParameter="3" Result="0.016" />
+			<Item DependParameter="4" Result="0.009" />
+		</GrindingEfficiency>
+	</Material>
+	<Material DependParameter="不锈钢" Result="棕刚玉">
+		<SurfaceEffect>
+			<Item DependParameter="去毛刺" Result="1" />
+			<Item DependParameter="粗磨"   Result="2" />
+			<Item DependParameter="半精磨" Result="2" />
+			<Item DependParameter="精磨"   Result="3" />
+			<Item DependParameter="镜面"   Result="4" />
+		</SurfaceEffect>
+		<Granularity>
+			<Item DependParameter="1" Result="80"  />
+			<Item DependParameter="2" Result="240" />
+			<Item DependParameter="3" Result="480" />
+			<Item DependParameter="4" Result="600" />
+		</Granularity>
+		<Temperature>
+			<Item DependParameter="80"  Result="900" />
+			<Item DependParameter="240" Result="850" />
+			<Item DependParameter="480" Result="800" />
+			<Item DependParameter="600" Result="750" />
+		</Temperature>
+		<BeltReduction>
+			<Item DependParameter="80"  Result="30" />
+			<Item DependParameter="240" Result="30" />
+			<Item DependParameter="480" Result="30" />
+			<Item DependParameter="600" Result="30" />
+		</BeltReduction>
+		<WheelReduction>
+			<Item DependParameter="80"  Result="1" />
+			<Item DependParameter="240" Result="1" />
+			<Item DependParameter="480" Result="1" />
+			<Item DependParameter="600" Result="1" />
+		</WheelReduction>
+		<FixedPercentage>
+			<Item DependParameter="1" Result="0.6"  />
+			<Item DependParameter="2" Result="0.2" />
+			<Item DependParameter="3" Result="0.1" />
+			<Item DependParameter="4" Result="0.1" />
+		</FixedPercentage>
+		<GrindingEfficiency>
+			<Item DependParameter="1" Result="0.025"  />
+			<Item DependParameter="2" Result="0.013" />
+			<Item DependParameter="3" Result="0.011" />
+			<Item DependParameter="4" Result="0.008" />
+		</GrindingEfficiency>
+	</Material>
+	<Material DependParameter="钛合金" Result="陶瓷系">
+		<SurfaceEffect>
+			<Item DependParameter="去毛刺" Result="1" />
+			<Item DependParameter="粗磨"   Result="2" />
+			<Item DependParameter="半精磨" Result="2" />
+			<Item DependParameter="精磨"   Result="3" />
+			<Item DependParameter="镜面"   Result="4" />
+		</SurfaceEffect>
+		<Granularity>
+			<Item DependParameter="1" Result="80"  />
+			<Item DependParameter="2" Result="240" />
+			<Item DependParameter="3" Result="480" />
+			<Item DependParameter="4" Result="600" />
+		</Granularity>
+		<Temperature>
+			<Item DependParameter="80"  Result="900" />
+			<Item DependParameter="240" Result="850" />
+			<Item DependParameter="480" Result="800" />
+			<Item DependParameter="600" Result="750" />
+		</Temperature>
+		<BeltReduction>
+			<Item DependParameter="80"  Result="30" />
+			<Item DependParameter="240" Result="30" />
+			<Item DependParameter="480" Result="30" />
+			<Item DependParameter="600" Result="30" />
+		</BeltReduction>
+		<WheelReduction>
+			<Item DependParameter="80"  Result="1" />
+			<Item DependParameter="240" Result="1" />
+			<Item DependParameter="480" Result="1" />
+			<Item DependParameter="600" Result="1" />
+		</WheelReduction>
+		<FixedPercentage>
+			<Item DependParameter="1" Result="0.6"  />
+			<Item DependParameter="2" Result="0.2" />
+			<Item DependParameter="3" Result="0.1" />
+			<Item DependParameter="4" Result="0.1" />
+		</FixedPercentage>
+		<GrindingEfficiency>
+			<Item DependParameter="1" Result="0.025"  />
+			<Item DependParameter="2" Result="0.013" />
+			<Item DependParameter="3" Result="0.011" />
+			<Item DependParameter="4" Result="0.008" />
+		</GrindingEfficiency>
+	</Material>
+  </DataInfo>
+</PolishProcess>

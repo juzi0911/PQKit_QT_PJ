@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>偏移结束(OFFSETEND)</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>偏移结束</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>OFFSETEND</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>OFFSETEND</ShowValue>
+				<OutValue>OFFSETEND</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+  </Group>
+   </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> OFFSETEND</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta content="telephone=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/necessery.js"></script>
+<script type="text/javascript" src="js/RoEditor.js"></script>
+<title>程序编辑</title> 
+
+</head>
+<body class="center">
+<div class="box">
+    <div class="boxtitle">
+        <p>程序编辑</p>
+        <span><img src="img/close.png" onclick="ClickedClose();"></span>
+    </div>
+    <div class="boxtext">
+        <!--<img src="img/tishi.png">-->
+        <p style="float:left">同步仅更新当前激活机器人及其相关数据至编辑器内。</p>
+    </div>
+    <div class="divbox">
+        <div class="divleft">
+            <ul class="ul1">
+                <li>
+                    <div class="first"><img src="img/save.png">输出元素</div>
+                </li>
+                <li>
+                    <ul class="ul2">
+                        <li>
+                            <i></i>
+                            <span class="span"><img src="img/zuo.png">坐标系 <em class="in"></em></span>
+                        </li>
+                        <li>
+                            <i></i>
+                            <span class="span"><img src="img/gong.png">外部工具 <em class="in"></em></span>
+                        </li>
+                    </ul>
+                </li>
+                <li> 
+                    <div class="first span">
+                        <span class="on">
+                            <img src="img/add.png" class="add">
+                            <img src="img/jian.png" class="jian">
+                        </span>
+                        <img src="img/ji.png"><font id="robotName"></font> 
+                        <em class="in"></em>
+                    </div>
+                    <ul class="ul3">
+                        <li>
+                            <i></i>
+                            <span class="span"><img src="img/gong.png">工具 <em class="in"></em></span>
+                        </li>
+                        <li>
+                            <i></i>
+                            <span class="span"><img src="img/gui.png">轨迹 <em class="in"></em></span>
+                        </li>
+                        <li style="height: 2px;padding-top: 10px;padding-bottom: 0;">
+                            <i></i>
+                            <span class="spanIO"><img src="img/tishi.png">IO <em class="in"></em></span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="divright">
+            <div class="right1">
+                <!--<h1>输出控制</h1>-->
+                <ul>
+                    <li>机器人末端</li>
+                    <li style="width:268px">
+                        <span><input type="radio" value="" name="1" class="radioTcp">机器人末端</span>
+                        <span><input type="radio" value="" name="1" checked="checked" class="radioToolTail">工具末端</span>
+                        <span><input type="radio" value="" name="1" class="jointSpace">关节空间</span>
+                    </li>
+                    <li>第一点编号</li>
+                    <li>
+                        <input type="text" value="1" class="input" id="StartNum">
+                    </li>
+                    <li>
+                        <span><input type="checkbox" value="" name="" checked="checked" class="radioNote">使用注释</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="boxbottom">
+        <div class="boxbtn">
+            <a href="javascript:;" class="confirm" onclick="clickedConfirm();">确定</a>
+            <a href="javascript:;" onclick="ClickedClose();">取消</a>
+        </div>
+        <div class="right2">
+            <img src="img/tishi.png" id="pubImg">
+            <p id="pubTip">友情提示：当前账号为试用版账号，只能输出50点数据，如需更佳体验，请移步 <a href="javascript:;" id="artWeb" onclick="ClickedArtWeb();">www.robotart.com</a></p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function(){
+    $('.ul1 li span').click(function(){
+        if($(this).hasClass('on')){
+            $(this).removeClass('on');
+            $(this).parents('.first').next('.ul3').hide();
+        }else{
+            $(this).addClass('on');
+            $(this).parents('.first').next('.ul3').show();
+        }
+    })
+
+    $('.spanIO em').click(function () {
+        if ($(this).hasClass('in')) {
+            $(this).removeClass('in');
+        }else{
+            $(this).addClass('in');
+        }
+    })
+
+    if($('.ul1').height() <= 198){
+        $('.divbox .divleft').css({'overflow-y':'hidden'});
+    }else{
+        $('.divbox .divleft').css({'overflow-y':'scroll'});
+    };
+    
+})
+
+function ClickedArtWeb() {
+    window.OnClickedArtWeb();
+}
+
+function jsUpdateDisplay(strValue) {
+    //alert(strValue);
+    var pairs = strValue.split("&");
+    var robotName = pairs[0];
+    $("#robotName").text(strValue);
+   
+    if (pairs.length == 2) {
+        var fullPost = pairs[1];
+        $("#pubImg").css("visibility", "visible");
+        $("#pubTip").css("visibility", "visible");
+    }
+    
+    
+}
+
+function clickedConfirm() {
+    var reRow = {};
+
+    var useNote = 0;
+    if ($('.radioNote').is(':checked')) {
+        useNote = 1;
+    }
+    reRow.useNote = useNote;
+
+    var robotTail = 1;
+    if ($('.radioTcp').is(':checked')) {
+        robotTail = 0;
+    }
+    if ($('.radioToolTail').is(':checked')) {
+        robotTail = 1;
+    }
+    if ($('.jointSpace').is(':checked')) {
+        robotTail = 2;
+    }
+    reRow.robotTail = robotTail;
+
+    var ptStartNum = "1";
+    ptStartNum = document.getElementById("StartNum").value;
+    reRow.ptStartNum = ptStartNum;
+
+    var exportIO = 1;
+    if ($('.spanIO em').hasClass('in')) {
+        exportIO = 1;
+    }
+    else {
+        exportIO = 0;
+    }
+    reRow.exportIO = exportIO;
+    var jsonStr = JSON.stringify(reRow);
+    //alert(jsonStr);
+    window.ClickedConfirm(jsonStr);
+}
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+

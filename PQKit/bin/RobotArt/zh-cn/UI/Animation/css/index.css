@@ -1,0 +1,681 @@
+﻿/* 弹窗 (background) */
+.modal {
+    position: fixed; /* 固定定位 */
+    z-index: 1; /* 设置在顶层 */
+    left: 0;
+    top: 0;right: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); 
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 弹窗内容 */
+#modal1,#modal2{
+	display: none;
+}
+.modal-content {
+    background-color: #fefefe;
+    width: 380px; 
+    height: 206px;
+    border-radius: 10px;
+    position: relative;
+}
+.modal-content > span{
+	display: block;
+	float: right;
+	margin: 10px;
+	position: absolute;
+	right: 0;
+}
+.modal-content > img{
+	display: block;
+	width: 50px;height: 50px;
+	margin: 25px auto 12px;
+}
+.modal-content p{
+	font-size: 16px;color: #666;
+	text-align: center;
+	padding: 0 15px;
+}
+.modal-content div{
+	display:flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.modal-content .madiv{
+	margin: 35px auto 0;
+	width: 160px;
+	height: 160px;
+}
+.modal-content .madiv img{
+	width: 100%;
+}
+.modal-content div a{
+	width: 90px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;font-size: 14px;
+	background: #349efe;
+	border-radius: 35px;
+	margin: 8px 15px;
+}
+.modal-content div a.on{
+	color: #000;
+	background: #e7e7e7;
+}
+
+
+/* ******************* 输出动画 ********************** */
+.animat{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-left: 0;
+	transform:translate(0,-50%);
+	background: #fff;
+  	border-radius: 8px;  
+}
+.animat > h1{
+	height: 50px;
+	padding: 0 20px 0 30px;
+	color: #797979;font-size: 14px;
+	line-height: 50px;
+	border-bottom: 1px solid #e6e7e8;
+}
+.animat > h1 span{
+	float: right;
+	padding: 0 8px;
+}
+.animat .num{
+	padding: 15px 30px;
+	border-bottom: 1px solid #e6e7e8;
+}
+.animat .num .numul{
+	width: 100%;
+	display: flex;
+}
+.animat .num .numul li{
+	width: 25%;
+	background: #aaa;
+	height: 36px;
+	color: #fff;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.animat .num .numul li.on{
+	background: #349dff;
+}
+.animat .num .numul li.on span{
+	/*background: #fff;*/
+}
+.animat .num .numul li img{
+	position: absolute;
+	right: -10px;
+	z-index: 99;
+	top: 0;
+}
+.animat .num .numul li span.countindex{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	color: #aaa;
+	background: #fff;
+	text-align: center;
+	line-height: 20px;
+	margin-right: 10px;
+}
+.animat .txtUnExt{
+	display:none;
+	color: #797979;
+	font-size: 18px;
+	text-align:center;
+}
+.two{
+	margin: 0 48px;
+}
+.two h1{
+	color: #333;
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+	margin: 22px 0;
+}
+.two h1 span{
+	color: #349dff;
+}
+.two ul li{
+	width: 100%;
+	border: 1px solid #eaf5ff;
+	background: #eaf5ff;
+	height: 120px;
+	box-sizing:border-box;
+	margin-top: 10px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+.two ul li .twoimg{
+	width: 80px;
+	height: 80px;
+	background: url(../images/deng1.png) no-repeat;
+	margin-left: 86px;
+	margin-right: 20px;
+}
+.two ul li .twoimg1{
+	width: 80px;
+	height: 80px;
+	background: url(../images/jian1.png) no-repeat;
+	margin-left: 86px;
+	margin-right: 20px;
+}
+.two ul li:hover .twoimg{
+	background: url(../images/deng2.png) no-repeat;
+}
+.two ul li:hover .twoimg1{
+	background: url(../images/jian2.png) no-repeat;
+}
+.two ul li .jiantou{
+	width: 46px;
+	height: 36px;
+	position: absolute;
+	left: 10px;
+	display: none;
+	top: 50%;
+	margin-top: -18px;
+}
+.two ul li .twotxt h2{
+	color: #333;
+	font-size: 18px;
+	font-weight: 600;
+}
+.two ul li .twotxt p{
+	display: flex;
+	margin-top: 15px;
+}
+.two ul li .twotxt p span{
+	color: #666;
+	font-size: 14px;
+	margin-right: 20px;
+}
+.two ul li:hover{
+	border: 1px solid #349dff;
+}
+.two ul li:hover .twotxt h2{
+	color: #349dff;
+}
+.two ul li:hover .twotxt p span{
+	color: #349dff;
+}
+
+.two ul li:last-child{
+	border-right: none;
+}
+.two .a1{
+	display: block;
+	width: 90px;
+	height: 32px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	color: #666;
+	font-size: 12px;
+	text-align: center;
+	line-height: 32px;
+	margin:30px auto;
+}
+.two .twocheckbox{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #666;
+	font-size: 12px;
+}
+.two .twocheckbox a{
+	color: #349dff;
+}
+.two .twoa{
+	display: flex;
+	justify-content:center;
+	margin-top: 20px;
+}
+.two .twoa a{
+	width: 472.5px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	background: #aaa;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 3px;
+}
+.two .twoa a.on{
+	background: #349dff;
+}
+.animat .txt{
+	width: 100%;
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	position: absolute;
+	bottom: 45px;
+}
+
+.animat .blue{
+	width: 100%;height:110px;
+	background: #349dff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.animat .blue > img{
+	width: 84px;height: 83px;
+}
+.animat .blue div{
+	margin-left: 40px;
+}
+.animat .blue div h2{
+	color: #fff;font-size: 26px;
+}
+.animat .blue div span{
+	color: #fff;font-size: 12px;
+	display: flex;margin-top: 18px;
+	align-items: center;
+}
+.animat .blue div span input{
+	margin-left: 7px;
+}
+.animat .form{
+	width: 100%;
+}
+.animat .form ul{
+	width: 84%;margin: 34px auto 0;
+}
+.animat .form ul.ul{
+	display: inline;
+}
+.animat .form .liItem{
+	position: relative;
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.animat .form ul li .span{
+	color: #666;font-size: 14px;
+	width: 86px;
+}
+.animat .form ul li .input{
+	width: 75%;height: 33px;
+	border:1px solid #ddd;
+	color: #666;font-size: 12px;
+	margin-left: 20px;
+	border-radius: 3px;
+	text-indent: 10px;
+}
+.animat .form ul li .textarea{
+	resize: none;
+	width: 75%;height: 80px;
+	border:1px solid #ddd;
+	margin-left: 20px;
+	border-radius: 3px;
+	padding: 10px;
+	box-sizing:border-box;
+	color: #666;font-size: 12px;
+}
+.animat .form ul li .link{
+	color: #349dff;font-size: 12px;
+	padding-left: 10px;
+}
+.animat .form ul li p{
+	width: 100%;
+	/* margin-top: 10px; */
+	display: flex;
+	color: #f34040;
+	font-size: 12px;
+	position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.animat .form ul li p img{
+	margin-left: 70px;margin-right: 3px;
+	width: 12px;height: 12px;
+}
+.animat .form ul li select{
+
+}
+.animat .form ul .div{
+	margin-left: 107px;
+	display: flex;
+	color: #666;
+	font-size: 12px;
+	align-items: center;
+}
+.animat .form ul .div a{
+	padding-left: 0;
+}
+.animat .form ul .div .checkbox{
+	margin-right: 5px;
+}
+.animat .form ul .submit{
+	width: 472.5px;height: 46px;
+	background: #349dff;border:none;
+	border-radius: 3px;
+	font-size: 16px;color: #fff;
+	margin-left: 70px;
+}
+.animat .form ul .set_box{
+	width: 50px;
+	height: 46px;
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.animat .form ul .set_box span{
+	font-size: 12px;
+	height: 12px;
+	line-height: 12px;
+	color: #666;
+}
+.animat .form ul .set_box .shezhi{
+	width:25px;
+	height: 25px;
+	cursor: pointer;
+	margin-bottom: 3px;
+}
+.animat .form .xian{
+	width: 100%;height: 1px;
+	background: #e6e7e8;
+	position: relative;
+	margin-top: 42px;
+}
+.animat .form .xian span{
+	position: absolute;
+	color: #999;font-size: 12px;
+	top: -8px;left: 54px;
+	background: #fff;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+.success{
+	margin: 15px 30px 0;
+}
+.success h2{
+	color: #349dff;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 15px 0;
+	display: flex;
+	align-items: center;
+}
+.success h2 img{
+	margin-right: 10px;
+}
+.success .video{
+	width: 517.5px;
+	height: 260px;
+	position: relative;
+	min-height: 260px;
+	max-height: 310px;
+	overflow: hidden;
+}
+.success .video > img{
+	width:517.5px;display: block;
+}
+.success .video .fang{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 50%;margin-top: -25px;
+	left: 50%;margin-left: -25px;
+}
+.success .video .fang img{
+	width: 50px;
+	height: 50px;
+	display: block;
+}
+.success .video .ma{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	background: #fff;
+	right: 10px;
+	bottom: 10px;
+	z-index: 100;
+}
+.success .video .ma img{
+	display: block;
+	margin-top: 7px;
+	width: 76px;
+	height: 76px;
+	margin-left: 7px;
+}
+.success .share{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+.success .successbtn{
+	width: 100%;
+}
+.success .successbtn a{
+	display: block;
+        width:472.5px;
+	height: 46px;
+	margin: auto;
+	background: #349dff;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 46px;
+}
+.success .share .share1 ul{
+	display: flex;
+	align-items: center;
+	height: 26px;
+}
+.success .share .share1 ul li{
+	margin-right: 10px;
+}
+.success .share .share1 ul li span{
+	margin-right: 10px;
+	color: #797979;font-size: 12px;
+}
+.success .share .share2{
+	color: #797979;font-size: 12px;
+	line-height: 26px;
+}
+.animation{
+	
+}
+.animation .footer{
+	width: 100%;background: #b2b2b2;
+	color: #fff;font-size: 14px;
+	height: 46px;line-height: 46px;
+	text-align: center;
+	position: absolute;bottom: 0;
+}
+.animation .footer a{
+	color: #349dff;
+	text-decoration: underline;
+}
+
+.fail{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+}
+.fail > img{
+
+}
+.fail p{
+	color: #797979;font-size: 14px;
+	margin-top: 25px;
+}
+.fail a{
+	display: block;
+	width: 118px;
+	height: 34px;
+	border:1px solid #d4d4d4;
+	margin: 16px auto;
+	color: #797979;
+	font-size: 12px;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 34px;
+}
+
+@media (max-width: 1366px) {
+  	.success .video{width:75%; margin: 0 auto;}
+  	.animat .form ul li .textarea{height: 75px;}
+  	.animat .form .xian{margin-top: 30px;}
+  	.animat .form ul{margin: 25px auto 0;}
+}
+
+/* 设置弹框样式 */
+.shezhi_alert{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:100 ;
+}
+.shezhi_alert .shezhi_box{
+	width: 400px;
+	height: 250px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	border-radius: 3px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.shezhi_box .input{
+	width: 260px;
+	height: 32px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.shezhi_box .input:first-child{
+	margin-top: 50px;
+}
+.shezhi_box .input .title{
+	font-size: 14px;
+	color: #666;
+	width: 50px;
+}
+.shezhi_box .input .parameterFPS{
+	width: 200px;
+	height: 30px;
+	border: 1px solid #ddd;
+	color: #666;
+	font-size: 12px;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+.shezhi_box .input .parameterVEC{
+	width: 200px;
+	height: 30px;
+	border: 1px solid #ddd;
+	color: #666;
+	font-size: 12px;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+.shezhi_box .button{
+width: 180px;
+height: 30px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 50px;
+}
+
+.shezhi_box .button .save,.shezhi_box .button .cancwl{
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.shezhi_box .button .save{
+	background-color: #349dff;
+}
+.shezhi_box .button .cancwl{
+	background-color: #aaa;
+}
+
+#web_url{
+	text-decoration:underline;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

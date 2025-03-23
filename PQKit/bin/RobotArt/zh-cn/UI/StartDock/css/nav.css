@@ -1,0 +1,227 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+body{ font-family:'微软雅黑';color:#666;font-size:12px;width:100%;  height:100%; } 
+html{width:100%;  height:100%;}
+ul,li{ list-style-type:none;}
+li{ vertical-align:bottom;}
+a{ text-decoration:none; color:#666;outline: none;}
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,a,img,b,u,i,dl,dt,dd,ul,li,input,table,tr,td{margin:0;padding:0;}
+input,select{vertical-align:middle;border:none; font-family:'微软雅黑'; color:#666;outline:medium;}
+ol,ul,li{list-style:none; vertical-align:middle;}
+a img{border:0;}
+.clearfix:after{content:".";display:block;height:0; clear:both;visibility:hidden;}
+img{vertical-align:middle;border:none;}
+em{font-style:normal;}
+p span{ overflow:hidden;}
+
+.fl{ float:left;}
+.fr{ float:right;}
+.none{ display: none; }
+
+
+
+/*左边导航*/
+
+.box{
+	width: 100%;
+	height: 100%;
+}
+.left{
+	width: 100%;
+	height: 100%;
+}
+.left ul{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+.left ul li{
+	padding: 20px 10px;
+    display: none;
+}
+.left ul li a{
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+.left ul li a > img{
+	width: 34px;
+	height: 34px;
+	margin-right: 10px;
+}
+.left ul li a p{
+	color: #333;
+	font-size: 14px;
+	width: 286px;
+}
+.left ul li a p span{
+	display: block;
+	color: #999;font-size: 12px;
+	width: 100%;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: normal;
+	margin-top: 5px;
+}
+.left ul li a > span{
+	width: 20px;height: 20px;
+	display: none;
+}
+.left ul li:hover a > span{
+	display: block;
+}
+.left ul li div{
+	text-align: center;
+	color: #797979;
+	font-size: 12px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+
+.right{
+	width: 320px;
+	float: right;
+	height: 100%;
+}
+.right ul{
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+.right ul li{
+	padding: 20px 10px;
+}
+.right ul li a{
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+.right ul li a > span{
+	width: 24px;
+	height: 24px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	background: #cccccc;
+	text-align: center;
+	line-height: 24px;
+	border-radius: 24px;
+}
+.right ul li a > span.span1{
+	background: #f36c16;
+}
+.right ul li a > span.span2{
+	background: #f69401;
+}
+.right ul li a > span.span3{
+	background: #f6c12b;
+}
+.right ul li a > img{
+	margin: 0 15px 0 20px;
+}
+.right ul li a .righttit p{
+	color: #333;
+	font-size: 14px;
+}
+.right ul li a .righttit p:hover{
+	color: #349dfe;
+}
+.right ul li a .righttit div{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.right ul li a .righttit div span{
+	width: 33%;
+	display: flex;
+	align-items: center;
+	color: #999; font-size: 12px;
+	justify-content: center;
+}
+.right ul li a .more{
+	width: 96px;height: 24px;
+	border: 1px solid #ddd;
+	font-size: 12px;
+	color: #797979;
+	line-height: 24px;
+	text-align: center;
+	margin: 0 auto 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

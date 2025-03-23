@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>判断后调用子程序(如果A1>B2，则调用子程序)</Title>
+<GroupColl>
+    <Group>  
+  <ProcessInfoColl>
+	<ProcessInfo>
+		<Name>变量1</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>变量2</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>子程序名</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+  </Group>
+</GroupColl>  
+  <statementSrcColl>
+	<statement>
+		<Part>CALL %[[3]] IF LD#([[1]]) > LD#([[2]])</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta content="telephone=no" name="format-detection" />
+<meta name="format-detection" content="email=no" />
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<title>左边</title>
+<link rel="stylesheet" type="text/css" href="css/nav.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<!--<script type="text/javascript" src="js/necessery.js"></script>-->
+   
+</head>
+
+<body>
+<div class="box">
+    <div class="left">
+        <ul id="fileList">
+            <li>
+                <a href="javascript:;">
+                    <img src="images/navlitu.png">
+                    <p> <span></span></p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/navlitu.png">
+                    <p> <span></span></p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/navlitu.png">
+                    <p> <span></span></p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/navlitu.png">
+                    <p> <span></span></p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/navlitu.png">
+                    <p> <span></span></p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/navlitu.png">
+                    <p> <span></span></p>
+                </a>
+            </li>
+            <li style="display:block">
+                <a href="javascript:;" id="liOpenFile" >
+                    <div>打开更多文件</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+    <script>
+        $(function () {
+
+            window.oncontextmenu = function (e) {
+                //取消默认的浏览器自带右键 很重要！！
+                e.preventDefault();
+            }
+
+            var oChange = document.getElementById("liOpenFile");
+            oChange.onclick = function () {
+                window.OpenFile();
+            }
+
+            $("ul#fileList").on("click", "li", function () {      //只需要找到你点击的是哪个ul里面的就行
+                
+                var path = $(this).children().children().children().text();
+                window.filePath = path;
+                window.OpenFileWithPath(window.filePath);
+            });
+
+        });
+
+        window.onload = function () {
+            
+            window.InitRecentFiles();
+            var recentFile = window.recentFiles;
+           // alert(recentFile);
+            jsUpdatePageContent(recentFile);
+        }
+       
+
+        function jsUpdatePageContent(strValue) {
+            //每次更新都将li隐藏那个，然后再根据传进来的文件条目进行显示
+            //但是最后一个“打开更多”的li不能隐藏
+            var itemli = document.getElementsByTagName("li");
+            for (var i = 0; i < itemli.length-1; i++) {
+                itemli[i].style.display="none";
+            }
+            
+            if (strValue == undefined) {
+                return;
+            }
+
+            var arrFile = strValue.split("?");
+            var arrSize = arrFile.length;
+            for (j = 0; j < arrSize-1; j++) {
+                if (j <= 5) {
+                    var file = arrFile[j];
+                    var nIndex = file.lastIndexOf('\\');
+                    var nIndexO = file.lastIndexOf('.');
+                    var fileName = file.substr(nIndex + 1, nIndexO);
+                    if(fileName.length > 20){
+                        fileName = fileName.substr(0, 20);
+                        fileName += "...";
+                    }
+                    var filePath = file;
+
+                    $(".left ul").find("li").eq(j).show();
+                    var $PObject = $(".left ul").find("li").eq(j).find("a p");
+                    $PObject.html("" + fileName + "<span>" + filePath + "</span>");
+                }
+            }
+          
+            
+        }
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			LASER CA		</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>L=</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>11</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>R=</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>12</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>VL=</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>20.0</defaultValue>
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+     </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>LASER CA	L=[[1]] R=[[2]] VL=[[3]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

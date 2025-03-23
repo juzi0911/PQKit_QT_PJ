@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			OUT		</Title>
+  <GroupColl>  
+   <Group> 
+   
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>OT#</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>30</defaultValue>
+		
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>=</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>OFF</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>D=</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1.0</defaultValue>
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+  </Group> 
+   </GroupColl> 
+   
+  
+  <statementSrcColl>
+	<statement>
+		<Part>OUT		OT#[[1]] =[[2]] D=[[3]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

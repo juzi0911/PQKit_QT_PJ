@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FeatureGroup>
+  <GroupName>切孔工艺包</GroupName>
+  <PathGenerateTypes>
+    <PathGenerateType>PS_FaceLoop</PathGenerateType>
+    <PathGenerateType>PS_SeedEdgeFace</PathGenerateType>
+    <PathGenerateType>PS_OneEdge</PathGenerateType>
+  </PathGenerateTypes>
+  <AssemblyFeature>TRUE</AssemblyFeature><!-- 是否需要将子特征集合成一个工艺特征 -->
+  <GroupImage>CutHoleProcess.bmp</GroupImage>
+  <GroupTips>
+    注: 1. 双击参数值可自定义设置切孔工艺包参数值，编辑完成后，点击表格空白处，点击确定按钮即可保存更改。
+        2. 参数值可自定义设置,请输入数值类型，但参数名称不可更改。
+        3. 入刀轨迹-起始点偏移量，为入刀轨迹第一个点相对于工作轨迹在Y轴方向偏移距离。
+  </GroupTips>
+  <FeatureItems>
+    <FeatureItem>
+    	<Type>RODT_PFM_Translation</Type>
+    </FeatureItem>
+    <FeatureItem>
+    	<Type>RODT_PFM_CompensationPath</Type>
+    </FeatureItem>
+    <FeatureItem>
+    	<Type>RODT_PFM_ZFixed</Type>
+    </FeatureItem>
+  </FeatureItems>
+  <FeatureParameters>
+    <FeatureParameter Label="步长" 		 				      FeatureIndex="1"	 	   ParameterName="STEP_VALUE"		  		DefaultValue="10"/>
+    <FeatureParameter Label="刀补-Y轴平移"          FeatureIndex="2"	    ParameterName="Y_TRANSLATION"				DefaultValue="5"/>
+		<FeatureParameter Label="刀补-Z轴平移"          FeatureIndex="2"	 	  ParameterName="Z_TRANSLATION"				DefaultValue="5"/>
+		<FeatureParameter Label="入刀轨迹-轨迹长度"     FeatureIndex="3"	 		ParameterName="ENTRY_PATH_LENGTH"		DefaultValue="100"/>
+  	<FeatureParameter Label="入刀轨迹-起始点偏移量" FeatureIndex="3"	 		ParameterName="ENTRY_PATH_ANGLE"	  DefaultValue="30"/>
+  	<FeatureParameter Label="入刀轨迹-入刀点偏移量" FeatureIndex="3"	 		ParameterName="ENTRY_PATH_OFFSET"	  DefaultValue="5"/>
+  </FeatureParameters>
+</FeatureGroup>

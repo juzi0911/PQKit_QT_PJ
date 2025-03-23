@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			OUT		</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>OGH</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+		
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>=</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>0</defaultValue>
+		
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+   </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>REFP		1.0</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

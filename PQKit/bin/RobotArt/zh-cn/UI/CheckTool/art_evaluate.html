@@ -1,0 +1,367 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: '微软雅黑';
+        }
+
+        .certificate_box {
+            position: absolute;
+            background: url("./images/background_img.jpg") no-repeat;
+            background-size: 100% 100%;
+             width: 100%;
+            height: 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+        }
+
+        .centerBox {
+            position: relative;
+            width: 66%;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .title {
+            height: 42px;
+            margin-top: 16%;
+            margin-bottom: 2%;
+        }
+
+        .decorative {
+            height: 42px;
+            margin-bottom: 4%;
+        }
+
+        .contant {
+            width: 100%;
+            height: max-content;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: left;
+            color: #000000;
+            line-height: 20px;
+            margin-bottom: 20px;
+        }
+
+        .retract{
+            text-indent: 2em;
+        }
+
+        .contant:last-child {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 16%;
+        }
+
+        .medal {
+            width: 114px;
+            position: absolute;
+            top: 17%;
+            right: -57px;
+        }
+
+        .exam_details {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .details_top,
+        .details_bottom {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: space-between;
+            padding: 13px 0px;
+        }
+
+        .details_top {
+            border-bottom: 2px solid;
+            border-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #D4D3CE 50%, rgba(255, 255, 255, 0) 99%) 2 2 2 2;
+        }
+
+        .exam_details .detail {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .detail .icon {
+            width: 78px;
+            height: 78px;
+            margin-bottom: 12px;
+        }
+
+        .detail .text {
+            width: max-content;
+            max-width: 135px;
+            font-size: 12px;
+            font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+            font-weight: 400;
+            text-align: center;
+            color: #000000;
+            line-height: 16px;
+        }
+
+        .border {
+            height: 119px;
+        }
+
+        @media (max-width: 1680px) {
+            .centerBox {
+                width: 68%;
+            }
+
+            .detail .text {
+                max-width: 120px;
+            }
+
+            .medal {
+                width: 102px;
+                right: -51px;
+            }
+        }
+
+        @media (max-width: 1540px) {
+            .centerBox {
+                width: 66%;
+            }
+
+            .title,
+            .decorative {
+                height: 30px;
+            }
+
+            .contant {
+                font-size: 17px;
+            }
+
+            .medal {
+                width: 88px;
+                right: -44px;
+            }
+
+            .exam_details {
+                margin-top: 0px;
+                margin-bottom: 10px;
+            }
+
+            .details_top,
+            .details_bottom {
+                padding: 8px 0px;
+            }
+
+            .detail .icon {
+                width: 65px;
+                height: 65px;
+            }
+
+            .detail .text {
+                max-width: 120px;
+                transform: scale(0.9);
+            }
+
+            .border {
+                height: 93px;
+            }
+        }
+
+        @media (max-width: 1366px) {
+            .centerBox {
+                width: 66%;
+            }
+
+            .title,
+            .decorative {
+                height: 27px;
+            }
+
+            .contant {
+                font-size: 15px;
+                margin-bottom: 12px;
+            }
+
+            .medal {
+                width: 78px;
+                right: -39px;
+            }
+
+            .details_top,
+            .details_bottom {
+                padding: 5px 0px;
+            }
+
+            .detail .icon {
+                width: 47px;
+                height: 47px;
+                margin-bottom: 0px;
+            }
+
+            .detail .text {
+                max-width: 100px;
+                transform: scale(0.8);
+            }
+
+            .border {
+                height: 78px;
+            }
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            debugger;
+            var params = GetRequest();
+            var userName = params.userName;
+            $("#lblUserName").text(userName);
+            var score = params.score;
+            $("#lblScore").text(score);
+            score = parseInt(score);
+            var medalUrl = "./images/";
+            if (score >= 90 && score <= 100)
+            {
+                medalUrl+= "medal1.png";
+            }
+            else if (score >= 60 && score < 90) {
+                medalUrl += "medal2.png";
+            }
+            else {
+                medalUrl += "medal3.png";
+            }
+            $("#imgMedal").attr("src",medalUrl);
+            var detail = params.detail;
+            var parentObj;
+            var imgIndex;
+            var flag="";
+            for (var i = 0; i < detail.length;i++)
+            {
+                if (i < 5) {
+                    parentObj = $(".details_top");
+                    imgIndex = i;
+                }
+                else {
+                    parentObj = $(".details_bottom");
+                    imgIndex = i - 5;
+                }
+                if (detail[i] == "0") {
+                    flag = "no";
+                }
+                else {
+                    flag = "yes";
+                }
+                parentObj.children(".detail").eq(imgIndex).find("img").attr("src", "./images/"+flag+"_icon.png");
+            }
+            var now = new Date();
+            var year = now.getFullYear();
+            var month = now.getMonth() + 1;
+            var day = now.getDate();
+            $("#lblDate").text(year+"年"+month+"月"+day+"日");
+        });
+        function GetRequest() {
+            var url = location.search; //获取url中"?"符后的字串
+            var theRequest = new Object();
+            if (url.indexOf("?") != -1) {
+                var str = url.substr(1);
+                strs = str.split("&");
+                for (var i = 0; i < strs.length; i++) {
+                    theRequest[strs[i].split("=")[0]] =decodeURI( strs[i].split("=")[1]);
+                }
+            }
+            return theRequest;
+        }
+
+    </script>
+</head>
+
+<body>
+    <div class="certificate_box">
+        <div class="centerBox">
+            <img src="./images/title.png" alt="" class="title">
+            <img src="./images/decorate.png" alt="" class="decorative">
+            <div class="contant"><span id="lblUserName"></span>同学：</div>
+            <div class="contant retract">恭喜您已完成工具检测系统考试，您的考试成绩为<span id="lblScore"></span>分，考试详情如下：</div>
+            <img  id="imgMedal" alt="" class="medal">
+            <div class="exam_details">
+                <div class="details_top">
+                    <div class="detail">
+                        <img  alt="" class="icon">
+                        <div class="text">机器人法兰盘直径和工具法兰直径是否一致？</div>
+                    </div>
+                    <img src="./images/border.png" alt="" class="border">
+                    <div class="detail">
+                        <img  alt="" class="icon">
+                        <div class="text">机器人法兰盘定位孔数和工具定位孔数是否一致? </div>
+                    </div>
+                    <img src="./images/border.png" alt="" class="border">
+                    <div class="detail">
+                        <img  alt="" class="icon">
+                        <div class="text">机器人法兰盘定位孔径和工具定位孔径是否一致?</div>
+                    </div>
+                    <img src="./images/border.png" alt="" class="border">
+                    <div class="detail">
+                        <img  alt="" class="icon">
+                        <div class="text">工具在机器人法兰的安装位置是否合理？</div>
+                    </div>
+                    <img src="./images/border.png" alt="" class="border">
+                    <div class="detail">
+                        <img  alt="" class="icon">
+                        <div class="text">工具的TCP到法兰坐标系的距离是否符合要求？</div>
+                    </div>
+                </div>
+                <div class="details_bottom">
+                    <div class="detail">
+                        <img  alt="" class="icon">
+                        <div class="text">输入的模型是否为装配体？</div>
+                    </div>
+                    <img src="./images/border.png" alt="" class="border">
+                    <div class="detail">
+                        <img  alt="" class="icon">
+                        <div class="text">定义的工具是否为可运动机构？</div>
+                    </div>
+                    <img src="./images/border.png" alt="" class="border">
+                    <div class="detail">
+                        <img  alt="" class="icon">
+                        <div class="text">法兰工具的法兰坐标系是否进行标定？</div>
+                    </div>
+                    <img src="./images/border.png" alt="" class="border">
+                    <div class="detail">
+                        <img  alt="" class="icon">
+                        <div class="text">法兰工具的TCP坐标系是否进行标定？</div>
+                    </div>
+                    <img src="./images/border.png" alt="" class="border">
+                    <div class="detail">
+                        <img alt="" class="icon">
+                        <div class="text">法兰工具是否会与软件中的工件发生碰撞？</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="contant">
+                <span>特发此证，以资鼓励！</span>
+                <span id="lblDate"></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

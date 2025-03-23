@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>摆动</Title>
+  <GroupColl>
+      <Group>
+	<ProcessInfoColl>
+	</ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+		<statement>
+		<Part>Weave End ;</Part>
+		</statement>
+  </statementSrcColl>
+</ProcessParameter>

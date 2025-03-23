@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta content="telephone=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link href="css/index.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css">
+<title>输出数据文件</title>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/zcircleMove.js"></script>
+<script type="text/javascript" src="js/ExportAnimation.js"></script>
+<script type="text/javascript" src="js/necessery.js"></script>
+<style>
+    .animat{
+        background-image: url("images/vr-bgc.jpg");
+        background-size: 100% 100%;
+    }
+</style>
+</head>
+<body style="background: #fff;">
+    <div class="animat">
+        <h1>输出数据文件<span></span></h1>
+        <div class="num">
+        	<ul class="numul">
+        		<li class="on">
+        			<img src="images/sanjiao.png">
+        		</li>
+        		<li class="on">
+        			<img src="images/sanjiao.png">
+        		</li>
+        		<li class="on">
+        			<img src="images/sanjiao.png">
+        		</li>
+        		<li class="on">
+        		</li>
+        	</ul>
+        </div>
+		<!-- 圆形进度条 -->
+		<div class="middleContent fixTop block">
+			<div class="surePass" >
+				<!--<img src="images/xiaoren.png" class="perple">-->
+		        <div class="anyield">
+		        	<h3>正在输出文件</h3>
+		            <!-- <p>已完成</p> -->
+		        </div>
+				<canvas class="circleRun" data-run="0" id="canvasThree" amout="1000" nowData="1000"></canvas>
+		    </div>
+		</div>
+        <p class="txtUnExt">输出过程中，不允许中途退出...</p>
+		
+    </div>
+<script>
+    $(function () {
+
+        //圆形进度条
+        var findCanvas = $("#canvasThree");
+        var percents = findCanvas.attr('nowData') / findCanvas.attr('amout');
+        percents = 0.25;
+        //percents 为百分比的值  范围 0- 1
+        InitScreen(
+               {
+                   obj: 'canvasThree',
+                   percent: 1,
+                   url: 'images/people.png',   //飞机小图地址
+                   imgWidth: 40,
+                   imgHeight: 40,
+                   fillStyle:'#000000',
+                   circleBottomColor: "#f2f2f2",//圆环底色
+                   outerColorStart: '#ebf7ff',  //外部圆环 渐变色
+                   outerColorMid: '#d8eefc',
+                   outerColorEnd: '#a7cee7',
+                   innerColorStart: '#6fbef0',  //内部圆环 渐变色
+                   innerColorEnd: '#058ee4',
+               }
+            );
+
+    })
+
+function jsExportError(strValue) {
+    //alert(strValue);
+    window.location.href=strValue;
+}
+
+function OnWebClickedClose() {
+    $('.txtUnExt').css({ 'display': 'block' });
+}
+
+</script>
+</body>
+</html>
+

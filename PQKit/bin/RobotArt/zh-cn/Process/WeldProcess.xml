@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>
+    <ID></ID>
+    <seam></seam>
+    <weld></weld>
+    <weave></weave>
+  </Title>
+  <ProcessInfoColl>
+    <Info>
+      <ID>1</ID>
+      <seam></seam>
+      <weld></weld>
+      <weave></weave>
+    </Info>
+  </ProcessInfoColl>
+</ProcessParameter>

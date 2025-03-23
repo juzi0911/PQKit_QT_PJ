@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DefineIOParameter>
+  <Title>
+    <动作名称></动作名称>
+    <关联IO></关联IO>
+    <Value></Value>
+    <类型></类型>
+    <描述></描述>
+  </Title>
+  <IOInfoColl>
+    <Info>
+      <动作名称>EI_EventIO_Release_TCP1</动作名称>
+      <关联IO>danxipan</关联IO>
+      <Value>0</Value>
+      <模块></模块>
+      <描述>放开</描述>
+    </Info>
+    <Info>
+      <动作名称>EI_EventIO_Catch_TCP1</动作名称>
+      <关联IO>danxipan</关联IO>
+      <Value>1</Value>
+      <模块></模块>
+      <描述>抓取</描述>
+    </Info>
+    <Info>
+      <动作名称>EI_EventIO_Release_TCP2</动作名称>
+      <关联IO>shuangxipan</关联IO>
+      <Value>0</Value>
+      <模块></模块>
+      <描述>松开</描述>
+    </Info>
+    <Info>
+      <动作名称>EI_EventIO_Catch_TCP2</动作名称>
+      <关联IO>shuangxipan</关联IO>
+      <Value>1</Value>
+      <模块></模块>
+      <描述>抓取</描述>
+    </Info>
+  </IOInfoColl>
+</DefineIOParameter>

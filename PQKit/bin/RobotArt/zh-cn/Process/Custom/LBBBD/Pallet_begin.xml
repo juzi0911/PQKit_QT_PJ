@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>启动码垛</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>码垛工艺包ID</Name>
+		<Id>[[1]]</Id>
+		<Type>edit</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>&quot;Pallet_begin 0 [[1]]&quot;</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Brands>
+	<Brand1 name = "AB">
+	    <Model name = "ControlLogix_Ethernet">
+	        <value value = "ControlLogix_Ethernet">
+	        </value>
+        </Model>
+	</Brand1>
+	<Brand2 name = "GE">
+	    <Model name = "VersaMax">
+	        <value value = "SNPX">
+	        </value>
+        </Model>
+	</Brand2>
+	<Brand3 name = "三菱" >
+	    <Model name = "A Serial">
+	        <value value = "MitsubishiEZSoket">
+	        </value>
+        </Model>
+	    <Model name = "FX Serial">
+	        <value value = "MitsubishiEZSoket">
+	        </value>
+        </Model>
+	    <Model name = "FX1N">
+	        <value value = "MelsFx2">
+	        </value>
+        </Model>
+	    <Model name = "FX1S">
+	        <value value = "MelsFx2">
+	        </value>
+        </Model>
+		<Model name = "FX2N_485">
+	        <value value = "Melsec_A_FX">
+	        </value>
+        </Model>
+		<Model name = "FX3GE_24M">
+	        <value value = "FX3GE_24M2">
+	        </value>
+        </Model>
+		<Model name = "FX3u">
+	        <value value = "MelsFx2">
+	        </value>
+        </Model>
+		<Model name = "MelsFx2">
+	        <value value = "MelsFx2">
+	        </value>
+        </Model>	
+		<Model name = "MelsecA">
+	        <value value = "Melsec_A_FX">
+	        </value>
+        </Model>
+		<Model name = "MelsecAnA">
+	        <value value = "Melsec_A_FX">
+	        </value>
+        </Model>
+		<Model name = "Q Serial">
+	        <value value = "MitsubishiEZSoket">
+	        </value>
+        </Model>
+		<Model name = "Q_SERIAL_ETHERNET_ASCII">
+	        <value value = "Melsec_Ethernet">
+	        </value>
+        </Model>
+		<Model name = "Q_SERIAL_ETHERNET_BINARY">
+	        <value value = "Melsec_Ethernet">
+	        </value>
+        </Model>
+	</Brand3>
+	<Brand4 name = "亚控科技" >
+	    <Model name = "Simulate">
+			<value value = "Simulate">
+		    </value>
+        </Model>
+	</Brand4>
+	<Brand5 name = "台达" >
+	    <Model name = "DVP-DVP_ASC">
+			<value value = "Delta">
+		    </value>
+        </Model>
+	    <Model name = "DVP-DVP_TCP">
+			<value value = "Delta">
+		    </value>
+        </Model>
+	</Brand5>	
+	<Brand6 name = "欧姆龙" >
+	    <Model name = "CJ_Ethernet">
+			<value value = "OMRON_Ethernet">
+		    </value>
+        </Model>
+	    <Model name = "CJ_HostLink">
+			<value value = "FinsOverHostLink">
+		    </value>
+        </Model>
+	    <Model name = "CP_Ethernet">
+			<value value = "OMRON_Ethernet">
+		    </value>
+        </Model> 
+	    <Model name = "CP_HostLink">
+			<value value = "FinsOverHostLink">
+		    </value>
+        </Model>
+	    <Model name = "CS_Ethernet">
+			<value value = "OMRON_Ethernet">
+		    </value>
+        </Model>
+	    <Model name = "CS_HostLink">
+			<value value = "FinsOverHostLink">
+		    </value>
+        </Model>
+	    <Model name = "CV_Ethernet">
+			<value value = "OMRON_Ethernet">
+		    </value>
+        </Model>
+	    <Model name = "CV_HostLink">
+			<value value = "FinsOverHostLink">
+		    </value>
+        </Model>
+	    <Model name = "C_Ethernet">
+			<value value = "OMRON_Ethernet">
+		    </value>
+        </Model>
+	    <Model name = "C_HostLink">
+			<value value = "FinsOverHostLink">
+		    </value>
+        </Model>
+	</Brand6>		
+    <Brand7 name = "永宏" >
+	    <Model name = "FATEK">
+		    <value value = "FATEK">
+		    </value>
+        </Model>
+	    <Model name = "FATEK_Ethernet">
+			<value value = "FATEK_Ethernet">
+		    </value>
+         </Model>
+	</Brand7>	
+    <Brand8 name = "电力协议" >
+	    <Model name = "DL104">
+		    <value value = "KVD_DL104">
+		    </value>
+        </Model>
+	    <Model name = "IECDL101">
+			<value value = "GEDL101">
+		    </value>
+         </Model>
+	</Brand8>	
+    <Brand9 name = "罗克韦尔" >
+	    <Model name = "AB-ControlLogixCOM">
+		    <value value = "ControlLogix">
+		    </value>
+        </Model>
+	    <Model name = "AB-ControlLogixTCP">
+			<value value = "ControlLogix">
+		    </value>
+        </Model>
+	    <Model name = "MicroLogixEthernet">
+			<value value = "MicroLogixEthernet">
+		    </value>
+        </Model>
+	</Brand9>	
+    <Brand10 name = "莫迪康" >
+	    <Model name = "ModRTUServer">
+		    <value value = "ModRTUServer">
+		    </value>
+        </Model>
+	    <Model name = "ModbusASCII">
+			<value value = "ModbusMaster">
+		    </value>
+        </Model>		
+	    <Model name = "ModbusRTU">
+			<value value = "ModbusMaster">
+		    </value>
+        </Model>
+	    <Model name = "ModbusRTU(unpack)">
+			<value value = "ModbusMaster">
+		    </value>
+        </Model>
+	    <Model name = "ModbusTCP">
+			<value value = "ModbusMaster">
+		    </value>
+        </Model>
+	    <Model name = "ModbusTcpServer">
+			<value value = "ModbusTcpServerCP">
+		    </value>
+        </Model>		
+	</Brand10>	
+    <Brand11 name = "西门子" >
+	    <Model name = "S7-1200">
+		    <value value = "S71200Tcp">
+		    </value>
+        </Model>
+	    <Model name = "S7-1200(MPI)">
+			<value value = "s7200AND300MPI">
+		    </value>
+        </Model>
+	    <Model name = "S7-1200(S7)">
+			<value value = "S7Profibus">
+		    </value>
+        </Model>
+	    <Model name = "S7-1200(TCP)">
+			<value value = "S7_TCP">
+		    </value>
+        </Model>
+	    <Model name = "S7-200系列">
+			<value value = "s7ppi">
+		    </value>
+        </Model>
+	    <Model name = "S7-200系列(DP)">
+			<value value = "S7_DP">
+		    </value>
+        </Model>
+	    <Model name = "S7-200系列(USB)">
+			<value value = "S7200USBPpi">
+		    </value>
+        </Model>
+	    <Model name = "S7-300(MPI)">
+			<value value = "s7200AND300MPI">
+		    </value>
+        </Model>
+	    <Model name = "S7-300(S7)">
+			<value value = "S7Profibus">
+		    </value>
+        </Model>
+	    <Model name = "S7-300(TCP)">
+			<value value = "S7_TCP">
+		    </value>
+        </Model>
+	    <Model name = "S7-300系列(DP)">
+			<value value = "S7_DP">
+		    </value>
+        </Model>
+	    <Model name = "S7-400(MPI)">
+			<value value = "s7200AND300MPI">
+		    </value>
+        </Model>
+	    <Model name = "S7-400(S7)">
+			<value value = "S7Profibus">
+		    </value>
+        </Model>
+	    <Model name = "S7-400(TCP)">
+			<value value = "S7_TCP">
+		    </value>
+        </Model>
+	    <Model name = "S7-400系列(DP)">
+			<value value = "S7_DP">
+		    </value>
+        </Model>		
+	</Brand11>
+    <Brand12 name = "金星[LG]" >
+	    <Model name = "S7-1200">
+		    <value value = "S71200Tcp">
+		    </value>
+        </Model>
+	    <Model name = "S7-1500">
+			<value value = "S71500Tcp">
+		    </value>
+        </Model>
+	</Brand12>
+</Brands>

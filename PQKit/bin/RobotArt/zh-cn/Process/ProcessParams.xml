@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCatalogue name = "工艺目录">
+<PrcessType>
+	<ComShowName>喷涂</ComShowName>
+	<ComShowType>0</ComShowType>
+	<ProcessPath>ToolProcessParams\ToolSprayProcessParams</ProcessPath>
+</PrcessType>
+<PrcessType>
+	<ComShowName>激光焊接</ComShowName>
+	<ComShowType>1</ComShowType>
+	<ProcessPath>ToolProcessParams\ToolSprayProcessParams</ProcessPath>
+</PrcessType>
+<PrcessType>
+	<ComShowName>码垛</ComShowName>
+	<ComShowType>2</ComShowType>
+	<ProcessPath>ToolProcessParams\ToolSprayProcessParams</ProcessPath>
+</PrcessType>
+<EventPrcessType>
+	<ComShowName>喷涂</ComShowName>
+	<ComShowType>0</ComShowType>
+	<ProcessPath>EventProcessParams\EventSprayProcessParams</ProcessPath>
+</EventPrcessType>
+</GeneralCatalogue>

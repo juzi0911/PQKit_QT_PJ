@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>等待起弧</Title>
+  <GroupColl>
+      <Group>
+	<ProcessInfoColl>
+	<ProcessInfo>
+		<Name>类型</Name>
+		<Id>[[6]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>WaitArcOn()</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>WaitArcOn()</ShowValue>
+				<OutValue>WaitArcOn()</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>WaitArcOn()</Part>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedValue>WaitArcOn()</DependedValue>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCatalogue name = "工艺目录">
+<Instruction>
+	<name>RO_POST_ABB</name>
+	<Process>ABB_SEARCH_FULLV</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_ABB_INTELLIGENT</name>
+	<Process>ABB_SEARCH_INTELLIGENT</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_ABB_CX</name>
+	<Process>ABB_SEARCH_CX</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_FANUC</name>
+	<Process>FANUC_SEARCH_IntelligentLaser</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_FANUC-YL-KLS</name>
+	<Process>FANUC_SEARCH_IntelligentLaser</Process>
+</Instruction>
+</GeneralCatalogue>

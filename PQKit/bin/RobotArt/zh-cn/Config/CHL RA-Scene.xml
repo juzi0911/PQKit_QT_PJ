@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FCParameters>
+
+  <FCParamGroup Name="Root">
+    <FCParamGroup Name="BaseApp">
+      <FCParamGroup Name="Preferences">
+        <FCParamGroup Name="General">
+          <FCText Name="AutoloadModule">StartWorkbench</FCText>
+          <FCText Name="Language">Chinese Simplified</FCText>
+        </FCParamGroup>
+        <FCParamGroup Name="Units">
+          <FCInt Name="Decimals" Value="4"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Macro"/>
+        <FCParamGroup Name="Bitmaps"/>
+        <FCParamGroup Name="Document">
+		  <FCBool Name="CoinOffscreenRenderer" Value="0"/>
+          <FCBool Name="BackupPolicy" Value="0"/>
+		</FCParamGroup>
+        <FCParamGroup Name="OutputWindow">
+          <FCUInt Name="colorText" Value="0"/>
+        </FCParamGroup>
+        <FCParamGroup Name="TreeView"/>
+        <FCParamGroup Name="PropertyView"/>
+        <FCParamGroup Name="Editor">
+          <FCUInt Name="Text" Value="0"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Mod">
+          <FCParamGroup Name="Part">
+            <FCParamGroup Name="General"/>
+            <FCParamGroup Name="IGES"/>
+            <FCParamGroup Name="STEP"/>
+            <FCFloat Name="MeshDeviation" Value="5"/>
+            <FCFloat Name="MeshAngularDeflection" Value="30"/>
+          </FCParamGroup>
+          <FCParamGroup Name="Mesh">
+            <FCBool Name="ShowBoundingBox" Value="1"/>
+            <FCBool Name="RotateHideFace" Value="0"/>
+          </FCParamGroup>
+		  <FCParamGroup Name="Import">
+            <FCParamGroup Name="hSTEP">
+              <FCBool Name="ReadShapeCompoundMode" Value="0"/>
+            </FCParamGroup>
+          </FCParamGroup>
+        </FCParamGroup>
+        <FCParamGroup Name="View">
+          <FCText Name="NavigationStyle">Gui::BlenderNavigationStyle</FCText>
+          <FCInt Name="AntiAliasing" Value="3"/>
+          <FCBool Name="Perspective" Value="0"/>
+          <FCBool Name="Orthographic" Value="1"/>
+          <FCUInt Name="BackgroundColor" Value="336897023"/>
+          <FCUInt Name="BackgroundColor2" Value="1383638015"/>
+          <FCUInt Name="BackgroundColor3" Value="4294967295"/>
+          <FCUInt Name="BackgroundColor4" Value="1869583359"/>
+          <FCBool Name="EnableBacklight" Value="1"/>
+          <FCBool Name="ShowFPS" Value="0"/>
+          <FCInt Name="DefaultShapeLineWidth" Value="1"/>		  
+          <FCBool Name="InvertZoom" Value="1"/>
+          <FCBool Name="DragAtCursor" Value="1"/>
+          <FCBool Name="ShowNaviCube" Value="0"/>
+          <FCText Name="SavePicture">PixelBuffer</FCText>
+          <FCBool Name="EnablePreselection" Value="0"/>
+        </FCParamGroup>
+        <FCParamGroup Name="MainWindow"/>
+      </FCParamGroup>
+      <FCParamGroup Name="Macro">
+        <FCParamGroup Name="Macros"/>
+      </FCParamGroup>
+      <FCParamGroup Name="Ball3DChange">
+        <FCInt Name="Accel" Value="32"  />
+      </FCParamGroup>
+      <FCParamGroup Name="MainWindow">
+        <FCParamGroup Name="DockWindows">
+          <FCBool Name="Std_TreeView" Value="0"/>
+          <FCBool Name="Std_PropertyView" Value="0"/>
+          <FCBool Name="Std_SelectionView" Value="0"/>
+          <FCBool Name="Std_CombiView" Value="0"/>
+          <FCBool Name="Std_ReportView" Value="0"/>
+          <FCBool Name="Std_PythonView" Value="0"/>
+          <FCBool Name="Robot Work Scene" Value="0"/>
+          <FCBool Name="Debug" Value="0"/>
+          <FCBool Name="Simulate Control" Value="0"/>
+          <FCBool Name="Robot Control" Value="0"/>
+          <FCBool Name="Simulate Scheme" Value="0"/>
+          <FCBool Name="Output" Value="0"/>
+          <FCBool Name="Recent Files" Value="0"/>
+          <FCBool Name="Excellent Animations" Value="0"/>
+		  <FCBool Name="Virtual simulation Control" Value="0"/>
+		  <FCBool Name="SIGNAL SIMULATE" Value="0"/>
+		  <FCBool Name="Robot Controller simulate" Value="0"/>
+		  <FCBool Name="View Animation" Value="0"/>
+		   <FCBool Name="View Custom" Value="0"/>
+        </FCParamGroup>
+        <FCParamGroup Name="Toolbars">
+          <FCBool Name="File" Value="0"/>
+          <FCBool Name="Workbench" Value="0"/>
+          <FCBool Name="Macro" Value="0"/>
+          <FCBool Name="View" Value="0"/>
+          <FCBool Name="RobotArt" Value="0"/>
+        </FCParamGroup>
+		<FCParamGroup Name="RibbonStyle">
+		    <FCText Name="Style">Office2010Blue</FCText>
+        </FCParamGroup>
+      </FCParamGroup>
+      <FCParamGroup Name="Workbench"/>
+      <FCParamGroup Name="Workbenches"/>
+    </FCParamGroup>
+  </FCParamGroup>
+
+
+</FCParameters>

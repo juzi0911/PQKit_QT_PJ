@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>MP Offset End（多层多道偏移结束）</Title>
+  <GroupColl>
+      <Group>
+	<ProcessInfoColl>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>MP Offset End ;</Part>
+	</statement>
+	</statementSrcColl>
+</ProcessParameter>

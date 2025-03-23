@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCatalogue name = "工艺目录">
+<Instruction>
+	<name>RO_POST_KUKA</name>
+	<Process>KukaElectricWelding_Seek2D</Process>
+</Instruction>
+<Instruction>
+	<name>xugonghouzhi重头排列点序+速度133</name>
+	<Process>KukaElectricWelding_Seek2D</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C4（ArcSearch）</name>
+	<Process>KukaElectricWelding_Seek2D_C4</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_FANUC_YINGLAI(Relativesearch)</name>
+	<Process>YINGLAI_FANUC_ElectricWelding_Seek2D-相对寻位</Process>
+</Instruction>
+</GeneralCatalogue>

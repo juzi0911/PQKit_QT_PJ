@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta content="telephone=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link href="css/index.css" type="text/css" rel="stylesheet" />
+<title>输出成功</title>
+
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/ExportAnimation.js"></script>
+<script type="text/javascript" src="js/ExportUtility.js"></script>
+<script type="text/javascript" src="js/necessery.js"></script>
+	<style>
+		.weixinShareImg {
+			position:absolute;
+			width:180px;
+			height:180px;
+			left:-43px;
+			top:100px;
+			display:none;
+		}
+	</style>
+</head>
+
+<body style="background: #fff;">
+	<!-- 弹窗 -->
+	<div id="myModal" class="modal">
+	    <!-- 弹窗内容 -->
+	    <div class="modal-content" id="modal1" style="width: 210px;height: 210px;">
+	        <span class="close" onclick="OnClickClose();"><img src="images/close.png"></span>
+	        <div class="ma madiv" >
+				<img onerror="this.src = 'images/erweima2.jpg'" id="imgQrCode">
+			</div>
+	    </div>
+	    <!-- 弹窗复制链接 -->
+	    <div class="modal-content" id="modal2" style="width: 180px;height: 100px;">
+			<span class="close" onclick="OnClickClose();"><img src="images/close.png"></span>
+	        <p style="margin-top: 40px;">链接已复制</p>
+	    </div>
+	</div>
+
+    <div class="animat animation">
+        <h1>输出动画<span><img id="closeDlg" src="images/close.png" onclick="OnClickedClose();"></span></h1>
+        <div class="num">
+        	<ul class="numul">
+        		<li class="on">
+        			<span class="countindex">1</span>
+        			<span>作品信息</span>
+        			<img src="images/sanjiao.png">
+        		</li>
+        		<li class="on">
+        			<span class="countindex">2</span>
+        			<span>公开到作品墙</span>
+        			<img src="images/sanjiao.png">
+        		</li>
+        		<li class="on">
+        			<span class="countindex">3</span>
+        			<span>动画上传</span>
+        			<img src="images/sanjiao.png">
+        		</li>
+        		<li class="on">
+        			<span class="countindex">4</span>
+        			<span>上传成功</span>
+        		</li>
+        	</ul>
+        </div>
+		<div class="success">
+			<div class="video">
+				<img onerror="this.src = 'images/tu1.jpg'" id="imgCover">
+				<div class="fang">
+					<img src="images/bofang.png" id="displayView">
+				</div>
+				<div class="ma" id="ma" style="display: none">
+					<!--<img onerror="this.src = 'images/erweima2.jpg'" id="imgQrCode">-->
+				</div>
+			</div>
+			<div class="share">
+				<div class="share1">
+					<ul>
+						<li>
+							<span><img src="images/fenxiang.png">分享到</span>
+						</li>
+						<li><a href="javascript:;" onclick="OnClickShareQQ();"><img src="images/qq1.png"></a></li>
+						<li><a href="javascript:;" onclick="OnClickShareQZone();"><img src="images/zz1.png"></a></li>
+						<li><a href="javascript:;" onclick="OnClickShareWechat();"><img src="images/wei1.png"></a></li>
+						<li><a href="javascript:;" onclick="OnClickShareWebo();"><img src="images/bo1.png"></a></li>
+					</ul>
+					<img class="weixinShareImg"/>
+
+				</div>
+				<div class="middle" id="errMsg" style="display:none">
+					<span>动画输出异常，请重试！</span>
+				</div>
+				<div class="share2">
+					<a href="javascript:;" onclick="OnClickCopyLink();">
+						<img src="images/copy.png">
+						<span>复制链接</span>
+					</a>
+				</div>
+			</div>
+			<div class="successbtn">
+				<a href="javascript:;" onclick="OnClickedClose();">完成</a>
+			</div>
+		</div>
+    </div>
+<script>
+	
+	//微信弹框
+	function OnClickShareWechat(){
+	 	var tan = document.getElementById('myModal');
+	 	var modal1 = document.getElementById('modal1');
+	 	tan.style.display = 'flex';
+	 	modal1.style.display = 'block';
+	}
+	function OnClickClose(){
+	 	var tan = document.getElementById('myModal'); 
+	 	tan.style.display = 'none'; 
+	}
+	
+    function OnClickCopyLink(){
+
+	    window.OnCopyLink();
+	    var tan = document.getElementById('myModal');
+        var modal1 = document.getElementById('modal1');
+	    var modal2 = document.getElementById('modal2');
+	    tan.style.display = 'flex';
+        modal1.style.display = 'none';
+	    modal2.style.display = 'block';
+
+	    setTimeout("closebox()",2000);
+	}
+	function closebox(){
+		var tan = document.getElementById('myModal');
+	    var modal2 = document.getElementById('modal2');
+	    tan.style.display = 'none';
+	    modal2.style.display = 'none';
+	}
+	function showErrorMsg() {
+        //alert("haha")
+		var tan = document.getElementById('errMsg'); 
+	 	tan.style.display = 'block'; 
+	}
+
+
+    var oDispaly = document.getElementById('displayView');
+    oDispaly.onclick = function(){
+        window.OnDisplayAnimation();
+    }
+
+</script>
+
+</body>
+</html>
+

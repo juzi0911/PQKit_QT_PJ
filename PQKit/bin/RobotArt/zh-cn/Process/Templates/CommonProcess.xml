@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>
+    <ID></ID>
+    <速度></速度>
+    <加速度></加速度>
+  </Title>
+  <ProcessInfoColl>
+    <Info>
+      <ID>Info-</ID>
+      <速度>200</速度>
+      <加速度>0</加速度>
+    </Info>
+  </ProcessInfoColl>
+</ProcessParameter>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>Seek off</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+  <ProcessInfo>
+		<Name>Start_pr</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>End_pr</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+    </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>Relax hand 1('Start_pr',[[1]],'End_pr',[[2]]) ;</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

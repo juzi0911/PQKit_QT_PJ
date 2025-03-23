@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/StartPage.js"></script> 
+    <script>
+        window.onload = function () {
+            var right_height = document.getElementById("right_box").offsetHeight;
+            var left_height = document.getElementById("left_box")
+            var file_box = document.getElementById("file_box")
+            left_height.style.height = right_height + 'px'
+            file_box.style.height = (right_height-134)+ 'px'
+			
+			//var recentFile = window.InitRecentFiles();
+			//alert(recentFile)
+			//var recentFile = "D:\\Debugs\\DESIGNROBOT.robx?D:\\Debugs\\ABB.robx?D:\\Debugs\\effort.robx?D:\\Debugs\\2020sp1.robx?D:\\Debugs\\2021.robx?D:\\Debugs123\\123\\456\45646\\456456478789\\123.robx?"
+			//jsUpdatePageContent(recentFile);
+        }
+        window.onresize = function(){
+            var right_height = document.getElementById("right_box").offsetHeight;
+            var left_height = document.getElementById("left_box")
+            var file_box = document.getElementById("file_box")
+            left_height.style.height = right_height + 'px'
+            file_box.style.height = (right_height-134)+ 'px'
+
+        }
+    </script>
+</head>
+<body>
+    <div class="box">
+        <div class="art_center">
+            <div class="art_left" id="left_box">
+                <div class="welcome">欢迎</div>
+                <div class="open">最近打开</div>
+                <div class="file_box" id="file_box">
+
+                </div>
+                <div class="open_more" id="liOpenFile" style="cursor:pointer">打开更多文件</div>
+            </div>
+            <div class="art_right" id="right_box">
+                <div class="art_right_top">
+                    <div class="create" onclick="NewFile();">
+                        <img src="./images/nicon1.png" alt="" class="img">
+                        <span class="open" >新建</span>
+                    </div>
+                    <div class="create" onclick="OpenFile();">
+                        <img src="./images/nicon2.png" alt=""  class="img">
+                        <span class="open" >打开</span>
+                    </div>
+                </div>
+                <img src="./images/tu1.jpg" alt="" class="tu1">
+
+            </div>
+        </div>
+    </div>
+	<script>
+	    $(function () {
+	
+	        window.oncontextmenu = function (e) {
+	            //取消默认的浏览器自带右键 很重要！！
+	            e.preventDefault();
+	        }
+	
+	        var oChange = document.getElementById("liOpenFile");
+	        oChange.onclick = function () {
+				//alert("liOpenFile")
+	            window.OpenFile();
+	        }
+	
+	    });
+	
+	   
+	    var FileArr = [];
+	   function jsUpdatePageContent(strValue) {
+	       if (typeof(strValue)=="undefined") {
+	           return;
+	       }
+	       var arrFile = strValue.split("?");
+	       var arrSize = arrFile.length;
+	       var htmlStr = "";
+	       FileArr.length = 0;
+	       for (var i = 0; i < arrSize;i++)
+	       {
+			   if("" == arrFile[i])
+			   {
+			       FileArr.push("");
+				   continue;
+			   }
+	           if (i < 12)
+	           {
+	               var file = arrFile[i];
+	               var nIndex = file.lastIndexOf('\\');
+	               var nIndexO = file.lastIndexOf('.');
+	               var fileName = file.substr(nIndex + 1, nIndexO);
+	               if (fileName.length > 20) {
+	                   fileName = fileName.substr(0, 20);
+	                   fileName += "...";
+	               }
+	               var filePath = file;
+	               FileArr.push(filePath);
+	               htmlStr += "<div class='file' style='cursor:pointer' onclick=OpenSingleFile(" + i + ")><img src='./images/file.png' alt='' class='file_img'><div class='file_right'><div class='file_name'>" + fileName + "</div><div class='file_address'>" + filePath + "</div></div></div>";
+	           }
+	       }
+	       $(".file_box").empty();
+	       $(".file_box").html(htmlStr);
+	   }
+	   function OpenSingleFile(index) {
+	       var filePath = FileArr[index];
+	       window.filePath = filePath;
+	       window.OpenFileWithPath(window.filePath);
+	   }
+	
+	    
+	</script>
+</body>
+
+</html>

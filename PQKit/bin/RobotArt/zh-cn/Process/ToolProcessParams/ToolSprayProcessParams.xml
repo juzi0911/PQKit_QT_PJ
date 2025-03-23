@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>Seek 3D</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>喷枪喷幅</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit>rad</Unit>
+		<defaultValue>1.047</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>最远喷涂距离</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit>mm</Unit>
+		<defaultValue>300</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>喷枪开始事件</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>Start</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>喷枪结束事件</Name>
+		<Id>[[4]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>End</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>半透明属性</Name>
+		<Id>[[5]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>0</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>TCP名称</Name>
+		<Id>[[6]]</Id>
+		<Type>CombTCP</Type>
+		<Unit></Unit>
+		<defaultValue></defaultValue>
+    </ProcessInfo>
+	</ProcessInfoColl>
+  </Group>
+  </GroupColl>
+</ProcessParameter>

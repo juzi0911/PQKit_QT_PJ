@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <title>微服务计算</title>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/ExportUtility.js"></script>
+    <script type="text/javascript" src="js/ExportAnimation.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/necessery.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select/bootstrap-select.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="css/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" />
+    <link href="css/common.css" type="text/css" rel="stylesheet" />
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
+    <link href="css/iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+
+</head>
+<style>
+    .block {
+        display: none;
+    }
+</style>
+
+<body style="background: #fff;">
+    <!-- 弹窗 -->
+    <div id="myModal" class="modal">
+        <!-- 弹窗内容 -->
+        <div class="modal-content">
+            <!--<span class="close"><img src="images/close.png"></span>-->
+            <img src="images/wen.png">
+            <p>该名称文件已存在，继续上传将覆盖同名文件！</p>
+            <div>
+                <a href="javascript:;" class="on cancelbtn">取消</a>
+                <a href="javascript:;" class="confirm" id="btnConfirm">确定</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="animat">
+        <h1>
+            微服务计算
+            <span>
+                <img id="closeDlg" src="images/close.png" onclick="OnClickedClose();">
+            </span>
+        </h1>
+
+        <!-- 圆形进度条 -->
+        <div class="middleContent fixTop block">
+            <div class="surePass">
+                <img src="images/xiaoren.png" class="perple">
+                <div class="anyield">
+                    <h3>正在上传动画</h3>
+                    <!-- <p>已完成</p> -->
+                </div>
+                <canvas class="circleRun" data-run="0" id="canvasThree" amout="1000" nowData="1000"></canvas>
+            </div>
+        </div>
+        <div class="box">
+            <div class="num">
+                <ul class="numul">
+                    <li class="on">
+                        <img src="images/icon1.png" alt="" style="position: relative !important;margin-right: 20px;">
+                        <span>上传数据信息</span>
+                        <img src="images/sanjiao.png">
+                    </li>
+                    <li>
+                        <img src="images/icon2.png" alt="" style="position: relative !important;margin-right: 20px;">
+                        <span>微服务计算中</span>
+                        <img src="images/sanjiao.png">
+                    </li>
+                    <li>
+                        <img src="images/icon3.png" alt="" style="position: relative !important;margin-right: 20px;">
+                        <span>下载计算结果</span>
+                        <img src="images/sanjiao.png">
+                    </li>
+                    <li>
+                        <img src="images/icon4.png" alt="" style="position: relative !important;margin-right: 20px;">
+                        <span>优化计算完成</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="form">
+                <ul>
+                    <li class="liItem">
+                        <span class="span">工程文件名称</span>
+                        <input type="text" class="input" maxlength="30" value="PQArt_ Paint Case" id="robxName">
+                    </li>
+                    <li class="liItem">
+                        <span class="span">机器人名称</span>
+                        <input type="text" class="input" maxlength="30" value="ABB_ RIB5500_ _R" id="robotName" disabled>
+                    </li>
+                    <li class="liItem">
+                        <span class="span">轨迹名称</span>
+                        <input type="text" class="input" maxlength="30" value="轨迹1" id="pathName" disabled>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="liItem">
+                        <div class="content_box">
+                            <div class="title">微服务计算内容</div>
+                            <div class="content">
+                                <div class="item">
+                                    <input type="checkbox" class="checkbox1" id="sigular">
+                                    <div class="text">奇异点</div>
+                                    <div class="color" style="background-color: #4180F7;"></div>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" class="checkbox1" id="outrange">
+                                    <div class="text">轴超限</div>
+                                    <div class="color" style="background-color: #FCF946;"></div>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" class="checkbox1" id="noreach">
+                                    <div class="text">不可达</div>
+                                    <div class="color" style="background-color:#C2593B;"></div>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" class="checkbox1" id="collision">
+                                    <div class="text">碰撞检测</div>
+                                    <div class="color" style="background-color:#E148DC;"></div>
+                                </div>
+                                <div class="item">
+                                    <input type="checkbox" class="checkbox1" id="saltation">
+                                    <div class="text">突变检测</div>
+                                    <div class="color" style="background-color:#4903AE;"></div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <div class="item">
+                                    <span class="span" style="width:110px;">平移突变(mm)</span>
+                                    <input type="text" class="input" id="transStep" value="1500">
+                                </div>
+                                <div class="item">
+                                    <span class="span" style="width:90px;">旋转突变(°)</span>
+                                    <input type="text" class="input" id="rotateStep" value="85">
+                                </div>
+                                <div class="item">
+                                    <span class="span" style="width:110px;">选择优化平面</span>
+                                    <div style="width:130px;">
+                                        <select id="optimizeFace" class="input" style="margin-left: 0px;">
+                                            <option value="XY">XY</option>
+                                            <option value="YZ">YZ</option>
+                                            <option value="ZX">ZX</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <ul>
+                    <li class="liItem" style="justify-content: center;">
+                        <div class="confirm" id="startExport" class="submit" onclick="OnClickStartExport();">确认上传</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function() {
+        $("#optimizeFace").change(function() {
+            // 获取新选项的值
+            var selectedValue = $(this).val();
+            console.log(selectedValue);
+        });
+
+    
+    });
+    function setFaceValue(value){
+    	$('#optimizeFace').val(value);
+    }
+    function upload() {
+        $('#NAME').val('微服务计算');
+    }
+    </script>
+</html>

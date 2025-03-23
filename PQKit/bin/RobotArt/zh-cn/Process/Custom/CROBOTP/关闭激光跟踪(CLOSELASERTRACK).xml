@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>关闭激光跟踪(CLOSELASERTRACK)</Title>
+   <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>关闭激光跟踪</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>关闭激光跟踪</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>关闭激光跟踪</ShowValue>
+				<OutValue>OFF</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+    </Group>
+   </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> CLOSELASERTRACK</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

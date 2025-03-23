@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>弹框</title>
+<link rel="stylesheet" href="css/common.css">
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/necessery.js"></script>
+
+</head>
+<body>
+<div class="index">
+	<div class="tankuang">
+		<div class="title" >
+			<p id="caption"></p>
+			<!--<img src="img/close.png">-->
+		</div>
+		<div class="tanbox">
+	        <img id="artmascot" src="">
+	        <div class="tanbox1">
+				<h1></h1>
+		    </div>
+	    </div>
+        <div class="indexdiv">
+		    <a href="javascript:;" class="Confirm" id="btnConfirm" onclick="OnClickConfirm();" style="visibility:hidden;">确定</a>
+		    <a href="javascript:;" class="Deny" id="btnDeny" onclick="OnClickDeny();" style="visibility:hidden;">否</a>
+		    <a href="javascript:;" class="Cancel" id="btnCancel" onclick="OnClickCancel();" style="visibility:hidden;">取消</a>
+        </div>
+	</div>
+</div>
+<script>
+	function OnClickCancel(){
+	    window.RoCancel();
+	}
+	
+	function OnClickConfirm(){
+	    window.RoOK();
+	}
+	
+	function OnClickDeny(){
+	    window.RoDeny();
+	}
+	
+	function jsUpdateMessage(strValue) {
+	    
+	    var data = $.parseJSON(strValue)
+	    var strText = data.Text;
+	    //alert(strText)
+	    var strCaption = data.Caption;
+	    //alert(strCaption)
+	    var strBtnType = data.BtnType;
+	    //alert(strBtnType)
+	    var strIconType = data.IconType;
+	    //alert(strIconType)
+
+	    if (strText == "") {
+	        strText = "内容君跑路了呢！"
+	    }
+	    $('h1').html(strText);
+
+	    if (strCaption == "") {
+	        strCaption = "PQArt"
+	    }
+	    $("#caption").html(strCaption);
+        
+	    if (strBtnType == "MB_OK") {
+	        $("#btnConfirm").css('visibility', 'visible');
+	        $("#btnConfirm").css('left', '200px');
+	    }
+
+	    if (strBtnType == "MB_OKCANCEL") {
+	        $("#btnConfirm").css('visibility', 'visible');
+	        $("#btnConfirm").css('left', '160px');
+	        $("#btnCancel").css('visibility', 'visible');
+	        $("#btnCancel").css('left', '120px');
+	    }
+
+	    if (strBtnType == "MB_YESNO") {
+	        $("#btnConfirm").text('是');
+	        $("#btnConfirm").css('visibility', 'visible');
+	        $("#btnConfirm").css('left', '160px');
+	        $("#btnDeny").css('visibility', 'visible');
+	        $("#btnDeny").text('否');
+	        $("#btnDeny").css('left', '180px');
+	    }
+
+	    if (strBtnType == "MB_YESNOCANCEL") {
+	        $("#btnConfirm").text('是');
+	        $("#btnConfirm").css('visibility', 'visible');
+	        $("#btnConfirm").css('left', '120px');
+	        $("#btnCancel").css('visibility', 'visible');
+	        $("#btnCancel").css('left', '170px');
+	        $("#btnDeny").css('visibility', 'visible');
+	        $("#btnDeny").text('否');
+	        $("#btnDeny").css('left', '145px');
+	    }
+        
+	    if (strIconType == "MB_ICONINFORMATION") {
+	        $("#artmascot").attr('src', 'img/information.png');
+	    }
+
+	    if (strIconType == "MB_ICONERROR") {
+	        $("#artmascot").attr('src', 'img/error.png');
+	    }
+
+	    if (strIconType == "MB_ICONWARNING") {
+	        $("#artmascot").attr('src', 'img/warning.png');
+	    }
+
+	    if (strIconType == "MB_ICONQUESTION") {
+	        $("#artmascot").attr('src', 'img/question.png');
+	    }
+
+	    if (strIconType == "") {
+	        $("#artmascot").attr('src', 'img/normal.png');
+	    }
+        
+	}
+
+</script>
+</body>
+</html>

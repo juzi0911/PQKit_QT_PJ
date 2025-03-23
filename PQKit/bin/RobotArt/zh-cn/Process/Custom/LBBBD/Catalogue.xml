@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCatalogueS>
+  <GeneralCatalogue name = "运动指令">
+	<Instruction>
+		<name>关节运动</name>
+		<Process>Movj.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>直线运动</name>
+		<Process>Movl.xml</Process>
+	</Instruction>
+  </GeneralCatalogue>
+  <GeneralCatalogue name = "基础指令">
+	<Instruction>
+		<name>附加轴</name>
+		<Process>Extra_axis.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>禁轴</name>
+		<Process>Forbid_axis.xml</Process>
+	</Instruction>
+  </GeneralCatalogue>
+  <GeneralCatalogue name = "工艺指令">
+  	<Instruction>
+		<name>启动码垛</name>
+		<Process>Pallet_begin.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>停止码垛</name>
+		<Process>Pallet_end.xml</Process>
+	</Instruction>
+  </GeneralCatalogue>
+  <GeneralCatalogue name = "功能指令">
+  	<Instruction>
+		<name>启动流水线跟踪</name>
+		<Process>Track_begin.xml</Process>
+	</Instruction>
+	<Instruction>
+		<name>停止流水线跟踪</name>
+		<Process>Track_end.xml</Process>
+	</Instruction>
+  </GeneralCatalogue>
+  <GeneralCatalogue name = "逻辑指令">
+  <Instruction>
+    <name>if条件判断</name>
+	<Process>Log_if.xml</Process>
+  </Instruction>
+  <Instruction>
+    <name>条件判断指令块结束</name>
+	<Process>Log_end_if.xml</Process>
+  </Instruction>
+  </GeneralCatalogue>
+</GeneralCatalogueS>

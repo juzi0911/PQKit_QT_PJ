@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>MNU WLD#[NO.]</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+   <ProcessInfo>
+		<Name>NO.</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+    </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>MNU WLD, [[1]]</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

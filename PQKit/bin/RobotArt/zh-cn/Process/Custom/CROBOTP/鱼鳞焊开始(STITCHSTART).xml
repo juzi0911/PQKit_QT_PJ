@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>鱼鳞焊开始(STITCHSTART)</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>参数类型</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>T</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>点焊时间T</ShowValue>
+				<OutValue>T</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>焊接距离L1</ShowValue>
+				<OutValue>L1</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>焊接距离KL1</ShowValue>
+				<OutValue>KL1</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>鱼鳞焊参数值</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>L2变量</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+  </Group>
+   </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> STITCHSTART [[1]]=[[2]] L2=[[3]]</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

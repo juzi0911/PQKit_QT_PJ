@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>收弧</Title>
+  <GroupColl>
+      <Group>
+	<ProcessInfoColl>
+	<ProcessInfo>
+		<Name>类型</Name>
+		<Id>[[6]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>DEFAULT</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>DEFAULT</ShowValue>
+				<OutValue>DEFAULT</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>ARC_OFF()</Part>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedValue>DEFAULT</DependedValue>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

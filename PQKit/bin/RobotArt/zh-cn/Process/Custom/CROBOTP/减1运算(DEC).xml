@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>减1运算(DEC)</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+  <ProcessInfo>
+		<Name>变量</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>GI</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>GI</ShowValue>
+				<OutValue>GI</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>LI</ShowValue>
+				<OutValue>LI</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>GD</ShowValue>
+				<OutValue>GD</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>LD</ShowValue>
+				<OutValue>LD</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>GP</ShowValue>
+				<OutValue>GP</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>LP</ShowValue>
+				<OutValue>LP</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>TC</ShowValue>
+				<OutValue>TC</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>CC</ShowValue>
+				<OutValue>CC</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>地址</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>数据号</Name>
+		<Id>[[3]]</Id>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedAllValue>
+			<DependedValue>GP</DependedValue>
+			<DependedValue>LD</DependedValue>
+		</DependedAllValue>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+    </Group>
+   </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> DEC [[1]]#([[2]])</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>GI</DependedValue>
+	</statement>
+	<statement>
+		<Part> DEC [[1]]#([[2]])</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>CC</DependedValue>
+	</statement>
+	<statement>
+		<Part> DEC [[1]]#([[2]])</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>TC</DependedValue>
+	</statement>
+	<statement>
+		<Part> DEC [[1]]#([[2]])</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>LR</DependedValue>
+	</statement>
+	<statement>
+		<Part> DEC [[1]]#([[2]])</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>LD</DependedValue>
+	</statement>
+	<statement>
+		<Part> DEC [[1]]#([[2]])</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>GD</DependedValue>
+	</statement>	
+	<statement>
+		<Part> DEC [[1]]#([[2]])([[3]])</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>GP</DependedValue>
+	</statement>
+		<statement>
+		<Part> DEC [[1]]#([[2]])([[3]])</Part>
+		<Dependedid>[[1]]</Dependedid>
+		<DependedValue>LP</DependedValue>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

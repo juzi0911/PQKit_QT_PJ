@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>Track（跟踪）</Title>
+  <GroupColl>
+      <Group>
+	<ProcessInfoColl>
+	<ProcessInfo>
+		<Name>类型</Name>
+		<Id>[[6]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>编号</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>编号</ShowValue>
+				<OutValue>编号</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>寄存器</ShowValue>
+				<OutValue>寄存器</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+    <ProcessInfo>
+		<Name>编号</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>0</defaultValue>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedAllValue>
+			<DependedValue>编号</DependedValue>
+		</DependedAllValue>
+    </ProcessInfo>
+	<ProcessInfo>
+		<Name>寄存器</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit>R[...]</Unit>
+		<defaultValue>0</defaultValue>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedAllValue>
+			<DependedValue>寄存器</DependedValue>
+		</DependedAllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>Track TAST[R[[[2]]]] ;</Part>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedValue>寄存器</DependedValue>
+	</statement>
+		<statement>
+		<Part>Track TAST[[[1]]] ;</Part>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedValue>编号</DependedValue>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

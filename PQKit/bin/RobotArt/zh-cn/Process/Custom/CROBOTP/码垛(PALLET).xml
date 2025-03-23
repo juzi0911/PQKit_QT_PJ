@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>码垛指令(PALLET)</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+	<ProcessInfo>
+		<Name>所要调用的码垛工艺</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+    </Group>
+   </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> PALLET#([[1]])</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

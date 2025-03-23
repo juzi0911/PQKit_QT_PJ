@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>后台IO检测(RUN_IO_CUTIN)</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+	<ProcessInfo>
+		<Name>参数文件</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+	</ProcessInfo>
+  </ProcessInfoColl>
+  </Group>
+   </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> RUNIOCUTIN#([[1]])</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

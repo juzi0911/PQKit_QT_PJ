@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="format-detection" content="email=no" />
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<title>无网络</title>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/NoNet.js"></script>
+</head>
+<body>
+<div class="main">
+	<div class="box">
+        <!--<div class="logo">
+            <div>
+                <img src="images/logo1.png">
+                <span class="companyName" style="padding-left: 0;">华航筑梦考试平台</span>
+            </div>
+        </div>-->
+        <div class="wifi">
+            <img src="images/lefttu.jpg">
+            <div>
+                <h1>页面加载失败！</h1>
+                <p id="errorDescription">请单击[刷新重试]尝试一下！</p>
+                <a href="javascript:;" onclick = "window.RefreshUrl();">刷新重试</a>
+                <!--<a href="javascript:;" onclick="OnClickedClose();">关闭</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+function jsUpdateCommonError(strValue){
+    $("#errorDescription").text(strValue);
+}
+</script>
+
+</body>
+</html>

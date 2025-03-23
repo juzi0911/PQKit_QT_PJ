@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>结束条件判断(ELSEIF)</Title>
+  <GroupColl>
+    <Group>  
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>结束条件判断</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+  </Group>
+   </GroupColl>  
+  <statementSrcColl>
+	<statement>
+		<Part> ELSEIF [[1]]</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

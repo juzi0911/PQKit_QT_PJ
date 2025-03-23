@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>LaserOff</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+  </ProcessInfoColl>
+    </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>;FOLD LSR Off;%{PE}%R 6.1.22,%MKUKATPLASER,%CLSR_CTRL,%VLASER_OFF </Part>
+	</statement>
+	<statement>
+		<Part>LSR_LASER_OFF( )</Part>
+	</statement>
+	<statement>
+		<Part>;ENDFOLD</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

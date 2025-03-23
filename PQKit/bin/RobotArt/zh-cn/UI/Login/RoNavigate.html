@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录导航</title>
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script> 
+<!--<script type="text/javascript" src="js/Login.js?t=2"></script>-->
+<script type="text/javascript" src="../Common/js/necessery.js?t=2"></script>
+<style>
+   
+
+     .logoPosition
+    {
+        position:absolute;
+        top:4px;
+        left:10px;
+        }
+
+    .tit .fanhui{margin: 9px 12px 0 0;}
+	.tit .close{margin: 9px 12px 0 0;}
+ 
+</style>
+
+</head>
+
+<body ondragstart="return false" oncontextmenu="return false">
+    <input type="hidden" id="txtName" />
+<div class="bg-tan"></div>
+<div class="tan-main" style="margin-top:0;background: #FFFFFF">
+	<div class="tit clearfix">
+    	<h1 class="fl"><img src="images/tan-logo.png"  class="logoPosition"/></h1>
+        <a href="javascript:;" class="close fr" onclick="OnClickedClose();"><img src="images/close.png" width="16" height="16"></a>
+        <a href="javascript:;" class="fanhui fr" onclick="OnClickedHome();"><img id="homeBtn" src="images/fanhui.png" width="16" height="16"></a>
+    </div>
+</div>
+<script>
+	function jsShowHomeBtn(bShow)
+	{
+		if(bShow == "0")
+		{
+			$("#homeBtn").hide();
+		}
+		else
+		{
+			$("#homeBtn").show();
+		}
+	}
+</script>
+</body>
+</html>
+   

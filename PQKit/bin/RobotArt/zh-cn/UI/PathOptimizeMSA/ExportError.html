@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta content="telephone=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link href="css/index.css" type="text/css" rel="stylesheet" />
+<title>动画上传失败</title>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/ExportError.js"></script>
+<script type="text/javascript" src="js/ExportUtility.js"></script>
+<script type="text/javascript" src="js/necessery.js"></script>
+</head>
+
+<body>
+    <div class="animat animation">
+        <h1>输出失败<span><img src="images/close.png" id="closeDlg" onclick="OnClickedClose();"></span></h1>
+		<div class="fail">
+			<img src="images/file.png">
+			<p id="pErrorMsg">上传文件或者计算失败，请检查文件是否保存或者设计是否有误！</p>
+			<!--<a href="javascript:;" onclick="OnClickExportAgain();">重新上传</a>-->
+		</div>
+    </div>
+<script>
+
+    function OnClickExportAgain(){
+        window.OnArtClickExportAgain();
+    }
+
+
+</script>
+
+</body>
+
+
+
+</html>
+

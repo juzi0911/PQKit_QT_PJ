@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="format-detection" content="email=no" />
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+    <title>考点端登录</title>
+	<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script> 
+	
+</head>
+<body class="testBox" style="background: url(./images/text41.jpg);">
+        <div class="skillTests_diff">
+            <div class="testContents" style="background: #fff;box-shadow: 0 0 9px 3px #e6e7e8; text-align: center; padding: 0;">
+                <div class="testCon_port">
+                    <img src="./images/logo3.png" alt="" style="display: inline-block;">
+                    <span>考点端登录</span>
+                </div>
+                <div class="skillCons" style="margin: 18px 0;">
+                    <div style="color: #f93b3b; font-size: 14px;">
+                        <label for="" style="color: #f93b3b; vertical-align: top;">提示：</label>
+                        <div style="display: inline-block; width: 420px; text-align: left;">
+                            <div style="margin-bottom: 5px;">1、账号为考点管理员手机号，密码默认手机号后六位。</div>
+                            <div>2、如有疑问，请联系010-62991130</div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="skillCons">
+                        <div>
+                            <label for="">手机号：</label>
+                            <input type="text" placeholder="请输入手机号" id="txtUserMobile" maxlength="11" onblur="Check('UserMobile', '手机号不能为空');">
+                        </div>
+                        <div id="divErrorUserMobile" style="display:none;">
+                            <img src="./images/delimg.png" alt="" class="skillImgs" style="right: 180px;">
+                            <div class="errorBlocks" style="left: 240px;">
+                                <img src="./images/erroeo.png" alt="" class="skillError">
+                                <span id="errorUserMobile"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillCons">
+                        <!-- 查询错误时input变成红色边框的class    errorInputs -->
+                        <div>
+                            <label for="">密码：</label>
+                            <input type="password" placeholder="请输入密码" id="txtPassword"
+							maxlength="50" onblur="Check('Password', '密码不能为空');">
+                        </div>
+                        <div id="divErrorPassword" style="display:none;">
+                            <img src="./images/delimg.png" alt="" class="skillImgs" style="right: 180px;">
+                            <div class="errorBlocks" style="left: 240px;">
+                                <img src="./images/erroeo.png" alt="" class="skillError">
+                                <span id="errorPassword"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="skillBtns" id="btnLogin" style="margin: 26px 0; background: #ff5722;" onclick="Login();">登录</a>
+					<a href="javascript:;" class="skillBtns" id="btnLogining" style="margin: 26px 0;background:#F6F6F6;display:none;color:black;">登录中...</a>
+                </div>
+            </div>
+        </div>
+        <div class="testFooter" style="text-align: center; color: #169bd5;">
+            <div>主办单位：北京华航唯实机器人科技股份有限公司</div>
+        </div>
+<script type="text/javascript">
+	function Login() {
+        var isValid = true;
+                var userMobile = $.trim($("#txtUserMobile").val());
+                if (userMobile == "") {
+                    $("#txtUserMobile").addClass("errorInputs");
+                    $("#errorUserMobile").text("手机号不能为空");
+                    $("#divErrorUserMobile").show();
+                    isValid = false;
+                }
+                else {
+                    $("#txtUserMobile").removeClass("errorInputs");
+                    $("#errorUserMobile").text("");
+                    $("#divErrorUserMobile").hide();
+
+                }
+                var password = $.trim($("#txtPassword").val());
+                if (password == "") {
+                    $("#txtPassword").addClass("errorInputs");
+                    $("#errorPassword").text("密码不能为空");
+                    $("#divErrorPassword").show();
+                    isValid = false;
+                }
+                else {
+                    $("#txtPassword").removeClass("errorInputs");
+                    $("#errorPassword").text("");
+                    $("#divErrorPassword").hide();
+                }
+                if (!isValid)
+                    return;
+                
+				var userInputInfo = "";
+				userInputInfo = userMobile + "#" + password;
+				window.OnClickedLogin(userInputInfo);
+				$("#btnLogin").hide();
+                $("#btnLogining").show();
+    }
+	
+	function Check(type, msg) {
+            var value = $.trim($("#txt" + type).val());
+            if (value == "") {
+                $("#txt" + type).addClass("errorInputs");
+                $("#error" + type).text(msg);
+                $("#divError" + type).show();
+            }
+            else {
+                $("#txt" + type).removeClass("errorInputs");
+                $("#error" + type).text("");
+                $("#divError" + type).hide();
+            }
+        }
+		
+	function jsUpdateLoginResult(strMsg) {
+	    $("#txtPassword").removeClass("errorInputs");
+	    $("#errorPassword").text(strMsg);
+	    $("#divErrorPassword").show();
+	    
+	    $("#btnLogin").show();
+	    $("#btnLogining").hide();
+	}
+
+
+</script>
+</body>
+</html>

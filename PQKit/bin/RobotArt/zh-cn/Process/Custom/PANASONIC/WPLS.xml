@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>WPLS</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+   <ProcessInfo>
+		<Name>WPLS[ON/OFF]</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>ON</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>ON</ShowValue>
+				<OutValue>ON</OutValue>
+			</Value>
+			<Value>
+				<ShowValue>OFF</ShowValue>
+				<OutValue>OFF</OutValue>
+			</Value>
+			</AllValue>
+    </ProcessInfo>
+    </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>WPLS, [[1]]</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

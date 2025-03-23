@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralCatalogue name = "工艺目录">
+<Instruction>
+	<name>RO_POST_ABB(ArcSearch)</name>
+	<Process>ABB_Welding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C4（ArcSearch）</name>
+	<Process>Kuka_C4_ElectricWelding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_FANUC(ArcSearch)</name>
+	<Process>FanucWelding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA</name>
+	<Process>Kuka_C4_ElectricWelding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C4</name>
+	<Process>Kuka_C4_ElectricWelding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C2-5.4.35</name>
+	<Process>Kuka_C4_ElectricWelding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C2-5.5.32</name>
+	<Process>Kuka_C4_ElectricWelding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C2-5.6.13</name>
+	<Process>Kuka_C4_ElectricWelding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C2-MP9</name>
+	<Process>Kuka_C4_ElectricWelding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C2-MP9-5.6.16</name>
+	<Process>Kuka_C4_ElectricWelding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C4-8.6.6</name>
+	<Process>Kuka_C4_ElectricWelding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C4（KMC-MASTER）</name>
+	<Process>Kuka_C4_ElectricWelding</Process>
+</Instruction>
+<Instruction>
+	<name>RO_POST_KUKA-C4（slave）</name>
+	<Process>Kuka_C4_ElectricWelding</Process>
+</Instruction>
+</GeneralCatalogue>

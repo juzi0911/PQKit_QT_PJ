@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>鱼鳞焊结束(STITCHEND)</Title>
+  <GroupColl>
+    <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>鱼鳞焊结束</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>鱼鳞焊结束</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>鱼鳞焊结束</ShowValue>
+				<OutValue>鱼鳞焊结束</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+  </Group>
+   </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> STITCHEND</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

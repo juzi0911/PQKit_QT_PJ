@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>焊接轨迹</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+   <ProcessInfo>
+		<Name>焊接轨迹</Name>
+		<Id>[[1]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>是</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>是</ShowValue>
+				<OutValue>M</OutValue>
+			</Value>
+			</AllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>[[1]]</Part>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

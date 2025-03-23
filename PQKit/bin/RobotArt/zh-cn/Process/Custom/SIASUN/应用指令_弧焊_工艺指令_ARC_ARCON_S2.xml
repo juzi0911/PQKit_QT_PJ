@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			ARCON_S2		</Title>
+  <GroupColl>
+      <Group>
+  <ProcessInfoColl>
+    <ProcessInfo>
+		<Name>#</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>V1</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>5.0</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>T1</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1.0</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>V2</Name>
+		<Id>[[4]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>10.0</defaultValue>
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>T2</Name>
+		<Id>[[5]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1.0</defaultValue>
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+     </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part> ARCON_S2	#[[1]] V1=[[2]]T1=[[3]]V2=[[4]]T2=[[5]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

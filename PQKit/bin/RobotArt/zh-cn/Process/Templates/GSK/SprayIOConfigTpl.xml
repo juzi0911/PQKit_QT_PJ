@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IOParameter>
+  <Title>
+    <IO名称></IO名称>
+    <类型></类型>
+    <模块></模块>
+    <备注></备注>
+  </Title>
+  <IOInfoColl>
+    <Info>
+      <IO名称></IO名称>
+      <类型></类型>
+      <模块></模块>
+      <备注></备注>
+    </Info>
+  </IOInfoColl>
+</IOParameter>

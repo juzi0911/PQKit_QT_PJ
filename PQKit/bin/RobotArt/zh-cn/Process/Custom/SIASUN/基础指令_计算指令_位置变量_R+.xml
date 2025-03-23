@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>指令名称：			SET		</Title>
+  <GroupColl>  
+   <Group> 
+   
+  <ProcessInfoColl>
+  </Group> 
+   </GroupColl> 
+   
+    <ProcessInfo>
+		<Name>P</Name>
+		<Id>[[1]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+		
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>.</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+		
+    </ProcessInfo>
+	
+	<ProcessInfo>
+		<Name>R</Name>
+		<Id>[[3]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>1</defaultValue>
+		
+    </ProcessInfo>
+
+	<ProcessInfo>
+		<Name>+</Name>
+		<Id>[[4]]</Id>
+		<Type>Edit</Type>
+		<Unit></Unit>
+		<defaultValue>0.0</defaultValue>
+
+    </ProcessInfo>
+
+  </ProcessInfoColl>
+  
+  <statementSrcColl>
+	<statement>
+		<Part> SET		P[[1]] .[[2]]R[[3]]+[[4]]</Part>
+	</statement>
+  </statementSrcColl>
+  
+</ProcessParameter>

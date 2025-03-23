@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta content="telephone=no" name="format-detection">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link href="css/index.css" type="text/css" rel="stylesheet" />
+<title>启用网络服务</title>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/ExportError.js"></script>
+<script type="text/javascript" src="js/ExportUtility.js"></script>
+<script type="text/javascript" src="js/necessery.js"></script>
+</head>
+
+<body>
+	<!-- 弹窗 -->
+	<div id="myModal" class="modal">
+	    <!-- 弹窗内容 -->
+	    <div class="modal-content" id="modal1" style="width: 210px;height: 210px;">
+	        <span class="close" onclick="OnClickClose();"><img src="images/close.png"></span>
+	        <div class="ma madiv" >
+				<img onerror="this.src = 'images/erweima2.jpg'" id="imgQrCode">
+			</div>
+	    </div>
+	    <!-- 弹窗复制链接 -->
+	    <div class="modal-content" id="modal2" style="width: 180px;height: 100px;">
+			<span class="close" onclick="OnClickClose();"><img src="images/close.png"></span>
+	        <p style="margin-top: 40px;">链接已复制</p>
+	    </div>
+	</div>
+
+
+    <div class="animat animation">
+        <h1>启用网络服务<span><img src="images/close.png" id="closeDlg" onclick="OnClickedClose();"></span></h1>
+		<div class="fail">
+			<img src="images/thirdend.png">
+			<p id="pErrorMsg">网络服务已启动！</p>
+			<p id="pErrorMsg">在客户端浏览器打开以下链接！</p>
+			
+			<p name="web_url"  id="web_url"  onclick="OnClickWebUrl();"></p>
+			
+			<div class="share2">
+					<a href="javascript:;" onclick="OnClickCopyLink();">
+						<img src="images/copy.png">
+						<span>复制链接</span>
+					</a>
+				</div>
+			<a href="javascript:;" onclick="OnClickedClose();">完成</a>
+		</div>
+    </div>
+<script>
+
+    function OnClickExportAgain(){
+        window.OnArtClickExportAgain();
+    }
+		
+	function OnClickCopyLink(){
+
+	    window.OnCopyLink();
+	    var tan = document.getElementById('myModal');
+        var modal1 = document.getElementById('modal1');
+	    var modal2 = document.getElementById('modal2');
+	    tan.style.display = 'flex';
+        modal1.style.display = 'none';
+	    modal2.style.display = 'block';
+
+	    setTimeout("closebox()",2000);
+	}
+	
+	function closebox(){
+		var tan = document.getElementById('myModal');
+	    var modal2 = document.getElementById('modal2');
+	    tan.style.display = 'none';
+	    modal2.style.display = 'none';
+	}
+	
+	function updateWeburl(url)	{
+		document.getElementById('web_url').innerText = url;
+	
+	
+	}
+
+</script>
+
+</body>
+
+
+
+</html>
+

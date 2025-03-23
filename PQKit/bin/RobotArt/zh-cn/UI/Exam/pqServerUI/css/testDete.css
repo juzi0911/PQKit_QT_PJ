@@ -1,0 +1,501 @@
+*{ 
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    position: relative;
+    width: 100%;
+    height:100%
+}
+body {
+    background: #f8f8f8;
+    font-family:'微软雅黑','宋体','仿宋';
+    color:#000;
+    /* min-width: 1330px; */
+}
+li {
+    list-style: outside none none;
+}
+img {
+    border: medium none;
+    border:none;
+}
+a img {
+    border:none;
+}
+input,
+select {
+    vertical-align:middle;
+    border:none;
+    color:#666;
+    outline:none;
+}
+.clear:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clear {
+    *zoom: 1;
+}
+h1{
+    font-family:'微软雅黑','宋体','仿宋';
+}
+a{
+    text-decoration:none;
+    outline:none;
+}
+input,button,textarea{
+    outline:none;
+}
+
+
+/* 环境监测 */
+.testTion {
+    /* padding: 2% 0; */
+    box-sizing: border-box;
+}
+.testTion_top {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    padding: 1% 0;
+    font-weight: 700;
+}
+.detection {
+    width: 95%;
+    margin: 0 auto;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #000;
+}
+.detectionLeft {
+    width: 20%;
+    padding: 0 2%;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+}
+.detectionAll {
+    padding: 12px 0;
+    border-bottom: 1px solid #d4d5d5;
+}
+.detectionAll:last-child {
+    border-bottom: none;
+}
+.detectionAll_each {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.detectionAll_each:last-child {
+    margin-bottom: 0;
+}
+.detectionAll_each span {
+    display: inline-block;
+}
+.spanLeft {
+    width: 70%;
+    text-align: left;
+}
+.spanOrange {
+    color: #d77336;
+}
+.detectionAll_top {
+    color: #3f7eae;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.detectionPosi {
+    position: absolute;
+    top: -11px;
+    left: 3%;
+    font-weight: 700;
+    background: #fff;
+}
+.detectionRight {
+    position: relative;
+    width: 75%;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+    padding-bottom: 60px;
+}
+.detectionRight_all {
+    width: 90%;
+    height: 93%;
+    overflow-y: auto;
+    margin: 0 auto;
+}
+.detectionTable {
+    width: 100%;
+    border: 1px solid #aeb7ba;
+    border-collapse: collapse;
+}
+.detectionTable td,
+.detectionTable th {
+    text-align: center;
+    padding: 10px;
+}
+.detectionTable th {
+    border: 2px solid #aeb7ba;
+    border-top: 1px solid #aeb7ba;
+    font-weight: 700;
+    background: #ebf3f6;
+}
+.detectionTable td {
+    /* border: 1px solid #aeb7ba; */
+}
+.detectionTable tbody tr:nth-child(odd) {
+    background: #f2f9fc;
+}
+.detectionTable tbody tr:nth-child(even) {
+    background: #fff;
+}
+.detectionResults {
+    position: absolute;
+    bottom: 6px;
+    left: 45%;
+    padding: 6px 20px;
+    border-radius: 5px;
+    background: #3f7eae;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+/* 绑定考场 */
+.detectionBlock {
+    /* width: 95%; */
+    height: 481px;
+    margin: 0 auto;
+    /* padding: 2% 0; */
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+.detectionFrom {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+.leftLable {
+    display: inline-block;
+    width: 95px;
+    text-align: right;
+    color: #1e395b;
+    margin-right: 5px;
+    text-align: justify;
+    text-align-last: justify;
+}
+.detectionFrom>span {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+.detectionFrom lable,
+.detectionFrom input {
+    vertical-align: middle;
+}
+/* .inputClass {
+    width: 310px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+} */
+.linkBtn {
+    display: inline-block;
+    width: 226px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    background: #0f7ee6;
+    color: #1e395b;
+    font-weight: 700;
+    border: 1px solid #0056a7;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.linkBtn>span,
+.linkBtn>img {
+    vertical-align: middle;
+}
+.linkBtn>span {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.fromInput {
+    width: 340px;
+    height: 38px;
+    border: 1px solid #cad2dc;
+    font-size: 14px;
+    text-indent: 8px;
+    background-color: #fff;
+}
+
+
+
+
+
+/* .detectionTab {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.detectionTab>span {
+    display: inline-block;
+    width: 150px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background: #dfecfe;
+    border: 1px solid #84acdd;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.detectionTab>span.on {
+    background: #0f7ee6;
+    color: #fff;
+    border: 1px solid #0056a7;
+} */
+
+
+
+/* 上报考后数据 */
+.detectionFrom_time {
+    font-size: 24px;
+    color: #02b34f;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.iconImgs {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.testTion_differ {
+    /*padding: 2% 0;*/
+}
+
+
+
+
+/* 数据结果及数据上报 */
+.dataReport {
+    /*width: 95%;*/
+    margin: 0 auto;
+    font-size: 14px;
+    color: #1e395b;
+    padding-bottom: 1%;
+}
+.dataReport_title {
+    font-size: 16px;
+    padding: 8px 0;
+}
+.dataReport_top {
+    border-top: 1px solid #dae0e8;
+    border-left: 1px solid #dae0e8;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.dataReport_flex {
+    display: flex;
+}
+.dataReport_each {
+    border-right: 1px solid #dae0e8;
+    border-bottom: 1px solid #dae0e8;
+    padding: 15px 20px;
+}
+.dataReport_all {
+    display: flex;
+    justify-content: space-between;
+}
+.dataReport_allLeft {
+    width: 79%;
+    padding: 10px;
+    border: 1px solid #dae0e8;
+    background: #fff;
+}
+.dataReport_allTop {
+    font-size: 16px;
+}
+.dataReport_tableAuto {
+    /* margin-top: 10px; */
+    max-height: 260px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.dataReport_table table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e5eaf1;
+    color: #1e395b;
+    table-layout: fixed;
+}
+.dataReport_table table th {
+    background: #f1f5fb;
+    font-weight: 400;
+}
+.dataReport_table table th,
+.dataReport_table table td {
+    padding: 12px 8px;
+    text-align: center;
+    border: 1px solid #e5eaf1;
+}
+.dataReport_table tr:nth-child(odd) {
+    background: #fff;
+}
+.dataReport_table tr:nth-child(even) {
+    background: #f1f5fb;
+}
+.greenSpan {
+    color: #02b34f;
+}
+.redSpan {
+    color: #ff1212;
+}
+.dataReport_record {
+    margin-top: 15px;
+}
+
+.dataReport_allRight {
+    width: 13%;
+    background: #fff;
+    padding: 10px 15px;
+    border: 1px solid #dae0e8;
+}
+.dataReport_rightLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dataReport_rightText {
+    margin: 20px 0 10px 0;
+}
+.lineSpan {
+    width: 82%;
+    height: 25px;
+    background: #0f7ee6;
+    position: relative;
+}
+.lineSpan>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.lineSpan_blue {
+    background: #cfe5fa;
+}
+.lineSpan_blueIn {
+    background: #0f7ee6;
+    width: 10%;
+}
+.lineSpan_red {
+    background: #ffd0d0;
+}
+.lineSpan_redIn {
+    background: #ff1212;
+    width: 85%;
+}
+.lineSpan_green {
+    background: #c7eed8;
+}
+.lineSpan_greenIn {
+    background: #02b34f;
+    width: 5%;
+}
+.testTion_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 20px 10px 30px;
+    /*margin-top: 5px;*/
+    border-top: 2px solid #dbdfe5;
+}
+.testFinish {
+    font-size: 16px;
+    color: #1e395b;
+}
+.finishLine {
+    width: 100%;
+    height: 20px;
+    background: #c4ddf7;
+    position: relative;
+    margin-top: 10px;
+}
+.finishLine_in {
+    width: 60%;
+    height: 100%;
+    background: #0a58de;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.finishBtns {
+    width: 125px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #1e395b;
+    background: #e1eefe;
+    border: 1px solid #84acdd;
+}
+
+
+/* 错误页面 */
+.testError {
+    font-size: 46px;
+    font-weight:700;
+    color: #1e395b;
+    margin-top: 20px;
+}
+
+
+
+/* 操作说明 */
+.testHandle_all {
+    padding: 1%;
+    height: 100%;
+    background: #fff;
+	box-sizing:border-box;
+}
+.testHandle {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+.testHandle_top {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.testHandle_con>div {
+    margin-bottom: 12px;
+}
+.testHandle_con>div:last-child {
+    margin-bottom: 0;
+}
+.testHandle_spanRed {
+    color: #e44545;
+}
+.testHandle_left {
+    display: inline-block;
+    width: 70px;
+    text-align: justify;
+    text-align-last: justify;
+}

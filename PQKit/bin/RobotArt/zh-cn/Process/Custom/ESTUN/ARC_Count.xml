@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessParameter>
+  <Title>工件记数</Title>
+  <GroupColl>
+      <Group>
+	<ProcessInfoColl>
+	<ProcessInfo>
+		<Name>类型</Name>
+		<Id>[[6]]</Id>
+		<Type>Comb</Type>
+		<Unit></Unit>
+		<defaultValue>工件记数</defaultValue>
+		<AllValue>
+			<Value>
+				<ShowValue>工件记数</ShowValue>
+				<OutValue>工件记数</OutValue>
+			</Value>
+		</AllValue>
+    </ProcessInfo>
+    <ProcessInfo>
+		<Name>工件记数序列号</Name>
+		<Id>[[2]]</Id>
+		<Type>Edit</Type>
+		<Unit>1-4</Unit>
+		<defaultValue>1</defaultValue>
+		<min>1</min>
+		<max>4</max>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedAllValue>
+			<DependedValue>工件记数</DependedValue>
+		</DependedAllValue>
+    </ProcessInfo>
+  </ProcessInfoColl>
+      </Group>
+  </GroupColl>
+  <statementSrcColl>
+	<statement>
+		<Part>ARC_Count([[2]])</Part>
+		<Dependedid>[[6]]</Dependedid>
+		<DependedValue>工件记数</DependedValue>
+	</statement>
+  </statementSrcColl>
+</ProcessParameter>

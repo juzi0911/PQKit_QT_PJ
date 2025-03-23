@@ -1,0 +1,629 @@
+﻿  Generate moc_predefs.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8064: 项“debug\moc_predefs.h.cbt”的自定义生成成功，但指定的依赖项“c:\mac\home\documents\github\pqkit_qt_pj\sample\pqqtsample\debug\moc_predefs.h.cbt”不存在。这可能会导致增量生成无法正常工作。
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): warning MSB8065: 项“debug\moc_predefs.h.cbt”的自定义生成成功，但尚未创建指定的输出“c:\mac\home\documents\github\pqkit_qt_pj\sample\pqqtsample\debug\moc_predefs.h”。这可能会导致增量生成无法正常工作。
+   Qt/MSBuild: 3.3.1.1
+   Qt: 5.12.8
+  InsertPathDlg.cpp
+  MainWindow.cpp
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,63): warning C4100: “ppTInfo”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,45): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,32): warning C4100: “iTInfo”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,95): warning C4100: “rgDispId”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,81): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,68): warning C4100: “cNames”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,52): warning C4100: “rgszNames”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,36): warning C4100: “riid”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,53): warning C4100: “puArgErr”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,35): warning C4100: “pExcepInfo”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,12): warning C4100: “pVarResult”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,92): warning C4100: “pDispParams”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,72): warning C4100: “wFlags”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,61): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,50): warning C4100: “riid”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,29): warning C4100: “dispIdMember”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(65,38): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(69,34): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(73,35): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(77,38): warning C4100: “i_nType”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(81,32): warning C4100: “i_nLoginType”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,99): warning C4100: “i_ulPathID”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,75): warning C4100: “i_nIndex”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,57): warning C4100: “i_nPathCount”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,41): warning C4100: “i_bSuccess”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,82): warning C4100: “i_nEntityType”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,62): warning C4100: “i_wsEntityName”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,44): warning C4100: “i_ulObjID”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(93,45): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(93,31): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(97,45): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(97,31): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,82): warning C4100: “o_nHandled”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,68): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,54): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,38): warning C4100: “i_ulObjID”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,102): warning C4100: “i_nSize”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,85): warning C4100: “i_dPointXYZ”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,61): warning C4100: “i_wEntityNames”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,40): warning C4100: “i_wFaceNames”: 未引用的形参
+  (编译源文件“MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\PQQTSample\MainWindow.cpp(298,7): warning C4189: “lenID”: 局部变量已初始化但不引用
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\PQQTSample\MainWindow.cpp(513,83): warning C4100: “i_nEntityType”: 未引用的形参
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\PQQTSample\MainWindow.cpp(513,48): warning C4100: “i_ulObjID”: 未引用的形参
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\PQQTSample\MainWindow.cpp(518,103): warning C4100: “i_nSize”: 未引用的形参
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\PQQTSample\MainWindow.cpp(518,86): warning C4100: “i_dPointXYZ”: 未引用的形参
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\PQQTSample\MainWindow.cpp(518,64): warning C4100: “i_wFaceNames”: 未引用的形参
+  PQKitCallback.cpp
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,63): warning C4100: “ppTInfo”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,45): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,32): warning C4100: “iTInfo”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,95): warning C4100: “rgDispId”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,81): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,68): warning C4100: “cNames”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,52): warning C4100: “rgszNames”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,36): warning C4100: “riid”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,53): warning C4100: “puArgErr”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,35): warning C4100: “pExcepInfo”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,12): warning C4100: “pVarResult”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,92): warning C4100: “pDispParams”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,72): warning C4100: “wFlags”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,61): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,50): warning C4100: “riid”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,29): warning C4100: “dispIdMember”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(65,38): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(69,34): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(73,35): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(77,38): warning C4100: “i_nType”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(81,32): warning C4100: “i_nLoginType”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,99): warning C4100: “i_ulPathID”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,75): warning C4100: “i_nIndex”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,57): warning C4100: “i_nPathCount”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,41): warning C4100: “i_bSuccess”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,82): warning C4100: “i_nEntityType”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,62): warning C4100: “i_wsEntityName”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,44): warning C4100: “i_ulObjID”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(93,45): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(93,31): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(97,45): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(97,31): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,82): warning C4100: “o_nHandled”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,68): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,54): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,38): warning C4100: “i_ulObjID”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,102): warning C4100: “i_nSize”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,85): warning C4100: “i_dPointXYZ”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,61): warning C4100: “i_wEntityNames”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,40): warning C4100: “i_wFaceNames”: 未引用的形参
+  (编译源文件“PQKitCallback.cpp”)
+  
+  PQKitInitThread.cpp
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\PQQTSample\PQKitInitThread.cpp(3,43): warning C4100: “parent”: 未引用的形参
+  main.cpp
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,63): warning C4100: “ppTInfo”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,45): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,32): warning C4100: “iTInfo”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,95): warning C4100: “rgDispId”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,81): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,68): warning C4100: “cNames”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,52): warning C4100: “rgszNames”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,36): warning C4100: “riid”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,53): warning C4100: “puArgErr”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,35): warning C4100: “pExcepInfo”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,12): warning C4100: “pVarResult”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,92): warning C4100: “pDispParams”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,72): warning C4100: “wFlags”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,61): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,50): warning C4100: “riid”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,29): warning C4100: “dispIdMember”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(65,38): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(69,34): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(73,35): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(77,38): warning C4100: “i_nType”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(81,32): warning C4100: “i_nLoginType”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,99): warning C4100: “i_ulPathID”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,75): warning C4100: “i_nIndex”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,57): warning C4100: “i_nPathCount”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,41): warning C4100: “i_bSuccess”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,82): warning C4100: “i_nEntityType”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,62): warning C4100: “i_wsEntityName”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,44): warning C4100: “i_ulObjID”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(93,45): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(93,31): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(97,45): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(97,31): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,82): warning C4100: “o_nHandled”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,68): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,54): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,38): warning C4100: “i_ulObjID”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,102): warning C4100: “i_nSize”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,85): warning C4100: “i_dPointXYZ”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,61): warning C4100: “i_wEntityNames”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,40): warning C4100: “i_wFaceNames”: 未引用的形参
+  (编译源文件“main.cpp”)
+  
+  正在生成代码...
+  qrc_MainWindow.cpp
+  moc_InsertPathDlg.cpp
+  moc_MainWindow.cpp
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,63): warning C4100: “ppTInfo”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,45): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,32): warning C4100: “iTInfo”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,95): warning C4100: “rgDispId”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,81): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,68): warning C4100: “cNames”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,52): warning C4100: “rgszNames”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,36): warning C4100: “riid”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,53): warning C4100: “puArgErr”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,35): warning C4100: “pExcepInfo”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,12): warning C4100: “pVarResult”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,92): warning C4100: “pDispParams”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,72): warning C4100: “wFlags”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,61): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,50): warning C4100: “riid”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,29): warning C4100: “dispIdMember”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(65,38): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(69,34): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(73,35): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(77,38): warning C4100: “i_nType”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(81,32): warning C4100: “i_nLoginType”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,99): warning C4100: “i_ulPathID”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,75): warning C4100: “i_nIndex”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,57): warning C4100: “i_nPathCount”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,41): warning C4100: “i_bSuccess”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,82): warning C4100: “i_nEntityType”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,62): warning C4100: “i_wsEntityName”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,44): warning C4100: “i_ulObjID”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(93,45): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(93,31): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(97,45): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(97,31): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,82): warning C4100: “o_nHandled”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,68): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,54): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,38): warning C4100: “i_ulObjID”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,102): warning C4100: “i_nSize”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,85): warning C4100: “i_dPointXYZ”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,61): warning C4100: “i_wEntityNames”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,40): warning C4100: “i_wFaceNames”: 未引用的形参
+  (编译源文件“Debug/moc_MainWindow.cpp”)
+  
+  moc_PQKitCallback.cpp
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,63): warning C4100: “ppTInfo”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,45): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(26,32): warning C4100: “iTInfo”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,95): warning C4100: “rgDispId”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,81): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,68): warning C4100: “cNames”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,52): warning C4100: “rgszNames”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(30,36): warning C4100: “riid”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,53): warning C4100: “puArgErr”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,35): warning C4100: “pExcepInfo”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(35,12): warning C4100: “pVarResult”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,92): warning C4100: “pDispParams”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,72): warning C4100: “wFlags”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,61): warning C4100: “lcid”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,50): warning C4100: “riid”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(34,29): warning C4100: “dispIdMember”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(65,38): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(69,34): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(73,35): warning C4100: “lResult”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(77,38): warning C4100: “i_nType”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(81,32): warning C4100: “i_nLoginType”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,99): warning C4100: “i_ulPathID”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,75): warning C4100: “i_nIndex”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,57): warning C4100: “i_nPathCount”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(85,41): warning C4100: “i_bSuccess”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,82): warning C4100: “i_nEntityType”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,62): warning C4100: “i_wsEntityName”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(89,44): warning C4100: “i_ulObjID”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(93,45): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(93,31): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(97,45): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(97,31): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,82): warning C4100: “o_nHandled”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,68): warning C4100: “i_lPosY”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,54): warning C4100: “i_lPosX”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(101,38): warning C4100: “i_ulObjID”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,102): warning C4100: “i_nSize”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,85): warning C4100: “i_dPointXYZ”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,61): warning C4100: “i_wEntityNames”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\include\C++\PQKitCallBackBase.h(109,40): warning C4100: “i_wFaceNames”: 未引用的形参
+  (编译源文件“Debug/moc_PQKitCallback.cpp”)
+  
+  moc_PQKitInitThread.cpp
+  正在生成代码...
+  PQQTSample.vcxproj -> C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\PQQTSample\x64\Debug\PQQTSample_d.exe
+  C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\PQQTSample\x64\Debug\PQQTSample_d.exe
+  复制了 1 个文件
+  C:\Mac\Home\Documents\GitHub\PQKit_QT_PJ\Sample\PQQTSample\x64\Debug\PQQTSample_d.pdb
+  复制了 1 个文件
